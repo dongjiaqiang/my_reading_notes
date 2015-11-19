@@ -6,6 +6,7 @@
 ### Java并发编程实战
 + [线程安全性](http://7xoeea.com1.z0.glb.clouddn.com/线程安全性(Thread%20Safety).html)
 + [对象的共享](http://7xoeea.com1.z0.glb.clouddn.com/%E5%AF%B9%E8%B1%A1%E7%9A%84%E5%85%B1%E4%BA%AB(Shared%20Objects).html)
++ [对象的组合](http://7xoeea.com1.z0.glb.clouddn.com/%E5%AF%B9%E8%B1%A1%E7%BB%84%E5%90%88.html)
 
 ### 引用
 + [Java并发编程实战](http://www.amazon.cn/Java%E5%B9%B6%E5%8F%91%E7%BC%96%E7%A8%8B%E5%AE%9E%E6%88%98-%E7%9B%96%E8%8C%A8/dp/B0077K9XHW/ref=pd_sim_14_1?ie=UTF8&dpID=51XldrwRktL&dpSrc=sims&preST=_AC_UL160_SR124%2C160_&refRID=1XYR1SM2GH25CNPM5Z3K)
