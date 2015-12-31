@@ -21,6 +21,7 @@
 
 ### 重构 改善既有代码设计
 
+### 深入理解Java虚拟机:JVM高级特性与最佳实践(第2版)
 
 ### 引用
 + [Java并发编程实战](http://www.amazon.cn/Java%E5%B9%B6%E5%8F%91%E7%BC%96%E7%A8%8B%E5%AE%9E%E6%88%98-%E7%9B%96%E8%8C%A8/dp/B0077K9XHW/ref=pd_sim_14_1?ie=UTF8&dpID=51XldrwRktL&dpSrc=sims&preST=_AC_UL160_SR124%2C160_&refRID=1XYR1SM2GH25CNPM5Z3K)
@@ -28,3 +29,4 @@
 + [重构 改善既有代码设计](http://www.amazon.cn/%E9%87%8D%E6%9E%84-%E6%94%B9%E5%96%84%E6%97%A2%E6%9C%89%E4%BB%A3%E7%A0%81%E7%9A%84%E8%AE%BE%E8%AE%A1-%E9%A9%AC%E4%B8%81%C2%B7%E7%A6%8F%E5%8B%92/dp/B011LPUB42/ref=sr_1_1?ie=UTF8&qid=1449756794&sr=8-1&keywords=%E9%87%8D%E6%9E%84+%E6%94%B9%E5%96%84%E6%97%A2%E6%9C%89%E4%BB%A3%E7%A0%81%E8%AE%BE%E8%AE%A1)
 + [Scala程序设计:Java虚拟机多核编程实战](http://www.amazon.cn/Scala%E7%A8%8B%E5%BA%8F%E8%AE%BE%E8%AE%A1-Java%E8%99%9A%E6%8B%9F%E6%9C%BA%E5%A4%9A%E6%A0%B8%E7%BC%96%E7%A8%8B%E5%AE%9E%E6%88%98-%E8%8B%8F%E5%B8%95%E6%8B%89%E9%A9%AC%E5%B0%BC%E4%BA%9A%E5%A7%86/dp/B00CBBKJ0W/ref=sr_1_4?ie=UTF8&qid=1451455100&sr=8-4&keywords=sCALA)
 + [Java编程思想(第4版)](http://www.amazon.cn/Java%E7%BC%96%E7%A8%8B%E6%80%9D%E6%83%B3-%E5%9F%83%E5%8F%B2%E5%B0%94/dp/B0011F7WU4/ref=sr_1_1?ie=UTF8&qid=1451465907&sr=8-1&keywords=JAVA)
++ [深入理解Java虚拟机:JVM高级特性与最佳实践(第2版)](http://www.amazon.cn/%E6%B7%B1%E5%85%A5%E7%90%86%E8%A7%A3Java%E8%99%9A%E6%8B%9F%E6%9C%BA-JVM%E9%AB%98%E7%BA%A7%E7%89%B9%E6%80%A7%E4%B8%8E%E6%9C%80%E4%BD%B3%E5%AE%9E%E8%B7%B5-%E5%91%A8%E5%BF%97%E6%98%8E/dp/B00D2ID4PK/ref=sr_1_1?ie=UTF8&qid=1451532281&sr=8-1&keywords=java%E8%99%9A%E6%8B%9F%E6%9C%BA)
