@@ -18,6 +18,7 @@
 ### Java编程思想(第4版) 
 + [访问权限控制](http://7xoeea.com1.z0.glb.clouddn.com/6%E8%AE%BF%E9%97%AE%E6%9D%83%E9%99%90%E6%8E%A7%E5%88%B6.html)
 + [复用类](http://7xoeea.com1.z0.glb.clouddn.com/%E7%AC%AC7%E7%AB%A0%20%E5%A4%8D%E7%94%A8%E7%B1%BB.html)
++ [函数值和闭包](http://7xoeea.com1.z0.glb.clouddn.com/%E7%AC%AC6%E7%AB%A0%20%E5%87%BD%E6%95%B0%E5%80%BC%E5%92%8C%E9%97%AD%E5%8C%85.html)
 
 ### 重构 改善既有代码设计
 
