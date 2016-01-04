@@ -17,8 +17,7 @@
 + [函数值和闭包](http://7xoeea.com1.z0.glb.clouddn.com/%E7%AC%AC6%E7%AB%A0%20%E5%87%BD%E6%95%B0%E5%80%BC%E5%92%8C%E9%97%AD%E5%8C%85.html)
 
 ### Scala并发编程
-+ [JVM和Java内存模型中的并发处理方式]
-+ []
+
 ### Java编程思想(第4版) 
 + [访问权限控制](http://7xoeea.com1.z0.glb.clouddn.com/6%E8%AE%BF%E9%97%AE%E6%9D%83%E9%99%90%E6%8E%A7%E5%88%B6.html)
 + [复用类](http://7xoeea.com1.z0.glb.clouddn.com/%E7%AC%AC7%E7%AB%A0%20%E5%A4%8D%E7%94%A8%E7%B1%BB.html)
@@ -37,3 +36,4 @@
 + [Java编程思想(第4版)](http://www.amazon.cn/Java%E7%BC%96%E7%A8%8B%E6%80%9D%E6%83%B3-%E5%9F%83%E5%8F%B2%E5%B0%94/dp/B0011F7WU4/ref=sr_1_1?ie=UTF8&qid=1451465907&sr=8-1&keywords=JAVA)
 + [深入理解Java虚拟机:JVM高级特性与最佳实践(第2版)](http://www.amazon.cn/%E6%B7%B1%E5%85%A5%E7%90%86%E8%A7%A3Java%E8%99%9A%E6%8B%9F%E6%9C%BA-JVM%E9%AB%98%E7%BA%A7%E7%89%B9%E6%80%A7%E4%B8%8E%E6%9C%80%E4%BD%B3%E5%AE%9E%E8%B7%B5-%E5%91%A8%E5%BF%97%E6%98%8E/dp/B00D2ID4PK/ref=sr_1_1?ie=UTF8&qid=1451532281&sr=8-1&keywords=java%E8%99%9A%E6%8B%9F%E6%9C%BA)
 + [快学Scala](http://www.amazon.cn/%E5%BF%AB%E5%AD%A6Scala-%E5%87%AF%E2%80%A2S-%E9%9C%8D%E6%96%AF%E6%9B%BC/dp/B009P8FHHO/ref=sr_1_1?ie=UTF8&qid=1451875959&sr=8-1&keywords=%E5%BF%AB%E5%AD%A6scala)
++ [Scala并发编程](http://www.amazon.cn/Scala%E5%B9%B6%E5%8F%91%E7%BC%96%E7%A8%8B-%E6%99%AE%E7%BD%97%E7%A7%91%E4%BD%A9%E8%8C%A8/dp/B015YBW0SY/ref=sr_1_6?ie=UTF8&qid=1451876157&sr=8-6&keywords=scala)
