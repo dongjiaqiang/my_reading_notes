@@ -1,4 +1,4 @@
-# My Reading Notes
+# My Technical Notes
 
 ### Effective Java(中文第二版)
 + [创建和销毁对象](http://7xoeea.com1.z0.glb.clouddn.com/%E5%88%9B%E5%BB%BA%E5%92%8C%E9%94%80%E6%AF%81%E5%AF%B9%E8%B1%A1.html)
