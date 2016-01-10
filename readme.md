@@ -36,7 +36,7 @@
 ### 重构 改善既有代码设计
 
 ### 敏捷软件开发(原则模式与实践)
-#### 面向对象设计原则
+#### 1.面向对象设计原则
 + [单一职责原则](http://7xoeea.com1.z0.glb.clouddn.com/%E7%AC%AC8%E7%AB%A0%20%E5%8D%95%E4%B8%80%E8%81%8C%E8%B4%A3%E5%8E%9F%E5%88%99%28SRP%29.html)
 + [开放-封闭原则](http://7xoeea.com1.z0.glb.clouddn.com/%E7%AC%AC9%E7%AB%A0%20%E5%BC%80%E6%94%BE-%E5%B0%81%E9%97%AD%E5%8E%9F%E5%88%99%28OCP%29.html)
 
