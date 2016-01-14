@@ -14,6 +14,7 @@
 + [对象的组合](http://7xoeea.com1.z0.glb.clouddn.com/%E5%AF%B9%E8%B1%A1%E7%BB%84%E5%90%88.html)
 + [构建基础模块](http://7xoeea.com1.z0.glb.clouddn.com/%E5%9F%BA%E7%A1%80%E6%9E%84%E5%BB%BA%E6%A8%A1%E5%9D%97.html)
 + [任务执行](http://7xoeea.com1.z0.glb.clouddn.com/%E4%BB%BB%E5%8A%A1%E6%89%A7%E8%A1%8C.html)
++ [取消和关闭](http://7xoeea.com1.z0.glb.clouddn.com/%E5%8F%96%E6%B6%88%E5%92%8C%E5%85%B3%E9%97%AD%28Abort%20And%20Interrupted%29.html)
 + [显式锁](http://7xoeea.com1.z0.glb.clouddn.com/显式锁.html)
 
 ### Scala程序设计:Java虚拟机多核编程实战 
