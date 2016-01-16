@@ -171,6 +171,7 @@ public class TimerServerUsingThreadPool {
     public static void main(String[]args){
         int port=8080;
 
+        //服务端维护一个线程池
         ExecutorService service= Executors.newCachedThreadPool();
         ServerSocket serverSocket=null;
 
@@ -180,6 +181,7 @@ public class TimerServerUsingThreadPool {
             System.out.println("The time server is start in port: " + port);
             Socket socket=null;
             socket=serverSocket.accept();
+            //将客户端请求处理封装为一个任务丢入线程池进行处理
             service.execute(new TimeServerHandler(socket));
 
         }catch (IOException e){
