@@ -9,6 +9,8 @@
 
 #### 2.1 传统的BIO编程
 
+##### 2.1.1 传统的同步阻塞I/O服务端通信模型
+
 网络编程的基本模型是C/S模型,也就是两个进程间互相通信,其中服务端提供位置信息(绑定IP和端口号),客户端通过连接操作向服务端监听的地址发起连接请求,通过三次握手建立连接,如果连接建立成功,双方就可以通过网络套接字进行通信.
 
 下图展现了传统的同步阻塞I/O服务端通信模型,在该模型中服务端主线程只负责监听客户端连接,其收到客户端连接请求后为每个客户端创建一个新的线程来处理客户端请求,当处理完客户端请求后,就消耗线程.
@@ -154,6 +156,44 @@ public class TimeClient {
     }
 }
 ```
+##### 2.1.2 伪异步I/O服务端通信模型
 
+下图展现了伪异步I/O服务端通信模型,在该模型中,服务端的主线程依旧只负责处理客户端的连接请求,但是在服务端中维护了一个线程池,客户端的请求处理将被封装为一个task(实现Runnable接口),该task被丢入线程池中进行处理.由于线程池中线程数量可以控制,所以可以实现一组固定的线程服务大量的客户端请求.
 
+![psedu_aio](http://7xonn1.com1.z0.glb.clouddn.com/pseudo_aio.png)
 
+虽然该模型解决了传统的BIO模型中面对大量客户端连接请求需要创建大量的线程来处理客户端请求,但是未从根本上解决同步I/O导致的通信链路阻塞问题.由于处理客户端请求的任务读写I/O操作是同步阻塞的,阻塞时间取决于客户端I/O线程的处理速度和网络/IO的传输速度,但是由于无法保证客户端处理I/O的速度和网络I/O的传输速度,这就导致了该模型的可靠性非常差.
+
+通过如下的Java代码展现基于伪异步I/O模型编程的时间服务器
+```java
+public class TimerServerUsingThreadPool {
+
+    public static void main(String[]args){
+        int port=8080;
+
+        ExecutorService service= Executors.newCachedThreadPool();
+        ServerSocket serverSocket=null;
+
+        try{
+            //创建服务端套接字绑定端口号
+            serverSocket=new ServerSocket(port);
+            System.out.println("The time server is start in port: " + port);
+            Socket socket=null;
+            socket=serverSocket.accept();
+            service.execute(new TimeServerHandler(socket));
+
+        }catch (IOException e){
+            if(serverSocket!=null){
+                System.out.println("The time server close");
+                try{
+                    serverSocket.close();
+                }catch (IOException e1){
+                    e1.printStackTrace();
+                }
+                serverSocket=null;
+            }
+            service.shutdown();
+        }
+    }
+}
+```
