@@ -15,6 +15,7 @@
 + [构建基础模块](http://7xoeea.com1.z0.glb.clouddn.com/%E5%9F%BA%E7%A1%80%E6%9E%84%E5%BB%BA%E6%A8%A1%E5%9D%97.html)
 + [任务执行](http://7xoeea.com1.z0.glb.clouddn.com/%E4%BB%BB%E5%8A%A1%E6%89%A7%E8%A1%8C.html)
 + [取消和关闭](http://7xoeea.com1.z0.glb.clouddn.com/%E5%8F%96%E6%B6%88%E5%92%8C%E5%85%B3%E9%97%AD%28Abort%20And%20Interrupted%29.html)
++ [性能和可伸缩性](http://7xoeea.com1.z0.glb.clouddn.com/%E6%80%A7%E8%83%BD%E4%B8%8E%E5%8F%AF%E4%BC%B8%E7%BC%A9%E6%80%A7.html)
 + [显式锁](http://7xoeea.com1.z0.glb.clouddn.com/显式锁.html)
 
 ### Scala程序设计:Java虚拟机多核编程实战 
@@ -50,6 +51,8 @@
 + 稳定依赖原则(朝着稳定的方法进行依赖)
 + 稳定抽象原则(包的抽象程度应该和其稳定程度一致)
 
+### Object-Oriented Analysis And Design With Applications(Third Edition)
+
 ### 深入理解Java虚拟机:JVM高级特性与最佳实践(第2版)
 
 ### 快学Scala
@@ -63,6 +66,12 @@
 ### Learning Spark
 
 ### Netty权威指南
+
+### Learning Guava
+
+
+
++ [NIO入门]()
 
 ### Gradle实战
 
@@ -81,3 +90,4 @@
 + [深入理解Scala](http://www.amazon.cn/%E6%B7%B1%E5%85%A5%E7%90%86%E8%A7%A3Scala-%E8%8B%8F%E7%91%9E%E8%8C%A8/dp/B00RS6C9F8/ref=sr_1_1?ie=UTF8&qid=1452065856&sr=8-1&keywords=%E6%B7%B1%E5%85%A5%E7%90%86%E8%A7%A3Scala)
 + [Netty权威指南](http://www.amazon.cn/Netty%E6%9D%83%E5%A8%81%E6%8C%87%E5%8D%97-%E6%9D%8E%E6%9E%97%E9%94%8B/dp/B00WFSXDRM/ref=sr_1_1?ie=UTF8&qid=1452781245&sr=8-1&keywords=Netty%E6%9D%83%E5%A8%81%E6%8C%87%E5%8D%97)
 + [Gradle实战](http://www.amazon.cn/%E5%AE%9E%E6%88%98Gradle-%E6%9C%AC%E6%9D%B0%E6%98%8E%C2%B7%E9%A9%AC%E6%96%AF%E5%8F%AF/dp/B014PX21SG/ref=sr_1_1?ie=UTF8&qid=1452781265&sr=8-1&keywords=Gradle%E5%AE%9E%E6%88%98)
++ [Object-Oriented Analysis And Design With Applications(Third Edition)](http://www.amazon.cn/Object-oriented-Analysis-and-Design-With-Applications-Booch-Grady/dp/1500995193/ref=sr_1_2?ie=UTF8&qid=1453102147&sr=8-2&keywords=Object-Oriented+Analysis+And+Design+With+Applications)
