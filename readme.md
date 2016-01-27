@@ -53,6 +53,8 @@
 
 ### Object-Oriented Analysis And Design With Applications(Third Edition)
 
+### 代码大全(第2版)
+
 ### 深入理解Java虚拟机:JVM高级特性与最佳实践(第2版)
 
 ### 快学Scala
@@ -67,11 +69,9 @@
 
 ### Netty权威指南
 
++ [NIO入门](https://github.com/dongjiaqiang/my_reading_notes/blob/master/netty_guide/nio_introduction.md)
+
 ### Learning Guava
-
-
-
-+ [NIO入门]()
 
 ### Gradle实战
 
@@ -91,3 +91,4 @@
 + [Netty权威指南](http://www.amazon.cn/Netty%E6%9D%83%E5%A8%81%E6%8C%87%E5%8D%97-%E6%9D%8E%E6%9E%97%E9%94%8B/dp/B00WFSXDRM/ref=sr_1_1?ie=UTF8&qid=1452781245&sr=8-1&keywords=Netty%E6%9D%83%E5%A8%81%E6%8C%87%E5%8D%97)
 + [Gradle实战](http://www.amazon.cn/%E5%AE%9E%E6%88%98Gradle-%E6%9C%AC%E6%9D%B0%E6%98%8E%C2%B7%E9%A9%AC%E6%96%AF%E5%8F%AF/dp/B014PX21SG/ref=sr_1_1?ie=UTF8&qid=1452781265&sr=8-1&keywords=Gradle%E5%AE%9E%E6%88%98)
 + [Object-Oriented Analysis And Design With Applications(Third Edition)](http://www.amazon.cn/Object-oriented-Analysis-and-Design-With-Applications-Booch-Grady/dp/1500995193/ref=sr_1_2?ie=UTF8&qid=1453102147&sr=8-2&keywords=Object-Oriented+Analysis+And+Design+With+Applications)
++ [代码大全(第2版)](http://www.amazon.cn/%E4%BB%A3%E7%A0%81%E5%A4%A7%E5%85%A8-%E5%8F%B2%E8%92%82%E5%A4%AB%E2%80%A2%E8%BF%88%E5%85%8B%E5%BA%B7%E5%A5%88%E5%B0%94/dp/B0061XKRXA/ref=sr_1_1?ie=UTF8&qid=1453880816&sr=8-1&keywords=%E4%BB%A3%E7%A0%81%E5%A4%A7%E5%85%A8)
