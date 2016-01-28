@@ -5,6 +5,7 @@
 ### Effective Java(中文第二版)
 + [创建和销毁对象](http://7xoeea.com1.z0.glb.clouddn.com/%E5%88%9B%E5%BB%BA%E5%92%8C%E9%94%80%E6%AF%81%E5%AF%B9%E8%B1%A1.html)
 + [通用对象方法](http://7xoeea.com1.z0.glb.clouddn.com/%E5%AF%B9%E8%B1%A1%E9%80%9A%E7%94%A8%E6%96%B9%E6%B3%95%28General%20Method%C2%A0%29.html)
++ [通用程序设计](http://7xoeea.com1.z0.glb.clouddn.com/%E9%80%9A%E7%94%A8%E7%A8%8B%E5%BA%8F%E8%AE%BE%E8%AE%A1%28General%20Program%20Design%29.html)
 + [异常](http://7xoeea.com1.z0.glb.clouddn.com/%E5%BC%82%E5%B8%B8(Exception).html)
 + [并发](http://7xoeea.com1.z0.glb.clouddn.com/%E5%B9%B6%E5%8F%91%28Concurrency%29.html)
 
@@ -20,6 +21,7 @@
 + [原子变量和非阻塞同步机制](http://7xl8na.com1.z0.glb.clouddn.com/%E5%8E%9F%E5%AD%90%E5%8F%98%E9%87%8F%E4%B8%8E%E9%9D%9E%E9%98%BB%E5%A1%9E%E5%90%8C%E6%AD%A5%E6%9C%BA%E5%88%B6.html)
 + [Michael-Scott非阻塞算法中的插入算法](http://7xoeea.com1.z0.glb.clouddn.com/Michael-Scott%E9%9D%9E%E9%98%BB%E5%A1%9E%E7%AE%97%E6%B3%95%E4%B8%AD%E7%9A%84%E6%8F%92%E5%85%A5%E7%AE%97%E6%B3%95.html)
 + [基于Treiber算法实现的非阻塞栈](http://7xoeea.com1.z0.glb.clouddn.com/%E5%9F%BA%E4%BA%8ETreiber%E7%AE%97%E6%B3%95%E5%AE%9E%E7%8E%B0%E7%9A%84%E9%9D%9E%E9%98%BB%E5%A1%9E%E6%A0%88.html)
++ [Java内存模型]()
 
 ### Scala程序设计:Java虚拟机多核编程实战 
 + [Scala的类](http://7xoeea.com1.z0.glb.clouddn.com/%E7%AC%AC4%E7%AB%A0%20Scala%E7%9A%84%E7%B1%BB.html)
@@ -76,7 +78,13 @@
 
 ### Learning Guava
 
+### Learning Apache Commons
+
+### Learning Apache Log4j
+
 ### Gradle实战
+
+### Akka in Action
 
 ### 书单
 + [Java并发编程实战](http://www.amazon.cn/Java%E5%B9%B6%E5%8F%91%E7%BC%96%E7%A8%8B%E5%AE%9E%E6%88%98-%E7%9B%96%E8%8C%A8/dp/B0077K9XHW/ref=pd_sim_14_1?ie=UTF8&dpID=51XldrwRktL&dpSrc=sims&preST=_AC_UL160_SR124%2C160_&refRID=1XYR1SM2GH25CNPM5Z3K)
@@ -95,3 +103,9 @@
 + [Gradle实战](http://www.amazon.cn/%E5%AE%9E%E6%88%98Gradle-%E6%9C%AC%E6%9D%B0%E6%98%8E%C2%B7%E9%A9%AC%E6%96%AF%E5%8F%AF/dp/B014PX21SG/ref=sr_1_1?ie=UTF8&qid=1452781265&sr=8-1&keywords=Gradle%E5%AE%9E%E6%88%98)
 + [Object-Oriented Analysis And Design With Applications(Third Edition)](http://www.amazon.cn/Object-oriented-Analysis-and-Design-With-Applications-Booch-Grady/dp/1500995193/ref=sr_1_2?ie=UTF8&qid=1453102147&sr=8-2&keywords=Object-Oriented+Analysis+And+Design+With+Applications)
 + [代码大全(第2版)](http://www.amazon.cn/%E4%BB%A3%E7%A0%81%E5%A4%A7%E5%85%A8-%E5%8F%B2%E8%92%82%E5%A4%AB%E2%80%A2%E8%BF%88%E5%85%8B%E5%BA%B7%E5%A5%88%E5%B0%94/dp/B0061XKRXA/ref=sr_1_1?ie=UTF8&qid=1453880816&sr=8-1&keywords=%E4%BB%A3%E7%A0%81%E5%A4%A7%E5%85%A8)
++ [Akka in Action](http://www.amazon.cn/Akka-in-Action-Roestenburg-Raymond/dp/1617291013/ref=sr_1_6?ie=UTF8&qid=1453968934&sr=8-6&keywords=Akka)
+
+### 开源项目官方网站
++ [Apache Commons](http://commons.apache.org/)
++ [Apache Log4j](http://logging.apache.org/log4j/1.2/)
++ [Google Guava GitHub Address](https://github.com/google/guava)
