@@ -65,6 +65,15 @@
 
 ### 深入理解Java虚拟机:JVM高级特性与最佳实践(第2版)
 
++ [Java内存区域与内存溢出异常](https://github.com/dongjiaqiang/understanding_the_jvm/blob/master/doc/chapter2_2.md)
++ [类文件结构](https://github.com/dongjiaqiang/understanding_the_jvm/blob/master/doc/chapter2_6.md)
+
+###实战Java虚拟机:JVM故障诊断与性能优化
++ [认识Java虚拟机的基本结构](https://github.com/dongjiaqiang/understanding_the_jvm/blob/master/doc/chapter2.md)
++ [常用虚拟机参数](https://github.com/dongjiaqiang/understanding_the_jvm/blob/master/doc/chapter3.md)
++ [垃圾回收概念与算法](https://github.com/dongjiaqiang/understanding_the_jvm/blob/master/doc/chapter4.md)
+
+
 ### 快学Scala
 
 ### Scala in Action
@@ -107,6 +116,7 @@
 + [Object-Oriented Analysis And Design With Applications(Third Edition)](http://www.amazon.cn/Object-oriented-Analysis-and-Design-With-Applications-Booch-Grady/dp/1500995193/ref=sr_1_2?ie=UTF8&qid=1453102147&sr=8-2&keywords=Object-Oriented+Analysis+And+Design+With+Applications)
 + [代码大全(第2版)](http://www.amazon.cn/%E4%BB%A3%E7%A0%81%E5%A4%A7%E5%85%A8-%E5%8F%B2%E8%92%82%E5%A4%AB%E2%80%A2%E8%BF%88%E5%85%8B%E5%BA%B7%E5%A5%88%E5%B0%94/dp/B0061XKRXA/ref=sr_1_1?ie=UTF8&qid=1453880816&sr=8-1&keywords=%E4%BB%A3%E7%A0%81%E5%A4%A7%E5%85%A8)
 + [Akka in Action](http://www.amazon.cn/Akka-in-Action-Roestenburg-Raymond/dp/1617291013/ref=sr_1_6?ie=UTF8&qid=1453968934&sr=8-6&keywords=Akka)
++ [实战Java虚拟机:JVM故障诊断与性能优化](http://www.amazon.cn/%E5%AE%9E%E6%88%98Java%E8%99%9A%E6%8B%9F%E6%9C%BA-JVM%E6%95%85%E9%9A%9C%E8%AF%8A%E6%96%AD%E4%B8%8E%E6%80%A7%E8%83%BD%E4%BC%98%E5%8C%96-%E8%91%9B%E4%B8%80%E9%B8%A3/dp/B00V34NZBS/ref=sr_1_1?ie=UTF8&qid=1454035543&sr=8-1&keywords=%E5%AE%9E%E6%88%98Java%E8%99%9A%E6%8B%9F%E6%9C%BA%3AJVM%E6%95%85%E9%9A%9C%E8%AF%8A%E6%96%AD%E4%B8%8E%E6%80%A7%E8%83%BD%E4%BC%98%E5%8C%96)
 
 ### 开源项目官方网站
 + [Apache Commons](http://commons.apache.org/)
