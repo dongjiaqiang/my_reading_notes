@@ -65,13 +65,13 @@
 
 ### 深入理解Java虚拟机:JVM高级特性与最佳实践(第2版)
 
-+ [Java内存区域与内存溢出异常](https://github.com/dongjiaqiang/understanding_the_jvm/blob/master/doc/chapter2_2.md)
-+ [类文件结构](https://github.com/dongjiaqiang/understanding_the_jvm/blob/master/doc/chapter2_6.md)
++ [Java内存区域与内存溢出异常](https://github.com/dongjiaqiang/my_reading_notes/blob/master/doc/chapter2_2.md)
++ [类文件结构](https://github.com/dongjiaqiang/my_reading_notes/blob/master/doc/chapter2_6.md)
 
 ###实战Java虚拟机:JVM故障诊断与性能优化
-+ [认识Java虚拟机的基本结构](https://github.com/dongjiaqiang/understanding_the_jvm/blob/master/doc/chapter2.md)
-+ [常用虚拟机参数](https://github.com/dongjiaqiang/understanding_the_jvm/blob/master/doc/chapter3.md)
-+ [垃圾回收概念与算法](https://github.com/dongjiaqiang/understanding_the_jvm/blob/master/doc/chapter4.md)
++ [认识Java虚拟机的基本结构](https://github.com/dongjiaqiang/my_reading_notes/blob/master/doc/chapter2.md)
++ [常用虚拟机参数](https://github.com/dongjiaqiang/my_reading_notes/blob/master/doc/chapter3.md)
++ [垃圾回收概念与算法](https://github.com/dongjiaqiang/my_reading_notes/blob/master/doc/chapter4.md)
 
 
 ### 快学Scala
