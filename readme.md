@@ -56,6 +56,9 @@
 + 稳定依赖原则(朝着稳定的方法进行依赖)
 + 稳定抽象原则(包的抽象程度应该和其稳定程度一致)
 
+#### 2.面向对象设计模式
++ [COMMAND模式和ACTIVE OBJECT模式]()
+
 ### Object-Oriented Analysis And Design With Applications(Third Edition)
 
 ### 代码大全(第2版)
