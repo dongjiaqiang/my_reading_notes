@@ -6,6 +6,7 @@
 + [创建和销毁对象](http://7xoeea.com1.z0.glb.clouddn.com/%E5%88%9B%E5%BB%BA%E5%92%8C%E9%94%80%E6%AF%81%E5%AF%B9%E8%B1%A1.html)
 + [通用对象方法](http://7xoeea.com1.z0.glb.clouddn.com/%E5%AF%B9%E8%B1%A1%E9%80%9A%E7%94%A8%E6%96%B9%E6%B3%95%28General%20Method%C2%A0%29.html)
 + [通用程序设计](http://7xoeea.com1.z0.glb.clouddn.com/%E9%80%9A%E7%94%A8%E7%A8%8B%E5%BA%8F%E8%AE%BE%E8%AE%A1%28General%20Program%20Design%29.html)
++ [类和接口](http://7xoeea.com1.z0.glb.clouddn.com/%E7%B1%BB%E5%92%8C%E6%8E%A5%E5%8F%A3%28Class%20And%20Interface%29.html)
 + [异常](http://7xoeea.com1.z0.glb.clouddn.com/%E5%BC%82%E5%B8%B8(Exception).html)
 + [并发](http://7xoeea.com1.z0.glb.clouddn.com/%E5%B9%B6%E5%8F%91%28Concurrency%29.html)
 
