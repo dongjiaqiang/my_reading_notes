@@ -12,6 +12,7 @@
 + [并发](http://7xoeea.com1.z0.glb.clouddn.com/%E5%B9%B6%E5%8F%91%28Concurrency%29.html)
 
 ### Java并发编程实战
++ [简介](http://7xoeea.com1.z0.glb.clouddn.com/%E7%AE%80%E4%BB%8B%28Introduction%29.html)
 + [线程安全性](http://7xoeea.com1.z0.glb.clouddn.com/线程安全性(Thread%20Safety).html)
 + [对象的共享](http://7xoeea.com1.z0.glb.clouddn.com/%E5%AF%B9%E8%B1%A1%E7%9A%84%E5%85%B1%E4%BA%AB(Shared%20Objects).html)
 + [对象的组合](http://7xoeea.com1.z0.glb.clouddn.com/%E5%AF%B9%E8%B1%A1%E7%BB%84%E5%90%88.html)
@@ -19,6 +20,7 @@
 + [任务执行](http://7xoeea.com1.z0.glb.clouddn.com/%E4%BB%BB%E5%8A%A1%E6%89%A7%E8%A1%8C.html)
 + [取消和关闭](http://7xoeea.com1.z0.glb.clouddn.com/%E5%8F%96%E6%B6%88%E5%92%8C%E5%85%B3%E9%97%AD%28Abort%20And%20Interrupted%29.html)
 + [避免活跃性问题](http://7xoeea.com1.z0.glb.clouddn.com/%E9%81%BF%E5%85%8D%E6%B4%BB%E8%B7%83%E6%80%A7%E9%97%AE%E9%A2%98%28Avoid%20Active%20Problem%29.html)
++ [并发程序的测试]()
 + [性能和可伸缩性](http://7xoeea.com1.z0.glb.clouddn.com/%E6%80%A7%E8%83%BD%E4%B8%8E%E5%8F%AF%E4%BC%B8%E7%BC%A9%E6%80%A7.html)
 + [显式锁](http://7xoeea.com1.z0.glb.clouddn.com/显式锁.html)
 + [原子变量和非阻塞同步机制](http://7xl8na.com1.z0.glb.clouddn.com/%E5%8E%9F%E5%AD%90%E5%8F%98%E9%87%8F%E4%B8%8E%E9%9D%9E%E9%98%BB%E5%A1%9E%E5%90%8C%E6%AD%A5%E6%9C%BA%E5%88%B6.html)
