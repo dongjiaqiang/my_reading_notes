@@ -39,6 +39,7 @@
 + [内部类](http://7xoeea.com1.z0.glb.clouddn.com/%E7%AC%AC10%E7%AB%A0%20%E5%86%85%E9%83%A8%E7%B1%BB.html)
 + [通过异常处理错误](http://7xoeea.com1.z0.glb.clouddn.com/%E7%AC%AC12%E7%AB%A0%20%E9%80%9A%E8%BF%87%E5%BC%82%E5%B8%B8%E5%A4%84%E7%90%86%E9%94%99%E8%AF%AF.html)
 + [枚举类型](http://7xoeea.com1.z0.glb.clouddn.com/%E7%AC%AC19%E7%AB%A0%20%E6%9E%9A%E4%B8%BE%E7%B1%BB%E5%9E%8B.html)
++ [注解](http://7xoeea.com1.z0.glb.clouddn.com/%E7%AC%AC20%E7%AB%A0%20%E6%B3%A8%E8%A7%A3.html)
 
 ### 深入理解Java虚拟机:JVM高级特性与最佳实践(第2版)
 
