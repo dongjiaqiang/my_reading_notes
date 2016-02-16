@@ -68,6 +68,8 @@
 ### Scala in Action
 
 ### 深入理解Scala
++ [Scala - 一种混合式编程语言]()
++ [核心规则](http://7xoeea.com1.z0.glb.clouddn.com/%E7%AC%AC2%E7%AB%A0%20%E6%A0%B8%E5%BF%83%E8%A7%84%E5%88%99.html)
 
 ### 重构 改善既有代码设计
 
@@ -92,11 +94,13 @@
 
 ### Head First设计模式(中文版)
 
-+ [设计模式入门](http://7xoeea.com1.z0.glb.clouddn.com/1%20%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F%E5%85%A5%E9%97%A8.html)
-+ [观察者模式](http://7xoeea.com1.z0.glb.clouddn.com/2%20%E8%A7%82%E5%AF%9F%E8%80%85%E6%A8%A1%E5%BC%8F.html)
-+ [单件模式](http://7xoeea.com1.z0.glb.clouddn.com/5%20%E5%8D%95%E4%BB%B6%E6%A8%A1%E5%BC%8F.html)
-
+创建型模式 在软件工程中,创建型模式是处理对象创建的设计模式,试图根据实际情况使用合适的方式创建对象.基本的对象创建方式可能会导致设计上的问题,或增加设计的复杂度.创建型模式通过以某种方式控制对象的创建来解决问题
++ [单件模式](http://7xonn1.com1.z0.glb.clouddn.com/5%20%E5%8D%95%E4%BB%B6%E6%A8%A1%E5%BC%8F%E4%BF%AE%E6%94%B9.html) 确保一个类只有一个实例,并提供对该实例的全局访问
+行为型模式 在软件工程中,行为型模式为设计模式的一种类型,用来识别对象之间的常用交流模式并加以实现.如此,可在进行这些交流活动时增强弹性
++ [状态模式](http://7xonn1.com1.z0.glb.clouddn.com/10%20%E7%8A%B6%E6%80%81%E6%A8%A1%E5%BC%8F.html) 让一个对象在其内部状态改变的时候,其行为也随之改变.状态模式需要对每一个系统可能获取的状态创立一个状态类的子类.当系统的状态变化时,系统便改变所选的子类
 ### 代码大全(第2版)
++ [策略模式](http://7xoeea.com1.z0.glb.clouddn.com/1%20%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F%E5%85%A5%E9%97%A8.html) 定义一个算法的系列，将其各个分装，并且使他们有交互性。策略模式使得算法在用户使用的时候能独立的改变
++ [观察者模式](http://7xoeea.com1.z0.glb.clouddn.com/2%20%E8%A7%82%E5%AF%9F%E8%80%85%E6%A8%A1%E5%BC%8F.html) 在对象间定义一个一对多的联系性，由此当一个对象改变了状态，所有其他相关的对象会被通知并且自动刷新
 
 ## 二.工具与框架
 
@@ -105,6 +109,8 @@
 ### Netty权威指南
 
 + [NIO入门](https://github.com/dongjiaqiang/my_reading_notes/blob/master/netty_guide/nio_introduction.md)
+
+### Netty in Action
 
 ### Learning Guava
 
@@ -142,7 +148,7 @@
 + [Akka in Action](http://www.amazon.cn/Akka-in-Action-Roestenburg-Raymond/dp/1617291013/ref=sr_1_6?ie=UTF8&qid=1453968934&sr=8-6&keywords=Akka)
 + [实战Java虚拟机:JVM故障诊断与性能优化](http://www.amazon.cn/%E5%AE%9E%E6%88%98Java%E8%99%9A%E6%8B%9F%E6%9C%BA-JVM%E6%95%85%E9%9A%9C%E8%AF%8A%E6%96%AD%E4%B8%8E%E6%80%A7%E8%83%BD%E4%BC%98%E5%8C%96-%E8%91%9B%E4%B8%80%E9%B8%A3/dp/B00V34NZBS/ref=sr_1_1?ie=UTF8&qid=1454035543&sr=8-1&keywords=%E5%AE%9E%E6%88%98Java%E8%99%9A%E6%8B%9F%E6%9C%BA%3AJVM%E6%95%85%E9%9A%9C%E8%AF%8A%E6%96%AD%E4%B8%8E%E6%80%A7%E8%83%BD%E4%BC%98%E5%8C%96)
 + [算法导论](http://www.amazon.cn/%E7%AE%97%E6%B3%95%E5%AF%BC%E8%AE%BA-Thomas-H-Cormen/dp/B00AK7BYJY/ref=sr_1_1?ie=UTF8&qid=1454814064&sr=8-1&keywords=%E7%AE%97%E6%B3%95%E5%AF%BC%E8%AE%BA)
-
++ [Netty in Action](http://www.amazon.com/Netty-Action-Norman-Maurer/dp/1617291471/ref=sr_1_1?ie=UTF8&qid=1455435844&sr=8-1&keywords=netty+in+action)
 
 ### 开源项目官方网站
 + [Apache Commons](http://commons.apache.org/)
