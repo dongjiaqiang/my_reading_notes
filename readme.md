@@ -7,10 +7,12 @@
 + [通用对象方法](http://7xoeea.com1.z0.glb.clouddn.com/%E5%AF%B9%E8%B1%A1%E9%80%9A%E7%94%A8%E6%96%B9%E6%B3%95%28General%20Method%C2%A0%29.html)
 + [通用程序设计](http://7xoeea.com1.z0.glb.clouddn.com/%E9%80%9A%E7%94%A8%E7%A8%8B%E5%BA%8F%E8%AE%BE%E8%AE%A1%28General%20Program%20Design%29.html)
 + [类和接口](http://7xoeea.com1.z0.glb.clouddn.com/%E7%B1%BB%E5%92%8C%E6%8E%A5%E5%8F%A3%28Class%20And%20Interface%29.html)
++ [泛型]()
 + [枚举与注解](http://7xoeea.com1.z0.glb.clouddn.com/%E6%9E%9A%E4%B8%BE%28Enum%29%E5%92%8C%E6%B3%A8%E8%A7%A3%28Annotation%29.html)
 + [方法](http://7xoeea.com1.z0.glb.clouddn.com/%E6%96%B9%E6%B3%95%28Method%29.html)
 + [异常](http://7xoeea.com1.z0.glb.clouddn.com/%E5%BC%82%E5%B8%B8(Exception).html)
 + [并发](http://7xoeea.com1.z0.glb.clouddn.com/%E5%B9%B6%E5%8F%91%28Concurrency%29.html)
++ [序列化]()
 
 ### Java并发编程实战
 + [简介](http://7xoeea.com1.z0.glb.clouddn.com/%E7%AE%80%E4%BB%8B%28Introduction%29.html)
@@ -68,8 +70,9 @@
 ### Scala in Action
 
 ### 深入理解Scala
-+ [Scala - 一种混合式编程语言]()
++ [设计思想]()
 + [核心规则](http://7xoeea.com1.z0.glb.clouddn.com/%E7%AC%AC2%E7%AB%A0%20%E6%A0%B8%E5%BF%83%E8%A7%84%E5%88%99.html)
++ [编码规范](http://7xoeea.com1.z0.glb.clouddn.com/%E7%AC%AC3%E7%AB%A0%20%E7%BC%96%E7%A0%81%E8%A7%84%E8%8C%83.html)
 
 ### 重构 改善既有代码设计
 
@@ -101,6 +104,8 @@
 + [状态模式](http://7xonn1.com1.z0.glb.clouddn.com/10%20%E7%8A%B6%E6%80%81%E6%A8%A1%E5%BC%8F.html) __让一个对象在其内部状态改变的时候,其行为也随之改变.状态模式需要对每一个系统可能获取的状态创立一个状态类的子类.当系统的状态变化时,系统便改变所选的子类__
 + [策略模式](http://7xoeea.com1.z0.glb.clouddn.com/1%20%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F%E5%85%A5%E9%97%A8.html) __定义一个算法的系列，将其各个分装，并且使他们有交互性。策略模式使得算法在用户使用的时候能独立的改变__
 + [观察者模式](http://7xoeea.com1.z0.glb.clouddn.com/2%20%E8%A7%82%E5%AF%9F%E8%80%85%E6%A8%A1%E5%BC%8F.html) __在对象间定义一个一对多的联系性，由此当一个对象改变了状态，所有其他相关的对象会被通知并且自动刷新__
+
+#### 3.结构型模式
 
 ### 代码大全(第2版)
 
