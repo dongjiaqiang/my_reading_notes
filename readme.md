@@ -67,7 +67,7 @@
 
 ### 快学Scala
 
-+ [高阶函数](http://7xoeea.com1.z0.glb.clouddn.com/%E7%AC%AC12%E7%AB%A0%20%E9%AB%98%E9%98%B6%E5%87%BD%E6%95%B0.html)
++ [高阶函数](http://7xoeea.com1.z0.glb.clouddn.com/%E7%AC%AC12%E7%AB%A0%20%E9%AB%98%E9%98%B6%E5%87%BD%E6%95%B0.html) __接受函数参数的函数被称为高阶函数__
 
 ### Scala in Action
 
