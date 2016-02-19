@@ -70,6 +70,7 @@ __Object类所有的非final方法(equals,hashCode,toString,clone和finalize)都
 
 + [高阶函数](http://7xoeea.com1.z0.glb.clouddn.com/%E7%AC%AC12%E7%AB%A0%20%E9%AB%98%E9%98%B6%E5%87%BD%E6%95%B0.html) __接受函数参数的函数被称为高阶函数__
 + [类](http://7xoeea.com1.z0.glb.clouddn.com/%E7%AC%AC5%E7%AB%A0%20%E7%B1%BB.html) __创建和定义Scala类__
++ [对象](http://7xoeea.com1.z0.glb.clouddn.com/%E7%AC%AC6%E7%AB%A0%20%E5%AF%B9%E8%B1%A1.html) __创建和定义对象__
 
 ### Scala in Action
 
