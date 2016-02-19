@@ -81,11 +81,11 @@
 
 ### 敏捷软件开发(原则模式与实践)
 #### 1.面向对象设计原则
-+ [单一职责原则](http://7xoeea.com1.z0.glb.clouddn.com/%E7%AC%AC8%E7%AB%A0%20%E5%8D%95%E4%B8%80%E8%81%8C%E8%B4%A3%E5%8E%9F%E5%88%99%28SRP%29.html)
-+ [开放-封闭原则](http://7xoeea.com1.z0.glb.clouddn.com/%E7%AC%AC9%E7%AB%A0%20%E5%BC%80%E6%94%BE-%E5%B0%81%E9%97%AD%E5%8E%9F%E5%88%99%28OCP%29.html)
-+ [Liskov替换原则](http://7xoeea.com1.z0.glb.clouddn.com/%E7%AC%AC10%E7%AB%A0%20Liskov%E6%9B%BF%E6%8D%A2%E5%8E%9F%E5%88%99%28LSP%29.html)
-+ [依赖倒置原则](http://7xoeea.com1.z0.glb.clouddn.com/%E7%AC%AC11%E7%AB%A0%20%E4%BE%9D%E8%B5%96%E5%80%92%E7%BD%AE%E5%8E%9F%E5%88%99%28DIP%29.html)
-+ [接口隔离原则](http://7xoeea.com1.z0.glb.clouddn.com/%E7%AC%AC12%E7%AB%A0%20%E6%8E%A5%E5%8F%A3%E9%9A%94%E7%A6%BB%E5%8E%9F%E5%88%99%28ISP%29.html)
++ [单一职责原则](http://7xoeea.com1.z0.glb.clouddn.com/%E7%AC%AC8%E7%AB%A0%20%E5%8D%95%E4%B8%80%E8%81%8C%E8%B4%A3%E5%8E%9F%E5%88%99%28SRP%29.html) __就一个类而言,应该仅有一个引起它变化的原因__
++ [开放-封闭原则](http://7xoeea.com1.z0.glb.clouddn.com/%E7%AC%AC9%E7%AB%A0%20%E5%BC%80%E6%94%BE-%E5%B0%81%E9%97%AD%E5%8E%9F%E5%88%99%28OCP%29.html) __软件实体应该(类,模块,函数等)应该是可扩展的,但是不可修改__
++ [Liskov替换原则](http://7xoeea.com1.z0.glb.clouddn.com/%E7%AC%AC10%E7%AB%A0%20Liskov%E6%9B%BF%E6%8D%A2%E5%8E%9F%E5%88%99%28LSP%29.html) __子类型(SubType)必须能够替换掉它们的基类型(BaseType)__
++ [依赖倒置原则](http://7xoeea.com1.z0.glb.clouddn.com/%E7%AC%AC11%E7%AB%A0%20%E4%BE%9D%E8%B5%96%E5%80%92%E7%BD%AE%E5%8E%9F%E5%88%99%28DIP%29.html) __高层模块不应该依赖于底层模块,二者都应该依赖于抽象.抽象不应该依赖于细节,细节应该依赖于抽象__
++ [接口隔离原则](http://7xoeea.com1.z0.glb.clouddn.com/%E7%AC%AC12%E7%AB%A0%20%E6%8E%A5%E5%8F%A3%E9%9A%94%E7%A6%BB%E5%8E%9F%E5%88%99%28ISP%29.html) __不应该强迫客户依赖于它们不用的方法__
 + 重用发布等价原则(重用的粒度就是发布的粒度)
 + 共同封闭原则(包中的所有类对于同一个类性质的变化应该是共同封闭的.一个变化若对一个包产生影响,则将对该包中的所有类产生影响,而对其他的包不造成影响)
 + 共同重用原则(一个包中的所有类应该是共同重用的.如果重用了包中的一个类,那么就要重用包中的所有类)
