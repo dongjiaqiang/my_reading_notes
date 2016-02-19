@@ -69,7 +69,7 @@ __Object类所有的非final方法(equals,hashCode,toString,clone和finalize)都
 ### 快学Scala
 
 + [高阶函数](http://7xoeea.com1.z0.glb.clouddn.com/%E7%AC%AC12%E7%AB%A0%20%E9%AB%98%E9%98%B6%E5%87%BD%E6%95%B0.html) __接受函数参数的函数被称为高阶函数__
-+ [类](http://7xoeea.com1.z0.glb.clouddn.com/%E7%AC%AC5%E7%AB%A0%20%E7%B1%BB.html) 
++ [类](http://7xoeea.com1.z0.glb.clouddn.com/%E7%AC%AC5%E7%AB%A0%20%E7%B1%BB.html) __创建和定义Scala类__
 
 ### Scala in Action
 
@@ -111,7 +111,7 @@ __Object类所有的非final方法(equals,hashCode,toString,clone和finalize)都
 + [策略模式](http://7xoeea.com1.z0.glb.clouddn.com/1%20%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F%E5%85%A5%E9%97%A8.html) __定义一个算法的系列，将其各个分装，并且使他们有交互性。策略模式使得算法在用户使用的时候能独立的改变__
 + [观察者模式](http://7xoeea.com1.z0.glb.clouddn.com/2%20%E8%A7%82%E5%AF%9F%E8%80%85%E6%A8%A1%E5%BC%8F.html) __在对象间定义一个一对多的联系性，由此当一个对象改变了状态，所有其他相关的对象会被通知并且自动刷新__
 + [迭代器模式](http://7xoeea.com1.z0.glb.clouddn.com/9%20%E8%BF%AD%E4%BB%A3%E5%99%A8%E4%B8%8E%E7%BB%84%E5%90%88%E6%A8%A1%E5%BC%8F.html) __提供一种方法顺序访问一个聚合对象中各个元素, 而又不需暴露该对象的内部表示__
-
++ [命令模式]() __将一个请求封装为一个对象,从而使你可用不同的请求对客户进行参数化 对请求排队或记录请求日志,以及支持可取消的操作__
 #### 3.结构型模式
 + [组合模式](http://7xoeea.com1.z0.glb.clouddn.com/9%20%E8%BF%AD%E4%BB%A3%E5%99%A8%E4%B8%8E%E7%BB%84%E5%90%88%E6%A8%A1%E5%BC%8F.html) __把多个对象组成树状结构来表示局部与整体，这样用户可以一样的对待单个对象和对象的组合__
 
