@@ -71,7 +71,7 @@ __Object类所有的非final方法(equals,hashCode,toString,clone和finalize)都
 + [高阶函数](http://7xoeea.com1.z0.glb.clouddn.com/%E7%AC%AC12%E7%AB%A0%20%E9%AB%98%E9%98%B6%E5%87%BD%E6%95%B0.html)  __函数值__  __匿名函数__ __高阶函数__ __参数类型推断__  __闭包__ __柯里化__ 
 + [类](http://7xoeea.com1.z0.glb.clouddn.com/%E7%AC%AC5%E7%AB%A0%20%E7%B1%BB.html) __getter属性__ __setter属性__ __对象私有字段__ __Bean属性__ __副构造器__ __主构造器__ __嵌套类__
 + [对象](http://7xoeea.com1.z0.glb.clouddn.com/%E7%AC%AC6%E7%AB%A0%20%E5%AF%B9%E8%B1%A1.html) __单例对象__ __伴生对象__ __扩展类或特质的对象__ __apply方法__  __应用程序对象__ __枚举__
-+ [继承](http://7xoeea.com1.z0.glb.clouddn.com/%E7%AC%AC8%E7%AB%A0%20%E7%BB%A7%E6%89%BF.html) __扩展类__ __重写方法__ __类型检查和转换__ __超类构造__ __重写字段__ __匿名子类__ __抽象类__ __抽象字段__ __继承层次__ __对象相等性__
++ [继承](http://7xoeea.com1.z0.glb.clouddn.com/%E7%AC%AC8%E7%AB%A0%20%E7%BB%A7%E6%89%BF%E4%BF%AE%E5%A4%8D.html) __扩展类__ __重写方法__ __类型检查和转换__ __超类构造__ __重写字段__ __匿名子类__ __抽象类__ __抽象字段__ __继承层次__ __对象相等性__
 
 ### Scala in Action
 
