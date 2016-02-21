@@ -79,6 +79,7 @@ __Object类所有的非final方法(equals,hashCode,toString,clone和finalize)都
 + [设计思想]()
 + [核心规则](http://7xoeea.com1.z0.glb.clouddn.com/%E7%AC%AC2%E7%AB%A0%20%E6%A0%B8%E5%BF%83%E8%A7%84%E5%88%99.html) __REPL__ __面向表达式编程__ __不变性__ __Option类__
 + [编码规范](http://7xoeea.com1.z0.glb.clouddn.com/%E7%AC%AC3%E7%AB%A0%20%E7%BC%96%E7%A0%81%E8%A7%84%E8%8C%83.html) __编码规范__ __行尾推断__ __变量__ __注解__
++ [面向对象]() 
 
 ### 重构 改善既有代码设计
 
@@ -99,6 +100,8 @@ __Object类所有的非final方法(equals,hashCode,toString,clone和finalize)都
 #### 2.面向对象设计模式
 + [COMMAND模式和ACTIVE OBJECT模式]()
 
+### 程序员修炼之道:从小工到专家
+
 ### Object-Oriented Analysis And Design With Applications(Third Edition)
 
 ### Head First设计模式(中文版)
@@ -113,7 +116,7 @@ __Object类所有的非final方法(equals,hashCode,toString,clone和finalize)都
 + [策略模式](http://7xoeea.com1.z0.glb.clouddn.com/1%20%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F%E5%85%A5%E9%97%A8.html) __定义一个算法的系列，将其各个分装，并且使他们有交互性。策略模式使得算法在用户使用的时候能独立的改变__
 + [观察者模式](http://7xoeea.com1.z0.glb.clouddn.com/2%20%E8%A7%82%E5%AF%9F%E8%80%85%E6%A8%A1%E5%BC%8F.html) __在对象间定义一个一对多的联系性，由此当一个对象改变了状态，所有其他相关的对象会被通知并且自动刷新__
 + [迭代器模式](http://7xoeea.com1.z0.glb.clouddn.com/9%20%E8%BF%AD%E4%BB%A3%E5%99%A8%E4%B8%8E%E7%BB%84%E5%90%88%E6%A8%A1%E5%BC%8F.html) __提供一种方法顺序访问一个聚合对象中各个元素, 而又不需暴露该对象的内部表示__
-+ [命令模式]() __将一个请求封装为一个对象,从而使你可用不同的请求对客户进行参数化 对请求排队或记录请求日志,以及支持可取消的操作__
++ [命令模式](http://7xoeea.com1.z0.glb.clouddn.com/6%20%E5%91%BD%E4%BB%A4%E6%A8%A1%E5%BC%8F.html) __将一个请求封装为一个对象,从而使你可用不同的请求对客户进行参数化 对请求排队或记录请求日志,以及支持可取消的操作__
 
 #### 3.结构型模式
 + [组合模式](http://7xoeea.com1.z0.glb.clouddn.com/9%20%E8%BF%AD%E4%BB%A3%E5%99%A8%E4%B8%8E%E7%BB%84%E5%90%88%E6%A8%A1%E5%BC%8F.html) __把多个对象组成树状结构来表示局部与整体，这样用户可以一样的对待单个对象和对象的组合__
@@ -167,6 +170,7 @@ __Object类所有的非final方法(equals,hashCode,toString,clone和finalize)都
 + [实战Java虚拟机:JVM故障诊断与性能优化](http://www.amazon.cn/%E5%AE%9E%E6%88%98Java%E8%99%9A%E6%8B%9F%E6%9C%BA-JVM%E6%95%85%E9%9A%9C%E8%AF%8A%E6%96%AD%E4%B8%8E%E6%80%A7%E8%83%BD%E4%BC%98%E5%8C%96-%E8%91%9B%E4%B8%80%E9%B8%A3/dp/B00V34NZBS/ref=sr_1_1?ie=UTF8&qid=1454035543&sr=8-1&keywords=%E5%AE%9E%E6%88%98Java%E8%99%9A%E6%8B%9F%E6%9C%BA%3AJVM%E6%95%85%E9%9A%9C%E8%AF%8A%E6%96%AD%E4%B8%8E%E6%80%A7%E8%83%BD%E4%BC%98%E5%8C%96)
 + [算法导论](http://www.amazon.cn/%E7%AE%97%E6%B3%95%E5%AF%BC%E8%AE%BA-Thomas-H-Cormen/dp/B00AK7BYJY/ref=sr_1_1?ie=UTF8&qid=1454814064&sr=8-1&keywords=%E7%AE%97%E6%B3%95%E5%AF%BC%E8%AE%BA)
 + [Netty in Action](http://www.amazon.com/Netty-Action-Norman-Maurer/dp/1617291471/ref=sr_1_1?ie=UTF8&qid=1455435844&sr=8-1&keywords=netty+in+action)
++ [程序员修炼之道:从小工到专家](http://www.amazon.cn/%E7%A8%8B%E5%BA%8F%E5%91%98%E4%BF%AE%E7%82%BC%E4%B9%8B%E9%81%93-%E4%BB%8E%E5%B0%8F%E5%B7%A5%E5%88%B0%E4%B8%93%E5%AE%B6-%E4%BA%A8%E7%89%B9/dp/B004GV08CY/ref=sr_1_1?ie=UTF8&qid=1455946791&sr=8-1&keywords=%E4%BB%8E%E5%B0%8F%E5%B7%A5%E5%88%B0%E4%B8%93%E5%AE%B6)
 
 ### 开源项目官方网站
 + [Apache Commons](http://commons.apache.org/)
