@@ -22,7 +22,7 @@ __Object类所有的非final方法(equals,hashCode,toString,clone和finalize)都
 + [对象的组合](http://7xoeea.com1.z0.glb.clouddn.com/%E5%AF%B9%E8%B1%A1%E7%BB%84%E5%90%88.html) __设计线程安全性的类__ __实例封闭__ __线程安全性委托__  __同步策略文档化__
 + [构建基础模块](http://7xoeea.com1.z0.glb.clouddn.com/%E5%9F%BA%E7%A1%80%E6%9E%84%E5%BB%BA%E6%A8%A1%E5%9D%97.html) __同步容器__ __并发容器__ __同步工具__  
 + [任务执行](http://7xoeea.com1.z0.glb.clouddn.com/%E4%BB%BB%E5%8A%A1%E6%89%A7%E8%A1%8C.html) __线程__ __Executor框架__ 
-+ [取消和关闭](http://7xoeea.com1.z0.glb.clouddn.com/%E5%8F%96%E6%B6%88%E5%92%8C%E5%85%B3%E9%97%AD%28Abort%20And%20Interrupted%29.html)
++ [取消和关闭](http://7xoeea.com1.z0.glb.clouddn.com/%E5%8F%96%E6%B6%88%E5%92%8C%E5%85%B3%E9%97%AD%28Abort%20And%20Interrupted%29.html) __任务取消__ __中断__ __停止基于线程的服务__ __处理非正常的线程终止__
 + [避免活跃性问题](http://7xoeea.com1.z0.glb.clouddn.com/%E9%81%BF%E5%85%8D%E6%B4%BB%E8%B7%83%E6%80%A7%E9%97%AE%E9%A2%98%28Avoid%20Active%20Problem%29.html)
 + [并发程序的测试]()
 + [性能和可伸缩性](http://7xoeea.com1.z0.glb.clouddn.com/%E6%80%A7%E8%83%BD%E4%B8%8E%E5%8F%AF%E4%BC%B8%E7%BC%A9%E6%80%A7.html)
@@ -42,6 +42,7 @@ __Object类所有的非final方法(equals,hashCode,toString,clone和finalize)都
 + [接口](http://7xoeea.com1.z0.glb.clouddn.com/%E7%AC%AC9%E7%AB%A0%20%E6%8E%A5%E5%8F%A3.html) __接口和内部类提供了一种将接口与实现分离的更加结构化的方法__
 + [内部类](http://7xoeea.com1.z0.glb.clouddn.com/%E7%AC%AC10%E7%AB%A0%20%E5%86%85%E9%83%A8%E7%B1%BB.html) __可以把一个类的定义放在另一个类的定义内部,这就是内部类__
 + [通过异常处理错误](http://7xoeea.com1.z0.glb.clouddn.com/%E7%AC%AC12%E7%AB%A0%20%E9%80%9A%E8%BF%87%E5%BC%82%E5%B8%B8%E5%A4%84%E7%90%86%E9%94%99%E8%AF%AF.html)
++ [泛型]() __泛型实现了参数化类型的概念,使代码可以应用于多种类型. 泛型机制解耦了类或方法与所使用的类型间的约束__
 + [枚举类型](http://7xoeea.com1.z0.glb.clouddn.com/%E7%AC%AC19%E7%AB%A0%20%E6%9E%9A%E4%B8%BE%E7%B1%BB%E5%9E%8B.html) __关键字enum可以将一组具名的值的有限集合创建为一种新的类型,而这些具名的值可以作为常规的程序组件使用__
 + [注解](http://7xoeea.com1.z0.glb.clouddn.com/%E7%AC%AC20%E7%AB%A0%20%E6%B3%A8%E8%A7%A3%28Annotation%29.html) __注解为我们在代码中添加信息提供了一种形式化的方法,使我们可以在稍后某时刻非常方便地使用这些数据__
 
@@ -106,6 +107,8 @@ __Object类所有的非final方法(equals,hashCode,toString,clone和finalize)都
 
 ### Head First设计模式(中文版)
 
+__设计模式(design pattern)是对软件设计中普遍存在(反复出现)的各种问题,所提出的解决方案__
+
 #### 1.创建型模式 
 + [单件模式](http://7xonn1.com1.z0.glb.clouddn.com/5%20%E5%8D%95%E4%BB%B6%E6%A8%A1%E5%BC%8F%E4%BF%AE%E6%94%B9.html) __确保一个类只有一个实例,并提供对该实例的全局访问__
 + [工厂方法模式]() __定义一个接口用于创建对象,但是让子类决定初始化哪个类.工厂方法把一个类的初始化下放到子类__
@@ -117,9 +120,13 @@ __Object类所有的非final方法(equals,hashCode,toString,clone和finalize)都
 + [观察者模式](http://7xoeea.com1.z0.glb.clouddn.com/2%20%E8%A7%82%E5%AF%9F%E8%80%85%E6%A8%A1%E5%BC%8F.html) __在对象间定义一个一对多的联系性，由此当一个对象改变了状态，所有其他相关的对象会被通知并且自动刷新__
 + [迭代器模式](http://7xoeea.com1.z0.glb.clouddn.com/9%20%E8%BF%AD%E4%BB%A3%E5%99%A8%E4%B8%8E%E7%BB%84%E5%90%88%E6%A8%A1%E5%BC%8F.html) __提供一种方法顺序访问一个聚合对象中各个元素, 而又不需暴露该对象的内部表示__
 + [命令模式](http://7xoeea.com1.z0.glb.clouddn.com/6%20%E5%91%BD%E4%BB%A4%E6%A8%A1%E5%BC%8F.html) __将一个请求封装为一个对象,从而使你可用不同的请求对客户进行参数化 对请求排队或记录请求日志,以及支持可取消的操作__
++ [模板方法]() __模板方法模式准备一个抽象类,将部分逻辑以具体方法及具体构造子类的形式实现,然后声明一些抽象方法来迫使子类实现剩余的逻辑. 不同的子类可以以不同的方式实现这些抽象方法,从而对剩余的逻辑有不同的实现.先构建一个顶级逻辑框架,而将逻辑的细节留给具体的子类去实现
++ 空对象 __通过提供默认对象来避免空引用__
 
 #### 3.结构型模式
 + [组合模式](http://7xoeea.com1.z0.glb.clouddn.com/9%20%E8%BF%AD%E4%BB%A3%E5%99%A8%E4%B8%8E%E7%BB%84%E5%90%88%E6%A8%A1%E5%BC%8F.html) __把多个对象组成树状结构来表示局部与整体，这样用户可以一样的对待单个对象和对象的组合__
++ [适配器模式]() __将某个类的接口转换成客户端期望的另一个接口表示.适配器模式可以消除由于接口不匹配所造成的类兼容性问题__
++ [外观模式]() __为子系统中的一组接口提供一个一致的界面 外观模式定义了一个高层接口，这个接口使得这一子系统更加容易使用__
 
 ### 代码大全(第2版)
 
