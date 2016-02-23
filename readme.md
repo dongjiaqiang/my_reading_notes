@@ -25,7 +25,7 @@ __Object类所有的非final方法(equals,hashCode,toString,clone和finalize)都
 + [取消和关闭](http://7xoeea.com1.z0.glb.clouddn.com/%E5%8F%96%E6%B6%88%E5%92%8C%E5%85%B3%E9%97%AD%28Abort%20And%20Interrupted%29.html) __任务取消__ __中断__ __停止基于线程的服务__ __处理非正常的线程终止__
 + [避免活跃性问题](http://7xoeea.com1.z0.glb.clouddn.com/%E9%81%BF%E5%85%8D%E6%B4%BB%E8%B7%83%E6%80%A7%E9%97%AE%E9%A2%98%28Avoid%20Active%20Problem%29.html) __死锁__ __饥饿__ __活锁__
 + [并发程序的测试]()
-+ [性能和可伸缩性](http://7xoeea.com1.z0.glb.clouddn.com/%E6%80%A7%E8%83%BD%E4%B8%8E%E5%8F%AF%E4%BC%B8%E7%BC%A9%E6%80%A7.html)
++ [性能和可伸缩性](http://7xoeea.com1.z0.glb.clouddn.com/%E6%80%A7%E8%83%BD%E4%B8%8E%E5%8F%AF%E4%BC%B8%E7%BC%A9%E6%80%A7.html) __缩小锁的范围__ __减少锁的粒度__ __锁分段__
 + [线程池的使用](http://7xoeea.com1.z0.glb.clouddn.com/%E7%BA%BF%E7%A8%8B%E6%B1%A0%E7%9A%84%E4%BD%BF%E7%94%A8%28Thread%20Pool%29.html)
 + [显式锁](http://7xoeea.com1.z0.glb.clouddn.com/显式锁.html)
 + [构建自定义的同步工具](http://7xoeea.com1.z0.glb.clouddn.com/%E6%9E%84%E5%BB%BA%E8%87%AA%E5%AE%9A%E4%B9%89%E7%9A%84%E5%90%8C%E6%AD%A5%E5%B7%A5%E5%85%B7.html)
@@ -125,6 +125,7 @@ __设计模式(design pattern)是对软件设计中普遍存在(反复出现)的
 + [命令模式](http://7xoeea.com1.z0.glb.clouddn.com/6%20%E5%91%BD%E4%BB%A4%E6%A8%A1%E5%BC%8F.html) __将一个请求封装为一个对象,从而使你可用不同的请求对客户进行参数化 对请求排队或记录请求日志,以及支持可取消的操作__
 + [模板方法模式](http://7xoeea.com1.z0.glb.clouddn.com/8%20%E6%A8%A1%E6%9D%BF%E6%96%B9%E6%B3%95%E6%A8%A1%E5%BC%8F.html) __模板方法模式准备一个抽象类,将部分逻辑以具体方法及具体构造子类的形式实现,然后声明一些抽象方法来迫使子类实现剩余的逻辑. 不同的子类可以以不同的方式实现这些抽象方法,从而对剩余的逻辑有不同的实现.先构建一个顶级逻辑框架,而将逻辑的细节留给具体的子类去实现__
 + 空对象 __通过提供默认对象来避免空引用__
++ [责任链模式](http://7xoeea.com1.z0.glb.clouddn.com/%E8%B4%A3%E4%BB%BB%E9%93%BE%E6%A8%A1%E5%BC%8F.html) __为解除请求的发送者和接收者之间耦合 而使多个对象都有机会处理这个请求 将这些对象连成一条链 并沿着这条链传递该请求 直到有一个对象处理它__
 
 #### 3.[结构型模式](https://zh.wikipedia.org/wiki/%E7%B5%90%E6%A7%8B%E5%9E%8B%E6%A8%A1%E5%BC%8F) __结构型模式可以把类或对象组合到更大的结构中__
 
@@ -134,6 +135,7 @@ __设计模式(design pattern)是对软件设计中普遍存在(反复出现)的
 + [代理模式]() __为其他对象提供一个代理以控制对这个对象的访问__
 + [装饰者模式]() __向某个对象动态地添加更多的功能 修饰模式是除类继承外另一种扩展功能的方法__
 + [桥接模式]() __将一个抽象与实现解耦 以便两者可以独立的变化__
++ [蝇量模式](http://7xoeea.com1.z0.glb.clouddn.com/%E8%9D%87%E9%87%8F%E6%A8%A1%E5%BC%8F.html) __又称享元模式 通过共享以便有效的支持大量小颗粒对象__
 
 ### 代码大全(第2版)
 
@@ -161,6 +163,8 @@ __设计模式(design pattern)是对软件设计中普遍存在(反复出现)的
 
 ### 算法导论
 
+### 数据结构与算法分析:Java语言描述(第2版)
+
 ### 书单
 
 + [Head First设计模式(中文版)](http://www.amazon.cn/Head-First%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F-%E5%BC%97%E9%87%8C%E6%9B%BC/dp/B0011FBU34/ref=sr_1_1?ie=UTF8&qid=1454814197&sr=8-1&keywords=head+first+%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F)
@@ -185,6 +189,7 @@ __设计模式(design pattern)是对软件设计中普遍存在(反复出现)的
 + [算法导论](http://www.amazon.cn/%E7%AE%97%E6%B3%95%E5%AF%BC%E8%AE%BA-Thomas-H-Cormen/dp/B00AK7BYJY/ref=sr_1_1?ie=UTF8&qid=1454814064&sr=8-1&keywords=%E7%AE%97%E6%B3%95%E5%AF%BC%E8%AE%BA)
 + [Netty in Action](http://www.amazon.com/Netty-Action-Norman-Maurer/dp/1617291471/ref=sr_1_1?ie=UTF8&qid=1455435844&sr=8-1&keywords=netty+in+action)
 + [程序员修炼之道:从小工到专家](http://www.amazon.cn/%E7%A8%8B%E5%BA%8F%E5%91%98%E4%BF%AE%E7%82%BC%E4%B9%8B%E9%81%93-%E4%BB%8E%E5%B0%8F%E5%B7%A5%E5%88%B0%E4%B8%93%E5%AE%B6-%E4%BA%A8%E7%89%B9/dp/B004GV08CY/ref=sr_1_1?ie=UTF8&qid=1455946791&sr=8-1&keywords=%E4%BB%8E%E5%B0%8F%E5%B7%A5%E5%88%B0%E4%B8%93%E5%AE%B6)
++ [数据结构与算法分析:Java语言描述(第2版)](http://www.amazon.cn/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95%E5%88%86%E6%9E%90-Java%E8%AF%AD%E8%A8%80%E6%8F%8F%E8%BF%B0-%E9%9F%A6%E6%96%AF/dp/B001N6R9JK/ref=sr_1_2?ie=UTF8&qid=1456149814&sr=8-2&keywords=Data+structures+in+Java)
 
 ### 开源项目官方网站
 + [Apache Commons](http://commons.apache.org/)
