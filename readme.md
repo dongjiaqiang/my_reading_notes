@@ -75,6 +75,7 @@ __Object类所有的非final方法(equals,hashCode,toString,clone和finalize)都
 + [继承](http://7xoeea.com1.z0.glb.clouddn.com/%E7%AC%AC8%E7%AB%A0%20%E7%BB%A7%E6%89%BF%E4%BF%AE%E5%A4%8D.html) __扩展类__ __重写方法__ __类型检查和转换__ __超类构造__ __重写字段__ __匿名子类__ __抽象类__ __抽象字段__ __继承层次__ __对象相等性__
 + [操作符](http://7xoeea.com1.z0.glb.clouddn.com/%E7%AC%AC11%E7%AB%A0%20%E6%93%8D%E4%BD%9C%E7%AC%A6%E4%BF%AE%E6%94%B9.html) __标识符__ __中置操作符__ __一元操作符__ __赋值操作符__ __优先级__ __apply和update方法__ __提取器__ __unapplySeq方法__
 + [集合](http://7xoeea.com1.z0.glb.clouddn.com/%E7%AC%AC13%E7%AB%A0%20%E9%9B%86%E5%90%88.html) __Scala集合继承层次__ __可变和不可变集合__ __序列__ __列表__ __可变列表__ __集__ __常用方法__ __函数映射到集合__ __化简折叠扫描__ __拉链操作__ __迭代器__ __流__ __懒视图__ __与Java集合的互操作__ __线程安全的集合__ __并行集合__
++ [模式匹配与样例类](http://7xoeea.com1.z0.glb.clouddn.com/%E7%AC%AC14%E7%AB%A0%20%E6%A8%A1%E5%BC%8F%E5%8C%B9%E9%85%8D%E5%92%8C%E6%A0%B7%E4%BE%8B%E7%B1%BB.html) __match表达式__ __守卫__ __类型匹配__ __匹配数组 列表和元组__ __提取器__ __变量声明中的模式__ __for表达式中的模式__ __样例类__ __copy方法的带名参数__ __匹配嵌套结构__ __密封类__ __模拟枚举__ __Option类型__ __偏函数__
 
 ### Scala in Action
 
