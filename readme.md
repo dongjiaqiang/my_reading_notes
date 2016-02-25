@@ -8,10 +8,10 @@
 __Object类所有的非final方法(equals,hashCode,toString,clone和finalize)都有明确的通用约定 其被设计成要被覆盖__
 + [通用程序设计](http://7xoeea.com1.z0.glb.clouddn.com/%E9%80%9A%E7%94%A8%E7%A8%8B%E5%BA%8F%E8%AE%BE%E8%AE%A1%28General%20Program%20Design%29.html) __局部变量处理 控制结构 类库用法 各种数据类型用法 优化和命名惯例__
 + [类和接口](http://7xoeea.com1.z0.glb.clouddn.com/%E7%B1%BB%E5%92%8C%E6%8E%A5%E5%8F%A3%28Class%20And%20Interface%29.html) __类和接口是Java程序设计语言核心 其是Java语言的基本抽象单元__
-+ [泛型]()
-+ [枚举与注解](http://7xoeea.com1.z0.glb.clouddn.com/%E6%9E%9A%E4%B8%BE%28Enum%29%E5%92%8C%E6%B3%A8%E8%A7%A3%28Annotation%29.html)
++ [泛型]() __使用泛型可以告诉编译器每个集合中接受哪些对象类型 编译器自动在插入时进行转换 并在编译时告知是否插入类型错误的对象__
++ [枚举与注解](http://7xoeea.com1.z0.glb.clouddn.com/%E6%9E%9A%E4%B8%BE%28Enum%29%E5%92%8C%E6%B3%A8%E8%A7%A3%28Annotation%29.html) __Java 1.5所增加的两个新的引用类型__
 + [方法](http://7xoeea.com1.z0.glb.clouddn.com/%E6%96%B9%E6%B3%95%28Method%29.html) __如何处理参数和返回值 如何设计方法签名 如何为方法编写文档__
-+ [异常](http://7xoeea.com1.z0.glb.clouddn.com/%E5%BC%82%E5%B8%B8(Exception).html)
++ [异常](http://7xoeea.com1.z0.glb.clouddn.com/%E5%BC%82%E5%B8%B8(Exception).html) __充分发挥异常的优点 可以提高程序的可读性 可靠性和可维护性__
 + [并发](http://7xoeea.com1.z0.glb.clouddn.com/%E5%B9%B6%E5%8F%91%28Concurrency%29.html)
 + [序列化]()
 
@@ -89,6 +89,8 @@ __Object类所有的非final方法(equals,hashCode,toString,clone和finalize)都
 
 ### 重构 改善既有代码设计
 
+### 重构与模式
+
 ### 敏捷软件开发(原则模式与实践)
 #### 1.面向对象设计原则
 + [单一职责原则](http://7xoeea.com1.z0.glb.clouddn.com/%E7%AC%AC8%E7%AB%A0%20%E5%8D%95%E4%B8%80%E8%81%8C%E8%B4%A3%E5%8E%9F%E5%88%99%28SRP%29.html) __就一个类而言,应该仅有一个引起它变化的原因__
@@ -132,6 +134,7 @@ __设计模式(design pattern)是对软件设计中普遍存在(反复出现)的
 + [责任链模式](http://7xoeea.com1.z0.glb.clouddn.com/%E8%B4%A3%E4%BB%BB%E9%93%BE%E6%A8%A1%E5%BC%8F.html) __为解除请求的发送者和接收者之间耦合 而使多个对象都有机会处理这个请求 将这些对象连成一条链 并沿着这条链传递该请求 直到有一个对象处理它__
 + [中介者模式](http://7xoeea.com1.z0.glb.clouddn.com/%E4%B8%AD%E4%BB%8B%E8%80%85%E6%A8%A1%E5%BC%8F.html) __包装了一系列对象相互作用的方式 使得这些对象不必相互明显作用 从而使它们可以松散偶合.当某些对象之间的作用发生改变时 不会立即影响其他的一些对象之间的作用 保证这些作用可以彼此独立的变化__
 + [备忘录模式](http://7xonn1.com1.z0.glb.clouddn.com/%E5%A4%87%E5%BF%98%E5%BD%95%E6%A8%A1%E5%BC%8F.html) __备忘录对象是一个用来存储另外一个对象内部状态的快照的对象 备忘录模式的用意是在不破坏封装的条件下 将一个对象的状态捉住 并外部化 存储起来 从而可以在将来合适的时候把这个对象还原到存储起来的状态__
++ [访问者模式]() __封装一些施加于某种数据结构元素之上的操作 一旦这些操作需要修改 接受这个操作的数据结构可以保持不变 访问者模式适用于数据结构相对未定的系统 它把数据结构和作用于结构上的操作之间的耦合解脱开 使得操作集合可以相对自由的演化__
 
 #### 3.[结构型模式](https://zh.wikipedia.org/wiki/%E7%B5%90%E6%A7%8B%E5%9E%8B%E6%A8%A1%E5%BC%8F) __结构型模式可以把类或对象组合到更大的结构中__
 
@@ -196,8 +199,12 @@ __设计模式(design pattern)是对软件设计中普遍存在(反复出现)的
 + [Netty in Action](http://www.amazon.com/Netty-Action-Norman-Maurer/dp/1617291471/ref=sr_1_1?ie=UTF8&qid=1455435844&sr=8-1&keywords=netty+in+action)
 + [程序员修炼之道:从小工到专家](http://www.amazon.cn/%E7%A8%8B%E5%BA%8F%E5%91%98%E4%BF%AE%E7%82%BC%E4%B9%8B%E9%81%93-%E4%BB%8E%E5%B0%8F%E5%B7%A5%E5%88%B0%E4%B8%93%E5%AE%B6-%E4%BA%A8%E7%89%B9/dp/B004GV08CY/ref=sr_1_1?ie=UTF8&qid=1455946791&sr=8-1&keywords=%E4%BB%8E%E5%B0%8F%E5%B7%A5%E5%88%B0%E4%B8%93%E5%AE%B6)
 + [数据结构与算法分析:Java语言描述(第2版)](http://www.amazon.cn/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95%E5%88%86%E6%9E%90-Java%E8%AF%AD%E8%A8%80%E6%8F%8F%E8%BF%B0-%E9%9F%A6%E6%96%AF/dp/B001N6R9JK/ref=sr_1_2?ie=UTF8&qid=1456149814&sr=8-2&keywords=Data+structures+in+Java)
++ [重构与模式](http://www.amazon.cn/%E9%87%8D%E6%9E%84%E4%B8%8E%E6%A8%A1%E5%BC%8F-Joshua-Kerievsky/dp/B00A9YD7A2/ref=sr_1_1?ie=UTF8&qid=1456414401&sr=8-1&keywords=%E9%87%8D%E6%9E%84%E4%B8%8E%E6%A8%A1%E5%BC%8F)
 
 ### 开源项目官方网站
 + [Apache Commons](http://commons.apache.org/)
 + [Apache Log4j](http://logging.apache.org/log4j/1.2/)
 + [Google Guava GitHub Address](https://github.com/google/guava)
+
+### GitHub开源项目
++ [java-design-patterns](https://github.com/dongjiaqiang/java-design-patterns)
