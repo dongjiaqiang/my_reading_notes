@@ -218,6 +218,8 @@ __设计模式(design pattern)是对软件设计中普遍存在(反复出现)的
 ### Apache Flume Project
 + [Apache Flume Office Website](http://flume.apache.org/index.html)
 + [Apache Flume API Documents](http://flume.apache.org/releases/content/1.6.0/apidocs/)
++ [基于Flume的美团日志收集系统架构和设计](http://tech.meituan.com/mt-log-system-optimization.html)
 + [Flume 1.6.0 User Guide](http://flume.apache.org/FlumeUserGuide.html)
 + [Flume 1.6.0 Developer Guide](http://flume.apache.org/FlumeDeveloperGuide.html)
 + [cloudera/flume](https://github.com/cloudera/flume)
++ [javachen/mt-flume](https://github.com/javachen/mt-flume)
