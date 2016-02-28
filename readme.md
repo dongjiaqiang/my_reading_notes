@@ -214,3 +214,10 @@ __设计模式(design pattern)是对软件设计中普遍存在(反复出现)的
 
 ### GitHub开源项目
 + [java-design-patterns](https://github.com/dongjiaqiang/java-design-patterns)
+
+### Apache Flume Project
++ [Apache Flume Office Website](http://flume.apache.org/index.html)
++ [Apache Flume API Documents](http://flume.apache.org/releases/content/1.6.0/apidocs/)
++ [Flume 1.6.0 User Guide](http://flume.apache.org/FlumeUserGuide.html)
++ [Flume 1.6.0 Developer Guide](http://flume.apache.org/FlumeDeveloperGuide.html)
++ [cloudera/flume](https://github.com/cloudera/flume)
