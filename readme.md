@@ -82,7 +82,8 @@ __Object类所有的非final方法(equals,hashCode,toString,clone和finalize)都
 + [集合](http://7xoeea.com1.z0.glb.clouddn.com/%E7%AC%AC13%E7%AB%A0%20%E9%9B%86%E5%90%88.html) __Scala集合继承层次__ __可变和不可变集合__ __序列__ __列表__ __可变列表__ __集__ __常用方法__ __函数映射到集合__ __化简折叠扫描__ __拉链操作__ __迭代器__ __流__ __懒视图__ __与Java集合的互操作__ __线程安全的集合__ __并行集合__
 + [模式匹配与样例类](http://7xoeea.com1.z0.glb.clouddn.com/%E7%AC%AC14%E7%AB%A0%20%E6%A8%A1%E5%BC%8F%E5%8C%B9%E9%85%8D%E5%92%8C%E6%A0%B7%E4%BE%8B%E7%B1%BB.html) __match表达式__ __守卫__ __类型匹配__ __匹配数组 列表和元组__ __提取器__ __变量声明中的模式__ __for表达式中的模式__ __样例类__ __copy方法的带名参数__ __匹配嵌套结构__ __密封类__ __模拟枚举__ __Option类型__ __偏函数__
 + [特质](http://7xoeea.com1.z0.glb.clouddn.com/%E7%AC%AC10%E7%AB%A0%20%E7%89%B9%E8%B4%A8.html) __当做接口的特质__ __带有具体实现的特质__ __带有特质的对象__ __特质叠加__ __在特质中重写抽象方法__ __当做富接口的特质__ __特质中的具体字段__ __特质中的抽象字段__ __特质构造顺序__ __初始化特质中的字段__ __扩展类的特质__ __自身类型__ __机制__
-+ [隐式转换](http://7xoeea.com1.z0.glb.clouddn.com/%E7%AC%AC21%E7%AB%A0%20%E9%9A%90%E5%BC%8F%E8%BD%AC%E6%8D%A2%E5%92%8C%E9%9A%90%E5%BC%8F%E5%8F%82%E6%95%B0.html) __隐式转换__ __隐式转换函数__ __隐式转换规则__ __隐式参数__ __上下文界定__ __类型证明__
++ [隐式转换](http://7xoeea.com1.z0.glb.clouddn.com/%E7%AC%AC21%E7%AB%A0%20%E9%9A%90%E5%BC%8F%E8%BD%AC%E6%8D%A2%E5%92%8C%E9%9A%90%E5%BC%8F%E5%8F%82%E6%95%B0.html) __隐式转换__ __隐式转换函数__ __隐式转
++ [文件和正则表达式](http://7xoeea.com1.z0.glb.clouddn.com/%E7%AC%AC9%E7%AB%A0%20%E6%96%87%E4%BB%B6%E5%92%8C%E6%AD%A3%E5%88%99%E8%A1%A8%E8%BE%BE%E5%BC%8F.html) __读取行__ __读取字符__ __访问目录__ __序列化__ __进程控制__ __正则表达式__ __正则表达式组__
 
 ### Scala in Action
 
@@ -210,6 +211,8 @@ __设计模式(design pattern)是对软件设计中普遍存在(反复出现)的
 ### 开源项目官方网站
 + [Apache Commons](http://commons.apache.org/)
 + [Apache Log4j](http://logging.apache.org/log4j/1.2/)
++ [Google Guava](https://github.com/google/guava)
++ [Apache Flume](http://flume.apache.org/index.html)
 
 ### GitHub开源项目
 + [java-design-patterns](https://github.com/dongjiaqiang/java-design-patterns)
