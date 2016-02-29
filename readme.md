@@ -210,7 +210,6 @@ __设计模式(design pattern)是对软件设计中普遍存在(反复出现)的
 ### 开源项目官方网站
 + [Apache Commons](http://commons.apache.org/)
 + [Apache Log4j](http://logging.apache.org/log4j/1.2/)
-+ [Google Guava GitHub Address](https://github.com/google/guava)
 
 ### GitHub开源项目
 + [java-design-patterns](https://github.com/dongjiaqiang/java-design-patterns)
@@ -223,3 +222,8 @@ __设计模式(design pattern)是对软件设计中普遍存在(反复出现)的
 + [Flume 1.6.0 Developer Guide](http://flume.apache.org/FlumeDeveloperGuide.html)
 + [cloudera/flume](https://github.com/cloudera/flume)
 + [javachen/mt-flume](https://github.com/javachen/mt-flume)
+
+### Google Guava Project
++ [Google Guava Project](https://github.com/google/guava)
++ [Google Guava User Guide](https://github.com/google/guava/wiki)
++ [Google Guava User Guide(中文版)](http://ifeve.com/google-guava/)
