@@ -85,6 +85,7 @@ __Object类所有的非final方法(equals,hashCode,toString,clone和finalize)都
 + [特质](http://7xoeea.com1.z0.glb.clouddn.com/%E7%AC%AC10%E7%AB%A0%20%E7%89%B9%E8%B4%A8.html) __当做接口的特质__ __带有具体实现的特质__ __带有特质的对象__ __特质叠加__ __在特质中重写抽象方法__ __当做富接口的特质__ __特质中的具体字段__ __特质中的抽象字段__ __特质构造顺序__ __初始化特质中的字段__ __扩展类的特质__ __自身类型__ __机制__
 + [隐式转换](http://7xoeea.com1.z0.glb.clouddn.com/%E7%AC%AC21%E7%AB%A0%20%E9%9A%90%E5%BC%8F%E8%BD%AC%E6%8D%A2%E5%92%8C%E9%9A%90%E5%BC%8F%E5%8F%82%E6%95%B0.html) __隐式转换__ __隐式转换函数__ __隐式转换规则__ __隐式参数__ __上下文界定__ __类型证明__
 + [文件和正则表达式](http://7xoeea.com1.z0.glb.clouddn.com/%E7%AC%AC9%E7%AB%A0%20%E6%96%87%E4%BB%B6%E5%92%8C%E6%AD%A3%E5%88%99%E8%A1%A8%E8%BE%BE%E5%BC%8F.html) __读取行__ __读取字符__ __访问目录__ __序列化__ __进程控制__ __正则表达式__ __正则表达式组__
++ [Actor](http://7xoeea.com1.z0.glb.clouddn.com/%E7%AC%AC20%E7%AB%A0%20Actor.html) __创建和启动Actor__ __发生消息__ __接收消息__ __消息通道__ __同步消息__ __Future__ __共享线程__ __Actor生命周期__ __链接多个Actor__ __设计Actor__
 
 ### Scala in Action
 
@@ -93,6 +94,10 @@ __Object类所有的非final方法(equals,hashCode,toString,clone和finalize)都
 + [核心规则](http://7xoeea.com1.z0.glb.clouddn.com/%E7%AC%AC2%E7%AB%A0%20%E6%A0%B8%E5%BF%83%E8%A7%84%E5%88%99.html) __REPL__ __面向表达式编程__ __不变性__ __Option类__
 + [编码规范](http://7xoeea.com1.z0.glb.clouddn.com/%E7%AC%AC3%E7%AB%A0%20%E7%BC%96%E7%A0%81%E8%A7%84%E8%8C%83.html) __编码规范__ __行尾推断__ __变量__ __注解__
 + [面向对象]() 
+
+### Shell脚本学习指南
+
+### sed & awk
 
 ### 重构 改善既有代码设计
 
@@ -170,6 +175,8 @@ __设计模式(design pattern)是对软件设计中普遍存在(反复出现)的
 
 ### Learning Apache Commons
 
++ [Commons CLI]() __Command Line arguments parser__
+
 ### Learning Apache Log4j
 
 ### Gradle实战
@@ -209,6 +216,8 @@ __设计模式(design pattern)是对软件设计中普遍存在(反复出现)的
 + [数据结构与算法分析:Java语言描述(第2版)](http://www.amazon.cn/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95%E5%88%86%E6%9E%90-Java%E8%AF%AD%E8%A8%80%E6%8F%8F%E8%BF%B0-%E9%9F%A6%E6%96%AF/dp/B001N6R9JK/ref=sr_1_2?ie=UTF8&qid=1456149814&sr=8-2&keywords=Data+structures+in+Java)
 + [重构与模式](http://www.amazon.cn/%E9%87%8D%E6%9E%84%E4%B8%8E%E6%A8%A1%E5%BC%8F-Joshua-Kerievsky/dp/B00A9YD7A2/ref=sr_1_1?ie=UTF8&qid=1456414401&sr=8-1&keywords=%E9%87%8D%E6%9E%84%E4%B8%8E%E6%A8%A1%E5%BC%8F)
 + [从小工到专家](http://www.amazon.cn/%E7%A8%8B%E5%BA%8F%E5%91%98%E4%BF%AE%E7%82%BC%E4%B9%8B%E9%81%93-%E4%BB%8E%E5%B0%8F%E5%B7%A5%E5%88%B0%E4%B8%93%E5%AE%B6-%E4%BA%A8%E7%89%B9/dp/B004GV08CY/ref=sr_1_1?ie=UTF8&qid=1456551763&sr=8-1&keywords=%E4%BB%8E%E5%B0%8F%E5%B7%A5%E5%88%B0%E4%B8%93%E5%AE%B6)
++ [Shell脚本学习指南](http://www.amazon.cn/Shell%E8%84%9A%E6%9C%AC%E5%AD%A6%E4%B9%A0%E6%8C%87%E5%8D%97-Arnold-Robbins/dp/B002A2LQR2/ref=sr_1_2?ie=UTF8&qid=1457183735&sr=8-2&keywords=Shell)
++ [sed & awk](http://www.amazon.cn/sed-awk-Dale-Dougherty/dp/1565922255/ref=sr_1_6?ie=UTF8&qid=1457183831&sr=8-6&keywords=awk)
 
 ### 开源项目官方网站
 + [Apache Commons](http://commons.apache.org/)
@@ -227,8 +236,22 @@ __设计模式(design pattern)是对软件设计中普遍存在(反复出现)的
 + [Flume 1.6.0 Developer Guide](http://flume.apache.org/FlumeDeveloperGuide.html)
 + [cloudera/flume](https://github.com/cloudera/flume)
 + [javachen/mt-flume](https://github.com/javachen/mt-flume)
++ [Apache Flume 源码分析]()
+
+### Apache Kafka Project
++ [Apache Kafka Office Website](http://kafka.apache.org/)
++ [Apache KafkaProducer API Document](http://kafka.apache.org/090/javadoc/index.html?org/apache/kafka/clients/producer/KafkaProducer.html)
++ [Apache KafkaConsumer API Document](http://kafka.apache.org/090/javadoc/index.html?org/apache/kafka/clients/consumer/KafkaConsumer.html)
 
 ### Google Guava Project
 + [Google Guava Project](https://github.com/google/guava)
 + [Google Guava User Guide](https://github.com/google/guava/wiki)
 + [Google Guava User Guide(中文版)](http://ifeve.com/google-guava/)
+
+### Apache Commons Project
++ [Apache Commons](http://commons.apache.org/)
+#### Apache Commons Proper
+|                      Components                             |          Description          |
+| ----------------------------------------------------------- | ----------------------------- |
+|    [CLI](http://commons.apache.org/proper/commons-cli/)     | Command Line arguments parser |
++ [Commons CLI API Document](http://commons.apache.org/proper/commons-cli/javadocs/api-release/index.html)
