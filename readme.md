@@ -101,7 +101,7 @@ __Object类所有的非final方法(equals,hashCode,toString,clone和finalize)都
 
 ### 重构 改善既有代码设计
 
-#### [简化函数调用](http://7xoeea.com1.z0.glb.clouddn.com/%E7%AE%80%E5%8C%96%E5%87%BD%E6%95%B0%E8%B0%83%E7%94%A8.html) __函数改名__ __添加参数__ __移除参数__ __将查询函数和修改函数分离__ __令函数携带参数__ __以明确函数取代参数__ __保持对象完整__ __以函数取代参数__ __引入参数对象__ __移除设值函数__ __隐藏函数__ __以工厂函数取代构造函数__ __封装向下转型__ __以异常取代错误码__ __以测试取代异常__
++ [简化函数调用](http://7xoeea.com1.z0.glb.clouddn.com/%E7%AE%80%E5%8C%96%E5%87%BD%E6%95%B0%E8%B0%83%E7%94%A8.html) __函数改名__ __添加参数__ __移除参数__ __将查询函数和修改函数分离__ __令函数携带参数__ __以明确函数取代参数__ __保持对象完整__ __以函数取代参数__ __引入参数对象__ __移除设值函数__ __隐藏函数__ __以工厂函数取代构造函数__ __封装向下转型__ __以异常取代错误码__ __以测试取代异常__
 
 ### 重构与模式
 
@@ -252,8 +252,11 @@ __设计模式(design pattern)是对软件设计中普遍存在(反复出现)的
 
 ### Apache Commons Project
 + [Apache Commons](http://commons.apache.org/)
+
 #### Apache Commons Proper
+
 |                      Components                             |          Description          |
 | ----------------------------------------------------------- | ----------------------------- |
 |    [CLI](http://commons.apache.org/proper/commons-cli/)     | Command Line arguments parser |
+
 + [Commons CLI API Document](http://commons.apache.org/proper/commons-cli/javadocs/api-release/index.html)
