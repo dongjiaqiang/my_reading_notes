@@ -68,6 +68,7 @@ __Object类所有的非final方法(equals,hashCode,toString,clone和finalize)都
 ### Scala并发编程
 
 + [JVM和Java内存模型中的并发处理方式](http://7xoeea.com1.z0.glb.clouddn.com/2%20JVM%E5%92%8CJava%E5%86%85%E5%AD%98%E6%A8%A1%E5%9E%8B%E4%B8%AD%E7%9A%84%E5%B9%B6%E5%8F%91%E5%A4%84%E7%90%86%E6%96%B9%E5%BC%8F.html) __创建和启动线程__ __原子执行方式__ __监控器和同步__ __死锁__ __保卫锁__ __中断线程和正常关闭__ __Volatile变量__ __Java内存模型__ __不可变字段__ __final字段__  [练习](http://7xoeea.com1.z0.glb.clouddn.com/JVM%E5%92%8CJava%E5%86%85%E5%AD%98%E6%A8%A1%E5%9E%8B%E4%B8%AD%E7%9A%84%E5%B9%B6%E5%8F%91%E5%A4%84%E7%90%86%E6%96%B9%E5%BC%8F%20%E7%BB%83%E4%B9%A0.html)
++ [构建并发程序的传统材料](http://7xoeea.com1.z0.glb.clouddn.com/3%E6%9E%84%E5%BB%BA%E5%B9%B6%E5%8F%91%E7%A8%8B%E5%BA%8F%E7%9A%84%E4%BC%A0%E7%BB%9F%E6%9D%90%E6%96%99.html) __Executor对象__ __ExecutionContext对象__ __原子型基元__ __无锁编程__ __原子变量__ __ABA问题__ __惰性值__ __并发集合__ __并发队列__ __并发集__ __并发映射__ __并发遍历__ __创建和处理进程__
 
 ### 快学Scala
 
@@ -100,6 +101,8 @@ __Object类所有的非final方法(equals,hashCode,toString,clone和finalize)都
 ### sed & awk
 
 ### 重构 改善既有代码设计
+
+__重构(Refactoring)指对软件代码做任何更动以增加可读性或者简化结构而不影响输出结果__
 
 + [简化函数调用](http://7xoeea.com1.z0.glb.clouddn.com/%E7%AE%80%E5%8C%96%E5%87%BD%E6%95%B0%E8%B0%83%E7%94%A8.html) __函数改名__ __添加参数__ __移除参数__ __将查询函数和修改函数分离__ __令函数携带参数__ __以明确函数取代参数__ __保持对象完整__ __以函数取代参数__ __引入参数对象__ __移除设值函数__ __隐藏函数__ __以工厂函数取代构造函数__ __封装向下转型__ __以异常取代错误码__ __以测试取代异常__
 
