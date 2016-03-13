@@ -69,6 +69,7 @@ __Object类所有的非final方法(equals,hashCode,toString,clone和finalize)都
 
 + [JVM和Java内存模型中的并发处理方式](http://7xoeea.com1.z0.glb.clouddn.com/2%20JVM%E5%92%8CJava%E5%86%85%E5%AD%98%E6%A8%A1%E5%9E%8B%E4%B8%AD%E7%9A%84%E5%B9%B6%E5%8F%91%E5%A4%84%E7%90%86%E6%96%B9%E5%BC%8F.html) __创建和启动线程__ __原子执行方式__ __监控器和同步__ __死锁__ __保卫锁__ __中断线程和正常关闭__ __Volatile变量__ __Java内存模型__ __不可变字段__ __final字段__  [练习](http://7xoeea.com1.z0.glb.clouddn.com/JVM%E5%92%8CJava%E5%86%85%E5%AD%98%E6%A8%A1%E5%9E%8B%E4%B8%AD%E7%9A%84%E5%B9%B6%E5%8F%91%E5%A4%84%E7%90%86%E6%96%B9%E5%BC%8F%20%E7%BB%83%E4%B9%A0.html)
 + [构建并发程序的传统材料](http://7xoeea.com1.z0.glb.clouddn.com/3%E6%9E%84%E5%BB%BA%E5%B9%B6%E5%8F%91%E7%A8%8B%E5%BA%8F%E7%9A%84%E4%BC%A0%E7%BB%9F%E6%9D%90%E6%96%99.html) __Executor对象__ __ExecutionContext对象__ __原子型基元__ __无锁编程__ __原子变量__ __ABA问题__ __惰性值__ __并发集合__ __并发队列__ __并发集__ __并发映射__ __并发遍历__ __创建和处理进程__ [练习](http://7xoeea.com1.z0.glb.clouddn.com/%E6%9E%84%E5%BB%BA%E5%B9%B6%E5%8F%91%E7%A8%8B%E5%BA%8F%E7%9A%84%E4%BC%A0%E7%BB%9F%E6%9D%90%E6%96%99%20%E7%BB%83%E4%B9%A0.html)
++ [使用Future和Promise对象编写异步程序](http://7xoeea.com1.z0.glb.clouddn.com/4%20%E4%BD%BF%E7%94%A8Future%E5%92%8CPromise%E5%AF%B9%E8%B1%A1%E7%BC%96%E5%86%99%E5%BC%82%E6%AD%A5%E7%A8%8B%E5%BA%8F.html) __Future类__ __Future对象的回调函数__ __Future计算和异常__ __Try类型__ __函数组合__ __Promise类__ __扩展Future API__ __阻塞操作__ [练习](http://7xoeea.com1.z0.glb.clouddn.com/%E4%BD%BF%E7%94%A8Future%E5%92%8CPromise%E5%AF%B9%E8%B1%A1%E5%86%99%E5%BC%82%E6%AD%A5%E7%A8%8B%E5%BA%8F%20%E7%BB%83%E4%B9%A0.html)
 
 ### 快学Scala
 
