@@ -70,6 +70,7 @@ __Object类所有的非final方法(equals,hashCode,toString,clone和finalize)都
 + [JVM和Java内存模型中的并发处理方式](http://7xoeea.com1.z0.glb.clouddn.com/2%20JVM%E5%92%8CJava%E5%86%85%E5%AD%98%E6%A8%A1%E5%9E%8B%E4%B8%AD%E7%9A%84%E5%B9%B6%E5%8F%91%E5%A4%84%E7%90%86%E6%96%B9%E5%BC%8F.html) __创建和启动线程__ __原子执行方式__ __监控器和同步__ __死锁__ __保卫锁__ __中断线程和正常关闭__ __Volatile变量__ __Java内存模型__ __不可变字段__ __final字段__  [练习](http://7xoeea.com1.z0.glb.clouddn.com/JVM%E5%92%8CJava%E5%86%85%E5%AD%98%E6%A8%A1%E5%9E%8B%E4%B8%AD%E7%9A%84%E5%B9%B6%E5%8F%91%E5%A4%84%E7%90%86%E6%96%B9%E5%BC%8F%20%E7%BB%83%E4%B9%A0.html)
 + [构建并发程序的传统材料](http://7xoeea.com1.z0.glb.clouddn.com/3%E6%9E%84%E5%BB%BA%E5%B9%B6%E5%8F%91%E7%A8%8B%E5%BA%8F%E7%9A%84%E4%BC%A0%E7%BB%9F%E6%9D%90%E6%96%99.html) __Executor对象__ __ExecutionContext对象__ __原子型基元__ __无锁编程__ __原子变量__ __ABA问题__ __惰性值__ __并发集合__ __并发队列__ __并发集__ __并发映射__ __并发遍历__ __创建和处理进程__ [练习](http://7xoeea.com1.z0.glb.clouddn.com/%E6%9E%84%E5%BB%BA%E5%B9%B6%E5%8F%91%E7%A8%8B%E5%BA%8F%E7%9A%84%E4%BC%A0%E7%BB%9F%E6%9D%90%E6%96%99%20%E7%BB%83%E4%B9%A0.html)
 + [使用Future和Promise对象编写异步程序](http://7xoeea.com1.z0.glb.clouddn.com/4%20%E4%BD%BF%E7%94%A8Future%E5%92%8CPromise%E5%AF%B9%E8%B1%A1%E7%BC%96%E5%86%99%E5%BC%82%E6%AD%A5%E7%A8%8B%E5%BA%8F.html) __Future类__ __Future对象的回调函数__ __Future计算和异常__ __Try类型__ __函数组合__ __Promise类__ __扩展Future API__ __阻塞操作__ [练习](http://7xoeea.com1.z0.glb.clouddn.com/%E4%BD%BF%E7%94%A8Future%E5%92%8CPromise%E5%AF%B9%E8%B1%A1%E5%86%99%E5%BC%82%E6%AD%A5%E7%A8%8B%E5%BA%8F%20%E7%BB%83%E4%B9%A0.html)
++ [数据并行集合](http://7xonn1.com1.z0.glb.clouddn.com/5%E6%95%B0%E6%8D%AE%E5%B9%B6%E8%A1%8C%E9%9B%86%E5%90%88.html) __并行操作__ __配置并行等级__ __度量性能__ __顺序集合和并行集合的差异__ __自定义并行集合__ __非可并行化集合__ __非可并行化操作__ __不确定的并行操作__ __可交换和可结合操作符__ __弱一致迭代器__
 
 ### 快学Scala
 
@@ -192,9 +193,15 @@ __设计模式(design pattern)是对软件设计中普遍存在(反复出现)的
 
 ### Akka in Action
 
+### Flume:构建高可用、可扩展的海量日志采集系统
+
 ## 三.算法
 
 ### 算法导论
+
+#### 高级数据结构
+
+##### [B树]()
 
 ### 数据结构与算法分析:Java语言描述(第2版)
 
@@ -227,6 +234,7 @@ __设计模式(design pattern)是对软件设计中普遍存在(反复出现)的
 + [从小工到专家](http://www.amazon.cn/%E7%A8%8B%E5%BA%8F%E5%91%98%E4%BF%AE%E7%82%BC%E4%B9%8B%E9%81%93-%E4%BB%8E%E5%B0%8F%E5%B7%A5%E5%88%B0%E4%B8%93%E5%AE%B6-%E4%BA%A8%E7%89%B9/dp/B004GV08CY/ref=sr_1_1?ie=UTF8&qid=1456551763&sr=8-1&keywords=%E4%BB%8E%E5%B0%8F%E5%B7%A5%E5%88%B0%E4%B8%93%E5%AE%B6)
 + [Shell脚本学习指南](http://www.amazon.cn/Shell%E8%84%9A%E6%9C%AC%E5%AD%A6%E4%B9%A0%E6%8C%87%E5%8D%97-Arnold-Robbins/dp/B002A2LQR2/ref=sr_1_2?ie=UTF8&qid=1457183735&sr=8-2&keywords=Shell)
 + [sed & awk](http://www.amazon.cn/sed-awk-Dale-Dougherty/dp/1565922255/ref=sr_1_6?ie=UTF8&qid=1457183831&sr=8-6&keywords=awk)
++ [Flume:构建高可用、可扩展的海量日志采集系统](http://www.amazon.cn/Flume-%E6%9E%84%E5%BB%BA%E9%AB%98%E5%8F%AF%E7%94%A8-%E5%8F%AF%E6%89%A9%E5%B1%95%E7%9A%84%E6%B5%B7%E9%87%8F%E6%97%A5%E5%BF%97%E9%87%87%E9%9B%86%E7%B3%BB%E7%BB%9F-%E5%93%88%E9%87%8C%C2%B7%E5%8F%B2%E7%91%9E%E5%BE%B7%E5%93%88%E4%BC%A6/dp/B012DRHR6W/ref=sr_1_1?ie=UTF8&qid=1457868734&sr=8-1&keywords=flume)
 
 ### 开源项目官方网站
 + [Apache Commons](http://commons.apache.org/)
