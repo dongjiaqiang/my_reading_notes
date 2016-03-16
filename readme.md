@@ -99,6 +99,7 @@ __Object类所有的非final方法(equals,hashCode,toString,clone和finalize)都
 + [面向对象]() 
 + [隐式转换](http://7xoeea.com1.z0.glb.clouddn.com/%E7%AC%AC5%E7%AB%A0%20%E9%9A%90%E5%BC%8F%E8%BD%AC%E6%8D%A2.html) __隐式解析__ __隐式参数__ __隐式函数__ __作用域绑定__ __限制隐式作用域__ __结合默认参数__
 + [集合类型](http://7xoeea.com1.z0.glb.clouddn.com/%E7%AC%AC8%E7%AB%A0%20%E9%9B%86%E5%90%88%E7%B1%BB%E5%9E%8B.html) __集合类型继承体系__ __可变集合__ __不可变集合__ __延迟计算__ __即时计算__ __串行计算__ __并行计算__
++ [类型系统](http://7xoeea.com1.z0.glb.clouddn.com/%E7%AC%AC6%E7%AB%A0%20%E7%B1%BB%E5%9E%8B%E7%B3%BB%E7%BB%9F.html) __类型__ __路径__ __类型注入__ __路径依赖类型__ __type关键字__ __结构化类型__ __类型约束(类型定界)__ __类型参数__ __高阶类型__ __型变__ __存在类型__
 
 ### Shell脚本学习指南
 
@@ -267,6 +268,19 @@ __设计模式(design pattern)是对软件设计中普遍存在(反复出现)的
 
 ### Apache Commons Project
 + [Apache Commons](http://commons.apache.org/)
+
+### Akka Project
+
++ [Akka Project Office Website](http://akka.io/docs/?_ga=1.124319052.735885341.1458093107)
++ [Akka Scala Documentation](http://doc.akka.io/docs/akka/2.4.2/AkkaScala.pdf?_ga=1.124319052.735885341.1458093107)
++ [Akka Java Documentation](http://doc.akka.io/docs/akka/2.4.2/AkkaJava.pdf?_ga=1.90689884.735885341.1458093107)
++ [Akka Scala API Document](http://doc.akka.io/api/akka/2.4.2/?_ga=1.168867175.735885341.1458093107#package)
++ [Akka Java API Document](http://doc.akka.io/japi/akka/2.3.14/?_ga=1.90689884.735885341.1458093107)
+
+### Netty Project
+
++ [Netty Project Office Website](http://netty.io/index.html)
++ [Netty API Document](http://netty.io/5.0/api/index.html)
 
 #### Apache Commons Proper
 
