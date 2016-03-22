@@ -49,7 +49,7 @@ __Object类所有的非final方法(equals,hashCode,toString,clone和finalize)都
 ### Java 8 函数式编程
 
 + [Lambda表达式](http://7xoeea.com1.z0.glb.clouddn.com/%E7%AC%AC2%E7%AB%A0%20Lambda%E8%A1%A8%E8%BE%BE%E5%BC%8F.html) __Lambda表达式是一个匿名方法 将行为像数据一样进行传递__
-+ [流]()
++ [流](http://7xoeea.com1.z0.glb.clouddn.com/%E7%AC%AC3%E7%AB%A0%20%E6%B5%81.html) __流使程序员在更高的层次上对集合进行操作__
 
 ### Scala与Clojure函数式编程模式 Java虚拟机高效编程
 
