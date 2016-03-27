@@ -50,7 +50,7 @@ __Object类所有的非final方法(equals,hashCode,toString,clone和finalize)都
 
 + [Lambda表达式](http://7xoeea.com1.z0.glb.clouddn.com/%E7%AC%AC2%E7%AB%A0%20Lambda%E8%A1%A8%E8%BE%BE%E5%BC%8F.html) __Lambda表达式是一个匿名方法 将行为像数据一样进行传递__
 + [流](http://7xoeea.com1.z0.glb.clouddn.com/%E7%AC%AC3%E7%AB%A0%20%E6%B5%81.html) __流使程序员在更高的层次上对集合进行操作__
-+ [数据并行化](http://7xoeea.com1.z0.glb.clouddn.com/%E7%AC%AC6%E7%AB%A0%20%E6%95%B0%E6%8D%AE%E5%B9%B6%E8%A1%8C%E5%8C%96.html)
++ [数据并行化](http://7xoeea.com1.z0.glb.clouddn.com/%E7%AC%AC6%E7%AB%A0%20%E6%95%B0%E6%8D%AE%E5%B9%B6%E8%A1%8C%E5%8C%96.html) __数据并行化是把工作拆分 同时在多核CPU上执行的方式__
 
 ### Scala与Clojure函数式编程模式 Java虚拟机高效编程
 
@@ -101,6 +101,7 @@ __Object类所有的非final方法(equals,hashCode,toString,clone和finalize)都
 + [特质](http://7xoeea.com1.z0.glb.clouddn.com/%E7%AC%AC10%E7%AB%A0%20%E7%89%B9%E8%B4%A8.html) __当做接口的特质__ __带有具体实现的特质__ __带有特质的对象__ __特质叠加__ __在特质中重写抽象方法__ __当做富接口的特质__ __特质中的具体字段__ __特质中的抽象字段__ __特质构造顺序__ __初始化特质中的字段__ __扩展类的特质__ __自身类型__ __机制__
 + [隐式转换](http://7xoeea.com1.z0.glb.clouddn.com/%E7%AC%AC21%E7%AB%A0%20%E9%9A%90%E5%BC%8F%E8%BD%AC%E6%8D%A2%E5%92%8C%E9%9A%90%E5%BC%8F%E5%8F%82%E6%95%B0.html) __隐式转换__ __隐式转换函数__ __隐式转换规则__ __隐式参数__ __上下文界定__ __类型证明__
 + [文件和正则表达式](http://7xoeea.com1.z0.glb.clouddn.com/%E7%AC%AC9%E7%AB%A0%20%E6%96%87%E4%BB%B6%E5%92%8C%E6%AD%A3%E5%88%99%E8%A1%A8%E8%BE%BE%E5%BC%8F.html) __读取行__ __读取字符__ __访问目录__ __序列化__ __进程控制__ __正则表达式__ __正则表达式组__
++ [高级类型](http://7xoeea.com1.z0.glb.clouddn.com/%E7%AC%AC18%E7%AB%A0%20%E9%AB%98%E7%BA%A7%E7%B1%BB%E5%9E%8B.html) __单例类型__ __类型投影__ __路径__ __类型别名__ __结构类型__ __复合类型__ __中置类型__ __存在类型__ __Scala类型系统__ __自身类型__ __依赖注入__ __抽象类型__ 
 + [Actor](http://7xoeea.com1.z0.glb.clouddn.com/%E7%AC%AC20%E7%AB%A0%20Actor.html) __创建和启动Actor__ __发生消息__ __接收消息__ __消息通道__ __同步消息__ __Future__ __共享线程__ __Actor生命周期__ __链接多个Actor__ __设计Actor__
 
 ### Scala in Action
