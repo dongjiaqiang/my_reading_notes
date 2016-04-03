@@ -116,6 +116,10 @@ __Object类所有的非final方法(equals,hashCode,toString,clone和finalize)都
 + [集合类型](http://7xoeea.com1.z0.glb.clouddn.com/%E7%AC%AC8%E7%AB%A0%20%E9%9B%86%E5%90%88%E7%B1%BB%E5%9E%8B.html) __集合类型继承体系__ __可变集合__ __不可变集合__ __延迟计算__ __即时计算__ __串行计算__ __并行计算__
 + [类型系统](http://7xoeea.com1.z0.glb.clouddn.com/%E7%AC%AC6%E7%AB%A0%20%E7%B1%BB%E5%9E%8B%E7%B3%BB%E7%BB%9F.html) __类型__ __路径__ __类型注入__ __路径依赖类型__ __type关键字__ __结构化类型__ __类型约束(类型定界)__ __类型参数__ __高阶类型__ __型变__ __存在类型__
 
+#### Scala函数式编程模式
++ [替代面向对象模式](http://7xoeea.com1.z0.glb.clouddn.com/%E6%9B%BF%E6%8D%A2%E9%9D%A2%E5%90%91%E5%AF%B9%E8%B1%A1%E6%A8%A1%E5%BC%8F.html) __替换函数式接口__ __替换承载状态的函数式接口__ __替代生成器模式来获得不可变对象__ __替代迭代器模式__ __替代模板方法模式__ __替代策略模式__ __替换空对象__ __替换装饰器模式__ __替代访问者模式__ __替代依赖注入__
++ [函数式模式](http://7xoeea.com1.z0.glb.clouddn.com/%E5%87%BD%E6%95%B0%E5%BC%8F%E6%A8%A1%E5%BC%8F.html) __尾递归模式__ __相互递归模式__ __Filter-Map-Reduce模式__ __操作链模式__ __函数生成器模式__ __记忆模式__ __惰性序列模式__ __集中的可变性__ __自定义控制流__
+
 ### Shell脚本学习指南
 
 ### sed & awk
