@@ -216,6 +216,9 @@ __设计模式(design pattern)是对软件设计中普遍存在(反复出现)的
 
 ### Akka Scala Documentation
 
++ [派发器(Dispatchers)](http://7xoeea.com1.z0.glb.clouddn.com/3.4%20Dispatchers%28%E6%B4%BE%E5%8F%91%E5%99%A8%29.html)
++ [邮箱(Mail)]()
++ [路由(Routing)](http://7xoeea.com1.z0.glb.clouddn.com/3.6%20Rounting%28%E8%B7%AF%E7%94%B1%29.html)
 + [有限状态机(FSM)](http://7xoeea.com1.z0.glb.clouddn.com/3.7%20FSM%28%E6%9C%89%E9%99%90%E7%8A%B6%E6%80%81%E6%9C%BA%29.html)
 
 ### Flume:构建高可用、可扩展的海量日志采集系统
