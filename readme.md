@@ -55,7 +55,7 @@ __Object类所有的非final方法(equals,hashCode,toString,clone和finalize)都
 ### Scala与Clojure函数式编程模式 Java虚拟机高效编程
 
 + [替换面向对象模式](http://7xoeea.com1.z0.glb.clouddn.com/%E6%9B%BF%E6%8D%A2%E9%9D%A2%E5%90%91%E5%AF%B9%E8%B1%A1%E6%A8%A1%E5%BC%8F.html) __替换函数式接口__ __替换承载状态的函数式接口__ __替代生成器模式来获得不可变对象__ __替代迭代器模式__ __替代模板方法模式__ __替代策略模式__ __替换空对象__ __替换装饰器模式__ __替代访问者模式__ __替代依赖注入__
-+ [函数式模式](http://7xoeea.com1.z0.glb.clouddn.com/%E5%87%BD%E6%95%B0%E5%BC%8F%E6%A8%A1%E5%BC%8F.html) __尾递归模式__ __相互递归模式__ __Filter-Map-Reduce模式__ __操作链模式__ __函数生成器模式__ __记忆模式__ __惰性序列模式__ __集中的可变性__自定义控制流__
++ [函数式模式](http://7xoeea.com1.z0.glb.clouddn.com/%E5%87%BD%E6%95%B0%E5%BC%8F%E6%A8%A1%E5%BC%8F.html) __尾递归模式__ __相互递归模式__ __Filter-Map-Reduce模式__ __操作链模式__ __函数生成器模式__ __记忆模式__ __惰性序列模式__ __集中的可变性__ __自定义控制流__
 
 ### 深入理解Java虚拟机:JVM高级特性与最佳实践(第2版)
 
@@ -213,6 +213,10 @@ __设计模式(design pattern)是对软件设计中普遍存在(反复出现)的
 ### Gradle实战
 
 ### Akka in Action
+
+### Akka Scala Documentation
+
++ [有限状态机(FSM)](http://7xoeea.com1.z0.glb.clouddn.com/3.7%20FSM%28%E6%9C%89%E9%99%90%E7%8A%B6%E6%80%81%E6%9C%BA%29.html)
 
 ### Flume:构建高可用、可扩展的海量日志采集系统
 
