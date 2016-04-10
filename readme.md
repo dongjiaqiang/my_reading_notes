@@ -217,7 +217,7 @@ __设计模式(design pattern)是对软件设计中普遍存在(反复出现)的
 ### Akka Scala Documentation
 
 + [派发器(Dispatchers)](http://7xoeea.com1.z0.glb.clouddn.com/3.4%20Dispatchers%28%E6%B4%BE%E5%8F%91%E5%99%A8%29.html)
-+ [邮箱(Mail)]()
++ [邮箱(Mailboxes)](http://7xoeea.com1.z0.glb.clouddn.com/3.5%20%E9%82%AE%E7%AE%B1.html)
 + [路由(Routing)](http://7xoeea.com1.z0.glb.clouddn.com/3.6%20Rounting%28%E8%B7%AF%E7%94%B1%29.html)
 + [有限状态机(FSM)](http://7xoeea.com1.z0.glb.clouddn.com/3.7%20FSM%28%E6%9C%89%E9%99%90%E7%8A%B6%E6%80%81%E6%9C%BA%29.html)
 
@@ -265,6 +265,7 @@ __设计模式(design pattern)是对软件设计中普遍存在(反复出现)的
 + [Shell脚本学习指南](http://www.amazon.cn/Shell%E8%84%9A%E6%9C%AC%E5%AD%A6%E4%B9%A0%E6%8C%87%E5%8D%97-Arnold-Robbins/dp/B002A2LQR2/ref=sr_1_2?ie=UTF8&qid=1457183735&sr=8-2&keywords=Shell)
 + [sed & awk](http://www.amazon.cn/sed-awk-Dale-Dougherty/dp/1565922255/ref=sr_1_6?ie=UTF8&qid=1457183831&sr=8-6&keywords=awk)
 + [Flume:构建高可用、可扩展的海量日志采集系统](http://www.amazon.cn/Flume-%E6%9E%84%E5%BB%BA%E9%AB%98%E5%8F%AF%E7%94%A8-%E5%8F%AF%E6%89%A9%E5%B1%95%E7%9A%84%E6%B5%B7%E9%87%8F%E6%97%A5%E5%BF%97%E9%87%87%E9%9B%86%E7%B3%BB%E7%BB%9F-%E5%93%88%E9%87%8C%C2%B7%E5%8F%B2%E7%91%9E%E5%BE%B7%E5%93%88%E4%BC%A6/dp/B012DRHR6W/ref=sr_1_1?ie=UTF8&qid=1457868734&sr=8-1&keywords=flume)
++ [Fundamental Networking in Java](https://www.amazon.cn/Fundamental-Networking-in-Java-Pitt-Esmond/dp/1849965455/ref=sr_1_1?ie=UTF8&qid=1460214221&sr=8-1&keywords=Fundamental+Networking+in+Java)
 
 ### 开源项目官方网站
 + [Apache Commons](http://commons.apache.org/)
