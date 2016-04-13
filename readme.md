@@ -216,6 +216,14 @@ __设计模式(design pattern)是对软件设计中普遍存在(反复出现)的
 
 ### Akka Scala Documentation
 
+#### 2.概述
+
+
+
+#### 3.Actors
+
++ [参与者(Actor)](http://7xoeea.com1.z0.glb.clouddn.com/3.1%20Actors%28%E5%8F%82%E4%B8%8E%E8%80%85%29.html)
++ [容错(Fault Tolerance)]()
 + [派发器(Dispatchers)](http://7xoeea.com1.z0.glb.clouddn.com/3.4%20Dispatchers%28%E6%B4%BE%E5%8F%91%E5%99%A8%29.html)
 + [邮箱(Mailboxes)](http://7xoeea.com1.z0.glb.clouddn.com/3.5%20%E9%82%AE%E7%AE%B1.html)
 + [路由(Routing)](http://7xoeea.com1.z0.glb.clouddn.com/3.6%20Rounting%28%E8%B7%AF%E7%94%B1%29.html)
