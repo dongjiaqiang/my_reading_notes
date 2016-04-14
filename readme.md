@@ -237,6 +237,9 @@ __设计模式(design pattern)是对软件设计中普遍存在(反复出现)的
 
 #### 6.实用工具
 
++ [事件总线(Event Bus)](http://7xoeea.com1.z0.glb.clouddn.com/6.1%20%E4%BA%8B%E4%BB%B6%E6%80%BB%E7%BA%BF.html)
++ [调度器(Scheduler)](http://7xoeea.com1.z0.glb.clouddn.com/6.3%20%20%E8%B0%83%E5%BA%A6%E5%99%A8.html)
+
 ### Flume:构建高可用、可扩展的海量日志采集系统
 
 ## 三.算法
