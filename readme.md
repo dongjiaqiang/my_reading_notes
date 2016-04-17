@@ -53,11 +53,6 @@ __Object类所有的非final方法(equals,hashCode,toString,clone和finalize)都
 + [类库](http://7xoeea.com1.z0.glb.clouddn.com/%E7%AC%AC4%E7%AB%A0%20%E7%B1%BB%E5%BA%93.html)
 + [数据并行化](http://7xoeea.com1.z0.glb.clouddn.com/%E7%AC%AC6%E7%AB%A0%20%E6%95%B0%E6%8D%AE%E5%B9%B6%E8%A1%8C%E5%8C%96.html) __数据并行化是把工作拆分 同时在多核CPU上执行的方式__
 
-### Scala与Clojure函数式编程模式 Java虚拟机高效编程
-
-+ [替换面向对象模式](http://7xoeea.com1.z0.glb.clouddn.com/%E6%9B%BF%E6%8D%A2%E9%9D%A2%E5%90%91%E5%AF%B9%E8%B1%A1%E6%A8%A1%E5%BC%8F.html) __替换函数式接口__ __替换承载状态的函数式接口__ __替代生成器模式来获得不可变对象__ __替代迭代器模式__ __替代模板方法模式__ __替代策略模式__ __替换空对象__ __替换装饰器模式__ __替代访问者模式__ __替代依赖注入__
-+ [函数式模式](http://7xoeea.com1.z0.glb.clouddn.com/%E5%87%BD%E6%95%B0%E5%BC%8F%E6%A8%A1%E5%BC%8F.html) __尾递归模式__ __相互递归模式__ __Filter-Map-Reduce模式__ __操作链模式__ __函数生成器模式__ __记忆模式__ __惰性序列模式__ __集中的可变性__ __自定义控制流__
-
 ### 深入理解Java虚拟机:JVM高级特性与最佳实践(第2版)
 
 + [Java内存区域与内存溢出异常](https://github.com/dongjiaqiang/my_reading_notes/blob/master/doc/chapter2_2.md)
@@ -68,6 +63,8 @@ __Object类所有的非final方法(equals,hashCode,toString,clone和finalize)都
 + [常用虚拟机参数](https://github.com/dongjiaqiang/my_reading_notes/blob/master/doc/chapter3.md)
 + [垃圾回收概念与算法](https://github.com/dongjiaqiang/my_reading_notes/blob/master/doc/chapter4.md)
 
+### Java性能权威指南
+
 ### Scala程序设计:Java虚拟机多核编程实战 
 + [Scala的类](http://7xoeea.com1.z0.glb.clouddn.com/%E7%AC%AC4%E7%AB%A0%20Scala%E7%9A%84%E7%B1%BB.html)
 + [自适应类型](http://7xoeea.com1.z0.glb.clouddn.com/%E7%AC%AC5%E7%AB%A0%20%E8%87%AA%E9%80%82%E5%BA%94%E7%B1%BB%E5%9E%8B.html)
@@ -76,6 +73,15 @@ __Object类所有的非final方法(equals,hashCode,toString,clone和finalize)都
 + [使用容器](http://7xoeea.com1.z0.glb.clouddn.com/%E7%AC%AC8%E7%AB%A0%20%E4%BD%BF%E7%94%A8%E5%AE%B9%E5%99%A8.html)
 + [模式匹配和正则表达式](http://7xoeea.com1.z0.glb.clouddn.com/%E7%AC%AC9%E7%AB%A0%20%E6%A8%A1%E5%BC%8F%E5%8C%B9%E9%85%8D%E5%92%8C%E6%AD%A3%E5%88%99%E8%A1%A8%E8%BE%BE%E5%BC%8F.html)
 + [异常处理](http://7xoeea.com1.z0.glb.clouddn.com/%E7%AC%AC13%E7%AB%A0%20%E5%BC%82%E5%B8%B8%E5%A4%84%E7%90%86.html)
+
+### Fundamental Networking in Java
+
+### Scala与Clojure函数式编程模式 Java虚拟机高效编程
+
++ [替换面向对象模式](http://7xoeea.com1.z0.glb.clouddn.com/%E6%9B%BF%E6%8D%A2%E9%9D%A2%E5%90%91%E5%AF%B9%E8%B1%A1%E6%A8%A1%E5%BC%8F.html) __替换函数式接口__ __替换承载状态的函数式接口__ __替代生成器模式来获得不可变对象__ __替代迭代器模式__ __替代模板方法模式__ __替代策略模式__ __替换空对象__ __替换装饰器模式__ __替代访问者模式__ __替代依赖注入__
++ [函数式模式](http://7xoeea.com1.z0.glb.clouddn.com/%E5%87%BD%E6%95%B0%E5%BC%8F%E6%A8%A1%E5%BC%8F.html) __尾递归模式__ __相互递归模式__ __Filter-Map-Reduce模式__ __操作链模式__ __函数生成器模式__ __记忆模式__ __惰性序列模式__ __集中的可变性__ __自定义控制流__
+
+### Scala函数式编程
 
 ### Scala并发编程
 
@@ -132,7 +138,7 @@ __重构(Refactoring)指对软件代码做任何更动以增加可读性或者�
 ### 重构与模式
 
 + [创建](http://7xoeea.com1.z0.glb.clouddn.com/%E5%88%9B%E5%BB%BA.html) __用Creation Method替代构造器__ __将创建知识搬移到Factory__ __用Factory封装类__ __用Factory Method引入多态创建__ __用Builder封装Composite__ __内联Singleton__
-+ [简化]() __组合方法__ __用策略替代条件逻辑__
++ [简化]() __组合方法__ __用策略替代条件逻辑__ __将装饰功能搬移至Decorator__ __用State替换状态改变条件语句__ __用Composite替换隐含树__ __用Command替换条件调度程序__
 
 ### 敏捷软件开发(原则模式与实践)
 #### 1.面向对象设计原则
@@ -237,7 +243,9 @@ __设计模式(design pattern)是对软件设计中普遍存在(反复出现)的
 #### 6.实用工具
 
 + [事件总线(Event Bus)](http://7xoeea.com1.z0.glb.clouddn.com/6.1%20%E4%BA%8B%E4%BB%B6%E6%80%BB%E7%BA%BF.html)
++ [日志(Logging)](http://7xoeea.com1.z0.glb.clouddn.com/6.2%20%E6%97%A5%E5%BF%97.html)
 + [调度器(Scheduler)](http://7xoeea.com1.z0.glb.clouddn.com/6.3%20%20%E8%B0%83%E5%BA%A6%E5%99%A8.html)
++ [持续时间(Duration)]()
 
 ### Flume:构建高可用、可扩展的海量日志采集系统
 
@@ -253,6 +261,9 @@ __设计模式(design pattern)是对软件设计中普遍存在(反复出现)的
 
 ### 书单
 
++ [Fundamental Networking in Java](https://www.amazon.cn/Fundamental-Networking-in-Java-Pitt-Esmond/dp/1849965455/ref=sr_1_1?ie=UTF8&qid=1460902202&sr=8-1&keywords=Fundamental+Networking+in+Java)
++ [Scala函数式编程](https://www.amazon.cn/Scala%E5%87%BD%E6%95%B0%E5%BC%8F%E7%BC%96%E7%A8%8B-Paul-Chiusano-R%C3%BAnar-Bjarnason/dp/B01DWKIT9I/ref=sr_1_2?ie=UTF8&qid=1460901637&sr=8-2&keywords=Scala)
++ [Java性能权威指南](https://www.amazon.cn/Java%E6%80%A7%E8%83%BD%E6%9D%83%E5%A8%81%E6%8C%87%E5%8D%97-%E5%A5%A5%E5%85%8B%E6%96%AF/dp/B01DLB7Z66/ref=sr_1_1?ie=UTF8&qid=1460901455&sr=8-1&keywords=java%E6%80%A7%E8%83%BD)
 + [Head First设计模式(中文版)](http://www.amazon.cn/Head-First%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F-%E5%BC%97%E9%87%8C%E6%9B%BC/dp/B0011FBU34/ref=sr_1_1?ie=UTF8&qid=1454814197&sr=8-1&keywords=head+first+%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F)
 + [Java并发编程实战](http://www.amazon.cn/Java%E5%B9%B6%E5%8F%91%E7%BC%96%E7%A8%8B%E5%AE%9E%E6%88%98-%E7%9B%96%E8%8C%A8/dp/B0077K9XHW/ref=pd_sim_14_1?ie=UTF8&dpID=51XldrwRktL&dpSrc=sims&preST=_AC_UL160_SR124%2C160_&refRID=1XYR1SM2GH25CNPM5Z3K)
 + [Effective Java(中文第二版)](http://www.amazon.cn/Sun-%E5%85%AC%E5%8F%B8%E6%A0%B8%E5%BF%83%E6%8A%80%E6%9C%AF%E4%B8%9B%E4%B9%A6-Effective-Java%E4%B8%AD%E6%96%87%E7%89%88-Joshua-Bloch/dp/B001PTGR52/ref=pd_bxgy_14_img_3?ie=UTF8&refRID=1K4TFG3XFVJH3DCFT2FT)
