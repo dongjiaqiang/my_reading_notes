@@ -43,6 +43,7 @@ __Object类所有的非final方法(equals,hashCode,toString,clone和finalize)都
 + [通过异常处理错误](http://7xoeea.com1.z0.glb.clouddn.com/%E7%AC%AC12%E7%AB%A0%20%E9%80%9A%E8%BF%87%E5%BC%82%E5%B8%B8%E5%A4%84%E7%90%86%E9%94%99%E8%AF%AF.html) __发现错误的理想时机是在编译期,但是在编译期无法找出所有的错误,剩下的问题必须在运行期解决__
 + [类型信息](http://7xoeea.com1.z0.glb.clouddn.com/%E7%AC%AC14%E7%AB%A0%20%E7%B1%BB%E5%9E%8B%E4%BF%A1%E6%81%AF.html) __运行时类型信息使得可以在程序运行时发现和使用类型信息__
 + [泛型]() __泛型实现了参数化类型的概念,使代码可以应用于多种类型. 泛型机制解耦了类或方法与所使用的类型间的约束__
++ [容器深入研究](http://7xoeea.com1.z0.glb.clouddn.com/%E7%AC%AC17%E7%AB%A0%20%E5%AE%B9%E5%99%A8%E6%B7%B1%E5%85%A5%E7%A0%94%E7%A9%B6.html) __深入探索Java集合类库__
 + [枚举类型](http://7xoeea.com1.z0.glb.clouddn.com/%E7%AC%AC19%E7%AB%A0%20%E6%9E%9A%E4%B8%BE%E7%B1%BB%E5%9E%8B.html) __关键字enum可以将一组具名的值的有限集合创建为一种新的类型,而这些具名的值可以作为常规的程序组件使用__
 + [注解](http://7xoeea.com1.z0.glb.clouddn.com/%E7%AC%AC20%E7%AB%A0%20%E6%B3%A8%E8%A7%A3%28Annotation%29.html) __注解为我们在代码中添加信息提供了一种形式化的方法,使我们可以在稍后某时刻非常方便地使用这些数据__
 
@@ -67,7 +68,7 @@ __Object类所有的非final方法(equals,hashCode,toString,clone和finalize)都
 
 ### Fundamental Networking in Java
 
-#### [Fundamental In TCP](http://7xoeea.com1.z0.glb.clouddn.com/Fundamental%20In%20TCP.html)
++ [Fundamental In TCP](http://7xoeea.com1.z0.glb.clouddn.com/Fundamental%20In%20TCP.html)
 
 ### Scala程序设计:Java虚拟机多核编程实战 
 + [Scala的类](http://7xoeea.com1.z0.glb.clouddn.com/%E7%AC%AC4%E7%AB%A0%20Scala%E7%9A%84%E7%B1%BB.html)
