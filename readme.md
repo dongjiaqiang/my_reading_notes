@@ -153,6 +153,8 @@ __重构(Refactoring)指对软件代码做任何更动以增加可读性或者�
 
 + [创建](http://7xoeea.com1.z0.glb.clouddn.com/%E5%88%9B%E5%BB%BA.html) __用Creation Method替代构造器__ __将创建知识搬移到Factory__ __用Factory封装类__ __用Factory Method引入多态创建__ __用Builder封装Composite__ __内联Singleton__
 + [简化]() __组合方法__ __用策略替代条件逻辑__ __将装饰功能搬移至Decorator__ __用State替换状态改变条件语句__ __用Composite替换隐含树__ __用Command替换条件调度程序__
++ [保护](http://7xoeea.com1.z0.glb.clouddn.com/%E4%BF%9D%E6%8A%A4.html) __用类替换类型代码__ __用Singleton限制实例化__  __引入Null Object__
++ [实用重构](http://7xoeea.com1.z0.glb.clouddn.com/%E5%AE%9E%E7%94%A8%E9%87%8D%E6%9E%84.html) __链构造函数__ __统一接口__ __提取参数__
 
 ### 敏捷软件开发(原则模式与实践)
 #### 1.面向对象设计原则
