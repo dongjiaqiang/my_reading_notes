@@ -70,6 +70,8 @@ __Object类所有的非final方法(equals,hashCode,toString,clone和finalize)都
 
 + [Fundamental In TCP](http://7xoeea.com1.z0.glb.clouddn.com/Fundamental%20In%20TCP.html)
 
+### Scala程序设计(第2版)
+
 ### Scala程序设计:Java虚拟机多核编程实战 
 + [Scala的类](http://7xoeea.com1.z0.glb.clouddn.com/%E7%AC%AC4%E7%AB%A0%20Scala%E7%9A%84%E7%B1%BB.html)
 + [自适应类型](http://7xoeea.com1.z0.glb.clouddn.com/%E7%AC%AC5%E7%AB%A0%20%E8%87%AA%E9%80%82%E5%BA%94%E7%B1%BB%E5%9E%8B.html)
@@ -87,6 +89,8 @@ __Object类所有的非final方法(equals,hashCode,toString,clone和finalize)都
 ### Scala函数式编程
 
 + [何为函数式编程](http://7xoeea.com1.z0.glb.clouddn.com/%E7%AC%AC1%E7%AB%A0%20%E4%BD%95%E4%B8%BA%E5%87%BD%E6%95%B0%E5%BC%8F%E7%BC%96%E7%A8%8B.html) __函数式编程__ __纯函数__ __副作用__ __引用透明__ __纯粹度__ __替代模型__
++ [Scala中的函数式编程模式](http://7xoeea.com1.z0.glb.clouddn.com/%E7%AC%AC2%E7%AB%A0%20Scala%E4%B8%AD%E7%9A%84%E5%87%BD%E6%95%B0%E5%BC%8F%E7%BC%96%E7%A8%8B%E6%A8%A1%E5%BC%8F.html) __尾递归函数__ __高阶函数__ __多态函数__ __组合函数__
++ [函数式数据结构]()
 
 ### Scala并发编程
 
@@ -319,6 +323,7 @@ __设计模式(design pattern)是对软件设计中普遍存在(反复出现)的
 + [Linux Shell脚本攻略](https://www.amazon.cn/Linux-Shell%E8%84%9A%E6%9C%AC%E6%94%BB%E7%95%A5-%E5%8D%B0-Sarath-Lakshman/dp/B00HD4RDS8/ref=sr_1_7?ie=UTF8&qid=1461073171&sr=8-7&keywords=shell)
 + [Linux命令行与shell脚本编程大全(第2版)](https://www.amazon.cn/Linux%E5%91%BD%E4%BB%A4%E8%A1%8C%E4%B8%8Eshell%E8%84%9A%E6%9C%AC%E7%BC%96%E7%A8%8B%E5%A4%A7%E5%85%A8-Richard-Blum/dp/B0096EXMS8/ref=sr_1_1?ie=UTF8&qid=1461073171&sr=8-1&keywords=shell)
 + [Clojure编程乐趣](https://www.amazon.cn/Clojure%E7%BC%96%E7%A8%8B%E4%B9%90%E8%B6%A3-%E7%A6%8F%E6%A0%BC%E6%96%AF/dp/B00G6T9BB8/ref=sr_1_5?ie=UTF8&qid=1461511889&sr=8-5&keywords=clojure)
++ [Scala程序设计(第2版)](https://www.amazon.cn/Scala%E7%A8%8B%E5%BA%8F%E8%AE%BE%E8%AE%A1%E7%AC%AC2%E7%89%88-%E4%B8%87%E6%99%AE%E5%8B%92/dp/B01E4X8X52/ref=sr_1_1?ie=UTF8&qid=1461687642&sr=8-1&keywords=Scala%E7%A8%8B%E5%BA%8F%E8%AE%BE%E8%AE%A1%EF%BC%88%E7%AC%AC2%E7%89%88%EF%BC%89)
 
 ### 开源项目官方网站
 + [Apache Commons](http://commons.apache.org/)
