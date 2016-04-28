@@ -47,6 +47,8 @@ __Object类所有的非final方法(equals,hashCode,toString,clone和finalize)都
 + [枚举类型](http://7xoeea.com1.z0.glb.clouddn.com/%E7%AC%AC19%E7%AB%A0%20%E6%9E%9A%E4%B8%BE%E7%B1%BB%E5%9E%8B.html) __关键字enum可以将一组具名的值的有限集合创建为一种新的类型,而这些具名的值可以作为常规的程序组件使用__
 + [注解](http://7xoeea.com1.z0.glb.clouddn.com/%E7%AC%AC20%E7%AB%A0%20%E6%B3%A8%E8%A7%A3%28Annotation%29.html) __注解为我们在代码中添加信息提供了一种形式化的方法,使我们可以在稍后某时刻非常方便地使用这些数据__
 
+### Java 8实战
+
 ### Java 8 函数式编程
 
 + [Lambda表达式](http://7xoeea.com1.z0.glb.clouddn.com/%E7%AC%AC2%E7%AB%A0%20Lambda%E8%A1%A8%E8%BE%BE%E5%BC%8F.html) __Lambda表达式是一个匿名方法 将行为像数据一样进行传递__
@@ -90,7 +92,7 @@ __Object类所有的非final方法(equals,hashCode,toString,clone和finalize)都
 
 + [何为函数式编程](http://7xoeea.com1.z0.glb.clouddn.com/%E7%AC%AC1%E7%AB%A0%20%E4%BD%95%E4%B8%BA%E5%87%BD%E6%95%B0%E5%BC%8F%E7%BC%96%E7%A8%8B.html) __函数式编程__ __纯函数__ __副作用__ __引用透明__ __纯粹度__ __替代模型__
 + [Scala中的函数式编程模式](http://7xoeea.com1.z0.glb.clouddn.com/%E7%AC%AC2%E7%AB%A0%20Scala%E4%B8%AD%E7%9A%84%E5%87%BD%E6%95%B0%E5%BC%8F%E7%BC%96%E7%A8%8B%E6%A8%A1%E5%BC%8F%28%E4%BF%AE%E6%94%B9%29.html) __尾递归函数__ __高阶函数__ __多态函数__ __组合函数__
-+ [函数式数据结构]()
++ [函数式数据结构](http://7xoeea.com1.z0.glb.clouddn.com/%E7%AC%AC3%E7%AB%A0%20%E5%87%BD%E6%95%B0%E5%BC%8F%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84.html) __函数式数据结构__ __模式匹配__ __数据共享__ __高阶函数的类型推导__ __树__
 
 ### Scala并发编程
 
@@ -324,6 +326,7 @@ __设计模式(design pattern)是对软件设计中普遍存在(反复出现)的
 + [Linux命令行与shell脚本编程大全(第2版)](https://www.amazon.cn/Linux%E5%91%BD%E4%BB%A4%E8%A1%8C%E4%B8%8Eshell%E8%84%9A%E6%9C%AC%E7%BC%96%E7%A8%8B%E5%A4%A7%E5%85%A8-Richard-Blum/dp/B0096EXMS8/ref=sr_1_1?ie=UTF8&qid=1461073171&sr=8-1&keywords=shell)
 + [Clojure编程乐趣](https://www.amazon.cn/Clojure%E7%BC%96%E7%A8%8B%E4%B9%90%E8%B6%A3-%E7%A6%8F%E6%A0%BC%E6%96%AF/dp/B00G6T9BB8/ref=sr_1_5?ie=UTF8&qid=1461511889&sr=8-5&keywords=clojure)
 + [Scala程序设计(第2版)](https://www.amazon.cn/Scala%E7%A8%8B%E5%BA%8F%E8%AE%BE%E8%AE%A1%E7%AC%AC2%E7%89%88-%E4%B8%87%E6%99%AE%E5%8B%92/dp/B01E4X8X52/ref=sr_1_1?ie=UTF8&qid=1461687642&sr=8-1&keywords=Scala%E7%A8%8B%E5%BA%8F%E8%AE%BE%E8%AE%A1%EF%BC%88%E7%AC%AC2%E7%89%88%EF%BC%89)
++ [Java 8实战](https://www.amazon.cn/Java-8%E5%AE%9E%E6%88%98-%E8%8B%B1-%E5%8E%84%E9%A9%AC-%E6%84%8F-%E5%BC%97%E6%96%AF%E7%A7%91-%E8%8B%B1-%E7%B1%B3%E5%85%8B%E7%BD%97%E5%A4%AB%E7%89%B9/dp/B01ER75QC8/ref=sr_1_1?ie=UTF8&qid=1461740545&sr=8-1&keywords=Java+8%E5%AE%9E%E6%88%98)
 
 ### 开源项目官方网站
 + [Apache Commons](http://commons.apache.org/)
