@@ -104,6 +104,7 @@ __Object类所有的非final方法(equals,hashCode,toString,clone和finalize)都
 + [使用Reactive Extensions编写并发程序](http://7xoeea.com1.z0.glb.clouddn.com/6%20%E4%BD%BF%E7%94%A8Reactive%20Extensions%E7%BC%96%E5%86%99%E5%B9%B6%E5%8F%91%E7%A8%8B%E5%BA%8F.html) __Observable对象__ __Observable对象和异常__ __Observable协定__ __自定义Observable对象__ __Subscrition特质__ __通过Future对象创建Observable对象__ __组合Observable对象__ __嵌套的Observable对象__ __retry组合子__  __Rx调度器__ __Subject特质__ __自顶向下的响应式编程__ [练习](http://7xoeea.com1.z0.glb.clouddn.com/6%20%E4%BD%BF%E7%94%A8Reactive%20Extensions%E7%BC%96%E5%86%99%E5%B9%B6%E5%8F%91%E7%A8%8B%E5%BA%8F%20%E7%BB%83%E4%B9%A0.html)
 + [基于软件的事务内存](http://7xoeea.com1.z0.glb.clouddn.com/7%20%E5%9F%BA%E4%BA%8E%E8%BD%AF%E4%BB%B6%E7%9A%84%E4%BA%8B%E5%8A%A1%E5%86%85%E5%AD%98.html) __原子变量的缺点__ __软件事务内存__ __事务引用__ __atomic语句__ __组合事务__ __事务与副作用__ __单操作事务__ __嵌套事务__ __事务和异常__ __重新尝试执行事务__ __通过超时设置重新尝试执行事务__ __事务集合__ __事务局部变量__ __事务数组__ __事务映射__ [练习](http://7xoeea.com1.z0.glb.clouddn.com/7%20%E8%BD%AF%E4%BB%B6%E7%9A%84%E4%BA%8B%E5%8A%A1%E5%86%85%E5%AD%98%20%E7%BB%83%E4%B9%A0.html)
 + [Actor](http://7xoeea.com1.z0.glb.clouddn.com/8%20Actor.html) __Actor模型__ __Akka框架__ __Actor系统__ __Actor类__ __Actor实例__ __消息__ __邮箱__ __Actor引用__ __分配器__ __生命周期__ __Actor监督__ __远程Actor对象__ [练习](http://7xoeea.com1.z0.glb.clouddn.com/8%20Actor%20%E7%BB%83%E4%B9%A0%28%E4%BF%AE%E6%AD%A32%29.html)
++ [实用并发技术](http://7xoeea.com1.z0.glb.clouddn.com/9%20%E5%AE%9E%E7%94%A8%E5%B9%B6%E5%8F%91%E6%8A%80%E6%9C%AF.html) __并发框架特点和用法__
 
 ### 快学Scala
 
@@ -132,10 +133,12 @@ __Object类所有的非final方法(equals,hashCode,toString,clone和finalize)都
 + [设计哲学](http://7xoeea.com1.z0.glb.clouddn.com/%E7%AC%AC1%E7%AB%A0%20%20%E8%AE%BE%E8%AE%A1%E5%93%B2%E5%AD%A6.html) __设计哲学__ __函数式编程__ __面向对象编程__ __类型推断__ __隐式转换__ __Scala调用Java__ __Java调用Scala__
 + [核心规则](http://7xoeea.com1.z0.glb.clouddn.com/%E7%AC%AC2%E7%AB%A0%20%E6%A0%B8%E5%BF%83%E8%A7%84%E5%88%99.html) __REPL__ __面向表达式编程__ __不变性__ __Option类__
 + [编码规范](http://7xoeea.com1.z0.glb.clouddn.com/%E7%AC%AC3%E7%AB%A0%20%E7%BC%96%E7%A0%81%E8%A7%84%E8%8C%83.html) __编码规范__ __行尾推断__ __变量__ __注解__
-+ [面向对象]() 
++ [面向对象](http://7xoeea.com1.z0.glb.clouddn.com/%E7%AC%AC4%E7%AB%A0%20%E9%9D%A2%E5%90%91%E5%AF%B9%E8%B1%A1%E7%BC%96%E7%A8%8B.html) __ 延迟构造__ __多重继承__ __类的线性化__ __public接口应当提供返回值__
 + [隐式转换](http://7xoeea.com1.z0.glb.clouddn.com/%E7%AC%AC5%E7%AB%A0%20%E9%9A%90%E5%BC%8F%E8%BD%AC%E6%8D%A2.html) __隐式解析__ __隐式参数__ __隐式函数__ __作用域绑定__ __限制隐式作用域__ __结合默认参数__
 + [集合类型](http://7xoeea.com1.z0.glb.clouddn.com/%E7%AC%AC8%E7%AB%A0%20%E9%9B%86%E5%90%88%E7%B1%BB%E5%9E%8B.html) __集合类型继承体系__ __可变集合__ __不可变集合__ __延迟计算__ __即时计算__ __串行计算__ __并行计算__
 + [类型系统](http://7xoeea.com1.z0.glb.clouddn.com/%E7%AC%AC6%E7%AB%A0%20%E7%B1%BB%E5%9E%8B%E7%B3%BB%E7%BB%9F.html) __类型__ __路径__ __类型注入__ __路径依赖类型__ __type关键字__ __结构化类型__ __类型约束(类型定界)__ __类型参数__ __高阶类型__ __型变__ __存在类型__
+
+
 
 ### Shell脚本学习指南
 
