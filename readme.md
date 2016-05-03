@@ -49,6 +49,8 @@ __Object类所有的非final方法(equals,hashCode,toString,clone和finalize)都
 
 ### Java 8实战
 
++ [通过行为参数化传递代码](http://7xoeea.com1.z0.glb.clouddn.com/%E7%AC%AC%202%E7%AB%A0%20%E9%80%9A%E8%BF%87%E8%A1%8C%E4%B8%BA%E5%8F%82%E6%95%B0%E5%8C%96%E4%BC%A0%E9%80%92%E4%BB%A3%E7%A0%81.html) __行为参数化__ __匿名类__ __Lambda表达式__
+
 ### Java 8 函数式编程
 
 + [Lambda表达式](http://7xoeea.com1.z0.glb.clouddn.com/%E7%AC%AC2%E7%AB%A0%20Lambda%E8%A1%A8%E8%BE%BE%E5%BC%8F.html) __Lambda表达式是一个匿名方法 将行为像数据一样进行传递__
