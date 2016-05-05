@@ -99,7 +99,7 @@ __Object类所有的非final方法(equals,hashCode,toString,clone和finalize)都
 + [Scala中的函数式编程模式](http://7xoeea.com1.z0.glb.clouddn.com/%E7%AC%AC2%E7%AB%A0%20Scala%E4%B8%AD%E7%9A%84%E5%87%BD%E6%95%B0%E5%BC%8F%E7%BC%96%E7%A8%8B%E6%A8%A1%E5%BC%8F%28%E4%BF%AE%E6%94%B9%29.html) __尾递归函数__ __高阶函数__ __多态函数__ __组合函数__
 + [函数式数据结构](http://7xoeea.com1.z0.glb.clouddn.com/%E7%AC%AC3%E7%AB%A0%20%E5%87%BD%E6%95%B0%E5%BC%8F%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84.html) __函数式数据结构__ __模式匹配__ __数据共享__ __高阶函数的类型推导__ __树__
 + [不用异常来处理错误](http://7xoeea.com1.z0.glb.clouddn.com/%E7%AC%AC4%E7%AB%A0%20%E4%B8%8D%E7%94%A8%E5%BC%82%E5%B8%B8%E6%9D%A5%E5%A4%84%E7%90%86%E9%94%99%E8%AF%AF.html) __异常的优点与劣势__ __异常的其他选择__ __Option数据类型__ __Option的使用模式__ __Option组合__ __Either数据类型__
-+ [纯函数式状态](http://7xoeea.com1.z0.glb.clouddn.com/%E7%AC%AC6%E7%AB%A0%20%E7%BA%AF%E5%87%BD%E6%95%B0%E5%BC%8F%E7%8A%B6%E6%80%81.html)
++ [纯函数式状态](http://7xoeea.com1.z0.glb.clouddn.com/%E7%AC%AC6%E7%AB%A0%20%E7%BA%AF%E5%87%BD%E6%95%B0%E5%BC%8F%E7%8A%B6%E6%80%81.html) __纯函数式状态__ __组合状态行为__ __嵌套状态行为__
 
 ### Scala并发编程
 
