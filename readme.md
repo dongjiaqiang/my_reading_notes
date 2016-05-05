@@ -52,6 +52,7 @@ __Object类所有的非final方法(equals,hashCode,toString,clone和finalize)都
 + [通过行为参数化传递代码](http://7xoeea.com1.z0.glb.clouddn.com/%E7%AC%AC%202%E7%AB%A0%20%E9%80%9A%E8%BF%87%E8%A1%8C%E4%B8%BA%E5%8F%82%E6%95%B0%E5%8C%96%E4%BC%A0%E9%80%92%E4%BB%A3%E7%A0%81.html) __行为参数化__ __匿名类__ __Lambda表达式__
 + [Lambda表达式](http://7xoeea.com1.z0.glb.clouddn.com/%E7%AC%AC3%E7%AB%A0%20Lambda%E8%A1%A8%E8%BE%BE%E5%BC%8F.html) __函数式接口__ __默认方法__ __函数描述符__ __环绕执行模式__ __类型检查__ __类型推断__ __闭包__ __方法引用__ __复合Lambda表达式__ __避免装箱__ __目标类型__
 + [引入流](http://7xoeea.com1.z0.glb.clouddn.com/%E7%AC%AC4%E7%AB%A0%20%E5%BC%95%E5%85%A5%E6%B5%81.html) __流__ __集合__ __内部迭代__ __外部迭代__ __中间操作__ __终端操作__
++ [使用流](http://7xoeea.com1.z0.glb.clouddn.com/%E7%AC%AC5%E7%AB%A0%20%E4%BD%BF%E7%94%A8%E6%B5%81.html) __筛选__ __截短__ __匹配__ __跳过__ __映射__ __流扁平化__ __归约__ __查找__ __数值流__ __原始类型流特化__ __构建流__ __无限流__ __有状态操作__ __无状态操作__
 
 ### Java 8 函数式编程
 
