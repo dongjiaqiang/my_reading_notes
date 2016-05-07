@@ -49,10 +49,16 @@ __Object类所有的非final方法(equals,hashCode,toString,clone和finalize)都
 
 ### Java 8实战
 
+#### 1.基础知识
+
 + [通过行为参数化传递代码](http://7xoeea.com1.z0.glb.clouddn.com/%E7%AC%AC%202%E7%AB%A0%20%E9%80%9A%E8%BF%87%E8%A1%8C%E4%B8%BA%E5%8F%82%E6%95%B0%E5%8C%96%E4%BC%A0%E9%80%92%E4%BB%A3%E7%A0%81.html) __行为参数化__ __匿名类__ __Lambda表达式__
 + [Lambda表达式](http://7xoeea.com1.z0.glb.clouddn.com/%E7%AC%AC3%E7%AB%A0%20Lambda%E8%A1%A8%E8%BE%BE%E5%BC%8F.html) __函数式接口__ __默认方法__ __函数描述符__ __环绕执行模式__ __类型检查__ __类型推断__ __闭包__ __方法引用__ __复合Lambda表达式__ __避免装箱__ __目标类型__
+
+#### 2.函数式数据处理
+
 + [引入流](http://7xoeea.com1.z0.glb.clouddn.com/%E7%AC%AC4%E7%AB%A0%20%E5%BC%95%E5%85%A5%E6%B5%81.html) __流__ __集合__ __内部迭代__ __外部迭代__ __中间操作__ __终端操作__
 + [使用流](http://7xoeea.com1.z0.glb.clouddn.com/%E7%AC%AC5%E7%AB%A0%20%E4%BD%BF%E7%94%A8%E6%B5%81.html) __筛选__ __截短__ __匹配__ __跳过__ __映射__ __流扁平化__ __归约__ __查找__ __数值流__ __原始类型流特化__ __构建流__ __无限流__ __有状态操作__ __无状态操作__
+
 
 ### Java 8 函数式编程
 
@@ -78,6 +84,8 @@ __Object类所有的非final方法(equals,hashCode,toString,clone和finalize)都
 + [Fundamental In TCP](http://7xoeea.com1.z0.glb.clouddn.com/Fundamental%20In%20TCP.html)
 
 ### Scala程序设计(第2版)
+
++ [模式匹配](http://7xoeea.com1.z0.glb.clouddn.com/%E7%AC%AC4%E7%AB%A0%20%E6%A8%A1%E5%BC%8F%E5%8C%B9%E9%85%8D.html) __简单匹配__ __匹配值 变量和类型__ __匹配序列__ __匹配元组__ __卫述句__ __匹配case类__ __unapply方法__ __unapplySeq方法__ __匹配可变参数列表__ __匹配正则表达式__ __封闭继承层级和全覆盖匹配__ __模式匹配其他用法__
 
 ### Scala程序设计:Java虚拟机多核编程实战 
 + [Scala的类](http://7xoeea.com1.z0.glb.clouddn.com/%E7%AC%AC4%E7%AB%A0%20Scala%E7%9A%84%E7%B1%BB.html)
@@ -136,6 +144,7 @@ __Object类所有的非final方法(equals,hashCode,toString,clone和finalize)都
 ### Scala in Action
 
 ### 深入理解Scala
+
 + [设计哲学](http://7xoeea.com1.z0.glb.clouddn.com/%E7%AC%AC1%E7%AB%A0%20%20%E8%AE%BE%E8%AE%A1%E5%93%B2%E5%AD%A6.html) __设计哲学__ __函数式编程__ __面向对象编程__ __类型推断__ __隐式转换__ __Scala调用Java__ __Java调用Scala__
 + [核心规则](http://7xoeea.com1.z0.glb.clouddn.com/%E7%AC%AC2%E7%AB%A0%20%E6%A0%B8%E5%BF%83%E8%A7%84%E5%88%99.html) __REPL__ __面向表达式编程__ __不变性__ __Option类__
 + [编码规范](http://7xoeea.com1.z0.glb.clouddn.com/%E7%AC%AC3%E7%AB%A0%20%E7%BC%96%E7%A0%81%E8%A7%84%E8%8C%83.html) __编码规范__ __行尾推断__ __变量__ __注解__
