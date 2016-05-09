@@ -86,6 +86,7 @@ __Object类所有的非final方法(equals,hashCode,toString,clone和finalize)都
 ### Scala程序设计(第2版)
 
 + [更简洁 更强大](http://7xoeea.com1.z0.glb.clouddn.com/%E7%AC%AC2%E7%AB%A0%20%E6%9B%B4%E7%AE%80%E6%B4%81%20%E6%9B%B4%E5%BC%BA%E5%A4%A7%28%E4%BF%AE%E6%AD%A3%29.html) __分号__ __变量声明__ __Range__ __偏函数__ __方法声明__ __Future__ __嵌套方法__ __尾递归__ __类型推断__ __显式类型标注__ __保留字__ __字面量__ __Option__ __封闭类的继承__ __包__ __成员导入__ __包对象__ __参数化类型__ __类型成员__
++ [要点详解](http://7xoeea.com1.z0.glb.clouddn.com/%E7%AC%AC3%E7%AB%A0%20%E8%A6%81%E7%82%B9%E8%AF%A6%E8%A7%A3.html) __标识符__ __无参方法__ __优先级规则__ __左结合__ __右结合__ __DSL__ __if语句__ __for推导式__ __while循环__ __条件操作符__ __try catch__ __名字调用__ __值调用__ __惰性赋值__ __枚举__ __可插入字符串__ __Trait__
 + [模式匹配](http://7xoeea.com1.z0.glb.clouddn.com/%E7%AC%AC4%E7%AB%A0%20%E6%A8%A1%E5%BC%8F%E5%8C%B9%E9%85%8D.html) __简单匹配__ __匹配值 变量和类型__ __匹配序列__ __匹配元组__ __卫述句__ __匹配case类__ __unapply方法__ __unapplySeq方法__ __匹配可变参数列表__ __匹配正则表达式__ __封闭继承层级和全覆盖匹配__ __模式匹配其他用法__
 
 ### Scala程序设计:Java虚拟机多核编程实战 
