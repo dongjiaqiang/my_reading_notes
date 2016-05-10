@@ -58,7 +58,7 @@ __Object类所有的非final方法(equals,hashCode,toString,clone和finalize)都
 
 + [引入流](http://7xoeea.com1.z0.glb.clouddn.com/%E7%AC%AC4%E7%AB%A0%20%E5%BC%95%E5%85%A5%E6%B5%81.html) __流__ __集合__ __内部迭代__ __外部迭代__ __中间操作__ __终端操作__
 + [使用流](http://7xoeea.com1.z0.glb.clouddn.com/%E7%AC%AC5%E7%AB%A0%20%E4%BD%BF%E7%94%A8%E6%B5%81.html) __筛选__ __截短__ __匹配__ __跳过__ __映射__ __流扁平化__ __归约__ __查找__ __数值流__ __原始类型流特化__ __构建流__ __无限流__ __有状态操作__ __无状态操作__
-+ [用流收集数据](http://7xoeea.com1.z0.glb.clouddn.com/%E7%AC%AC6%E7%AB%A0%20%E7%94%A8%E6%B5%81%E6%94%B6%E9%9B%86%E6%95%B0%E6%8D%AE.html) __ 收集器__ __Collector接口__ __collect方法__ __预定义收集器__ __归约__ __汇总__ __连接字符串__ __分组__ __多级分组__ __分区__ __自定义收集器__
++ [用流收集数据](http://7xoeea.com1.z0.glb.clouddn.com/%E7%AC%AC6%E7%AB%A0%20%E7%94%A8%E6%B5%81%E6%94%B6%E9%9B%86%E6%95%B0%E6%8D%AE.html) __收集器__ __Collector接口__ __collect方法__ __预定义收集器__ __归约__ __汇总__ __连接字符串__ __分组__ __多级分组__ __分区__ __自定义收集器__
 
 ### Java 8 函数式编程
 
