@@ -60,6 +60,10 @@ __Object类所有的非final方法(equals,hashCode,toString,clone和finalize)都
 + [使用流](http://7xoeea.com1.z0.glb.clouddn.com/%E7%AC%AC5%E7%AB%A0%20%E4%BD%BF%E7%94%A8%E6%B5%81.html) __筛选__ __截短__ __匹配__ __跳过__ __映射__ __流扁平化__ __归约__ __查找__ __数值流__ __原始类型流特化__ __构建流__ __无限流__ __有状态操作__ __无状态操作__
 + [用流收集数据](http://7xoeea.com1.z0.glb.clouddn.com/%E7%AC%AC6%E7%AB%A0%20%E7%94%A8%E6%B5%81%E6%94%B6%E9%9B%86%E6%95%B0%E6%8D%AE.html) __收集器__ __Collector接口__ __collect方法__ __预定义收集器__ __归约__ __汇总__ __连接字符串__ __分组__ __多级分组__ __分区__ __自定义收集器__
 
+#### 3.高效Java 8编程
+
++ [用optional取代null](http://7xoeea.com1.z0.glb.clouddn.com/%E7%AC%AC10%E7%AB%A0%20%E7%94%A8optional%E5%8F%96%E4%BB%A3null.html) __Optional__ __防御式检查__ __组合Optional对象__ __创建Optional对象__ __过滤Optional对象__ __Optional类方法__ __异常与Optional__ __转换Optional对象__ __提取Optional对象__
+
 ### Java 8 函数式编程
 
 + [Lambda表达式](http://7xoeea.com1.z0.glb.clouddn.com/%E7%AC%AC2%E7%AB%A0%20Lambda%E8%A1%A8%E8%BE%BE%E5%BC%8F.html) __Lambda表达式是一个匿名方法 将行为像数据一样进行传递__
