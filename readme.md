@@ -98,6 +98,7 @@ __Object类所有的非final方法(equals,hashCode,toString,clone和finalize)都
 + [Scala对象系统(Ⅰ)](http://7xoeea.com1.z0.glb.clouddn.com/%E7%AC%AC10%E7%AB%A0%20Scala%E5%AF%B9%E8%B1%A1%E7%B3%BB%E7%BB%9F%28%E2%85%A0%29.html)
  __协变__ __逆变__ __不变__ __类型层次结构__ __Nothing和Null__ __Product特质__ __Predef对象__ __断言__ __对象相等__
 + [Scala对象系统(Ⅱ)](http://7xoeea.com1.z0.glb.clouddn.com/%E7%AC%AC11%E7%AB%A0%20Scala%E5%AF%B9%E8%B1%A1%E7%B3%BB%E7%BB%9F%28%E2%85%A1%29.html) __override__ __覆写具体成员__ __final__ __覆写方法__ __覆写字段__ __覆写抽象类型__ __惰性值__ __预先初始化字段__ __统一访问原则__ __类线性化算法__
++ [可见性规则](http://7xoeea.com1.z0.glb.clouddn.com/%E7%AC%AC13%E7%AB%A0%20%E5%8F%AF%E8%A7%81%E6%80%A7%E8%A7%84%E5%88%99.html) __可见性规则__ __默认可见性__ __public__ __protected__ __private__ __作用域内受保护__ __作用域内私有__
 
 ### Scala程序设计:Java虚拟机多核编程实战 
 + [Scala的类](http://7xoeea.com1.z0.glb.clouddn.com/%E7%AC%AC4%E7%AB%A0%20Scala%E7%9A%84%E7%B1%BB.html)
@@ -115,12 +116,20 @@ __Object类所有的非final方法(equals,hashCode,toString,clone和finalize)都
 
 ### Scala函数式编程
 
+#### 函数式编程介绍
+
 + [何为函数式编程](http://7xoeea.com1.z0.glb.clouddn.com/%E7%AC%AC1%E7%AB%A0%20%E4%BD%95%E4%B8%BA%E5%87%BD%E6%95%B0%E5%BC%8F%E7%BC%96%E7%A8%8B.html) __函数式编程__ __纯函数__ __副作用__ __引用透明__ __纯粹度__ __替代模型__
 + [Scala中的函数式编程模式](http://7xoeea.com1.z0.glb.clouddn.com/%E7%AC%AC2%E7%AB%A0%20Scala%E4%B8%AD%E7%9A%84%E5%87%BD%E6%95%B0%E5%BC%8F%E7%BC%96%E7%A8%8B%E6%A8%A1%E5%BC%8F%28%E4%BF%AE%E6%94%B9%29.html) __尾递归函数__ __高阶函数__ __多态函数__ __组合函数__
 + [函数式数据结构](http://7xoeea.com1.z0.glb.clouddn.com/%E7%AC%AC3%E7%AB%A0%20%E5%87%BD%E6%95%B0%E5%BC%8F%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84.html) __函数式数据结构__ __模式匹配__ __数据共享__ __高阶函数的类型推导__ __树__
 + [不用异常来处理错误](http://7xoeea.com1.z0.glb.clouddn.com/%E7%AC%AC4%E7%AB%A0%20%E4%B8%8D%E7%94%A8%E5%BC%82%E5%B8%B8%E6%9D%A5%E5%A4%84%E7%90%86%E9%94%99%E8%AF%AF.html) __异常的优点与劣势__ __异常的其他选择__ __Option数据类型__ __Option的使用模式__ __Option组合__ __Either数据类型__
 + [严格求值和惰性求值](http://7xoeea.com1.z0.glb.clouddn.com/%E7%AC%AC5%E7%AB%A0%20%E4%B8%A5%E6%A0%BC%E6%B1%82%E5%80%BC%E5%92%8C%E6%83%B0%E6%80%A7%E6%B1%82%E5%80%BC.html) __严格求值__ __惰性求值__ __严格函数__ __非严格函数__ __lazy__ __惰性列表__ __无限流__ __共递归__
 + [纯函数式状态](http://7xoeea.com1.z0.glb.clouddn.com/%E7%AC%AC6%E7%AB%A0%20%E7%BA%AF%E5%87%BD%E6%95%B0%E5%BC%8F%E7%8A%B6%E6%80%81.html) __纯函数式状态__ __组合状态行为__ __嵌套状态行为__
+
+#### 功能设计和组合子库
+
+#### 函数设计的通用结构
+
+#### 作用与I/O
 
 ### Scala并发编程
 
@@ -306,6 +315,8 @@ __设计模式(design pattern)是对软件设计中普遍存在(反复出现)的
 + [持续时间(Duration)]()
 
 ### Flume:构建高可用、可扩展的海量日志采集系统
+
+### Zookeeper:分布式过程协同技术详解
 
 ## 三.算法
 
