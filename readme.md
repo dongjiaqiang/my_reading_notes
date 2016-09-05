@@ -78,6 +78,8 @@ __Object类所有的非final方法(equals,hashCode,toString,clone和finalize)都
 
 + [函数式的思考](http://7xoeea.com1.z0.glb.clouddn.com/%E7%AC%AC13%E7%AB%A0%20%E5%87%BD%E6%95%B0%E5%BC%8F%E7%9A%84%E6%80%9D%E8%80%83.html) __共享可变数据__ __命令式编程__ __声明式编程__ __无副作用__ __函数式编程__ __引用透明性__ __递归__ __迭代__ __尾递归__
 
++ [函数式编程的技巧]()
+
 ### Java 8 函数式编程
 
 + [Lambda表达式](http://7xoeea.com1.z0.glb.clouddn.com/%E7%AC%AC2%E7%AB%A0%20Lambda%E8%A1%A8%E8%BE%BE%E5%BC%8F.html) __Lambda表达式是一个匿名方法 将行为像数据一样进行传递__
@@ -115,6 +117,7 @@ __Object类所有的非final方法(equals,hashCode,toString,clone和finalize)都
  __协变__ __逆变__ __不变__ __类型层次结构__ __Nothing和Null__ __Product特质__ __Predef对象__ __断言__ __对象相等__
 + [Scala对象系统(Ⅱ)](http://7xoeea.com1.z0.glb.clouddn.com/%E7%AC%AC11%E7%AB%A0%20Scala%E5%AF%B9%E8%B1%A1%E7%B3%BB%E7%BB%9F%28%E2%85%A1%29.html) __override__ __覆写具体成员__ __final__ __覆写方法__ __覆写字段__ __覆写抽象类型__ __惰性值__ __预先初始化字段__ __统一访问原则__ __类线性化算法__
 + [可见性规则](http://7xoeea.com1.z0.glb.clouddn.com/%E7%AC%AC13%E7%AB%A0%20%E5%8F%AF%E8%A7%81%E6%80%A7%E8%A7%84%E5%88%99.html) __可见性规则__ __默认可见性__ __public__ __protected__ __private__ __作用域内受保护__ __作用域内私有__
++ [Scala动态调用](http://7xoeea.com1.z0.glb.clouddn.com/%E7%AC%AC19%E7%AB%A0%20Scala%E5%8A%A8%E6%80%81%E8%B0%83%E7%94%A8.html) __动态调用__ __DSL__ __Dynamic特质__
 
 ### Scala程序设计:Java虚拟机多核编程实战 
 + [Scala的类](http://7xoeea.com1.z0.glb.clouddn.com/%E7%AC%AC4%E7%AB%A0%20Scala%E7%9A%84%E7%B1%BB.html)
