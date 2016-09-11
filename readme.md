@@ -73,6 +73,7 @@ __Object类所有的非final方法(equals,hashCode,toString,clone和finalize)都
 #### 3.高效Java 8编程
 
 + [用optional取代null](http://7xoeea.com1.z0.glb.clouddn.com/%E7%AC%AC10%E7%AB%A0%20%E7%94%A8optional%E5%8F%96%E4%BB%A3null.html) __Optional__ __防御式检查__ __组合Optional对象__ __创建Optional对象__ __过滤Optional对象__ __Optional类方法__ __异常与Optional__ __转换Optional对象__ __提取Optional对象__
++ [CompletableFuture:组合式异步编程](http://7xonn1.com1.z0.glb.clouddn.com/1.html) __Future接口__ __CompletableFuture接口__ __同步API__ __异步API__ __流水线操作＿　＿合并操作＿
 
 #### 4.超越Java 8
 
@@ -245,6 +246,10 @@ __重构(Refactoring)指对软件代码做任何更动以增加可读性或者�
 
 ### 程序员修炼之道:从小工到专家
 
+### 实现模式
+
++ [类]()
+
 ### Object-Oriented Analysis And Design With Applications(Third Edition)
 
 ### Head First设计模式(中文版)
@@ -398,6 +403,7 @@ __设计模式(design pattern)是对软件设计中普遍存在(反复出现)的
 + [Java 8实战](https://www.amazon.cn/Java-8%E5%AE%9E%E6%88%98-%E8%8B%B1-%E5%8E%84%E9%A9%AC-%E6%84%8F-%E5%BC%97%E6%96%AF%E7%A7%91-%E8%8B%B1-%E7%B1%B3%E5%85%8B%E7%BD%97%E5%A4%AB%E7%89%B9/dp/B01ER75QC8/ref=sr_1_1?ie=UTF8&qid=1461740545&sr=8-1&keywords=Java+8%E5%AE%9E%E6%88%98)
 + [Spring实战(第4版)](https://www.amazon.cn/Spring%E5%AE%9E%E6%88%98-Craig-Walls-%E6%B2%83%E5%B0%94%E6%96%AF/dp/B01DN3VR6G/ref=sr_1_1?ie=UTF8&qid=1466427492&sr=8-1&keywords=spring)
 + [Redis实战](https://www.amazon.cn/Redis%E5%AE%9E%E6%88%98-%E7%BA%A6%E8%A5%BF%E4%BA%9A-L-%E5%8D%A1%E5%B0%94%E6%A3%AE/dp/B016YLS2LM/ref=sr_1_1?ie=UTF8&qid=1468035205&sr=8-1&keywords=redis)
++ [实现模式](https://www.amazon.cn/%E5%AE%9E%E7%8E%B0%E6%A8%A1%E5%BC%8F-Kent-Beck/dp/B00ADQPPLA/ref=sr_1_1?ie=UTF8&qid=1473253965&sr=8-1&keywords=%E5%AE%9E%E7%8E%B0%E6%A8%A1%E5%BC%8F)
 
 ### 开源项目官方网站
 + [Apache Commons](http://commons.apache.org/)
