@@ -78,8 +78,8 @@ __Object类所有的非final方法(equals,hashCode,toString,clone和finalize)都
 #### 4.超越Java 8
 
 + [函数式的思考](http://7xoeea.com1.z0.glb.clouddn.com/%E7%AC%AC13%E7%AB%A0%20%E5%87%BD%E6%95%B0%E5%BC%8F%E7%9A%84%E6%80%9D%E8%80%83.html) __共享可变数据__ __命令式编程__ __声明式编程__ __无副作用__ __函数式编程__ __引用透明性__ __递归__ __迭代__ __尾递归__
-
 + [函数式编程的技巧]()
++ [结论和Java的未来](http://7xoeea.com1.z0.glb.clouddn.com/%E7%AC%AC16%E7%AB%A0%20%E7%BB%93%E8%AE%BA%E5%92%8CJava%E7%9A%84%E6%9C%AA%E6%9D%A5.html)
 
 ### Java 8 函数式编程
 
