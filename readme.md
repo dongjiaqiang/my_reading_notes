@@ -73,6 +73,7 @@ __Object类所有的非final方法(equals,hashCode,toString,clone和finalize)都
 
 #### 3.高效Java 8编程
 
++ [默认方法](http://7xoeea.com1.z0.glb.clouddn.com/%E7%AC%AC9%E7%AB%A0%20%E9%BB%98%E8%AE%A4%E6%96%B9%E6%B3%95.html) __默认方法__ __API演进__ __多继承__ __组合接口__ __解决冲突__ __菱形继承问题__
 + [用optional取代null](http://7xoeea.com1.z0.glb.clouddn.com/%E7%AC%AC10%E7%AB%A0%20%E7%94%A8optional%E5%8F%96%E4%BB%A3null.html) __Optional__ __防御式检查__ __组合Optional对象__ __创建Optional对象__ __过滤Optional对象__ __Optional类方法__ __异常与Optional__ __转换Optional对象__ __提取Optional对象__
 + [CompletableFuture:组合式异步编程](http://7xonn1.com1.z0.glb.clouddn.com/1.html) __Future接口__ __CompletableFuture接口__ __同步API__ __异步API__ __流水线操__ __合并操作__
 
