@@ -100,6 +100,10 @@ __Object类所有的非final方法(equals,hashCode,toString,clone和finalize)都
 + [常用虚拟机参数](https://github.com/dongjiaqiang/my_reading_notes/blob/master/doc/chapter3.md)
 + [垃圾回收概念与算法](https://github.com/dongjiaqiang/my_reading_notes/blob/master/doc/chapter4.md)
 
+### Groovy程序设计
+
++ []
+
 ### Java性能权威指南
 
 ### Spring实战(第4版)
@@ -346,6 +350,7 @@ __设计模式(design pattern)是对软件设计中普遍存在(反复出现)的
 
 ### Redis实战
 
++ [Redis实战(使用Redis构建Web应用)](http://7xoeea.com1.z0.glb.clouddn.com/Redis%E5%AE%9E%E6%88%98%28%E4%BD%BF%E7%94%A8Redis%E6%9E%84%E5%BB%BAWeb%E5%BA%94%E7%94%A8%29.html)
 + [Redis实战(基于搜索的应用程序)]()
 
 ## 三.算法
@@ -375,6 +380,7 @@ __设计模式(design pattern)是对软件设计中普遍存在(反复出现)的
 + [敏捷软件开发(原则模式与实践)](http://www.amazon.cn/%E6%95%8F%E6%8D%B7%E8%BD%AF%E4%BB%B6%E5%BC%80%E5%8F%91-%E9%A9%AC%E4%B8%81/dp/B00116MMA8/ref=sr_1_1?ie=UTF8&qid=1451893899&sr=8-1&keywords=%E6%95%8F%E6%8D%B7%E5%BC%80%E5%8F%91)
 + [Scala程序设计:Java虚拟机多核编程实战](http://www.amazon.cn/Scala%E7%A8%8B%E5%BA%8F%E8%AE%BE%E8%AE%A1-Java%E8%99%9A%E6%8B%9F%E6%9C%BA%E5%A4%9A%E6%A0%B8%E7%BC%96%E7%A8%8B%E5%AE%9E%E6%88%98-%E8%8B%8F%E5%B8%95%E6%8B%89%E9%A9%AC%E5%B0%BC%E4%BA%9A%E5%A7%86/dp/B00CBBKJ0W/ref=sr_1_4?ie=UTF8&qid=1451455100&sr=8-4&keywords=sCALA)
 + [Java编程思想(第4版)](http://www.amazon.cn/Java%E7%BC%96%E7%A8%8B%E6%80%9D%E6%83%B3-%E5%9F%83%E5%8F%B2%E5%B0%94/dp/B0011F7WU4/ref=sr_1_1?ie=UTF8&qid=1451465907&sr=8-1&keywords=JAVA)
++ [Groovy程序设计](https://www.amazon.cn/Groovy%E7%A8%8B%E5%BA%8F%E8%AE%BE%E8%AE%A1-%E7%BE%8E-Venkat-Subramaniam/dp/B00OUGT10A/ref=sr_1_1?ie=UTF8&qid=1475487877&sr=8-1&keywords=groovy)
 + [Java 8函数式编程](http://www.amazon.cn/Java-8%E5%87%BD%E6%95%B0%E5%BC%8F%E7%BC%96%E7%A8%8B-%E8%8B%B1-%E6%B2%83%E4%BC%AF%E9%A1%BF/dp/B00VDSW7AE/ref=sr_1_1?ie=UTF8&qid=1458486119&sr=8-1&keywords=java%E5%87%BD%E6%95%B0%E5%BC%8F%E7%BC%96%E7%A8%8B)
 + [Scala与Clojure函数式编程模式 Java虚拟机高效编程](http://www.amazon.cn/Scala%E4%B8%8EClojure%E5%87%BD%E6%95%B0%E5%BC%8F%E7%BC%96%E7%A8%8B%E6%A8%A1%E5%BC%8F-Java%E8%99%9A%E6%8B%9F%E6%9C%BA%E9%AB%98%E6%95%88%E7%BC%96%E7%A8%8B-%E7%BE%8E-%E8%B4%9D%E7%BB%B4%E6%8B%89%E5%A4%B8%E6%9E%97/dp/B00XJ2AU24/ref=sr_1_4?ie=UTF8&qid=1458537996&sr=8-4&keywords=%E5%87%BD%E6%95%B0%E5%BC%8F%E7%BC%96%E7%A8%8B)
 + [深入理解Java虚拟机:JVM高级特性与最佳实践(第2版)](http://www.amazon.cn/%E6%B7%B1%E5%85%A5%E7%90%86%E8%A7%A3Java%E8%99%9A%E6%8B%9F%E6%9C%BA-JVM%E9%AB%98%E7%BA%A7%E7%89%B9%E6%80%A7%E4%B8%8E%E6%9C%80%E4%BD%B3%E5%AE%9E%E8%B7%B5-%E5%91%A8%E5%BF%97%E6%98%8E/dp/B00D2ID4PK/ref=sr_1_1?ie=UTF8&qid=1451532281&sr=8-1&keywords=java%E8%99%9A%E6%8B%9F%E6%9C%BA)
