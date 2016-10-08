@@ -350,7 +350,7 @@ __设计模式(design pattern)是对软件设计中普遍存在(反复出现)的
 
 ### Redis实战
 
-+ [Redis实战%(Redis命令)](http://7xoeea.com1.z0.glb.clouddn.com/Redis%E5%AE%9E%E6%88%98%28Redis%E5%91%BD%E4%BB%A4%29.html)
++ [Redis实战(Redis命令)](http://7xoeea.com1.z0.glb.clouddn.com/Redis%E5%AE%9E%E6%88%98%28Redis%E5%91%BD%E4%BB%A4%29.html)
 + [Redis实战(使用Redis构建Web应用)](http://7xoeea.com1.z0.glb.clouddn.com/Redis%E5%AE%9E%E6%88%98%28%E4%BD%BF%E7%94%A8Redis%E6%9E%84%E5%BB%BAWeb%E5%BA%94%E7%94%A8%29.html)
 + [Redis实战(基于搜索的应用程序)]()
 
