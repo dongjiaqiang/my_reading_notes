@@ -108,6 +108,8 @@ __Object类所有的非final方法(equals,hashCode,toString,clone和finalize)都
 
 ### Spring实战(第4版)
 
++ [装配Bean](http://7xoeea.com1.z0.glb.clouddn.com/Spring%E5%AE%9E%E6%88%98%28%E8%A3%85%E9%85%8DBean%29.html)
+
 ### Fundamental Networking in Java
 
 + [Fundamental In TCP](http://7xoeea.com1.z0.glb.clouddn.com/Fundamental%20In%20TCP.html)
@@ -415,6 +417,7 @@ __设计模式(design pattern)是对软件设计中普遍存在(反复出现)的
 + [Spring实战(第4版)](https://www.amazon.cn/Spring%E5%AE%9E%E6%88%98-Craig-Walls-%E6%B2%83%E5%B0%94%E6%96%AF/dp/B01DN3VR6G/ref=sr_1_1?ie=UTF8&qid=1466427492&sr=8-1&keywords=spring)
 + [Redis实战](https://www.amazon.cn/Redis%E5%AE%9E%E6%88%98-%E7%BA%A6%E8%A5%BF%E4%BA%9A-L-%E5%8D%A1%E5%B0%94%E6%A3%AE/dp/B016YLS2LM/ref=sr_1_1?ie=UTF8&qid=1468035205&sr=8-1&keywords=redis)
 + [实现模式](https://www.amazon.cn/%E5%AE%9E%E7%8E%B0%E6%A8%A1%E5%BC%8F-Kent-Beck/dp/B00ADQPPLA/ref=sr_1_1?ie=UTF8&qid=1473253965&sr=8-1&keywords=%E5%AE%9E%E7%8E%B0%E6%A8%A1%E5%BC%8F)
++ [响应式架构 消息模式Actor实现与Scala,Akka应用集成](https://www.amazon.cn/%E5%93%8D%E5%BA%94%E5%BC%8F%E6%9E%B6%E6%9E%84-%E6%B6%88%E6%81%AF%E6%A8%A1%E5%BC%8FActor%E5%AE%9E%E7%8E%B0%E4%B8%8EScala-Akka%E5%BA%94%E7%94%A8%E9%9B%86%E6%88%90-%E6%B2%83%E6%81%A9%C2%B7%E5%BC%97%E5%86%9C/dp/B01HIPQT54/ref=sr_1_11?ie=UTF8&qid=1474982537&sr=8-11&keywords=scala)
 
 ### 开源项目官方网站
 + [Apache Commons](http://commons.apache.org/)
