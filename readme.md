@@ -352,7 +352,10 @@ __设计模式(design pattern)是对软件设计中普遍存在(反复出现)的
 
 ### Spring实战(第4版)
 
-+ [装配Bean](http://7xoeea.com1.z0.glb.clouddn.com/Spring%E5%AE%9E%E6%88%98%28%E8%A3%85%E9%85%8DBean%29.html)
+#### 第一部分 Spring核心
+
++ [装配Bean](http://7xoeea.com1.z0.glb.clouddn.com/Spring%E5%AE%9E%E6%88%98%28%E8%A3%85%E9%85%8DBean%29.html) __声明bean__ __构造器注入__ __Setter方法注入__ __装配bean__ __控制bean的创建和销毁__
++ [高级装配]
 
 ## 三.算法
 
