@@ -346,16 +346,20 @@ __设计模式(design pattern)是对软件设计中普遍存在(反复出现)的
 
 ### Redis实战
 
-+ [Redis实战(Redis命令)](http://7xoeea.com1.z0.glb.clouddn.com/Redis%E5%AE%9E%E6%88%98%28Redis%E5%91%BD%E4%BB%A4%29.html)
-+ [Redis实战(使用Redis构建Web应用)](http://7xoeea.com1.z0.glb.clouddn.com/Redis%E5%AE%9E%E6%88%98%28%E4%BD%BF%E7%94%A8Redis%E6%9E%84%E5%BB%BAWeb%E5%BA%94%E7%94%A8%29.html)
-+ [Redis实战(基于搜索的应用程序)]()
+#### 1. 入门
+
++ [Redis实战(使用Redis构建Web应用)](http://7xoeea.com1.z0.glb.clouddn.com/Redis%E5%AE%9E%E6%88%98%28%E4%BD%BF%E7%94%A8Redis%E6%9E%84%E5%BB%BAWeb%E5%BA%94%E7%94%A8%29.html) __登陆cookie__ __购物车cookie__ __缓存生成的网页__ __缓存数据库行__ __分析网页访问记录__
+
+#### 2. 核心概念
++ [Redis实战(Redis命令)](http://7xoeea.com1.z0.glb.clouddn.com/Redis%E5%AE%9E%E6%88%98%28Redis%E5%91%BD%E4%BB%A4%29.html) __字符串命令__ __列表命令__ __集合命令__ __散列命令__ __有序集合命令__ __发布命令__ __订阅命令__ __其他命令__ 
++ [Redis实战(基于搜索的应用程序)]() __使用Redis进行搜索__ __对搜索结果进行排序__ __实现广告定向__ __实现职业搜索__
 
 ### Spring实战(第4版)
 
 #### 第一部分 Spring核心
 
 + [装配Bean](http://7xoeea.com1.z0.glb.clouddn.com/Spring%E5%AE%9E%E6%88%98%28%E8%A3%85%E9%85%8DBean%29.html) __声明bean__ __构造器注入__ __Setter方法注入__ __装配bean__ __控制bean的创建和销毁__
-+ [高级装配]
++ [高级装配]()
 
 ## 三.算法
 
