@@ -86,8 +86,9 @@ __Object类所有的非final方法(equals,hashCode,toString,clone和finalize)都
 ### Java 8 函数式编程
 
 + [Lambda表达式](http://7xoeea.com1.z0.glb.clouddn.com/%E7%AC%AC2%E7%AB%A0%20Lambda%E8%A1%A8%E8%BE%BE%E5%BC%8F.html) __Lambda表达式是一个匿名方法 将行为像数据一样进行传递__
-+ [流](http://7xoeea.com1.z0.glb.clouddn.com/%E7%AC%AC3%E7%AB%A0%20%E6%B5%81.html) __流使程序员在更高的层次上对集合进行操作__
-+ [类库](http://7xoeea.com1.z0.glb.clouddn.com/%E7%AC%AC4%E7%AB%A0%20%E7%B1%BB%E5%BA%93.html)
++ [流](http://7xoeea.com1.z0.glb.clouddn.com/%E7%AC%AC3%E7%AB%A0%20%E6%B5%81.html) __流使得可以在更高的层次上对集合进行操作__
++ [类库](http://7xoeea.com1.z0.glb.clouddn.com/%E7%AC%AC4%E7%AB%A0%20%E7%B1%BB%E5%BA%93.html) __在类库开发中应用函数式编程思想__
++ [高级集合类和收集器]()
 + [数据并行化](http://7xoeea.com1.z0.glb.clouddn.com/%E7%AC%AC6%E7%AB%A0%20%E6%95%B0%E6%8D%AE%E5%B9%B6%E8%A1%8C%E5%8C%96.html) __数据并行化是把工作拆分 同时在多核CPU上执行的方式__
 
 ### 深入理解Java虚拟机:JVM高级特性与最佳实践(第2版)
@@ -289,6 +290,10 @@ __设计模式(design pattern)是对软件设计中普遍存在(反复出现)的
 + [桥接模式]() __将一个抽象与实现解耦 以便两者可以独立的变化__
 + [蝇量模式](http://7xoeea.com1.z0.glb.clouddn.com/%E8%9D%87%E9%87%8F%E6%A8%A1%E5%BC%8F.html) __又称享元模式 通过共享以便有效的支持大量小颗粒对象__
 
+### Scala Design Pattern
+
++ [Immutability](http://7xoeea.com1.z0.glb.clouddn.com/Scala%20Design%20Pattern%284%29%20%E4%B8%8D%E5%8F%98%E6%80%A7.html) __Immutability indicates that once created, an objects's data cannot be changed__
+
 ### 代码大全(第2版)
 
 ## 二.工具与框架
@@ -358,8 +363,10 @@ __设计模式(design pattern)是对软件设计中普遍存在(反复出现)的
 
 #### 第一部分 Spring核心
 
++ [Spring之旅]()
 + [装配Bean](http://7xoeea.com1.z0.glb.clouddn.com/Spring%E5%AE%9E%E6%88%98%28%E8%A3%85%E9%85%8DBean%29.html) __声明bean__ __构造器注入__ __Setter方法注入__ __装配bean__ __控制bean的创建和销毁__
 + [高级装配]()
+
 
 ## 三.算法
 
@@ -423,6 +430,7 @@ __设计模式(design pattern)是对软件设计中普遍存在(反复出现)的
 + [Redis实战](https://www.amazon.cn/Redis%E5%AE%9E%E6%88%98-%E7%BA%A6%E8%A5%BF%E4%BA%9A-L-%E5%8D%A1%E5%B0%94%E6%A3%AE/dp/B016YLS2LM/ref=sr_1_1?ie=UTF8&qid=1468035205&sr=8-1&keywords=redis)
 + [实现模式](https://www.amazon.cn/%E5%AE%9E%E7%8E%B0%E6%A8%A1%E5%BC%8F-Kent-Beck/dp/B00ADQPPLA/ref=sr_1_1?ie=UTF8&qid=1473253965&sr=8-1&keywords=%E5%AE%9E%E7%8E%B0%E6%A8%A1%E5%BC%8F)
 + [响应式架构 消息模式Actor实现与Scala,Akka应用集成](https://www.amazon.cn/%E5%93%8D%E5%BA%94%E5%BC%8F%E6%9E%B6%E6%9E%84-%E6%B6%88%E6%81%AF%E6%A8%A1%E5%BC%8FActor%E5%AE%9E%E7%8E%B0%E4%B8%8EScala-Akka%E5%BA%94%E7%94%A8%E9%9B%86%E6%88%90-%E6%B2%83%E6%81%A9%C2%B7%E5%BC%97%E5%86%9C/dp/B01HIPQT54/ref=sr_1_11?ie=UTF8&qid=1474982537&sr=8-11&keywords=scala)
++ [Scala Design Pattern](https://www.amazon.cn/Scala-Design-Patterns-Patterns-for-Practical-Reuse-and-Design-Hunt-John/dp/3319349724/ref=sr_1_2?ie=UTF8&qid=1476970256&sr=8-2&keywords=SCALA+DESIGN)
 
 ### 开源项目官方网站
 + [Apache Commons](http://commons.apache.org/)
