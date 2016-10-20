@@ -292,7 +292,11 @@ __设计模式(design pattern)是对软件设计中普遍存在(反复出现)的
 
 ### Scala Design Pattern
 
+#### Fundamental Patterns
 + [Immutability](http://7xoeea.com1.z0.glb.clouddn.com/Scala%20Design%20Pattern%284%29%20%E4%B8%8D%E5%8F%98%E6%80%A7.html) __Immutability indicates that once created, an objects's data cannot be changed__
++ [Singleton]() __The Singleton pattern describes a type that can only have one object constructed for it__
++ [Marker Trait]() __The Marker Trait pattern uses trait that declare no method, functions,types or properties to indicate addition semantics of a type(class,object or further traits)__
++ [Delegation]() __Delegation pattern is a response to all those examples in books that show inheritance between types as the fundanmental approach to reuse in object oritented languages__
 
 ### 代码大全(第2版)
 
