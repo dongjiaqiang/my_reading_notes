@@ -298,6 +298,9 @@ __设计模式(design pattern)是对软件设计中普遍存在(反复出现)的
 + [Marker Trait](http://7xoeea.com1.z0.glb.clouddn.com/Scala%20Design%20Pattern%286%29%20%E6%A0%87%E8%AE%B0%E7%89%B9%E8%B4%A8.html) __The Marker Trait pattern uses trait that declare no method, functions,types or properties to indicate addition semantics of a type(class,object or further traits)__
 + [Delegation]() __Delegation pattern is a response to all those examples in books that show inheritance between types as the fundanmental approach to reuse in object oritented languages__
 
+### Code Reuse Patterns
++ [Lazy Parameters](http://7xoeea.com1.z0.glb.clouddn.com/Scala%20Design%20Pattern%288%29%20%E6%87%92%E5%80%BC.html) __In some situations a parameter to a method or function may be costly to process or evaluate,but might only need to be processed or evaluated in certain situations__
+
 ### 代码大全(第2版)
 
 ## 二.工具与框架
