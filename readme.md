@@ -298,7 +298,7 @@ __设计模式(design pattern)是对软件设计中普遍存在(反复出现)的
 + [Marker Trait(标记特质)](http://7xoeea.com1.z0.glb.clouddn.com/Scala%20Design%20Pattern%286%29%20%E6%A0%87%E8%AE%B0%E7%89%B9%E8%B4%A8.html) __The Marker Trait pattern uses trait that declare no method, functions,types or properties to indicate addition semantics of a type(class,object or further traits)__
 + [Delegation(代理)]() __Delegation pattern is a response to all those examples in books that show inheritance between types as the fundanmental approach to reuse in object oritented languages__
 
-### Code Reuse Patterns
+#### Code Reuse Patterns
 + [Lazy Parameters(懒值)](http://7xoeea.com1.z0.glb.clouddn.com/Scala%20Design%20Pattern%288%29%20%E6%87%92%E5%80%BC.html) __In some situations a parameter to a method or function may be costly to process or evaluate,but might only need to be processed or evaluated in certain situations__
 + [Partially Applied Functions(部分应用函数)](http://7xoeea.com1.z0.glb.clouddn.com/Scala%20Design%20Pattern%289%29%20%E9%83%A8%E5%88%86%E5%BA%94%E7%94%A8%E5%87%BD%E6%95%B0.html) __An operation can be partially applied in that it is possible to bind one or more of the parameters to create a new operation with fewer parameters.The remaining parameters must then be provided when the new operation is invoked__
 
@@ -374,6 +374,9 @@ __设计模式(design pattern)是对软件设计中普遍存在(反复出现)的
 + [Spring之旅]()
 + [装配Bean](http://7xoeea.com1.z0.glb.clouddn.com/Spring%E5%AE%9E%E6%88%98%28%E8%A3%85%E9%85%8DBean%29.html) __声明bean__ __构造器注入__ __Setter方法注入__ __装配bean__ __控制bean的创建和销毁__
 + [高级装配]()
+
+#### 第二部分 Web中的Spring
+
 + [构建SpringWeb应用程序](http://7xoeea.com1.z0.glb.clouddn.com/Spring%E5%AE%9E%E6%88%98%28%E6%9E%84%E5%BB%BASpringWeb%E5%BA%94%E7%94%A8%E7%A8%8B%E5%BA%8F%29.html) __映射请求到Spring控制器__ __透明地绑定表单参数__ __校验表单提交__
 
 ## 三.算法
