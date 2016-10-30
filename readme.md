@@ -24,13 +24,13 @@ __Object类所有的非final方法(equals,hashCode,toString,clone和finalize)都
 + [取消和关闭](http://7xoeea.com1.z0.glb.clouddn.com/%E5%8F%96%E6%B6%88%E5%92%8C%E5%85%B3%E9%97%AD%28Abort%20And%20Interrupted%29.html) __任务取消__ __中断__ __停止基于线程的服务__ __处理非正常的线程终止__
 + [避免活跃性问题](http://7xoeea.com1.z0.glb.clouddn.com/%E9%81%BF%E5%85%8D%E6%B4%BB%E8%B7%83%E6%80%A7%E9%97%AE%E9%A2%98%28Avoid%20Active%20Problem%29.html) __死锁__ __饥饿__ __活锁__
 + [性能和可伸缩性](http://7xoeea.com1.z0.glb.clouddn.com/%E6%80%A7%E8%83%BD%E4%B8%8E%E5%8F%AF%E4%BC%B8%E7%BC%A9%E6%80%A7.html) __缩小锁的范围__ __减少锁的粒度__ __锁分段__
-+ [线程池的使用](http://7xoeea.com1.z0.glb.clouddn.com/%E7%BA%BF%E7%A8%8B%E6%B1%A0%E7%9A%84%E4%BD%BF%E7%94%A8%28Thread%20Pool%29.html) __任务__ __执行策略__ __解耦__ __线程饥饿__ __线程死锁__ __设置线程池__ __线程池的创建和销毁__ __管理队列任务__ __饱和策略__ __线程工厂__
++ [线程池的使用](http://7xoeea.com1.z0.glb.clouddn.com/%E7%BA%BF%E7%A8%8B%E6%B1%A0%E7%9A%84%E4%BD%BF%E7%94%A8%28Thread%20Pool%29.html) __任务__ __执行策略__ __解耦__ __线程饥饿__ __线程死锁__ __设置线程池__ __线程池创建和销毁__ __管理队列任务__ __饱和策略__ __线程工厂__
 + [显式锁](http://7xoeea.com1.z0.glb.clouddn.com/显式锁.html) __Lock__ __ReenTrantLock__ __轮询锁__ __定时锁__ __读写锁__
 + [构建自定义的同步工具](http://7xoeea.com1.z0.glb.clouddn.com/%E6%9E%84%E5%BB%BA%E8%87%AA%E5%AE%9A%E4%B9%89%E7%9A%84%E5%90%8C%E6%AD%A5%E5%B7%A5%E5%85%B7.html) __状态依赖管理__ __条件队列__ __Condtion对象__ __AbstractQueuedSynchronizer__ 
 + [原子变量和非阻塞同步机制](http://7xl8na.com1.z0.glb.clouddn.com/%E5%8E%9F%E5%AD%90%E5%8F%98%E9%87%8F%E4%B8%8E%E9%9D%9E%E9%98%BB%E5%A1%9E%E5%90%8C%E6%AD%A5%E6%9C%BA%E5%88%B6.html) __原子变量__ __非阻塞算法__  
 + [Michael-Scott非阻塞算法中的插入算法](http://7xoeea.com1.z0.glb.clouddn.com/Michael-Scott%E9%9D%9E%E9%98%BB%E5%A1%9E%E7%AE%97%E6%B3%95%E4%B8%AD%E7%9A%84%E6%8F%92%E5%85%A5%E7%AE%97%E6%B3%95.html) __Michael-Scott非阻塞算法__
 + [基于Treiber算法实现的非阻塞栈](http://7xoeea.com1.z0.glb.clouddn.com/%E5%9F%BA%E4%BA%8ETreiber%E7%AE%97%E6%B3%95%E5%AE%9E%E7%8E%B0%E7%9A%84%E9%9D%9E%E9%98%BB%E5%A1%9E%E6%A0%88.html) __Treiber算法__
-+ [Java内存模型](http://7xoeea.com1.z0.glb.clouddn.com/Java%E5%86%85%E5%AD%98%E6%A8%A1%E5%9E%8B.html) __内存模型__ __ 重排序__ __Happens-Before关系__ __发布__ __初始化__ __双重检查锁__
++ [Java内存模型](http://7xoeea.com1.z0.glb.clouddn.com/Java%E5%86%85%E5%AD%98%E6%A8%A1%E5%9E%8B.html) __内存模型__ __重排序__ __Happens-Before关系__ __发布__ __初始化__ __双重检查锁__
 
 ### Java编程思想(第4版) 
 + [初始化与清理](http://7xoeea.com1.z0.glb.clouddn.com/%E7%AC%AC5%E7%AB%A0%20%E5%88%9D%E5%A7%8B%E5%8C%96%E4%B8%8E%E6%B8%85%E7%90%86.html)
