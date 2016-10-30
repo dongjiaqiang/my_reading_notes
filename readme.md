@@ -2,14 +2,6 @@
 
 ## 一.编程语言与编程思想
 
-### C与指针
-
-### C陷阱与缺陷
-
-### C专家编程
-
-### C++ Primer(中文版)(第5版)
-
 ### [Effective Java(中文第二版)](http://www.amazon.cn/Sun-%E5%85%AC%E5%8F%B8%E6%A0%B8%E5%BF%83%E6%8A%80%E6%9C%AF%E4%B8%9B%E4%B9%A6-Effective-Java%E4%B8%AD%E6%96%87%E7%89%88-Joshua-Bloch/dp/B001PTGR52/ref=pd_bxgy_14_img_3?ie=UTF8&refRID=1K4TFG3XFVJH3DCFT2FT)
 + [创建和销毁对象](http://7xoeea.com1.z0.glb.clouddn.com/%E5%88%9B%E5%BB%BA%E5%92%8C%E9%94%80%E6%AF%81%E5%AF%B9%E8%B1%A1.html) __何时和如何创建对象 何时和如何避免创建对象 如何确保对象能够适时地销毁 如何管理对象销毁前的各种清理动作__
 + [通用对象方法](http://7xoeea.com1.z0.glb.clouddn.com/%E5%AF%B9%E8%B1%A1%E9%80%9A%E7%94%A8%E6%96%B9%E6%B3%95%28General%20Method%C2%A0%29.html)
@@ -22,8 +14,8 @@ __Object类所有的非final方法(equals,hashCode,toString,clone和finalize)都
 + [异常](http://7xoeea.com1.z0.glb.clouddn.com/%E5%BC%82%E5%B8%B8(Exception).html) __充分发挥异常的优点 可以提高程序的可读性 可靠性和可维护性__
 + [并发](http://7xoeea.com1.z0.glb.clouddn.com/%E5%B9%B6%E5%8F%91%28Concurrency%29.html)
 
-### Java并发编程实战
-+ [简介](http://7xoeea.com1.z0.glb.clouddn.com/%E7%AE%80%E4%BB%8B%28Introduction%29.html)
+### [Java并发编程实战](http://www.amazon.cn/Java%E5%B9%B6%E5%8F%91%E7%BC%96%E7%A8%8B%E5%AE%9E%E6%88%98-%E7%9B%96%E8%8C%A8/dp/B0077K9XHW/ref=pd_sim_14_1?ie=UTF8&dpID=51XldrwRktL&dpSrc=sims&preST=_AC_UL160_SR124%2C160_&refRID=1XYR1SM2GH25CNPM5Z3K)
++ [简介](http://7xoeea.com1.z0.glb.clouddn.com/%E7%AE%80%E4%BB%8B%28Introduction%29.html) __并发__ __优势__ __风险__
 + [线程安全性](http://7xoeea.com1.z0.glb.clouddn.com/线程安全性(Thread%20Safety).html) __线程安全性__  __原子性__ __加锁机制__  __活跃性与性能问题__
 + [对象的共享](http://7xoeea.com1.z0.glb.clouddn.com/%E5%AF%B9%E8%B1%A1%E7%9A%84%E5%85%B1%E4%BA%AB(Shared%20Objects).html) __可见性__ __发布与逸出__ __线程封闭__  __不变性__ __安全发布__
 + [对象的组合](http://7xoeea.com1.z0.glb.clouddn.com/%E5%AF%B9%E8%B1%A1%E7%BB%84%E5%90%88.html) __设计线程安全性的类__ __实例封闭__ __线程安全性委托__  __同步策略文档化__
@@ -31,15 +23,14 @@ __Object类所有的非final方法(equals,hashCode,toString,clone和finalize)都
 + [任务执行](http://7xoeea.com1.z0.glb.clouddn.com/%E4%BB%BB%E5%8A%A1%E6%89%A7%E8%A1%8C.html) __线程__ __Executor框架__ 
 + [取消和关闭](http://7xoeea.com1.z0.glb.clouddn.com/%E5%8F%96%E6%B6%88%E5%92%8C%E5%85%B3%E9%97%AD%28Abort%20And%20Interrupted%29.html) __任务取消__ __中断__ __停止基于线程的服务__ __处理非正常的线程终止__
 + [避免活跃性问题](http://7xoeea.com1.z0.glb.clouddn.com/%E9%81%BF%E5%85%8D%E6%B4%BB%E8%B7%83%E6%80%A7%E9%97%AE%E9%A2%98%28Avoid%20Active%20Problem%29.html) __死锁__ __饥饿__ __活锁__
-+ [并发程序的测试]()
 + [性能和可伸缩性](http://7xoeea.com1.z0.glb.clouddn.com/%E6%80%A7%E8%83%BD%E4%B8%8E%E5%8F%AF%E4%BC%B8%E7%BC%A9%E6%80%A7.html) __缩小锁的范围__ __减少锁的粒度__ __锁分段__
-+ [线程池的使用](http://7xoeea.com1.z0.glb.clouddn.com/%E7%BA%BF%E7%A8%8B%E6%B1%A0%E7%9A%84%E4%BD%BF%E7%94%A8%28Thread%20Pool%29.html)
-+ [显式锁](http://7xoeea.com1.z0.glb.clouddn.com/显式锁.html)
-+ [构建自定义的同步工具](http://7xoeea.com1.z0.glb.clouddn.com/%E6%9E%84%E5%BB%BA%E8%87%AA%E5%AE%9A%E4%B9%89%E7%9A%84%E5%90%8C%E6%AD%A5%E5%B7%A5%E5%85%B7.html)
-+ [原子变量和非阻塞同步机制](http://7xl8na.com1.z0.glb.clouddn.com/%E5%8E%9F%E5%AD%90%E5%8F%98%E9%87%8F%E4%B8%8E%E9%9D%9E%E9%98%BB%E5%A1%9E%E5%90%8C%E6%AD%A5%E6%9C%BA%E5%88%B6.html)
-+ [Michael-Scott非阻塞算法中的插入算法](http://7xoeea.com1.z0.glb.clouddn.com/Michael-Scott%E9%9D%9E%E9%98%BB%E5%A1%9E%E7%AE%97%E6%B3%95%E4%B8%AD%E7%9A%84%E6%8F%92%E5%85%A5%E7%AE%97%E6%B3%95.html)
-+ [基于Treiber算法实现的非阻塞栈](http://7xoeea.com1.z0.glb.clouddn.com/%E5%9F%BA%E4%BA%8ETreiber%E7%AE%97%E6%B3%95%E5%AE%9E%E7%8E%B0%E7%9A%84%E9%9D%9E%E9%98%BB%E5%A1%9E%E6%A0%88.html)
-+ [Java内存模型](http://7xoeea.com1.z0.glb.clouddn.com/Java%E5%86%85%E5%AD%98%E6%A8%A1%E5%9E%8B.html)
++ [线程池的使用](http://7xoeea.com1.z0.glb.clouddn.com/%E7%BA%BF%E7%A8%8B%E6%B1%A0%E7%9A%84%E4%BD%BF%E7%94%A8%28Thread%20Pool%29.html) __任务__ __执行策略__ __解耦__ __线程饥饿__ __线程死锁__ __设置线程池__ __线程池的创建和销毁__ __管理队列任务__ __饱和策略__ __线程工厂__
++ [显式锁](http://7xoeea.com1.z0.glb.clouddn.com/显式锁.html) __Lock__ __ReenTrantLock__ __轮询锁__ __定时锁__ __读写锁__
++ [构建自定义的同步工具](http://7xoeea.com1.z0.glb.clouddn.com/%E6%9E%84%E5%BB%BA%E8%87%AA%E5%AE%9A%E4%B9%89%E7%9A%84%E5%90%8C%E6%AD%A5%E5%B7%A5%E5%85%B7.html) __状态依赖管理__ __条件队列__ __Condtion对象__ __AbstractQueuedSynchronizer__ 
++ [原子变量和非阻塞同步机制](http://7xl8na.com1.z0.glb.clouddn.com/%E5%8E%9F%E5%AD%90%E5%8F%98%E9%87%8F%E4%B8%8E%E9%9D%9E%E9%98%BB%E5%A1%9E%E5%90%8C%E6%AD%A5%E6%9C%BA%E5%88%B6.html) __原子变量__ __非阻塞算法__  
++ [Michael-Scott非阻塞算法中的插入算法](http://7xoeea.com1.z0.glb.clouddn.com/Michael-Scott%E9%9D%9E%E9%98%BB%E5%A1%9E%E7%AE%97%E6%B3%95%E4%B8%AD%E7%9A%84%E6%8F%92%E5%85%A5%E7%AE%97%E6%B3%95.html) __Michael-Scott非阻塞算法__
++ [基于Treiber算法实现的非阻塞栈](http://7xoeea.com1.z0.glb.clouddn.com/%E5%9F%BA%E4%BA%8ETreiber%E7%AE%97%E6%B3%95%E5%AE%9E%E7%8E%B0%E7%9A%84%E9%9D%9E%E9%98%BB%E5%A1%9E%E6%A0%88.html) __Treiber算法__
++ [Java内存模型](http://7xoeea.com1.z0.glb.clouddn.com/Java%E5%86%85%E5%AD%98%E6%A8%A1%E5%9E%8B.html) __内存模型__ __ 重排序__ __Happens-Before关系__ __发布__ __初始化__ __双重检查锁__
 
 ### Java编程思想(第4版) 
 + [初始化与清理](http://7xoeea.com1.z0.glb.clouddn.com/%E7%AC%AC5%E7%AB%A0%20%E5%88%9D%E5%A7%8B%E5%8C%96%E4%B8%8E%E6%B8%85%E7%90%86.html)
@@ -401,7 +392,6 @@ __设计模式(design pattern)是对软件设计中普遍存在(反复出现)的
 + [Scala函数式编程](https://www.amazon.cn/Scala%E5%87%BD%E6%95%B0%E5%BC%8F%E7%BC%96%E7%A8%8B-Paul-Chiusano-R%C3%BAnar-Bjarnason/dp/B01DWKIT9I/ref=sr_1_2?ie=UTF8&qid=1460901637&sr=8-2&keywords=Scala)
 + [Java性能权威指南](https://www.amazon.cn/Java%E6%80%A7%E8%83%BD%E6%9D%83%E5%A8%81%E6%8C%87%E5%8D%97-%E5%A5%A5%E5%85%8B%E6%96%AF/dp/B01DLB7Z66/ref=sr_1_1?ie=UTF8&qid=1460901455&sr=8-1&keywords=java%E6%80%A7%E8%83%BD)
 + [Head First设计模式(中文版)](http://www.amazon.cn/Head-First%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F-%E5%BC%97%E9%87%8C%E6%9B%BC/dp/B0011FBU34/ref=sr_1_1?ie=UTF8&qid=1454814197&sr=8-1&keywords=head+first+%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F)
-+ [Java并发编程实战](http://www.amazon.cn/Java%E5%B9%B6%E5%8F%91%E7%BC%96%E7%A8%8B%E5%AE%9E%E6%88%98-%E7%9B%96%E8%8C%A8/dp/B0077K9XHW/ref=pd_sim_14_1?ie=UTF8&dpID=51XldrwRktL&dpSrc=sims&preST=_AC_UL160_SR124%2C160_&refRID=1XYR1SM2GH25CNPM5Z3K)
 + [Java Reflection in Action](https://www.amazon.cn/Java-Reflection-in-Action-Forman-Ira-R/dp/1932394184/ref=sr_1_1?ie=UTF8&qid=1466261454&sr=8-1&keywords=Java+Reflection+in+Action)
 + [重构 改善既有代码设计](http://www.amazon.cn/%E9%87%8D%E6%9E%84-%E6%94%B9%E5%96%84%E6%97%A2%E6%9C%89%E4%BB%A3%E7%A0%81%E7%9A%84%E8%AE%BE%E8%AE%A1-%E9%A9%AC%E4%B8%81%C2%B7%E7%A6%8F%E5%8B%92/dp/B011LPUB42/ref=sr_1_1?ie=UTF8&qid=1449756794&sr=8-1&keywords=%E9%87%8D%E6%9E%84+%E6%94%B9%E5%96%84%E6%97%A2%E6%9C%89%E4%BB%A3%E7%A0%81%E8%AE%BE%E8%AE%A1)
 + [敏捷软件开发(原则模式与实践)](http://www.amazon.cn/%E6%95%8F%E6%8D%B7%E8%BD%AF%E4%BB%B6%E5%BC%80%E5%8F%91-%E9%A9%AC%E4%B8%81/dp/B00116MMA8/ref=sr_1_1?ie=UTF8&qid=1451893899&sr=8-1&keywords=%E6%95%8F%E6%8D%B7%E5%BC%80%E5%8F%91)
