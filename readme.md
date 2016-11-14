@@ -83,6 +83,7 @@ __Object类所有的非final方法(equals,hashCode,toString,clone和finalize)都
 + [高级集合类和收集器](http://7xoeea.com1.z0.glb.clouddn.com/%E7%AC%AC5%E7%AB%A0%20%E9%AB%98%E7%BA%A7%E9%9B%86%E5%90%88%E7%B1%BB%E5%92%8C%E6%94%B6%E9%9B%86%E5%99%A8.html) __关于Java 8中集合类的一些高级主题__
 + [数据并行化](http://7xoeea.com1.z0.glb.clouddn.com/%E7%AC%AC6%E7%AB%A0%20%E6%95%B0%E6%8D%AE%E5%B9%B6%E8%A1%8C%E5%8C%96.html) __数据并行化是把工作拆分 同时在多核CPU上执行的方式__
 + [测试 调试和重构]() __重构 测试驱动开发和持续集成越来越流行 如果需要将Lambda表达式应用于日常编程工作 就需要学会如何为其编写单元测试__
++ [设计和架构的原则](http://7xoeea.com1.z0.glb.clouddn.com/%E7%AC%AC8%E7%AB%A0%20%E8%AE%BE%E8%AE%A1%E5%92%8C%E6%9E%B6%E6%9E%84%E5%8E%9F%E5%88%99.html) __软件开发最重要的设计工具不是什么技术而是设计原则__
 
 ### [Java Reflection in Action](https://www.amazon.cn/Java-Reflection-in-Action-Forman-Ira-R/dp/1932394184/ref=sr_1_1?ie=UTF8&qid=1478399465&sr=8-1&keywords=Java+Reflection+in+Action)
 
