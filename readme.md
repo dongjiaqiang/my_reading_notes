@@ -123,6 +123,7 @@ __Object类所有的非final方法(equals,hashCode,toString,clone和finalize)都
 + [Scala集合库](http://7xoeea.com1.z0.glb.clouddn.com/%E7%AC%AC12%E7%AB%A0%20Scala%E9%9B%86%E5%90%88%E5%BA%93.html) __通用集合__ __可变集合__ __不可变集合__ __并发集合__ __并行集合__ __值类型特化__
 + [可见性规则](http://7xoeea.com1.z0.glb.clouddn.com/%E7%AC%AC13%E7%AB%A0%20%E5%8F%AF%E8%A7%81%E6%80%A7%E8%A7%84%E5%88%99.html) __可见性规则__ __默认可见性__ __public__ __protected__ __private__ __作用域内受保护__ __作用域内私有__
 + [Scala动态调用](http://7xoeea.com1.z0.glb.clouddn.com/%E7%AC%AC19%E7%AB%A0%20Scala%E5%8A%A8%E6%80%81%E8%B0%83%E7%94%A8.html) __动态调用__ __DSL__ __Dynamic特质__
++ [与Java的互操作](http://7xoeea.com1.z0.glb.clouddn.com/%E7%AC%AC22%E7%AB%A0%20%E4%B8%8EJava%E7%9A%84%E4%BA%92%E6%93%8D%E4%BD%9C.html) __在Scala代码中使用Java名称__ __Java泛型与Scala泛型__ __JavaBean的性质__ __AnyVal类型与Java原生类型__
 
 ### [Scala程序设计:Java虚拟机多核编程实战](http://www.amazon.cn/Scala%E7%A8%8B%E5%BA%8F%E8%AE%BE%E8%AE%A1-Java%E8%99%9A%E6%8B%9F%E6%9C%BA%E5%A4%9A%E6%A0%B8%E7%BC%96%E7%A8%8B%E5%AE%9E%E6%88%98-%E8%8B%8F%E5%B8%95%E6%8B%89%E9%A9%AC%E5%B0%BC%E4%BA%9A%E5%A7%86/dp/B00CBBKJ0W/ref=sr_1_4?ie=UTF8&qid=1451455100&sr=8-4&keywords=sCALA)
 + [Scala的类](http://7xoeea.com1.z0.glb.clouddn.com/%E7%AC%AC4%E7%AB%A0%20Scala%E7%9A%84%E7%B1%BB.html) __创建类__ __类继承__ __单例对象__ __独立对象__ __伴生对象__ __Scala中的static__
