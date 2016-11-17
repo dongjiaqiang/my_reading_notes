@@ -116,6 +116,7 @@ __Object类所有的非final方法(equals,hashCode,toString,clone和finalize)都
 + [模式匹配](http://7xoeea.com1.z0.glb.clouddn.com/%E7%AC%AC4%E7%AB%A0%20%E6%A8%A1%E5%BC%8F%E5%8C%B9%E9%85%8D.html) __简单匹配__ __匹配值 变量和类型__ __匹配序列__ __匹配元组__ __卫述句__ __匹配case类__ __unapply方法__ __unapplySeq方法__ __匹配可变参数列表__ __匹配正则表达式__ __封闭继承层级和全覆盖匹配__ __模式匹配其他用法__
 + [隐式详解](http://7xoeea.com1.z0.glb.clouddn.com/%E7%AC%AC5%E7%AB%A0%20%E9%9A%90%E5%BC%8F%E8%AF%A6%E8%A7%A3.html) __隐式参数__ __implicitly方法__ __隐式参数适用场景__ __执行上下文__  __隐式证据__ __虚类型__ __隐式参数规则__ __隐式转换__ __类型类__ __隐式解析规则__ __Scala内置隐式__
 + [函数式编程](http://7xoeea.com1.z0.glb.clouddn.com/%E7%AC%AC6%E7%AB%A0%20Scala%E5%87%BD%E6%95%B0%E5%BC%8F%E7%BC%96%E7%A8%8B.html) __函数式编程__ __纯函数__ __引用透明__ __副作用__ __高阶函数__ __不可变变量__ __匿名函数__ __Lambda__ __闭包__ __递归__ __尾递归__ __偏应用函数__ __Curry化__ __函数式数据结构__ __序列__ __映射表__ __集合__ __遍历__ __映射__ __过滤__ __折叠与归约__ __组合器__
++ [深入学习for推导式](http://7xoeea.com1.z0.glb.clouddn.com/%E7%AC%AC7%E7%AB%A0%20%E6%B7%B1%E5%85%A5%E5%AD%A6%E4%B9%A0for%E6%8E%A8%E5%AF%BC%E5%BC%8F.html) __ for推导式组成元素__ __for推导式内部机制__ __for推导式转化规则__ __Option容器__ __Either容器__ __Try类型__
 + [Scala面向对象编程](http://7xoeea.com1.z0.glb.clouddn.com/%E7%AC%AC8%E7%AB%A0%20Scala%E9%9D%A2%E5%90%91%E5%AF%B9%E8%B1%A1%E7%BC%96%E7%A8%8B.html) __面向对象编程__ __类__ __对象__  __伴生对象__ __引用类型__ __值类型__ __价值类__ __通用特质__ __父类__ __主构造器__ __辅助构造器__ __case类__ __统一访问原则__ __一元方法__ __验证输入__ __嵌套类型__
 + [特质](http://7xoeea.com1.z0.glb.clouddn.com/%E7%AC%AC9%E7%AB%A0%20%E7%89%B9%E8%B4%A8.html) __接口__ __特质__ __混入类__ __混入实例__ __特质叠加__ __构造特质__ __类线性化算法__
 + [Scala对象系统(Ⅰ)](http://7xoeea.com1.z0.glb.clouddn.com/%E7%AC%AC10%E7%AB%A0%20Scala%E5%AF%B9%E8%B1%A1%E7%B3%BB%E7%BB%9F%28%E2%85%A0%29.html)
@@ -140,7 +141,7 @@ __Object类所有的非final方法(equals,hashCode,toString,clone和finalize)都
 + [替换面向对象模式](http://7xoeea.com1.z0.glb.clouddn.com/%E6%9B%BF%E6%8D%A2%E9%9D%A2%E5%90%91%E5%AF%B9%E8%B1%A1%E6%A8%A1%E5%BC%8F.html) __替换函数式接口__ __替换承载状态的函数式接口__ __替代生成器模式来获得不可变对象__ __替代迭代器模式__ __替代模板方法模式__ __替代策略模式__ __替换空对象__ __替换装饰器模式__ __替代访问者模式__ __替代依赖注入__
 + [函数式模式](http://7xoeea.com1.z0.glb.clouddn.com/%E5%87%BD%E6%95%B0%E5%BC%8F%E6%A8%A1%E5%BC%8F.html) __尾递归模式__ __相互递归模式__ __Filter-Map-Reduce模式__ __操作链模式__ __函数生成器模式__ __记忆模式__ __惰性序列模式__ __集中的可变性__ __自定义控制流__
 
-### Scala函数式编程
+### [Scala函数式编程](https://www.amazon.cn/Scala%E5%87%BD%E6%95%B0%E5%BC%8F%E7%BC%96%E7%A8%8B-Paul-Chiusano-R%C3%BAnar-Bjarnason/dp/B01DWKIT9I/ref=sr_1_2?ie=UTF8&qid=1460901637&sr=8-2&keywords=Scala)
 
 #### 函数式编程介绍
 
@@ -188,8 +189,6 @@ __Object类所有的非final方法(equals,hashCode,toString,clone和finalize)都
 + [类型参数](http://7xoeea.com1.z0.glb.clouddn.com/%E7%AC%AC17%E7%AB%A0%20%E7%B1%BB%E5%9E%8B%E5%8F%82%E6%95%B0.html) __泛型类__ __泛型函数__ __类型变量界定__ __视图界定__ __上下文界定__ __Manifest上下文界定__ __多重界定__ __类型约束__ __型变__ __协变和逆变点__ __类型通配符__
 + [高级类型](http://7xoeea.com1.z0.glb.clouddn.com/%E7%AC%AC18%E7%AB%A0%20%E9%AB%98%E7%BA%A7%E7%B1%BB%E5%9E%8B.html) __单例类型__ __类型投影__ __路径__ __类型别名__ __结构类型__ __复合类型__ __中置类型__ __存在类型__ __Scala类型系统__ __自身类型__ __依赖注入__ __抽象类型__ 
 + [Actor](http://7xoeea.com1.z0.glb.clouddn.com/%E7%AC%AC20%E7%AB%A0%20Actor.html) __创建和启动Actor__ __发生消息__ __接收消息__ __消息通道__ __同步消息__ __Future__ __共享线程__ __Actor生命周期__ __链接多个Actor__ __设计Actor__
-
-### Scala in Action
 
 ### [深入理解Scala](http://www.amazon.cn/%E6%B7%B1%E5%85%A5%E7%90%86%E8%A7%A3Scala-%E8%8B%8F%E7%91%9E%E8%8C%A8/dp/B00RS6C9F8/ref=sr_1_1?ie=UTF8&qid=1452065856&sr=8-1&keywords=%E6%B7%B1%E5%85%A5%E7%90%86%E8%A7%A3Scala)
 
@@ -397,7 +396,6 @@ __设计模式(design pattern)是对软件设计中普遍存在(反复出现)的
 + [C和指针](https://www.amazon.cn/C%E5%92%8C%E6%8C%87%E9%92%88-Pointers-On-C-Kenneth-A-Reek/dp/B00163LU68/ref=sr_1_1?ie=UTF8&qid=1464791324&sr=8-1&keywords=C%E4%B8%8E%E6%8C%87%E9%92%88)
 + [C++ Primer(中文版)(第5版)](https://www.amazon.cn/C-Primer-%E6%96%AF%E5%9D%A6%E5%88%A9%C2%B7%E6%9D%8E%E6%99%AE%E6%9B%BC/dp/B00ESUIL0O/ref=sr_1_1?ie=UTF8&qid=1464791452&sr=8-1&keywords=C%2B%2B)
 + [七周七并发模型](https://www.amazon.cn/%E4%B8%83%E5%91%A8%E4%B8%83%E5%B9%B6%E5%8F%91%E6%A8%A1%E5%9E%8B-%E5%B8%83%E5%BD%BB/dp/B00V4B2KEI/ref=sr_1_1?ie=UTF8&qid=1461251092&sr=8-1&keywords=%E4%B8%83%E5%91%A8%E4%B8%83%E5%B9%B6%E5%8F%91)
-+ [Scala函数式编程](https://www.amazon.cn/Scala%E5%87%BD%E6%95%B0%E5%BC%8F%E7%BC%96%E7%A8%8B-Paul-Chiusano-R%C3%BAnar-Bjarnason/dp/B01DWKIT9I/ref=sr_1_2?ie=UTF8&qid=1460901637&sr=8-2&keywords=Scala)
 + [Java性能权威指南](https://www.amazon.cn/Java%E6%80%A7%E8%83%BD%E6%9D%83%E5%A8%81%E6%8C%87%E5%8D%97-%E5%A5%A5%E5%85%8B%E6%96%AF/dp/B01DLB7Z66/ref=sr_1_1?ie=UTF8&qid=1460901455&sr=8-1&keywords=java%E6%80%A7%E8%83%BD)
 + [Head First设计模式(中文版)](http://www.amazon.cn/Head-First%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F-%E5%BC%97%E9%87%8C%E6%9B%BC/dp/B0011FBU34/ref=sr_1_1?ie=UTF8&qid=1454814197&sr=8-1&keywords=head+first+%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F)
 + [Java Reflection in Action](https://www.amazon.cn/Java-Reflection-in-Action-Forman-Ira-R/dp/1932394184/ref=sr_1_1?ie=UTF8&qid=1466261454&sr=8-1&keywords=Java+Reflection+in+Action)
