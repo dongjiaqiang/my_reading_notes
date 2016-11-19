@@ -32,6 +32,9 @@ __Object类所有的非final方法(equals,hashCode,toString,clone和finalize)都
 + [基于Treiber算法实现的非阻塞栈](http://7xoeea.com1.z0.glb.clouddn.com/%E5%9F%BA%E4%BA%8ETreiber%E7%AE%97%E6%B3%95%E5%AE%9E%E7%8E%B0%E7%9A%84%E9%9D%9E%E9%98%BB%E5%A1%9E%E6%A0%88.html) __Treiber算法__
 + [Java内存模型](http://7xoeea.com1.z0.glb.clouddn.com/Java%E5%86%85%E5%AD%98%E6%A8%A1%E5%9E%8B.html) __内存模型__ __重排序__ __Happens-Before关系__ __发布__ __初始化__ __双重检查锁__
 
+### [Java多线程编程实战指南(设计模式篇)](https://www.amazon.cn/gp/product/B016IW624G/ref=pd_bxgy_14_img_2?ie=UTF8&psc=1&refRID=YKS1MEW8R4T1XEFJTK1R)
++ [不可变对象模式] __使得可以在不使用锁情况下 既保证共享变量访问的线程安全 又能够避免引入锁可能带来的问题和开销__
+
 ### [Java编程思想(第4版)](http://www.amazon.cn/Java%E7%BC%96%E7%A8%8B%E6%80%9D%E6%83%B3-%E5%9F%83%E5%8F%B2%E5%B0%94/dp/B0011F7WU4/ref=sr_1_1?ie=UTF8&qid=1451465907&sr=8-1&keywords=JAVA) 
 + [初始化与清理](http://7xoeea.com1.z0.glb.clouddn.com/%E7%AC%AC5%E7%AB%A0%20%E5%88%9D%E5%A7%8B%E5%8C%96%E4%B8%8E%E6%B8%85%E7%90%86.html) __初始化和清理涉及Java的编程安全__
 + [访问权限控制](http://7xoeea.com1.z0.glb.clouddn.com/6%E8%AE%BF%E9%97%AE%E6%9D%83%E9%99%90%E6%8E%A7%E5%88%B6.html) __访问控制(或隐藏具体实现)与”最初的实现并不恰当”有关__
@@ -92,12 +95,14 @@ __Object类所有的非final方法(equals,hashCode,toString,clone和finalize)都
 + [Java内存区域与内存溢出异常](https://github.com/dongjiaqiang/my_reading_notes/blob/master/doc/chapter2_2.md)
 + [类文件结构](https://github.com/dongjiaqiang/my_reading_notes/blob/master/doc/chapter2_6.md)
 
-###实战Java虚拟机:JVM故障诊断与性能优化
+### 实战Java虚拟机:JVM故障诊断与性能优化
 + [认识Java虚拟机的基本结构](https://github.com/dongjiaqiang/my_reading_notes/blob/master/doc/chapter2.md)
 + [常用虚拟机参数](https://github.com/dongjiaqiang/my_reading_notes/blob/master/doc/chapter3.md)
 + [垃圾回收概念与算法](https://github.com/dongjiaqiang/my_reading_notes/blob/master/doc/chapter4.md)
 
-### Groovy程序设计
+### [Groovy程序设计](https://www.amazon.cn/Groovy%E7%A8%8B%E5%BA%8F%E8%AE%BE%E8%AE%A1-%E7%BE%8E-Venkat-Subramaniam/dp/B00OUGT10A/ref=sr_1_1?ie=UTF8&qid=1475487877&sr=8-1&keywords=groovy)
+
+
 
 ### Java性能权威指南
 
@@ -126,6 +131,7 @@ __Object类所有的非final方法(equals,hashCode,toString,clone和finalize)都
 + [可见性规则](http://7xoeea.com1.z0.glb.clouddn.com/%E7%AC%AC13%E7%AB%A0%20%E5%8F%AF%E8%A7%81%E6%80%A7%E8%A7%84%E5%88%99.html) __可见性规则__ __默认可见性__ __public__ __protected__ __private__ __作用域内受保护__ __作用域内私有__
 + [Scala动态调用](http://7xoeea.com1.z0.glb.clouddn.com/%E7%AC%AC19%E7%AB%A0%20Scala%E5%8A%A8%E6%80%81%E8%B0%83%E7%94%A8.html) __动态调用__ __DSL__ __Dynamic特质__
 + [与Java的互操作](http://7xoeea.com1.z0.glb.clouddn.com/%E7%AC%AC22%E7%AB%A0%20%E4%B8%8EJava%E7%9A%84%E4%BA%92%E6%93%8D%E4%BD%9C.html) __在Scala代码中使用Java名称__ __Java泛型与Scala泛型__ __JavaBean的性质__ __AnyVal类型与Java原生类型__
++ [应用程序设计]() 
 
 ### [Scala程序设计:Java虚拟机多核编程实战](http://www.amazon.cn/Scala%E7%A8%8B%E5%BA%8F%E8%AE%BE%E8%AE%A1-Java%E8%99%9A%E6%8B%9F%E6%9C%BA%E5%A4%9A%E6%A0%B8%E7%BC%96%E7%A8%8B%E5%AE%9E%E6%88%98-%E8%8B%8F%E5%B8%95%E6%8B%89%E9%A9%AC%E5%B0%BC%E4%BA%9A%E5%A7%86/dp/B00CBBKJ0W/ref=sr_1_4?ie=UTF8&qid=1451455100&sr=8-4&keywords=sCALA)
 + [Scala的类](http://7xoeea.com1.z0.glb.clouddn.com/%E7%AC%AC4%E7%AB%A0%20Scala%E7%9A%84%E7%B1%BB.html) __创建类__ __类继承__ __单例对象__ __独立对象__ __伴生对象__ __Scala中的static__
@@ -401,7 +407,6 @@ __设计模式(design pattern)是对软件设计中普遍存在(反复出现)的
 + [Java Reflection in Action](https://www.amazon.cn/Java-Reflection-in-Action-Forman-Ira-R/dp/1932394184/ref=sr_1_1?ie=UTF8&qid=1466261454&sr=8-1&keywords=Java+Reflection+in+Action)
 + [重构 改善既有代码设计](http://www.amazon.cn/%E9%87%8D%E6%9E%84-%E6%94%B9%E5%96%84%E6%97%A2%E6%9C%89%E4%BB%A3%E7%A0%81%E7%9A%84%E8%AE%BE%E8%AE%A1-%E9%A9%AC%E4%B8%81%C2%B7%E7%A6%8F%E5%8B%92/dp/B011LPUB42/ref=sr_1_1?ie=UTF8&qid=1449756794&sr=8-1&keywords=%E9%87%8D%E6%9E%84+%E6%94%B9%E5%96%84%E6%97%A2%E6%9C%89%E4%BB%A3%E7%A0%81%E8%AE%BE%E8%AE%A1)
 + [敏捷软件开发(原则模式与实践)](http://www.amazon.cn/%E6%95%8F%E6%8D%B7%E8%BD%AF%E4%BB%B6%E5%BC%80%E5%8F%91-%E9%A9%AC%E4%B8%81/dp/B00116MMA8/ref=sr_1_1?ie=UTF8&qid=1451893899&sr=8-1&keywords=%E6%95%8F%E6%8D%B7%E5%BC%80%E5%8F%91)
-+ [Groovy程序设计](https://www.amazon.cn/Groovy%E7%A8%8B%E5%BA%8F%E8%AE%BE%E8%AE%A1-%E7%BE%8E-Venkat-Subramaniam/dp/B00OUGT10A/ref=sr_1_1?ie=UTF8&qid=1475487877&sr=8-1&keywords=groovy)
 + [深入理解Java虚拟机:JVM高级特性与最佳实践(第2版)](http://www.amazon.cn/%E6%B7%B1%E5%85%A5%E7%90%86%E8%A7%A3Java%E8%99%9A%E6%8B%9F%E6%9C%BA-JVM%E9%AB%98%E7%BA%A7%E7%89%B9%E6%80%A7%E4%B8%8E%E6%9C%80%E4%BD%B3%E5%AE%9E%E8%B7%B5-%E5%91%A8%E5%BF%97%E6%98%8E/dp/B00D2ID4PK/ref=sr_1_1?ie=UTF8&qid=1451532281&sr=8-1&keywords=java%E8%99%9A%E6%8B%9F%E6%9C%BA)
 + [Scala in Action](http://www.amazon.cn/Scala-in-Action-Raychaudhuri-Nilanjan/dp/1935182757/ref=sr_1_1?ie=UTF8&qid=1451892920&sr=8-1&keywords=Scala+in+action)
 + [Learning Spark](http://www.amazon.cn/Learning-Spark-Lightning-Fast-Big-Data-Analysis-Karau-Holden/dp/1449358624/ref=sr_1_13?ie=UTF8&qid=1451892979&sr=8-13&keywords=spark)
