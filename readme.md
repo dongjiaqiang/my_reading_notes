@@ -1,6 +1,7 @@
 # My Technical Notes
 
-## 一.编程语言与编程思想
+
+## 一. Java语言程序设计
 
 ### [Effective Java(中文第二版)](http://www.amazon.cn/Sun-%E5%85%AC%E5%8F%B8%E6%A0%B8%E5%BF%83%E6%8A%80%E6%9C%AF%E4%B8%9B%E4%B9%A6-Effective-Java%E4%B8%AD%E6%96%87%E7%89%88-Joshua-Bloch/dp/B001PTGR52/ref=pd_bxgy_14_img_3?ie=UTF8&refRID=1K4TFG3XFVJH3DCFT2FT)
 + [创建和销毁对象](http://7xoeea.com1.z0.glb.clouddn.com/%E5%88%9B%E5%BB%BA%E5%92%8C%E9%94%80%E6%AF%81%E5%AF%B9%E8%B1%A1.html) __何时和如何创建对象 何时和如何避免创建对象 如何确保对象能够适时地销毁 如何管理对象销毁前的各种清理动作__
@@ -13,27 +14,6 @@ __Object类所有的非final方法(equals,hashCode,toString,clone和finalize)都
 + [方法](http://7xoeea.com1.z0.glb.clouddn.com/%E6%96%B9%E6%B3%95%28Method%29.html) __如何处理参数和返回值 如何设计方法签名 如何为方法编写文档__
 + [异常](http://7xoeea.com1.z0.glb.clouddn.com/%E5%BC%82%E5%B8%B8(Exception).html) __充分发挥异常的优点 可以提高程序的可读性 可靠性和可维护性__
 + [并发](http://7xoeea.com1.z0.glb.clouddn.com/%E5%B9%B6%E5%8F%91%28Concurrency%29.html) __并行编程可以使程序执行速度得到极大提高 或者为设计某些类型的程序提供更易用的模型 或者两者皆有__
-
-### [Java并发编程实战](http://www.amazon.cn/Java%E5%B9%B6%E5%8F%91%E7%BC%96%E7%A8%8B%E5%AE%9E%E6%88%98-%E7%9B%96%E8%8C%A8/dp/B0077K9XHW/ref=pd_sim_14_1?ie=UTF8&dpID=51XldrwRktL&dpSrc=sims&preST=_AC_UL160_SR124%2C160_&refRID=1XYR1SM2GH25CNPM5Z3K)
-+ [简介](http://7xoeea.com1.z0.glb.clouddn.com/%E7%AE%80%E4%BB%8B%28Introduction%29.html) __并发__ __优势__ __风险__
-+ [线程安全性](http://7xoeea.com1.z0.glb.clouddn.com/线程安全性(Thread%20Safety).html) __线程安全性__  __原子性__ __加锁机制__  __活跃性与性能问题__
-+ [对象的共享](http://7xoeea.com1.z0.glb.clouddn.com/%E5%AF%B9%E8%B1%A1%E7%9A%84%E5%85%B1%E4%BA%AB(Shared%20Objects).html) __可见性__ __发布与逸出__ __线程封闭__  __不变性__ __安全发布__
-+ [对象的组合](http://7xoeea.com1.z0.glb.clouddn.com/%E5%AF%B9%E8%B1%A1%E7%BB%84%E5%90%88.html) __设计线程安全性的类__ __实例封闭__ __线程安全性委托__  __同步策略文档化__
-+ [构建基础模块](http://7xoeea.com1.z0.glb.clouddn.com/%E5%9F%BA%E7%A1%80%E6%9E%84%E5%BB%BA%E6%A8%A1%E5%9D%97.html) __同步容器__ __并发容器__ __同步工具__  
-+ [任务执行](http://7xoeea.com1.z0.glb.clouddn.com/%E4%BB%BB%E5%8A%A1%E6%89%A7%E8%A1%8C.html) __线程__ __Executor框架__ 
-+ [取消和关闭](http://7xoeea.com1.z0.glb.clouddn.com/%E5%8F%96%E6%B6%88%E5%92%8C%E5%85%B3%E9%97%AD%28Abort%20And%20Interrupted%29.html) __任务取消__ __中断__ __停止基于线程的服务__ __处理非正常的线程终止__
-+ [避免活跃性问题](http://7xoeea.com1.z0.glb.clouddn.com/%E9%81%BF%E5%85%8D%E6%B4%BB%E8%B7%83%E6%80%A7%E9%97%AE%E9%A2%98%28Avoid%20Active%20Problem%29.html) __死锁__ __饥饿__ __活锁__
-+ [性能和可伸缩性](http://7xoeea.com1.z0.glb.clouddn.com/%E6%80%A7%E8%83%BD%E4%B8%8E%E5%8F%AF%E4%BC%B8%E7%BC%A9%E6%80%A7.html) __缩小锁的范围__ __减少锁的粒度__ __锁分段__
-+ [线程池的使用](http://7xoeea.com1.z0.glb.clouddn.com/%E7%BA%BF%E7%A8%8B%E6%B1%A0%E7%9A%84%E4%BD%BF%E7%94%A8%28Thread%20Pool%29.html) __任务__ __执行策略__ __解耦__ __线程饥饿__ __线程死锁__ __设置线程池__ __线程池创建和销毁__ __管理队列任务__ __饱和策略__ __线程工厂__
-+ [显式锁](http://7xoeea.com1.z0.glb.clouddn.com/显式锁.html) __Lock__ __ReenTrantLock__ __轮询锁__ __定时锁__ __读写锁__
-+ [构建自定义的同步工具](http://7xoeea.com1.z0.glb.clouddn.com/%E6%9E%84%E5%BB%BA%E8%87%AA%E5%AE%9A%E4%B9%89%E7%9A%84%E5%90%8C%E6%AD%A5%E5%B7%A5%E5%85%B7.html) __状态依赖管理__ __条件队列__ __Condtion对象__ __AbstractQueuedSynchronizer__ 
-+ [原子变量和非阻塞同步机制](http://7xl8na.com1.z0.glb.clouddn.com/%E5%8E%9F%E5%AD%90%E5%8F%98%E9%87%8F%E4%B8%8E%E9%9D%9E%E9%98%BB%E5%A1%9E%E5%90%8C%E6%AD%A5%E6%9C%BA%E5%88%B6.html) __原子变量__ __非阻塞算法__  
-+ [Michael-Scott非阻塞算法中的插入算法](http://7xoeea.com1.z0.glb.clouddn.com/Michael-Scott%E9%9D%9E%E9%98%BB%E5%A1%9E%E7%AE%97%E6%B3%95%E4%B8%AD%E7%9A%84%E6%8F%92%E5%85%A5%E7%AE%97%E6%B3%95.html) __Michael-Scott非阻塞算法__
-+ [基于Treiber算法实现的非阻塞栈](http://7xoeea.com1.z0.glb.clouddn.com/%E5%9F%BA%E4%BA%8ETreiber%E7%AE%97%E6%B3%95%E5%AE%9E%E7%8E%B0%E7%9A%84%E9%9D%9E%E9%98%BB%E5%A1%9E%E6%A0%88.html) __Treiber算法__
-+ [Java内存模型](http://7xoeea.com1.z0.glb.clouddn.com/Java%E5%86%85%E5%AD%98%E6%A8%A1%E5%9E%8B.html) __内存模型__ __重排序__ __Happens-Before关系__ __发布__ __初始化__ __双重检查锁__
-
-### [Java多线程编程实战指南(设计模式篇)](https://www.amazon.cn/gp/product/B016IW624G/ref=pd_bxgy_14_img_2?ie=UTF8&psc=1&refRID=YKS1MEW8R4T1XEFJTK1R)
-+ [不可变对象模式] __使得可以在不使用锁情况下 既保证共享变量访问的线程安全 又能够避免引入锁可能带来的问题和开销__
 
 ### [Java编程思想(第4版)](http://www.amazon.cn/Java%E7%BC%96%E7%A8%8B%E6%80%9D%E6%83%B3-%E5%9F%83%E5%8F%B2%E5%B0%94/dp/B0011F7WU4/ref=sr_1_1?ie=UTF8&qid=1451465907&sr=8-1&keywords=JAVA) 
 + [初始化与清理](http://7xoeea.com1.z0.glb.clouddn.com/%E7%AC%AC5%E7%AB%A0%20%E5%88%9D%E5%A7%8B%E5%8C%96%E4%B8%8E%E6%B8%85%E7%90%86.html) __初始化和清理涉及Java的编程安全__
@@ -88,7 +68,34 @@ __Object类所有的非final方法(equals,hashCode,toString,clone和finalize)都
 + [测试 调试和重构]() __重构 测试驱动开发和持续集成越来越流行 如果需要将Lambda表达式应用于日常编程工作 就需要学会如何为其编写单元测试__
 + [设计和架构的原则](http://7xoeea.com1.z0.glb.clouddn.com/%E7%AC%AC8%E7%AB%A0%20%E8%AE%BE%E8%AE%A1%E5%92%8C%E6%9E%B6%E6%9E%84%E5%8E%9F%E5%88%99.html) __软件开发最重要的设计工具不是什么技术而是设计原则__
 
+## 二. Java并发编程
+
+### [Java并发编程实战](http://www.amazon.cn/Java%E5%B9%B6%E5%8F%91%E7%BC%96%E7%A8%8B%E5%AE%9E%E6%88%98-%E7%9B%96%E8%8C%A8/dp/B0077K9XHW/ref=pd_sim_14_1?ie=UTF8&dpID=51XldrwRktL&dpSrc=sims&preST=_AC_UL160_SR124%2C160_&refRID=1XYR1SM2GH25CNPM5Z3K)
++ [简介](http://7xoeea.com1.z0.glb.clouddn.com/%E7%AE%80%E4%BB%8B%28Introduction%29.html) __并发__ __优势__ __风险__
++ [线程安全性](http://7xoeea.com1.z0.glb.clouddn.com/线程安全性(Thread%20Safety).html) __线程安全性__  __原子性__ __加锁机制__  __活跃性与性能问题__
++ [对象的共享](http://7xoeea.com1.z0.glb.clouddn.com/%E5%AF%B9%E8%B1%A1%E7%9A%84%E5%85%B1%E4%BA%AB(Shared%20Objects).html) __可见性__ __发布与逸出__ __线程封闭__  __不变性__ __安全发布__
++ [对象的组合](http://7xoeea.com1.z0.glb.clouddn.com/%E5%AF%B9%E8%B1%A1%E7%BB%84%E5%90%88.html) __设计线程安全性的类__ __实例封闭__ __线程安全性委托__  __同步策略文档化__
++ [构建基础模块](http://7xoeea.com1.z0.glb.clouddn.com/%E5%9F%BA%E7%A1%80%E6%9E%84%E5%BB%BA%E6%A8%A1%E5%9D%97.html) __同步容器__ __并发容器__ __同步工具__  
++ [任务执行](http://7xoeea.com1.z0.glb.clouddn.com/%E4%BB%BB%E5%8A%A1%E6%89%A7%E8%A1%8C.html) __线程__ __Executor框架__ 
++ [取消和关闭](http://7xoeea.com1.z0.glb.clouddn.com/%E5%8F%96%E6%B6%88%E5%92%8C%E5%85%B3%E9%97%AD%28Abort%20And%20Interrupted%29.html) __任务取消__ __中断__ __停止基于线程的服务__ __处理非正常的线程终止__
++ [避免活跃性问题](http://7xoeea.com1.z0.glb.clouddn.com/%E9%81%BF%E5%85%8D%E6%B4%BB%E8%B7%83%E6%80%A7%E9%97%AE%E9%A2%98%28Avoid%20Active%20Problem%29.html) __死锁__ __饥饿__ __活锁__
++ [性能和可伸缩性](http://7xoeea.com1.z0.glb.clouddn.com/%E6%80%A7%E8%83%BD%E4%B8%8E%E5%8F%AF%E4%BC%B8%E7%BC%A9%E6%80%A7.html) __缩小锁的范围__ __减少锁的粒度__ __锁分段__
++ [线程池的使用](http://7xoeea.com1.z0.glb.clouddn.com/%E7%BA%BF%E7%A8%8B%E6%B1%A0%E7%9A%84%E4%BD%BF%E7%94%A8%28Thread%20Pool%29.html) __任务__ __执行策略__ __解耦__ __线程饥饿__ __线程死锁__ __设置线程池__ __线程池创建和销毁__ __管理队列任务__ __饱和策略__ __线程工厂__
++ [显式锁](http://7xoeea.com1.z0.glb.clouddn.com/显式锁.html) __Lock__ __ReenTrantLock__ __轮询锁__ __定时锁__ __读写锁__
++ [构建自定义的同步工具](http://7xoeea.com1.z0.glb.clouddn.com/%E6%9E%84%E5%BB%BA%E8%87%AA%E5%AE%9A%E4%B9%89%E7%9A%84%E5%90%8C%E6%AD%A5%E5%B7%A5%E5%85%B7.html) __状态依赖管理__ __条件队列__ __Condtion对象__ __AbstractQueuedSynchronizer__ 
++ [原子变量和非阻塞同步机制](http://7xl8na.com1.z0.glb.clouddn.com/%E5%8E%9F%E5%AD%90%E5%8F%98%E9%87%8F%E4%B8%8E%E9%9D%9E%E9%98%BB%E5%A1%9E%E5%90%8C%E6%AD%A5%E6%9C%BA%E5%88%B6.html) __原子变量__ __非阻塞算法__  
++ [Michael-Scott非阻塞算法中的插入算法](http://7xoeea.com1.z0.glb.clouddn.com/Michael-Scott%E9%9D%9E%E9%98%BB%E5%A1%9E%E7%AE%97%E6%B3%95%E4%B8%AD%E7%9A%84%E6%8F%92%E5%85%A5%E7%AE%97%E6%B3%95.html) __Michael-Scott非阻塞算法__
++ [基于Treiber算法实现的非阻塞栈](http://7xoeea.com1.z0.glb.clouddn.com/%E5%9F%BA%E4%BA%8ETreiber%E7%AE%97%E6%B3%95%E5%AE%9E%E7%8E%B0%E7%9A%84%E9%9D%9E%E9%98%BB%E5%A1%9E%E6%A0%88.html) __Treiber算法__
++ [Java内存模型](http://7xoeea.com1.z0.glb.clouddn.com/Java%E5%86%85%E5%AD%98%E6%A8%A1%E5%9E%8B.html) __内存模型__ __重排序__ __Happens-Before关系__ __发布__ __初始化__ __双重检查锁__
+
+### [Java多线程编程实战指南(设计模式篇)](https://www.amazon.cn/gp/product/B016IW624G/ref=pd_bxgy_14_img_2?ie=UTF8&psc=1&refRID=YKS1MEW8R4T1XEFJTK1R)
++ [不可变对象模式](http://7xoeea.com1.z0.glb.clouddn.com/%E7%AC%AC3%E7%AB%A0%20Immutable%20Object%28%E4%B8%8D%E5%8F%AF%E5%8F%98%E5%AF%B9%E8%B1%A1%29%E6%A8%A1%E5%BC%8F.html) __使得可以在不使用锁情况下 既保证共享变量访问的线程安全 又能够避免引入锁可能带来的问题和开销__
+
+## 三. Java反射编程
+
 ### [Java Reflection in Action](https://www.amazon.cn/Java-Reflection-in-Action-Forman-Ira-R/dp/1932394184/ref=sr_1_1?ie=UTF8&qid=1478399465&sr=8-1&keywords=Java+Reflection+in+Action)
+
+## 四. Java虚拟机
 
 ### 深入理解Java虚拟机:JVM高级特性与最佳实践(第2版)
 
@@ -100,15 +107,15 @@ __Object类所有的非final方法(equals,hashCode,toString,clone和finalize)都
 + [常用虚拟机参数](https://github.com/dongjiaqiang/my_reading_notes/blob/master/doc/chapter3.md)
 + [垃圾回收概念与算法](https://github.com/dongjiaqiang/my_reading_notes/blob/master/doc/chapter4.md)
 
-### [Groovy程序设计](https://www.amazon.cn/Groovy%E7%A8%8B%E5%BA%8F%E8%AE%BE%E8%AE%A1-%E7%BE%8E-Venkat-Subramaniam/dp/B00OUGT10A/ref=sr_1_1?ie=UTF8&qid=1475487877&sr=8-1&keywords=groovy)
-
-
-
 ### Java性能权威指南
+
+## 五. Java网络编程
 
 ### Fundamental Networking in Java
 
 + [Fundamental In TCP](http://7xoeea.com1.z0.glb.clouddn.com/Fundamental%20In%20TCP.html)
+
+## 六. Scala语言程序设计
 
 ### [Scala编程实战](https://www.amazon.cn/Scala%E7%BC%96%E7%A8%8B%E5%AE%9E%E6%88%98-%E4%BA%9A%E5%8E%86%E5%B1%B1%E5%A4%A7/dp/B01H6ZJFAW/ref=sr_1_1?ie=UTF8&qid=1478003896&sr=8-1&keywords=scala%E7%BC%96%E7%A8%8B%E5%AE%9E%E6%88%98)
 
@@ -164,17 +171,6 @@ __Object类所有的非final方法(equals,hashCode,toString,clone和finalize)都
 
 #### 作用与I/O
 
-### [Scala并发编程](http://www.amazon.cn/Scala%E5%B9%B6%E5%8F%91%E7%BC%96%E7%A8%8B-%E6%99%AE%E7%BD%97%E7%A7%91%E4%BD%A9%E8%8C%A8/dp/B015YBW0SY/ref=sr_1_6?ie=UTF8&qid=1451876157&sr=8-6&keywords=scala)
-
-+ [JVM和Java内存模型中的并发处理方式](http://7xoeea.com1.z0.glb.clouddn.com/2%20JVM%E5%92%8CJava%E5%86%85%E5%AD%98%E6%A8%A1%E5%9E%8B%E4%B8%AD%E7%9A%84%E5%B9%B6%E5%8F%91%E5%A4%84%E7%90%86%E6%96%B9%E5%BC%8F.html) __创建和启动线程__ __原子执行方式__ __监控器和同步__ __死锁__ __保卫锁__ __中断线程和正常关闭__ __Volatile变量__ __Java内存模型__ __不可变字段__ __final字段__  [练习](http://7xoeea.com1.z0.glb.clouddn.com/JVM%E5%92%8CJava%E5%86%85%E5%AD%98%E6%A8%A1%E5%9E%8B%E4%B8%AD%E7%9A%84%E5%B9%B6%E5%8F%91%E5%A4%84%E7%90%86%E6%96%B9%E5%BC%8F%20%E7%BB%83%E4%B9%A0.html)
-+ [构建并发程序的传统材料](http://7xoeea.com1.z0.glb.clouddn.com/3%E6%9E%84%E5%BB%BA%E5%B9%B6%E5%8F%91%E7%A8%8B%E5%BA%8F%E7%9A%84%E4%BC%A0%E7%BB%9F%E6%9D%90%E6%96%99.html) __Executor对象__ __ExecutionContext对象__ __原子型基元__ __无锁编程__ __原子变量__ __ABA问题__ __惰性值__ __并发集合__ __并发队列__ __并发集__ __并发映射__ __并发遍历__ __创建和处理进程__ [练习](http://7xoeea.com1.z0.glb.clouddn.com/%E6%9E%84%E5%BB%BA%E5%B9%B6%E5%8F%91%E7%A8%8B%E5%BA%8F%E7%9A%84%E4%BC%A0%E7%BB%9F%E6%9D%90%E6%96%99%20%E7%BB%83%E4%B9%A0.html)
-+ [使用Future和Promise对象编写异步程序](http://7xoeea.com1.z0.glb.clouddn.com/4%20%E4%BD%BF%E7%94%A8Future%E5%92%8CPromise%E5%AF%B9%E8%B1%A1%E7%BC%96%E5%86%99%E5%BC%82%E6%AD%A5%E7%A8%8B%E5%BA%8F.html) __Future类__ __Future对象的回调函数__ __Future计算和异常__ __Try类型__ __函数组合__ __Promise类__ __扩展Future API__ __阻塞操作__ [练习](http://7xoeea.com1.z0.glb.clouddn.com/%E4%BD%BF%E7%94%A8Future%E5%92%8CPromise%E5%AF%B9%E8%B1%A1%E5%86%99%E5%BC%82%E6%AD%A5%E7%A8%8B%E5%BA%8F%20%E7%BB%83%E4%B9%A0.html)
-+ [数据并行集合](http://7xonn1.com1.z0.glb.clouddn.com/5%E6%95%B0%E6%8D%AE%E5%B9%B6%E8%A1%8C%E9%9B%86%E5%90%88.html) __并行操作__ __配置并行等级__ __度量性能__ __顺序集合和并行集合的差异__ __自定义并行集合__ __非可并行化集合__ __非可并行化操作__ __不确定的并行操作__ __可交换和可结合操作符__ __弱一致迭代器__
-+ [使用Reactive Extensions编写并发程序](http://7xoeea.com1.z0.glb.clouddn.com/6%20%E4%BD%BF%E7%94%A8Reactive%20Extensions%E7%BC%96%E5%86%99%E5%B9%B6%E5%8F%91%E7%A8%8B%E5%BA%8F.html) __Observable对象__ __Observable对象和异常__ __Observable协定__ __自定义Observable对象__ __Subscrition特质__ __通过Future对象创建Observable对象__ __组合Observable对象__ __嵌套的Observable对象__ __retry组合子__  __Rx调度器__ __Subject特质__ __自顶向下的响应式编程__ [练习](http://7xoeea.com1.z0.glb.clouddn.com/6%20%E4%BD%BF%E7%94%A8Reactive%20Extensions%E7%BC%96%E5%86%99%E5%B9%B6%E5%8F%91%E7%A8%8B%E5%BA%8F%20%E7%BB%83%E4%B9%A0.html)
-+ [基于软件的事务内存](http://7xoeea.com1.z0.glb.clouddn.com/7%20%E5%9F%BA%E4%BA%8E%E8%BD%AF%E4%BB%B6%E7%9A%84%E4%BA%8B%E5%8A%A1%E5%86%85%E5%AD%98.html) __原子变量的缺点__ __软件事务内存__ __事务引用__ __atomic语句__ __组合事务__ __事务与副作用__ __单操作事务__ __嵌套事务__ __事务和异常__ __重新尝试执行事务__ __通过超时设置重新尝试执行事务__ __事务集合__ __事务局部变量__ __事务数组__ __事务映射__ [练习](http://7xoeea.com1.z0.glb.clouddn.com/7%20%E8%BD%AF%E4%BB%B6%E7%9A%84%E4%BA%8B%E5%8A%A1%E5%86%85%E5%AD%98%20%E7%BB%83%E4%B9%A0.html)
-+ [Actor](http://7xoeea.com1.z0.glb.clouddn.com/8%20Actor.html) __Actor模型__ __Akka框架__ __Actor系统__ __Actor类__ __Actor实例__ __消息__ __邮箱__ __Actor引用__ __分配器__ __生命周期__ __Actor监督__ __远程Actor对象__ [练习](http://7xoeea.com1.z0.glb.clouddn.com/8%20Actor%20%E7%BB%83%E4%B9%A0%28%E4%BF%AE%E6%AD%A32%29.html)
-+ [实用并发技术](http://7xoeea.com1.z0.glb.clouddn.com/9%20%E5%AE%9E%E7%94%A8%E5%B9%B6%E5%8F%91%E6%8A%80%E6%9C%AF.html) __并发框架特点和用法__
-
 ### [快学Scala](http://www.amazon.cn/%E5%BF%AB%E5%AD%A6Scala-%E5%87%AF%E2%80%A2S-%E9%9C%8D%E6%96%AF%E6%9B%BC/dp/B009P8FHHO/ref=sr_1_1?ie=UTF8&qid=1451875959&sr=8-1&keywords=%E5%BF%AB%E5%AD%A6scala)
 
 + [控制结构与函数](http://7xoeea.com1.z0.glb.clouddn.com/%E7%AC%AC2%E7%AB%A0%20%E6%8E%A7%E5%88%B6%E7%BB%93%E6%9E%84%E5%92%8C%E5%87%BD%E6%95%B0.html) __条件表达式__ __语句终止__ __块表达式__ __循环__ __高级for循环__ __for推导式__ __函数__ __默认参数__ __带名参数__ __变长参数__ __过程__ __懒值__ __异常__
@@ -205,6 +201,23 @@ __Object类所有的非final方法(equals,hashCode,toString,clone和finalize)都
 + [隐式转换](http://7xoeea.com1.z0.glb.clouddn.com/%E7%AC%AC5%E7%AB%A0%20%E9%9A%90%E5%BC%8F%E8%BD%AC%E6%8D%A2.html) __隐式解析__ __隐式参数__ __隐式函数__ __作用域绑定__ __限制隐式作用域__ __结合默认参数__
 + [集合类型](http://7xoeea.com1.z0.glb.clouddn.com/%E7%AC%AC8%E7%AB%A0%20%E9%9B%86%E5%90%88%E7%B1%BB%E5%9E%8B.html) __集合类型继承体系__ __可变集合__ __不可变集合__ __延迟计算__ __即时计算__ __串行计算__ __并行计算__
 + [类型系统](http://7xoeea.com1.z0.glb.clouddn.com/%E7%AC%AC6%E7%AB%A0%20%E7%B1%BB%E5%9E%8B%E7%B3%BB%E7%BB%9F.html) __类型__ __路径__ __类型注入__ __路径依赖类型__ __type关键字__ __结构化类型__ __类型约束(类型定界)__ __类型参数__ __高阶类型__ __型变__ __存在类型__
+
+## 七. Scala并发编程
+
+### [Scala并发编程](http://www.amazon.cn/Scala%E5%B9%B6%E5%8F%91%E7%BC%96%E7%A8%8B-%E6%99%AE%E7%BD%97%E7%A7%91%E4%BD%A9%E8%8C%A8/dp/B015YBW0SY/ref=sr_1_6?ie=UTF8&qid=1451876157&sr=8-6&keywords=scala)
+
++ [JVM和Java内存模型中的并发处理方式](http://7xoeea.com1.z0.glb.clouddn.com/2%20JVM%E5%92%8CJava%E5%86%85%E5%AD%98%E6%A8%A1%E5%9E%8B%E4%B8%AD%E7%9A%84%E5%B9%B6%E5%8F%91%E5%A4%84%E7%90%86%E6%96%B9%E5%BC%8F.html) __创建和启动线程__ __原子执行方式__ __监控器和同步__ __死锁__ __保卫锁__ __中断线程和正常关闭__ __Volatile变量__ __Java内存模型__ __不可变字段__ __final字段__  [练习](http://7xoeea.com1.z0.glb.clouddn.com/JVM%E5%92%8CJava%E5%86%85%E5%AD%98%E6%A8%A1%E5%9E%8B%E4%B8%AD%E7%9A%84%E5%B9%B6%E5%8F%91%E5%A4%84%E7%90%86%E6%96%B9%E5%BC%8F%20%E7%BB%83%E4%B9%A0.html)
++ [构建并发程序的传统材料](http://7xoeea.com1.z0.glb.clouddn.com/3%E6%9E%84%E5%BB%BA%E5%B9%B6%E5%8F%91%E7%A8%8B%E5%BA%8F%E7%9A%84%E4%BC%A0%E7%BB%9F%E6%9D%90%E6%96%99.html) __Executor对象__ __ExecutionContext对象__ __原子型基元__ __无锁编程__ __原子变量__ __ABA问题__ __惰性值__ __并发集合__ __并发队列__ __并发集__ __并发映射__ __并发遍历__ __创建和处理进程__ [练习](http://7xoeea.com1.z0.glb.clouddn.com/%E6%9E%84%E5%BB%BA%E5%B9%B6%E5%8F%91%E7%A8%8B%E5%BA%8F%E7%9A%84%E4%BC%A0%E7%BB%9F%E6%9D%90%E6%96%99%20%E7%BB%83%E4%B9%A0.html)
++ [使用Future和Promise对象编写异步程序](http://7xoeea.com1.z0.glb.clouddn.com/4%20%E4%BD%BF%E7%94%A8Future%E5%92%8CPromise%E5%AF%B9%E8%B1%A1%E7%BC%96%E5%86%99%E5%BC%82%E6%AD%A5%E7%A8%8B%E5%BA%8F.html) __Future类__ __Future对象的回调函数__ __Future计算和异常__ __Try类型__ __函数组合__ __Promise类__ __扩展Future API__ __阻塞操作__ [练习](http://7xoeea.com1.z0.glb.clouddn.com/%E4%BD%BF%E7%94%A8Future%E5%92%8CPromise%E5%AF%B9%E8%B1%A1%E5%86%99%E5%BC%82%E6%AD%A5%E7%A8%8B%E5%BA%8F%20%E7%BB%83%E4%B9%A0.html)
++ [数据并行集合](http://7xonn1.com1.z0.glb.clouddn.com/5%E6%95%B0%E6%8D%AE%E5%B9%B6%E8%A1%8C%E9%9B%86%E5%90%88.html) __并行操作__ __配置并行等级__ __度量性能__ __顺序集合和并行集合的差异__ __自定义并行集合__ __非可并行化集合__ __非可并行化操作__ __不确定的并行操作__ __可交换和可结合操作符__ __弱一致迭代器__
++ [使用Reactive Extensions编写并发程序](http://7xoeea.com1.z0.glb.clouddn.com/6%20%E4%BD%BF%E7%94%A8Reactive%20Extensions%E7%BC%96%E5%86%99%E5%B9%B6%E5%8F%91%E7%A8%8B%E5%BA%8F.html) __Observable对象__ __Observable对象和异常__ __Observable协定__ __自定义Observable对象__ __Subscrition特质__ __通过Future对象创建Observable对象__ __组合Observable对象__ __嵌套的Observable对象__ __retry组合子__  __Rx调度器__ __Subject特质__ __自顶向下的响应式编程__ [练习](http://7xoeea.com1.z0.glb.clouddn.com/6%20%E4%BD%BF%E7%94%A8Reactive%20Extensions%E7%BC%96%E5%86%99%E5%B9%B6%E5%8F%91%E7%A8%8B%E5%BA%8F%20%E7%BB%83%E4%B9%A0.html)
++ [基于软件的事务内存](http://7xoeea.com1.z0.glb.clouddn.com/7%20%E5%9F%BA%E4%BA%8E%E8%BD%AF%E4%BB%B6%E7%9A%84%E4%BA%8B%E5%8A%A1%E5%86%85%E5%AD%98.html) __原子变量的缺点__ __软件事务内存__ __事务引用__ __atomic语句__ __组合事务__ __事务与副作用__ __单操作事务__ __嵌套事务__ __事务和异常__ __重新尝试执行事务__ __通过超时设置重新尝试执行事务__ __事务集合__ __事务局部变量__ __事务数组__ __事务映射__ [练习](http://7xoeea.com1.z0.glb.clouddn.com/7%20%E8%BD%AF%E4%BB%B6%E7%9A%84%E4%BA%8B%E5%8A%A1%E5%86%85%E5%AD%98%20%E7%BB%83%E4%B9%A0.html)
++ [Actor](http://7xoeea.com1.z0.glb.clouddn.com/8%20Actor.html) __Actor模型__ __Akka框架__ __Actor系统__ __Actor类__ __Actor实例__ __消息__ __邮箱__ __Actor引用__ __分配器__ __生命周期__ __Actor监督__ __远程Actor对象__ [练习](http://7xoeea.com1.z0.glb.clouddn.com/8%20Actor%20%E7%BB%83%E4%B9%A0%28%E4%BF%AE%E6%AD%A32%29.html)
++ [实用并发技术](http://7xoeea.com1.z0.glb.clouddn.com/9%20%E5%AE%9E%E7%94%A8%E5%B9%B6%E5%8F%91%E6%8A%80%E6%9C%AF.html) __并发框架特点和用法__
+
+## 八. Groovy语言程序设计
+
+### [Groovy程序设计](https://www.amazon.cn/Groovy%E7%A8%8B%E5%BA%8F%E8%AE%BE%E8%AE%A1-%E7%BE%8E-Venkat-Subramaniam/dp/B00OUGT10A/ref=sr_1_1?ie=UTF8&qid=1475487877&sr=8-1&keywords=groovy)
 
 ### Shell脚本学习指南
 
