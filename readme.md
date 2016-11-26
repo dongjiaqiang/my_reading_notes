@@ -92,6 +92,9 @@ __Object类所有的非final方法(equals,hashCode,toString,clone和finalize)都
 + [不可变对象模式](http://7xoeea.com1.z0.glb.clouddn.com/%E7%AC%AC3%E7%AB%A0%20Immutable%20Object%28%E4%B8%8D%E5%8F%AF%E5%8F%98%E5%AF%B9%E8%B1%A1%29%E6%A8%A1%E5%BC%8F.html) __使得可以在不使用锁情况下 既保证共享变量访问的线程安全 又能够避免引入锁可能带来的问题和开销__
 + [保护性暂挂模式]() __该模式的核心思想是如果某个线程执行特定操作前需要满足一定的条件 则在该条件未满足时将该线程暂停运行(即暂挂线程 使其处于等待状态 直到该条件满足时才继续该线程运行)__
 + [线程池模式](http://7xoeea.com1.z0.glb.clouddn.com/%E7%AC%AC9%E7%AB%A0%20Thread%20Pool%28%E7%BA%BF%E7%A8%8B%E6%B1%A0%29%E6%A8%A1%E5%BC%8F.html) __线程池模式的核心思想是使用队列对待处理的任务进行缓存 并复用一定数量的工作者线程去取队列的任务进行执行__ 
++ [线程特有存储模式](http://7xoeea.com1.z0.glb.clouddn.com/%E7%AC%AC10%E7%AB%A0%20Thread%20Specific%20Storage%28%E7%BA%BF%E7%A8%8B%E7%89%B9%E6%9C%89%E5%AD%98%E5%82%A8%29%E6%A8%A1%E5%BC%8F.html) __不同线程使用统一的访问接入点 可以获取该线程所特有的TSObject实例 这就是线程特有存储模式的核心思想__
+
+### [Java虚拟机并发编程](https://item.jd.com/10994913715.html)
 
 ## 三. Java反射编程
 
