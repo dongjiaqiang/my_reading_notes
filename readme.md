@@ -144,6 +144,8 @@ __Object类所有的非final方法(equals,hashCode,toString,clone和finalize)都
 + [Scala对象系统(Ⅱ)](http://7xoeea.com1.z0.glb.clouddn.com/%E7%AC%AC11%E7%AB%A0%20Scala%E5%AF%B9%E8%B1%A1%E7%B3%BB%E7%BB%9F%28%E2%85%A1%29.html) __override__ __覆写具体成员__ __final__ __覆写方法__ __覆写字段__ __覆写抽象类型__ __惰性值__ __预先初始化字段__ __统一访问原则__ __类线性化算法__
 + [Scala集合库](http://7xoeea.com1.z0.glb.clouddn.com/%E7%AC%AC12%E7%AB%A0%20Scala%E9%9B%86%E5%90%88%E5%BA%93.html) __通用集合__ __可变集合__ __不可变集合__ __并发集合__ __并行集合__ __值类型特化__
 + [可见性规则](http://7xoeea.com1.z0.glb.clouddn.com/%E7%AC%AC13%E7%AB%A0%20%E5%8F%AF%E8%A7%81%E6%80%A7%E8%A7%84%E5%88%99.html) __可见性规则__ __默认可见性__ __public__ __protected__ __private__ __作用域内受保护__ __作用域内私有__
++ [Scala类型系统(Ⅰ)]()
++ [Scala类型系统(Ⅱ)]()
 + [Scala动态调用](http://7xoeea.com1.z0.glb.clouddn.com/%E7%AC%AC19%E7%AB%A0%20Scala%E5%8A%A8%E6%80%81%E8%B0%83%E7%94%A8.html) __动态调用__ __DSL__ __Dynamic特质__
 + [与Java的互操作](http://7xoeea.com1.z0.glb.clouddn.com/%E7%AC%AC22%E7%AB%A0%20%E4%B8%8EJava%E7%9A%84%E4%BA%92%E6%93%8D%E4%BD%9C.html) __在Scala代码中使用Java名称__ __Java泛型与Scala泛型__ __JavaBean的性质__ __AnyVal类型与Java原生类型__
 + [应用程序设计]() 
@@ -226,6 +228,12 @@ __Object类所有的非final方法(equals,hashCode,toString,clone和finalize)都
 ## 八. Groovy语言程序设计
 
 ### [Groovy程序设计](https://www.amazon.cn/Groovy%E7%A8%8B%E5%BA%8F%E8%AE%BE%E8%AE%A1-%E7%BE%8E-Venkat-Subramaniam/dp/B00OUGT10A/ref=sr_1_1?ie=UTF8&qid=1475487877&sr=8-1&keywords=groovy)
+
+## 九. Spring框架
+
+### [Spring入门经典](https://www.amazon.cn/Spring%E5%85%A5%E9%97%A8%E7%BB%8F%E5%85%B8-%E5%8D%A1%E5%88%A9%E6%96%AF%E5%9D%8E/dp/B016LTLAWA/ref=sr_1_1?ie=UTF8&qid=1481116584&sr=8-1&keywords=Spring%E5%85%A5%E9%97%A8%E7%BB%8F%E5%85%B8)
+
++ [使用Spring进行依赖注入]()
 
 ### Shell脚本学习指南
 
