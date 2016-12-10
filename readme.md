@@ -97,6 +97,10 @@ __Object类所有的非final方法(equals,hashCode,toString,clone和finalize)都
 + [线程池模式](http://7xoeea.com1.z0.glb.clouddn.com/%E7%AC%AC9%E7%AB%A0%20Thread%20Pool%28%E7%BA%BF%E7%A8%8B%E6%B1%A0%29%E6%A8%A1%E5%BC%8F.html) __线程池模式的核心思想是使用队列对待处理的任务进行缓存 并复用一定数量的工作者线程去取队列的任务进行执行__ 
 + [线程特有存储模式](http://7xoeea.com1.z0.glb.clouddn.com/%E7%AC%AC10%E7%AB%A0%20Thread%20Specific%20Storage%28%E7%BA%BF%E7%A8%8B%E7%89%B9%E6%9C%89%E5%AD%98%E5%82%A8%29%E6%A8%A1%E5%BC%8F.html) __不同线程使用统一的访问接入点 可以获取该线程所特有的TSObject实例 这就是线程特有存储模式的核心思想__
 
+### 七周七并发模型(https://www.amazon.cn/%E4%B8%83%E5%91%A8%E4%B8%83%E5%B9%B6%E5%8F%91%E6%A8%A1%E5%9E%8B-%E5%B8%83%E5%BD%BB/dp/B00V4B2KEI/ref=sr_1_1?ie=UTF8&qid=1461251092&sr=8-1&keywords=%E4%B8%83%E5%91%A8%E4%B8%83%E5%B9%B6%E5%8F%91))
+
++ [线程与锁]()
+
 ### [Java虚拟机并发编程](https://item.jd.com/10994913715.html)
 
 ## 三. Java反射编程
@@ -144,7 +148,7 @@ __Object类所有的非final方法(equals,hashCode,toString,clone和finalize)都
 + [Scala对象系统(Ⅱ)](http://7xoeea.com1.z0.glb.clouddn.com/%E7%AC%AC11%E7%AB%A0%20Scala%E5%AF%B9%E8%B1%A1%E7%B3%BB%E7%BB%9F%28%E2%85%A1%29.html) __override__ __覆写具体成员__ __final__ __覆写方法__ __覆写字段__ __覆写抽象类型__ __惰性值__ __预先初始化字段__ __统一访问原则__ __类线性化算法__
 + [Scala集合库](http://7xoeea.com1.z0.glb.clouddn.com/%E7%AC%AC12%E7%AB%A0%20Scala%E9%9B%86%E5%90%88%E5%BA%93.html) __通用集合__ __可变集合__ __不可变集合__ __并发集合__ __并行集合__ __值类型特化__
 + [可见性规则](http://7xoeea.com1.z0.glb.clouddn.com/%E7%AC%AC13%E7%AB%A0%20%E5%8F%AF%E8%A7%81%E6%80%A7%E8%A7%84%E5%88%99.html) __可见性规则__ __默认可见性__ __public__ __protected__ __private__ __作用域内受保护__ __作用域内私有__
-+ [Scala类型系统(Ⅰ)]()
++ [Scala类型系统(Ⅰ)](http://7xoeea.com1.z0.glb.clouddn.com/%E7%AC%AC14%E7%AB%A0%20Scala%E7%B1%BB%E5%9E%8B%E7%B3%BB%E7%BB%9F%28%E2%85%A0%29.html) __参数化类型__ __变异标志__ __类型边界__ __上下文边界__ __视图边界__ __抽象类型__ __子类型标志__ __结构化类型__ __复合类型__ __存在类型__
 + [Scala类型系统(Ⅱ)]()
 + [Scala动态调用](http://7xoeea.com1.z0.glb.clouddn.com/%E7%AC%AC19%E7%AB%A0%20Scala%E5%8A%A8%E6%80%81%E8%B0%83%E7%94%A8.html) __动态调用__ __DSL__ __Dynamic特质__
 + [与Java的互操作](http://7xoeea.com1.z0.glb.clouddn.com/%E7%AC%AC22%E7%AB%A0%20%E4%B8%8EJava%E7%9A%84%E4%BA%92%E6%93%8D%E4%BD%9C.html) __在Scala代码中使用Java名称__ __Java泛型与Scala泛型__ __JavaBean的性质__ __AnyVal类型与Java原生类型__
@@ -233,7 +237,26 @@ __Object类所有的非final方法(equals,hashCode,toString,clone和finalize)都
 
 ### [Spring入门经典](https://www.amazon.cn/Spring%E5%85%A5%E9%97%A8%E7%BB%8F%E5%85%B8-%E5%8D%A1%E5%88%A9%E6%96%AF%E5%9D%8E/dp/B016LTLAWA/ref=sr_1_1?ie=UTF8&qid=1481116584&sr=8-1&keywords=Spring%E5%85%A5%E9%97%A8%E7%BB%8F%E5%85%B8)
 
-+ [使用Spring进行依赖注入]()
++ [使用Spring进行依赖注入](http://7xoeea.com1.z0.glb.clouddn.com/%E7%AC%AC2%E7%AB%A0%20%E4%BD%BF%E7%94%A8Spring%E8%BF%9B%E8%A1%8C%E4%BE%9D%E8%B5%96%E6%B3%A8%E5%85%A5.html)
+ __配置元数据__ __依赖解析__ __自动装配__ __显式Bean查找__ __Bean实例化__ __Bean作用域__ __延迟Bean创建__ __生命周期回调__ __Bean定义配置文件__
+
+### [Spring实战(第4版)](https://www.amazon.cn/Spring%E5%AE%9E%E6%88%98-Craig-Walls-%E6%B2%83%E5%B0%94%E6%96%AF/dp/B01DN3VR6G/ref=sr_1_1?ie=UTF8&qid=1466427492&sr=8-1&keywords=spring)
+
+#### 第一部分 Spring核心
+
++ [Spring之旅]()
++ [装配Bean](http://7xoeea.com1.z0.glb.clouddn.com/Spring%E5%AE%9E%E6%88%98%28%E8%A3%85%E9%85%8DBean%29.html) __声明bean__ __构造器注入__ __Setter方法注入__ __装配bean__ __控制bean的创建和销毁__
++ [高级装配]()
+
+#### 第二部分 Web中的Spring
+
++ [构建SpringWeb应用程序](http://7xoeea.com1.z0.glb.clouddn.com/Spring%E5%AE%9E%E6%88%98%28%E6%9E%84%E5%BB%BASpringWeb%E5%BA%94%E7%94%A8%E7%A8%8B%E5%BA%8F%29.html) __映射请求到Spring控制器__ __透明地绑定表单参数__ __校验表单提交__
+
+## 十. 领域专用语言
+
+### [领域专用语言实战](https://www.amazon.cn/%E9%A2%86%E5%9F%9F%E4%B8%93%E7%94%A8%E8%AF%AD%E8%A8%80%E5%AE%9E%E6%88%98-%E6%88%88%E6%96%BD/dp/B00FTWLPH6/ref=sr_1_1?ie=UTF8&qid=1481374316&sr=8-1&keywords=%E9%A2%86%E5%9F%9F%E4%B8%93%E7%94%A8%E8%AF%AD%E8%A8%80)
+
+## 十一. Linux命令行和Shell语言程序设计
 
 ### Shell脚本学习指南
 
@@ -245,11 +268,11 @@ __Object类所有的非final方法(equals,hashCode,toString,clone和finalize)都
 
 ### 新锐编程语言集萃:Haskell趣学指南
 
+## 十二. Clojure语言程序设计
+
 ### Clojure编程乐趣
 
-### 七周七并发模型
-
-+ [线程与锁]()
+## 十三. 软件工程
 
 ### 重构 改善既有代码设计
 
@@ -282,7 +305,7 @@ __重构(Refactoring)指对软件代码做任何更动以增加可读性或者�
 #### 2.面向对象设计模式
 + [COMMAND模式和ACTIVE OBJECT模式]()
 
-### 程序员修炼之道:从小工到专家
+### [程序员修炼之道:从小工到专家](http://www.amazon.cn/%E7%A8%8B%E5%BA%8F%E5%91%98%E4%BF%AE%E7%82%BC%E4%B9%8B%E9%81%93-%E4%BB%8E%E5%B0%8F%E5%B7%A5%E5%88%B0%E4%B8%93%E5%AE%B6-%E4%BA%A8%E7%89%B9/dp/B004GV08CY/ref=sr_1_1?ie=UTF8&qid=1455946791&sr=8-1&keywords=%E4%BB%8E%E5%B0%8F%E5%B7%A5%E5%88%B0%E4%B8%93%E5%AE%B6)
 
 ### 实现模式
 
@@ -402,18 +425,6 @@ __设计模式(design pattern)是对软件设计中普遍存在(反复出现)的
 + [Redis实战(Redis命令)](http://7xoeea.com1.z0.glb.clouddn.com/Redis%E5%AE%9E%E6%88%98%28Redis%E5%91%BD%E4%BB%A4%29.html) __字符串命令__ __列表命令__ __集合命令__ __散列命令__ __有序集合命令__ __发布命令__ __订阅命令__ __其他命令__ 
 + [Redis实战(基于搜索的应用程序)]() __使用Redis进行搜索__ __对搜索结果进行排序__ __实现广告定向__ __实现职业搜索__
 
-### Spring实战(第4版)
-
-#### 第一部分 Spring核心
-
-+ [Spring之旅]()
-+ [装配Bean](http://7xoeea.com1.z0.glb.clouddn.com/Spring%E5%AE%9E%E6%88%98%28%E8%A3%85%E9%85%8DBean%29.html) __声明bean__ __构造器注入__ __Setter方法注入__ __装配bean__ __控制bean的创建和销毁__
-+ [高级装配]()
-
-#### 第二部分 Web中的Spring
-
-+ [构建SpringWeb应用程序](http://7xoeea.com1.z0.glb.clouddn.com/Spring%E5%AE%9E%E6%88%98%28%E6%9E%84%E5%BB%BASpringWeb%E5%BA%94%E7%94%A8%E7%A8%8B%E5%BA%8F%29.html) __映射请求到Spring控制器__ __透明地绑定表单参数__ __校验表单提交__
-
 ## 三.算法
 
 ### 算法导论
@@ -426,11 +437,7 @@ __设计模式(design pattern)是对软件设计中普遍存在(反复出现)的
 
 ### 书单
 
-+ [C专家编程](https://www.amazon.cn/C%E4%B8%93%E5%AE%B6%E7%BC%96%E7%A8%8BExpert-C-Programming-Deep-C-Secrets-Peter-Van-Der-Linden/dp/B0012NIW9K/ref=sr_1_4?ie=UTF8&qid=1464791324&sr=8-4&keywords=C%E4%B8%8E%E6%8C%87%E9%92%88)
-+ [C陷阱与缺陷](https://www.amazon.cn/C%E9%99%B7%E9%98%B1%E4%B8%8E%E7%BC%BA%E9%99%B7-%E5%87%AF%E5%B0%BC%E6%A0%BC/dp/B0012UMPBY/ref=sr_1_3?ie=UTF8&qid=1464791324&sr=8-3&keywords=C%E4%B8%8E%E6%8C%87%E9%92%88)
-+ [C和指针](https://www.amazon.cn/C%E5%92%8C%E6%8C%87%E9%92%88-Pointers-On-C-Kenneth-A-Reek/dp/B00163LU68/ref=sr_1_1?ie=UTF8&qid=1464791324&sr=8-1&keywords=C%E4%B8%8E%E6%8C%87%E9%92%88)
-+ [C++ Primer(中文版)(第5版)](https://www.amazon.cn/C-Primer-%E6%96%AF%E5%9D%A6%E5%88%A9%C2%B7%E6%9D%8E%E6%99%AE%E6%9B%BC/dp/B00ESUIL0O/ref=sr_1_1?ie=UTF8&qid=1464791452&sr=8-1&keywords=C%2B%2B)
-+ [七周七并发模型](https://www.amazon.cn/%E4%B8%83%E5%91%A8%E4%B8%83%E5%B9%B6%E5%8F%91%E6%A8%A1%E5%9E%8B-%E5%B8%83%E5%BD%BB/dp/B00V4B2KEI/ref=sr_1_1?ie=UTF8&qid=1461251092&sr=8-1&keywords=%E4%B8%83%E5%91%A8%E4%B8%83%E5%B9%B6%E5%8F%91)
+
 + [Java性能权威指南](https://www.amazon.cn/Java%E6%80%A7%E8%83%BD%E6%9D%83%E5%A8%81%E6%8C%87%E5%8D%97-%E5%A5%A5%E5%85%8B%E6%96%AF/dp/B01DLB7Z66/ref=sr_1_1?ie=UTF8&qid=1460901455&sr=8-1&keywords=java%E6%80%A7%E8%83%BD)
 + [Head First设计模式(中文版)](http://www.amazon.cn/Head-First%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F-%E5%BC%97%E9%87%8C%E6%9B%BC/dp/B0011FBU34/ref=sr_1_1?ie=UTF8&qid=1454814197&sr=8-1&keywords=head+first+%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F)
 + [Java Reflection in Action](https://www.amazon.cn/Java-Reflection-in-Action-Forman-Ira-R/dp/1932394184/ref=sr_1_1?ie=UTF8&qid=1466261454&sr=8-1&keywords=Java+Reflection+in+Action)
@@ -447,7 +454,6 @@ __设计模式(design pattern)是对软件设计中普遍存在(反复出现)的
 + [实战Java虚拟机:JVM故障诊断与性能优化](http://www.amazon.cn/%E5%AE%9E%E6%88%98Java%E8%99%9A%E6%8B%9F%E6%9C%BA-JVM%E6%95%85%E9%9A%9C%E8%AF%8A%E6%96%AD%E4%B8%8E%E6%80%A7%E8%83%BD%E4%BC%98%E5%8C%96-%E8%91%9B%E4%B8%80%E9%B8%A3/dp/B00V34NZBS/ref=sr_1_1?ie=UTF8&qid=1454035543&sr=8-1&keywords=%E5%AE%9E%E6%88%98Java%E8%99%9A%E6%8B%9F%E6%9C%BA%3AJVM%E6%95%85%E9%9A%9C%E8%AF%8A%E6%96%AD%E4%B8%8E%E6%80%A7%E8%83%BD%E4%BC%98%E5%8C%96)
 + [算法导论](http://www.amazon.cn/%E7%AE%97%E6%B3%95%E5%AF%BC%E8%AE%BA-Thomas-H-Cormen/dp/B00AK7BYJY/ref=sr_1_1?ie=UTF8&qid=1454814064&sr=8-1&keywords=%E7%AE%97%E6%B3%95%E5%AF%BC%E8%AE%BA)
 + [Netty in Action](http://www.amazon.com/Netty-Action-Norman-Maurer/dp/1617291471/ref=sr_1_1?ie=UTF8&qid=1455435844&sr=8-1&keywords=netty+in+action)
-+ [程序员修炼之道:从小工到专家](http://www.amazon.cn/%E7%A8%8B%E5%BA%8F%E5%91%98%E4%BF%AE%E7%82%BC%E4%B9%8B%E9%81%93-%E4%BB%8E%E5%B0%8F%E5%B7%A5%E5%88%B0%E4%B8%93%E5%AE%B6-%E4%BA%A8%E7%89%B9/dp/B004GV08CY/ref=sr_1_1?ie=UTF8&qid=1455946791&sr=8-1&keywords=%E4%BB%8E%E5%B0%8F%E5%B7%A5%E5%88%B0%E4%B8%93%E5%AE%B6)
 + [数据结构与算法分析:Java语言描述(第2版)](http://www.amazon.cn/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95%E5%88%86%E6%9E%90-Java%E8%AF%AD%E8%A8%80%E6%8F%8F%E8%BF%B0-%E9%9F%A6%E6%96%AF/dp/B001N6R9JK/ref=sr_1_2?ie=UTF8&qid=1456149814&sr=8-2&keywords=Data+structures+in+Java)
 + [重构与模式](http://www.amazon.cn/%E9%87%8D%E6%9E%84%E4%B8%8E%E6%A8%A1%E5%BC%8F-Joshua-Kerievsky/dp/B00A9YD7A2/ref=sr_1_1?ie=UTF8&qid=1456414401&sr=8-1&keywords=%E9%87%8D%E6%9E%84%E4%B8%8E%E6%A8%A1%E5%BC%8F)
 + [从小工到专家](http://www.amazon.cn/%E7%A8%8B%E5%BA%8F%E5%91%98%E4%BF%AE%E7%82%BC%E4%B9%8B%E9%81%93-%E4%BB%8E%E5%B0%8F%E5%B7%A5%E5%88%B0%E4%B8%93%E5%AE%B6-%E4%BA%A8%E7%89%B9/dp/B004GV08CY/ref=sr_1_1?ie=UTF8&qid=1456551763&sr=8-1&keywords=%E4%BB%8E%E5%B0%8F%E5%B7%A5%E5%88%B0%E4%B8%93%E5%AE%B6)
@@ -459,7 +465,6 @@ __设计模式(design pattern)是对软件设计中普遍存在(反复出现)的
 + [Linux Shell脚本攻略](https://www.amazon.cn/Linux-Shell%E8%84%9A%E6%9C%AC%E6%94%BB%E7%95%A5-%E5%8D%B0-Sarath-Lakshman/dp/B00HD4RDS8/ref=sr_1_7?ie=UTF8&qid=1461073171&sr=8-7&keywords=shell)
 + [Linux命令行与shell脚本编程大全(第2版)](https://www.amazon.cn/Linux%E5%91%BD%E4%BB%A4%E8%A1%8C%E4%B8%8Eshell%E8%84%9A%E6%9C%AC%E7%BC%96%E7%A8%8B%E5%A4%A7%E5%85%A8-Richard-Blum/dp/B0096EXMS8/ref=sr_1_1?ie=UTF8&qid=1461073171&sr=8-1&keywords=shell)
 + [Clojure编程乐趣](https://www.amazon.cn/Clojure%E7%BC%96%E7%A8%8B%E4%B9%90%E8%B6%A3-%E7%A6%8F%E6%A0%BC%E6%96%AF/dp/B00G6T9BB8/ref=sr_1_5?ie=UTF8&qid=1461511889&sr=8-5&keywords=clojure)
-+ [Spring实战(第4版)](https://www.amazon.cn/Spring%E5%AE%9E%E6%88%98-Craig-Walls-%E6%B2%83%E5%B0%94%E6%96%AF/dp/B01DN3VR6G/ref=sr_1_1?ie=UTF8&qid=1466427492&sr=8-1&keywords=spring)
 + [Redis实战](https://www.amazon.cn/Redis%E5%AE%9E%E6%88%98-%E7%BA%A6%E8%A5%BF%E4%BA%9A-L-%E5%8D%A1%E5%B0%94%E6%A3%AE/dp/B016YLS2LM/ref=sr_1_1?ie=UTF8&qid=1468035205&sr=8-1&keywords=redis)
 + [实现模式](https://www.amazon.cn/%E5%AE%9E%E7%8E%B0%E6%A8%A1%E5%BC%8F-Kent-Beck/dp/B00ADQPPLA/ref=sr_1_1?ie=UTF8&qid=1473253965&sr=8-1&keywords=%E5%AE%9E%E7%8E%B0%E6%A8%A1%E5%BC%8F)
 + [响应式架构 消息模式Actor实现与Scala,Akka应用集成](https://www.amazon.cn/%E5%93%8D%E5%BA%94%E5%BC%8F%E6%9E%B6%E6%9E%84-%E6%B6%88%E6%81%AF%E6%A8%A1%E5%BC%8FActor%E5%AE%9E%E7%8E%B0%E4%B8%8EScala-Akka%E5%BA%94%E7%94%A8%E9%9B%86%E6%88%90-%E6%B2%83%E6%81%A9%C2%B7%E5%BC%97%E5%86%9C/dp/B01HIPQT54/ref=sr_1_11?ie=UTF8&qid=1474982537&sr=8-11&keywords=scala)
