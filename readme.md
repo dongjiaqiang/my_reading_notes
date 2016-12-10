@@ -97,7 +97,7 @@ __Object类所有的非final方法(equals,hashCode,toString,clone和finalize)都
 + [线程池模式](http://7xoeea.com1.z0.glb.clouddn.com/%E7%AC%AC9%E7%AB%A0%20Thread%20Pool%28%E7%BA%BF%E7%A8%8B%E6%B1%A0%29%E6%A8%A1%E5%BC%8F.html) __线程池模式的核心思想是使用队列对待处理的任务进行缓存 并复用一定数量的工作者线程去取队列的任务进行执行__ 
 + [线程特有存储模式](http://7xoeea.com1.z0.glb.clouddn.com/%E7%AC%AC10%E7%AB%A0%20Thread%20Specific%20Storage%28%E7%BA%BF%E7%A8%8B%E7%89%B9%E6%9C%89%E5%AD%98%E5%82%A8%29%E6%A8%A1%E5%BC%8F.html) __不同线程使用统一的访问接入点 可以获取该线程所特有的TSObject实例 这就是线程特有存储模式的核心思想__
 
-### 七周七并发模型(https://www.amazon.cn/%E4%B8%83%E5%91%A8%E4%B8%83%E5%B9%B6%E5%8F%91%E6%A8%A1%E5%9E%8B-%E5%B8%83%E5%BD%BB/dp/B00V4B2KEI/ref=sr_1_1?ie=UTF8&qid=1461251092&sr=8-1&keywords=%E4%B8%83%E5%91%A8%E4%B8%83%E5%B9%B6%E5%8F%91))
+### [七周七并发模型](https://www.amazon.cn/%E4%B8%83%E5%91%A8%E4%B8%83%E5%B9%B6%E5%8F%91%E6%A8%A1%E5%9E%8B-%E5%B8%83%E5%BD%BB/dp/B00V4B2KEI/ref=sr_1_1?ie=UTF8&qid=1461251092&sr=8-1&keywords=%E4%B8%83%E5%91%A8%E4%B8%83%E5%B9%B6%E5%8F%91))
 
 + [线程与锁]()
 
