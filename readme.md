@@ -97,7 +97,7 @@ __Object类所有的非final方法(equals,hashCode,toString,clone和finalize)都
 + [线程池模式](http://7xoeea.com1.z0.glb.clouddn.com/%E7%AC%AC9%E7%AB%A0%20Thread%20Pool%28%E7%BA%BF%E7%A8%8B%E6%B1%A0%29%E6%A8%A1%E5%BC%8F.html) __线程池模式的核心思想是使用队列对待处理的任务进行缓存 并复用一定数量的工作者线程去取队列的任务进行执行__ 
 + [线程特有存储模式](http://7xoeea.com1.z0.glb.clouddn.com/%E7%AC%AC10%E7%AB%A0%20Thread%20Specific%20Storage%28%E7%BA%BF%E7%A8%8B%E7%89%B9%E6%9C%89%E5%AD%98%E5%82%A8%29%E6%A8%A1%E5%BC%8F.html) __不同线程使用统一的访问接入点 可以获取该线程所特有的TSObject实例 这就是线程特有存储模式的核心思想__
 
-### [七周七并发模型](https://www.amazon.cn/%E4%B8%83%E5%91%A8%E4%B8%83%E5%B9%B6%E5%8F%91%E6%A8%A1%E5%9E%8B-%E5%B8%83%E5%BD%BB/dp/B00V4B2KEI/ref=sr_1_1?ie=UTF8&qid=1461251092&sr=8-1&keywords=%E4%B8%83%E5%91%A8%E4%B8%83%E5%B9%B6%E5%8F%91))
+### [七周七并发模型](https://www.amazon.cn/%E4%B8%83%E5%91%A8%E4%B8%83%E5%B9%B6%E5%8F%91%E6%A8%A1%E5%9E%8B-%E5%B8%83%E5%BD%BB/dp/B00V4B2KEI/ref=sr_1_1?ie=UTF8&qid=1461251092&sr=8-1&keywords=%E4%B8%83%E5%91%A8%E4%B8%83%E5%B9%B6%E5%8F%91)
 
 + [线程与锁]()
 
@@ -215,6 +215,18 @@ __Object类所有的非final方法(equals,hashCode,toString,clone和finalize)都
 + [隐式转换](http://7xoeea.com1.z0.glb.clouddn.com/%E7%AC%AC5%E7%AB%A0%20%E9%9A%90%E5%BC%8F%E8%BD%AC%E6%8D%A2.html) __隐式解析__ __隐式参数__ __隐式函数__ __作用域绑定__ __限制隐式作用域__ __结合默认参数__
 + [集合类型](http://7xoeea.com1.z0.glb.clouddn.com/%E7%AC%AC8%E7%AB%A0%20%E9%9B%86%E5%90%88%E7%B1%BB%E5%9E%8B.html) __集合类型继承体系__ __可变集合__ __不可变集合__ __延迟计算__ __即时计算__ __串行计算__ __并行计算__
 + [类型系统](http://7xoeea.com1.z0.glb.clouddn.com/%E7%AC%AC6%E7%AB%A0%20%E7%B1%BB%E5%9E%8B%E7%B3%BB%E7%BB%9F.html) __类型__ __路径__ __类型注入__ __路径依赖类型__ __type关键字__ __结构化类型__ __类型约束(类型定界)__ __类型参数__ __高阶类型__ __型变__ __存在类型__
+
+### [Scala Design Pattern](https://www.amazon.cn/Scala-Design-Patterns-Patterns-for-Practical-Reuse-and-Design-Hunt-John/dp/3319349724/ref=sr_1_2?ie=UTF8&qid=1476970256&sr=8-2&keywords=SCALA+DESIGN)
+
+#### Fundamental Patterns
++ [Immutability(不变性)](http://7xoeea.com1.z0.glb.clouddn.com/Scala%20Design%20Pattern%284%29%20%E4%B8%8D%E5%8F%98%E6%80%A7.html) __Immutability indicates that once created, an objects's data cannot be changed__
++ [Singleton(单例)](http://7xoeea.com1.z0.glb.clouddn.com/Scala%20Design%20Pattern%285%29%E5%8D%95%E4%BE%8B.html) __The Singleton pattern describes a type that can only have one object constructed for it__
++ [Marker Trait(标记特质)](http://7xoeea.com1.z0.glb.clouddn.com/Scala%20Design%20Pattern%286%29%20%E6%A0%87%E8%AE%B0%E7%89%B9%E8%B4%A8.html) __The Marker Trait pattern uses trait that declare no method, functions,types or properties to indicate addition semantics of a type(class,object or further traits)__
++ [Delegation(代理)]() __Delegation pattern is a response to all those examples in books that show inheritance between types as the fundanmental approach to reuse in object oritented languages__
+
+#### Code Reuse Patterns
++ [Lazy Parameters(懒值)](http://7xoeea.com1.z0.glb.clouddn.com/Scala%20Design%20Pattern%288%29%20%E6%87%92%E5%80%BC.html) __In some situations a parameter to a method or function may be costly to process or evaluate,but might only need to be processed or evaluated in certain situations__
++ [Partially Applied Functions(部分应用函数)](http://7xoeea.com1.z0.glb.clouddn.com/Scala%20Design%20Pattern%289%29%20%E9%83%A8%E5%88%86%E5%BA%94%E7%94%A8%E5%87%BD%E6%95%B0.html) __An operation can be partially applied in that it is possible to bind one or more of the parameters to create a new operation with fewer parameters.The remaining parameters must then be provided when the new operation is invoked__
 
 ## 七. Scala并发编程
 
@@ -348,17 +360,6 @@ __设计模式(design pattern)是对软件设计中普遍存在(反复出现)的
 + [桥接模式]() __将一个抽象与实现解耦 以便两者可以独立的变化__
 + [蝇量模式](http://7xoeea.com1.z0.glb.clouddn.com/%E8%9D%87%E9%87%8F%E6%A8%A1%E5%BC%8F.html) __又称享元模式 通过共享以便有效的支持大量小颗粒对象__
 
-### Scala Design Pattern
-
-#### Fundamental Patterns
-+ [Immutability(不变性)](http://7xoeea.com1.z0.glb.clouddn.com/Scala%20Design%20Pattern%284%29%20%E4%B8%8D%E5%8F%98%E6%80%A7.html) __Immutability indicates that once created, an objects's data cannot be changed__
-+ [Singleton(单例)](http://7xoeea.com1.z0.glb.clouddn.com/Scala%20Design%20Pattern%285%29%E5%8D%95%E4%BE%8B.html) __The Singleton pattern describes a type that can only have one object constructed for it__
-+ [Marker Trait(标记特质)](http://7xoeea.com1.z0.glb.clouddn.com/Scala%20Design%20Pattern%286%29%20%E6%A0%87%E8%AE%B0%E7%89%B9%E8%B4%A8.html) __The Marker Trait pattern uses trait that declare no method, functions,types or properties to indicate addition semantics of a type(class,object or further traits)__
-+ [Delegation(代理)]() __Delegation pattern is a response to all those examples in books that show inheritance between types as the fundanmental approach to reuse in object oritented languages__
-
-#### Code Reuse Patterns
-+ [Lazy Parameters(懒值)](http://7xoeea.com1.z0.glb.clouddn.com/Scala%20Design%20Pattern%288%29%20%E6%87%92%E5%80%BC.html) __In some situations a parameter to a method or function may be costly to process or evaluate,but might only need to be processed or evaluated in certain situations__
-+ [Partially Applied Functions(部分应用函数)](http://7xoeea.com1.z0.glb.clouddn.com/Scala%20Design%20Pattern%289%29%20%E9%83%A8%E5%88%86%E5%BA%94%E7%94%A8%E5%87%BD%E6%95%B0.html) __An operation can be partially applied in that it is possible to bind one or more of the parameters to create a new operation with fewer parameters.The remaining parameters must then be provided when the new operation is invoked__
 
 ### 代码大全(第2版)
 
@@ -468,7 +469,6 @@ __设计模式(design pattern)是对软件设计中普遍存在(反复出现)的
 + [Redis实战](https://www.amazon.cn/Redis%E5%AE%9E%E6%88%98-%E7%BA%A6%E8%A5%BF%E4%BA%9A-L-%E5%8D%A1%E5%B0%94%E6%A3%AE/dp/B016YLS2LM/ref=sr_1_1?ie=UTF8&qid=1468035205&sr=8-1&keywords=redis)
 + [实现模式](https://www.amazon.cn/%E5%AE%9E%E7%8E%B0%E6%A8%A1%E5%BC%8F-Kent-Beck/dp/B00ADQPPLA/ref=sr_1_1?ie=UTF8&qid=1473253965&sr=8-1&keywords=%E5%AE%9E%E7%8E%B0%E6%A8%A1%E5%BC%8F)
 + [响应式架构 消息模式Actor实现与Scala,Akka应用集成](https://www.amazon.cn/%E5%93%8D%E5%BA%94%E5%BC%8F%E6%9E%B6%E6%9E%84-%E6%B6%88%E6%81%AF%E6%A8%A1%E5%BC%8FActor%E5%AE%9E%E7%8E%B0%E4%B8%8EScala-Akka%E5%BA%94%E7%94%A8%E9%9B%86%E6%88%90-%E6%B2%83%E6%81%A9%C2%B7%E5%BC%97%E5%86%9C/dp/B01HIPQT54/ref=sr_1_11?ie=UTF8&qid=1474982537&sr=8-11&keywords=scala)
-+ [Scala Design Pattern](https://www.amazon.cn/Scala-Design-Patterns-Patterns-for-Practical-Reuse-and-Design-Hunt-John/dp/3319349724/ref=sr_1_2?ie=UTF8&qid=1476970256&sr=8-2&keywords=SCALA+DESIGN)
 
 ### 开源项目官方网站
 + [Apache Commons](http://commons.apache.org/)
