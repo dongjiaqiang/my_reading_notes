@@ -3,6 +3,13 @@
 
 ## 一. Java语言程序设计
 
+### [Apache Commons](http://commons.apache.org/)
+
+### Google Guava Project
++ [Google Guava Project](https://github.com/google/guava)
++ [Google Guava User Guide](https://github.com/google/guava/wiki)
++ [Google Guava User Guide(中文版)](http://ifeve.com/google-guava/)
+
 ### [Effective Java(中文第二版)](http://www.amazon.cn/Sun-%E5%85%AC%E5%8F%B8%E6%A0%B8%E5%BF%83%E6%8A%80%E6%9C%AF%E4%B8%9B%E4%B9%A6-Effective-Java%E4%B8%AD%E6%96%87%E7%89%88-Joshua-Bloch/dp/B001PTGR52/ref=pd_bxgy_14_img_3?ie=UTF8&refRID=1K4TFG3XFVJH3DCFT2FT)
 + [创建和销毁对象](http://7xoeea.com1.z0.glb.clouddn.com/%E5%88%9B%E5%BB%BA%E5%92%8C%E9%94%80%E6%AF%81%E5%AF%B9%E8%B1%A1.html) __何时和如何创建对象 何时和如何避免创建对象 如何确保对象能够适时地销毁 如何管理对象销毁前的各种清理动作__
 + [通用对象方法](http://7xoeea.com1.z0.glb.clouddn.com/%E5%AF%B9%E8%B1%A1%E9%80%9A%E7%94%A8%E6%96%B9%E6%B3%95%28General%20Method%C2%A0%29.html)
@@ -151,6 +158,8 @@ __Object类所有的非final方法(equals,hashCode,toString,clone和finalize)都
 + [Scala类型系统(Ⅰ)](http://7xoeea.com1.z0.glb.clouddn.com/%E7%AC%AC14%E7%AB%A0%20Scala%E7%B1%BB%E5%9E%8B%E7%B3%BB%E7%BB%9F%28%E2%85%A0%29.html) __参数化类型__ __变异标志__ __类型边界__ __上下文边界__ __视图边界__ __抽象类型__ __子类型标志__ __结构化类型__ __复合类型__ __存在类型__
 + [Scala类型系统(Ⅱ)]()
 + [Scala动态调用](http://7xoeea.com1.z0.glb.clouddn.com/%E7%AC%AC19%E7%AB%A0%20Scala%E5%8A%A8%E6%80%81%E8%B0%83%E7%94%A8.html) __动态调用__ __DSL__ __Dynamic特质__
++ [高级函数式编程]()
++ [并发工具]()
 + [与Java的互操作](http://7xoeea.com1.z0.glb.clouddn.com/%E7%AC%AC22%E7%AB%A0%20%E4%B8%8EJava%E7%9A%84%E4%BA%92%E6%93%8D%E4%BD%9C.html) __在Scala代码中使用Java名称__ __Java泛型与Scala泛型__ __JavaBean的性质__ __AnyVal类型与Java原生类型__
 + [应用程序设计]() 
 
@@ -247,10 +256,17 @@ __Object类所有的非final方法(equals,hashCode,toString,clone和finalize)都
 
 ## 九. Spring框架
 
+### [Spring Reference](https://spring.io/docs/reference)
+
+### [Spring Guide](https://spring.io/guides)
+
+### [Spring Project](https://spring.io/projects)
+
 ### [Spring入门经典](https://www.amazon.cn/Spring%E5%85%A5%E9%97%A8%E7%BB%8F%E5%85%B8-%E5%8D%A1%E5%88%A9%E6%96%AF%E5%9D%8E/dp/B016LTLAWA/ref=sr_1_1?ie=UTF8&qid=1481116584&sr=8-1&keywords=Spring%E5%85%A5%E9%97%A8%E7%BB%8F%E5%85%B8)
 
 + [使用Spring进行依赖注入](http://7xoeea.com1.z0.glb.clouddn.com/%E7%AC%AC2%E7%AB%A0%20%E4%BD%BF%E7%94%A8Spring%E8%BF%9B%E8%A1%8C%E4%BE%9D%E8%B5%96%E6%B3%A8%E5%85%A5.html)
  __配置元数据__ __依赖解析__ __自动装配__ __显式Bean查找__ __Bean实例化__ __Bean作用域__ __延迟Bean创建__ __生命周期回调__ __Bean定义配置文件__
++ [使用Spring MVC构建Web应用程序]()
 
 ### [Spring实战(第4版)](https://www.amazon.cn/Spring%E5%AE%9E%E6%88%98-Craig-Walls-%E6%B2%83%E5%B0%94%E6%96%AF/dp/B01DN3VR6G/ref=sr_1_1?ie=UTF8&qid=1466427492&sr=8-1&keywords=spring)
 
@@ -281,6 +297,8 @@ __Object类所有的非final方法(equals,hashCode,toString,clone和finalize)都
 ## 十二.Haskell程序设计语言
 
 ### [新锐编程语言集萃:Haskell趣学指南](https://www.amazon.cn/%E6%96%B0%E9%94%90%E7%BC%96%E7%A8%8B%E8%AF%AD%E8%A8%80%E9%9B%86%E8%90%83-Haskell%E8%B6%A3%E5%AD%A6%E6%8C%87%E5%8D%97-%E5%88%A9%E6%B3%A2%E7%93%A6%E5%8D%A1/dp/B00HLA8UHC/ref=pd_sim_14_1?ie=UTF8&dpID=51LqhmU172L&dpSrc=sims&preST=_AC_UL160_SR130%2C160_&refRID=H87JA8BHJ78GCRE357M3)
+
++ [各就各位 预备]()
 
 ## 十三. Clojure语言程序设计
 
@@ -368,23 +386,31 @@ __设计模式(design pattern)是对软件设计中普遍存在(反复出现)的
 
 ### [代码大全(第2版)](http://www.amazon.cn/%E4%BB%A3%E7%A0%81%E5%A4%A7%E5%85%A8-%E5%8F%B2%E8%92%82%E5%A4%AB%E2%80%A2%E8%BF%88%E5%85%8B%E5%BA%B7%E5%A5%88%E5%B0%94/dp/B0061XKRXA/ref=sr_1_1?ie=UTF8&qid=1453880816&sr=8-1&keywords=%E4%BB%A3%E7%A0%81%E5%A4%A7%E5%85%A8)
 
-## 二.工具与框架
+## 十五. Spark框架
 
-### Learning Spark
+### [Spark Latest Document](http://spark.apache.org/docs/latest/)
 
-### Netty权威指南
+### [Spark Scala API](http://spark.apache.org/docs/latest/api/scala/index.html#org.apache.spark.package)
+
+### [Spark Programming Guide](http://spark.apache.org/docs/latest/programming-guide.html)
+
+### [Spark Streaming Programming Guide](http://spark.apache.org/docs/latest/streaming-programming-guide.html)
+
+### [Spark SQL, DataFrames and Datasets Guide](http://spark.apache.org/docs/latest/sql-programming-guide.html)
+
+### [Learning Spark](http://www.amazon.cn/Learning-Spark-Lightning-Fast-Big-Data-Analysis-Karau-Holden/dp/1449358624/ref=sr_1_13?ie=UTF8&qid=1451892979&sr=8-13&keywords=spark)
+
+## 十六. Netty框架
+
+### [Netty Project Office Website](http://netty.io/index.html)
+
+### [Netty API Document](http://netty.io/5.0/api/index.html)
+
+### [Netty权威指南](http://www.amazon.cn/Netty%E6%9D%83%E5%A8%81%E6%8C%87%E5%8D%97-%E6%9D%8E%E6%9E%97%E9%94%8B/dp/B00WFSXDRM/ref=sr_1_1?ie=UTF8&qid=1452781245&sr=8-1&keywords=Netty%E6%9D%83%E5%A8%81%E6%8C%87%E5%8D%97))
 
 + [NIO入门](https://github.com/dongjiaqiang/my_reading_notes/blob/master/netty_guide/nio_introduction.md)
 
-### Netty in Action
-
-### Learning Guava
-
-### Learning Apache Commons
-
-+ [Commons CLI]() __Command Line arguments parser__
-
-### Learning Apache Log4j
+### [Netty in Action](http://www.amazon.com/Netty-Action-Norman-Maurer/dp/1617291471/ref=sr_1_1?ie=UTF8&qid=1455435844&sr=8-1&keywords=netty+in+action)
 
 ### Gradle实战
 
@@ -431,8 +457,6 @@ __设计模式(design pattern)是对软件设计中普遍存在(反复出现)的
 + [Redis实战(Redis命令)](http://7xoeea.com1.z0.glb.clouddn.com/Redis%E5%AE%9E%E6%88%98%28Redis%E5%91%BD%E4%BB%A4%29.html) __字符串命令__ __列表命令__ __集合命令__ __散列命令__ __有序集合命令__ __发布命令__ __订阅命令__ __其他命令__ 
 + [Redis实战(基于搜索的应用程序)]() __使用Redis进行搜索__ __对搜索结果进行排序__ __实现广告定向__ __实现职业搜索__
 
-## 三.算法
-
 ### 算法导论
 
 #### 高级数据结构
@@ -446,13 +470,10 @@ __设计模式(design pattern)是对软件设计中普遍存在(反复出现)的
 + [Java性能权威指南](https://www.amazon.cn/Java%E6%80%A7%E8%83%BD%E6%9D%83%E5%A8%81%E6%8C%87%E5%8D%97-%E5%A5%A5%E5%85%8B%E6%96%AF/dp/B01DLB7Z66/ref=sr_1_1?ie=UTF8&qid=1460901455&sr=8-1&keywords=java%E6%80%A7%E8%83%BD)
 + [Java Reflection in Action](https://www.amazon.cn/Java-Reflection-in-Action-Forman-Ira-R/dp/1932394184/ref=sr_1_1?ie=UTF8&qid=1466261454&sr=8-1&keywords=Java+Reflection+in+Action)
 + [深入理解Java虚拟机:JVM高级特性与最佳实践(第2版)](http://www.amazon.cn/%E6%B7%B1%E5%85%A5%E7%90%86%E8%A7%A3Java%E8%99%9A%E6%8B%9F%E6%9C%BA-JVM%E9%AB%98%E7%BA%A7%E7%89%B9%E6%80%A7%E4%B8%8E%E6%9C%80%E4%BD%B3%E5%AE%9E%E8%B7%B5-%E5%91%A8%E5%BF%97%E6%98%8E/dp/B00D2ID4PK/ref=sr_1_1?ie=UTF8&qid=1451532281&sr=8-1&keywords=java%E8%99%9A%E6%8B%9F%E6%9C%BA)
-+ [Learning Spark](http://www.amazon.cn/Learning-Spark-Lightning-Fast-Big-Data-Analysis-Karau-Holden/dp/1449358624/ref=sr_1_13?ie=UTF8&qid=1451892979&sr=8-13&keywords=spark)
-+ [Netty权威指南](http://www.amazon.cn/Netty%E6%9D%83%E5%A8%81%E6%8C%87%E5%8D%97-%E6%9D%8E%E6%9E%97%E9%94%8B/dp/B00WFSXDRM/ref=sr_1_1?ie=UTF8&qid=1452781245&sr=8-1&keywords=Netty%E6%9D%83%E5%A8%81%E6%8C%87%E5%8D%97)
 + [Gradle实战](http://www.amazon.cn/%E5%AE%9E%E6%88%98Gradle-%E6%9C%AC%E6%9D%B0%E6%98%8E%C2%B7%E9%A9%AC%E6%96%AF%E5%8F%AF/dp/B014PX21SG/ref=sr_1_1?ie=UTF8&qid=1452781265&sr=8-1&keywords=Gradle%E5%AE%9E%E6%88%98)
 + [Akka in Action](http://www.amazon.cn/Akka-in-Action-Roestenburg-Raymond/dp/1617291013/ref=sr_1_6?ie=UTF8&qid=1453968934&sr=8-6&keywords=Akka)
 + [实战Java虚拟机:JVM故障诊断与性能优化](http://www.amazon.cn/%E5%AE%9E%E6%88%98Java%E8%99%9A%E6%8B%9F%E6%9C%BA-JVM%E6%95%85%E9%9A%9C%E8%AF%8A%E6%96%AD%E4%B8%8E%E6%80%A7%E8%83%BD%E4%BC%98%E5%8C%96-%E8%91%9B%E4%B8%80%E9%B8%A3/dp/B00V34NZBS/ref=sr_1_1?ie=UTF8&qid=1454035543&sr=8-1&keywords=%E5%AE%9E%E6%88%98Java%E8%99%9A%E6%8B%9F%E6%9C%BA%3AJVM%E6%95%85%E9%9A%9C%E8%AF%8A%E6%96%AD%E4%B8%8E%E6%80%A7%E8%83%BD%E4%BC%98%E5%8C%96)
 + [算法导论](http://www.amazon.cn/%E7%AE%97%E6%B3%95%E5%AF%BC%E8%AE%BA-Thomas-H-Cormen/dp/B00AK7BYJY/ref=sr_1_1?ie=UTF8&qid=1454814064&sr=8-1&keywords=%E7%AE%97%E6%B3%95%E5%AF%BC%E8%AE%BA)
-+ [Netty in Action](http://www.amazon.com/Netty-Action-Norman-Maurer/dp/1617291471/ref=sr_1_1?ie=UTF8&qid=1455435844&sr=8-1&keywords=netty+in+action)
 + [数据结构与算法分析:Java语言描述(第2版)](http://www.amazon.cn/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95%E5%88%86%E6%9E%90-Java%E8%AF%AD%E8%A8%80%E6%8F%8F%E8%BF%B0-%E9%9F%A6%E6%96%AF/dp/B001N6R9JK/ref=sr_1_2?ie=UTF8&qid=1456149814&sr=8-2&keywords=Data+structures+in+Java)
 + [从小工到专家](http://www.amazon.cn/%E7%A8%8B%E5%BA%8F%E5%91%98%E4%BF%AE%E7%82%BC%E4%B9%8B%E9%81%93-%E4%BB%8E%E5%B0%8F%E5%B7%A5%E5%88%B0%E4%B8%93%E5%AE%B6-%E4%BA%A8%E7%89%B9/dp/B004GV08CY/ref=sr_1_1?ie=UTF8&qid=1456551763&sr=8-1&keywords=%E4%BB%8E%E5%B0%8F%E5%B7%A5%E5%88%B0%E4%B8%93%E5%AE%B6)
 + [Flume:构建高可用、可扩展的海量日志采集系统](http://www.amazon.cn/Flume-%E6%9E%84%E5%BB%BA%E9%AB%98%E5%8F%AF%E7%94%A8-%E5%8F%AF%E6%89%A9%E5%B1%95%E7%9A%84%E6%B5%B7%E9%87%8F%E6%97%A5%E5%BF%97%E9%87%87%E9%9B%86%E7%B3%BB%E7%BB%9F-%E5%93%88%E9%87%8C%C2%B7%E5%8F%B2%E7%91%9E%E5%BE%B7%E5%93%88%E4%BC%A6/dp/B012DRHR6W/ref=sr_1_1?ie=UTF8&qid=1457868734&sr=8-1&keywords=flume)
@@ -465,9 +486,6 @@ __设计模式(design pattern)是对软件设计中普遍存在(反复出现)的
 + [Apache Log4j](http://logging.apache.org/log4j/1.2/)
 + [Google Guava](https://github.com/google/guava)
 + [Apache Flume](http://flume.apache.org/index.html)
-
-### GitHub开源项目
-+ [java-design-patterns](https://github.com/dongjiaqiang/java-design-patterns)
 
 ### Apache Flume Project
 + [Apache Flume Office Website](http://flume.apache.org/index.html)
@@ -484,14 +502,6 @@ __设计模式(design pattern)是对软件设计中普遍存在(反复出现)的
 + [Apache KafkaProducer API Document](http://kafka.apache.org/090/javadoc/index.html?org/apache/kafka/clients/producer/KafkaProducer.html)
 + [Apache KafkaConsumer API Document](http://kafka.apache.org/090/javadoc/index.html?org/apache/kafka/clients/consumer/KafkaConsumer.html)
 
-### Google Guava Project
-+ [Google Guava Project](https://github.com/google/guava)
-+ [Google Guava User Guide](https://github.com/google/guava/wiki)
-+ [Google Guava User Guide(中文版)](http://ifeve.com/google-guava/)
-
-### Apache Commons Project
-+ [Apache Commons](http://commons.apache.org/)
-
 ### Akka Project
 
 + [Akka Project Office Website](http://akka.io/docs/?_ga=1.124319052.735885341.1458093107)
@@ -500,10 +510,7 @@ __设计模式(design pattern)是对软件设计中普遍存在(反复出现)的
 + [Akka Scala API Document](http://doc.akka.io/api/akka/2.4.2/?_ga=1.168867175.735885341.1458093107#package)
 + [Akka Java API Document](http://doc.akka.io/japi/akka/2.3.14/?_ga=1.90689884.735885341.1458093107)
 
-### Netty Project
 
-+ [Netty Project Office Website](http://netty.io/index.html)
-+ [Netty API Document](http://netty.io/5.0/api/index.html)
 
 #### Apache Commons Proper
 
