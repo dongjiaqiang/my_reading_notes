@@ -270,38 +270,42 @@ __Object类所有的非final方法(equals,hashCode,toString,clone和finalize)都
 
 ## 十一. Linux命令行和Shell语言程序设计
 
-### Shell脚本学习指南
+### [Shell脚本学习指南](http://www.amazon.cn/Shell%E8%84%9A%E6%9C%AC%E5%AD%A6%E4%B9%A0%E6%8C%87%E5%8D%97-Arnold-Robbins/dp/B002A2LQR2/ref=sr_1_2?ie=UTF8&qid=1457183735&sr=8-2&keywords=Shell)
 
-### sed & awk
+### [sed & awk](http://www.amazon.cn/sed-awk-Dale-Dougherty/dp/1565922255/ref=sr_1_6?ie=UTF8&qid=1457183831&sr=8-6&keywords=awk)
 
-### Linux命令行与shell脚本编程大全(第2版)
+### [Linux命令行与shell脚本编程大全(第2版)](https://www.amazon.cn/Linux%E5%91%BD%E4%BB%A4%E8%A1%8C%E4%B8%8Eshell%E8%84%9A%E6%9C%AC%E7%BC%96%E7%A8%8B%E5%A4%A7%E5%85%A8-Richard-Blum/dp/B0096EXMS8/ref=sr_1_1?ie=UTF8&qid=1461073171&sr=8-1&keywords=shell)
 
-### Linux Shell脚本攻略
+### [Linux Shell脚本攻略](https://www.amazon.cn/Linux-Shell%E8%84%9A%E6%9C%AC%E6%94%BB%E7%95%A5-%E5%8D%B0-Sarath-Lakshman/dp/B00HD4RDS8/ref=sr_1_7?ie=UTF8&qid=1461073171&sr=8-7&keywords=shell)
 
-### 新锐编程语言集萃:Haskell趣学指南
+## 十二.Haskell程序设计语言
 
-## 十二. Clojure语言程序设计
+### [新锐编程语言集萃:Haskell趣学指南](https://www.amazon.cn/%E6%96%B0%E9%94%90%E7%BC%96%E7%A8%8B%E8%AF%AD%E8%A8%80%E9%9B%86%E8%90%83-Haskell%E8%B6%A3%E5%AD%A6%E6%8C%87%E5%8D%97-%E5%88%A9%E6%B3%A2%E7%93%A6%E5%8D%A1/dp/B00HLA8UHC/ref=pd_sim_14_1?ie=UTF8&dpID=51LqhmU172L&dpSrc=sims&preST=_AC_UL160_SR130%2C160_&refRID=H87JA8BHJ78GCRE357M3)
 
-### Clojure编程乐趣
+## 十三. Clojure语言程序设计
 
-## 十三. 软件工程
+### [Clojure编程乐趣](https://www.amazon.cn/Clojure%E7%BC%96%E7%A8%8B%E4%B9%90%E8%B6%A3-%E7%A6%8F%E6%A0%BC%E6%96%AF/dp/B00G6T9BB8/ref=sr_1_5?ie=UTF8&qid=1461511889&sr=8-5&keywords=clojure)
 
-### 重构 改善既有代码设计
+## 十四. 软件工程
+
+### [重构 改善既有代码设计](http://www.amazon.cn/%E9%87%8D%E6%9E%84-%E6%94%B9%E5%96%84%E6%97%A2%E6%9C%89%E4%BB%A3%E7%A0%81%E7%9A%84%E8%AE%BE%E8%AE%A1-%E9%A9%AC%E4%B8%81%C2%B7%E7%A6%8F%E5%8B%92/dp/B011LPUB42/ref=sr_1_1?ie=UTF8&qid=1449756794&sr=8-1&keywords=%E9%87%8D%E6%9E%84+%E6%94%B9%E5%96%84%E6%97%A2%E6%9C%89%E4%BB%A3%E7%A0%81%E8%AE%BE%E8%AE%A1)
 
 __重构(Refactoring)指对软件代码做任何更动以增加可读性或者简化结构而不影响输出结果__
 
 + [简化函数调用](http://7xoeea.com1.z0.glb.clouddn.com/%E7%AE%80%E5%8C%96%E5%87%BD%E6%95%B0%E8%B0%83%E7%94%A8.html) __函数改名__ __添加参数__ __移除参数__ __将查询函数和修改函数分离__ __令函数携带参数__ __以明确函数取代参数__ __保持对象完整__ __以函数取代参数__ __引入参数对象__ __移除设值函数__ __隐藏函数__ __以工厂函数取代构造函数__ __封装向下转型__ __以异常取代错误码__ __以测试取代异常__
 + [简化条件表达式](http://7xoeea.com1.z0.glb.clouddn.com/%E7%AE%80%E5%8C%96%E6%9D%A1%E4%BB%B6%E8%A1%A8%E8%BE%BE%E5%BC%8F.html) __分解条件表达式__ __合并条件表达式__ __合并重复的条件片段__ __移除控制标志__ __以卫语句取代嵌套条件表达式__ __以多态取代条件表达式__ __引入Null对象__ __引入断言__
 
-### 重构与模式
+### [重构与模式](http://www.amazon.cn/%E9%87%8D%E6%9E%84%E4%B8%8E%E6%A8%A1%E5%BC%8F-Joshua-Kerievsky/dp/B00A9YD7A2/ref=sr_1_1?ie=UTF8&qid=1456414401&sr=8-1&keywords=%E9%87%8D%E6%9E%84%E4%B8%8E%E6%A8%A1%E5%BC%8F)
 
 + [创建](http://7xoeea.com1.z0.glb.clouddn.com/%E5%88%9B%E5%BB%BA.html) __用Creation Method替代构造器__ __将创建知识搬移到Factory__ __用Factory封装类__ __用Factory Method引入多态创建__ __用Builder封装Composite__ __内联Singleton__
 + [简化]() __组合方法__ __用策略替代条件逻辑__ __将装饰功能搬移至Decorator__ __用State替换状态改变条件语句__ __用Composite替换隐含树__ __用Command替换条件调度程序__
 + [保护](http://7xoeea.com1.z0.glb.clouddn.com/%E4%BF%9D%E6%8A%A4.html) __用类替换类型代码__ __用Singleton限制实例化__  __引入Null Object__
 + [实用重构](http://7xoeea.com1.z0.glb.clouddn.com/%E5%AE%9E%E7%94%A8%E9%87%8D%E6%9E%84.html) __链构造函数__ __统一接口__ __提取参数__
 
-### 敏捷软件开发(原则模式与实践)
+### [敏捷软件开发(原则模式与实践)](http://www.amazon.cn/%E6%95%8F%E6%8D%B7%E8%BD%AF%E4%BB%B6%E5%BC%80%E5%8F%91-%E9%A9%AC%E4%B8%81/dp/B00116MMA8/ref=sr_1_1?ie=UTF8&qid=1451893899&sr=8-1&keywords=%E6%95%8F%E6%8D%B7%E5%BC%80%E5%8F%91)
+
 #### 1.面向对象设计原则
+
 + [单一职责原则](http://7xoeea.com1.z0.glb.clouddn.com/%E7%AC%AC8%E7%AB%A0%20%E5%8D%95%E4%B8%80%E8%81%8C%E8%B4%A3%E5%8E%9F%E5%88%99%28SRP%29.html) __就一个类而言,应该仅有一个引起它变化的原因__
 + [开放-封闭原则](http://7xoeea.com1.z0.glb.clouddn.com/%E7%AC%AC9%E7%AB%A0%20%E5%BC%80%E6%94%BE-%E5%B0%81%E9%97%AD%E5%8E%9F%E5%88%99%28OCP%29.html) __软件实体应该(类,模块,函数等)应该是可扩展的,但是不可修改__
 + [Liskov替换原则](http://7xoeea.com1.z0.glb.clouddn.com/%E7%AC%AC10%E7%AB%A0%20Liskov%E6%9B%BF%E6%8D%A2%E5%8E%9F%E5%88%99%28LSP%29.html) __子类型(SubType)必须能够替换掉它们的基类型(BaseType)__
@@ -315,17 +319,18 @@ __重构(Refactoring)指对软件代码做任何更动以增加可读性或者�
 + 稳定抽象原则(包的抽象程度应该和其稳定程度一致)
 
 #### 2.面向对象设计模式
+
 + [COMMAND模式和ACTIVE OBJECT模式]()
 
 ### [程序员修炼之道:从小工到专家](http://www.amazon.cn/%E7%A8%8B%E5%BA%8F%E5%91%98%E4%BF%AE%E7%82%BC%E4%B9%8B%E9%81%93-%E4%BB%8E%E5%B0%8F%E5%B7%A5%E5%88%B0%E4%B8%93%E5%AE%B6-%E4%BA%A8%E7%89%B9/dp/B004GV08CY/ref=sr_1_1?ie=UTF8&qid=1455946791&sr=8-1&keywords=%E4%BB%8E%E5%B0%8F%E5%B7%A5%E5%88%B0%E4%B8%93%E5%AE%B6)
 
-### 实现模式
+### [实现模式](https://www.amazon.cn/%E5%AE%9E%E7%8E%B0%E6%A8%A1%E5%BC%8F-Kent-Beck/dp/B00ADQPPLA/ref=sr_1_1?ie=UTF8&qid=1473253965&sr=8-1&keywords=%E5%AE%9E%E7%8E%B0%E6%A8%A1%E5%BC%8F)
 
 + [类]()
 
-### Object-Oriented Analysis And Design With Applications(Third Edition)
+### [Object-Oriented Analysis And Design With Applications(Third Edition)](http://www.amazon.cn/Object-oriented-Analysis-and-Design-With-Applications-Booch-Grady/dp/1500995193/ref=sr_1_2?ie=UTF8&qid=1453102147&sr=8-2&keywords=Object-Oriented+Analysis+And+Design+With+Applications)
 
-### Head First设计模式(中文版)
+### [Head First设计模式(中文版)](https://www.amazon.cn/Head-First%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F-%E5%BC%97%E9%87%8C%E6%9B%BC/dp/B0011FBU34/ref=sr_1_1?ie=UTF8&qid=1481421331&sr=8-1&keywords=Head+First)
 
 __设计模式(design pattern)是对软件设计中普遍存在(反复出现)的各种问题,所提出的解决方案__
 
@@ -361,7 +366,7 @@ __设计模式(design pattern)是对软件设计中普遍存在(反复出现)的
 + [蝇量模式](http://7xoeea.com1.z0.glb.clouddn.com/%E8%9D%87%E9%87%8F%E6%A8%A1%E5%BC%8F.html) __又称享元模式 通过共享以便有效的支持大量小颗粒对象__
 
 
-### 代码大全(第2版)
+### [代码大全(第2版)](http://www.amazon.cn/%E4%BB%A3%E7%A0%81%E5%A4%A7%E5%85%A8-%E5%8F%B2%E8%92%82%E5%A4%AB%E2%80%A2%E8%BF%88%E5%85%8B%E5%BA%B7%E5%A5%88%E5%B0%94/dp/B0061XKRXA/ref=sr_1_1?ie=UTF8&qid=1453880816&sr=8-1&keywords=%E4%BB%A3%E7%A0%81%E5%A4%A7%E5%85%A8)
 
 ## 二.工具与框架
 
@@ -438,36 +443,21 @@ __设计模式(design pattern)是对软件设计中普遍存在(反复出现)的
 
 ### 书单
 
-
 + [Java性能权威指南](https://www.amazon.cn/Java%E6%80%A7%E8%83%BD%E6%9D%83%E5%A8%81%E6%8C%87%E5%8D%97-%E5%A5%A5%E5%85%8B%E6%96%AF/dp/B01DLB7Z66/ref=sr_1_1?ie=UTF8&qid=1460901455&sr=8-1&keywords=java%E6%80%A7%E8%83%BD)
-+ [Head First设计模式(中文版)](http://www.amazon.cn/Head-First%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F-%E5%BC%97%E9%87%8C%E6%9B%BC/dp/B0011FBU34/ref=sr_1_1?ie=UTF8&qid=1454814197&sr=8-1&keywords=head+first+%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F)
 + [Java Reflection in Action](https://www.amazon.cn/Java-Reflection-in-Action-Forman-Ira-R/dp/1932394184/ref=sr_1_1?ie=UTF8&qid=1466261454&sr=8-1&keywords=Java+Reflection+in+Action)
-+ [重构 改善既有代码设计](http://www.amazon.cn/%E9%87%8D%E6%9E%84-%E6%94%B9%E5%96%84%E6%97%A2%E6%9C%89%E4%BB%A3%E7%A0%81%E7%9A%84%E8%AE%BE%E8%AE%A1-%E9%A9%AC%E4%B8%81%C2%B7%E7%A6%8F%E5%8B%92/dp/B011LPUB42/ref=sr_1_1?ie=UTF8&qid=1449756794&sr=8-1&keywords=%E9%87%8D%E6%9E%84+%E6%94%B9%E5%96%84%E6%97%A2%E6%9C%89%E4%BB%A3%E7%A0%81%E8%AE%BE%E8%AE%A1)
-+ [敏捷软件开发(原则模式与实践)](http://www.amazon.cn/%E6%95%8F%E6%8D%B7%E8%BD%AF%E4%BB%B6%E5%BC%80%E5%8F%91-%E9%A9%AC%E4%B8%81/dp/B00116MMA8/ref=sr_1_1?ie=UTF8&qid=1451893899&sr=8-1&keywords=%E6%95%8F%E6%8D%B7%E5%BC%80%E5%8F%91)
 + [深入理解Java虚拟机:JVM高级特性与最佳实践(第2版)](http://www.amazon.cn/%E6%B7%B1%E5%85%A5%E7%90%86%E8%A7%A3Java%E8%99%9A%E6%8B%9F%E6%9C%BA-JVM%E9%AB%98%E7%BA%A7%E7%89%B9%E6%80%A7%E4%B8%8E%E6%9C%80%E4%BD%B3%E5%AE%9E%E8%B7%B5-%E5%91%A8%E5%BF%97%E6%98%8E/dp/B00D2ID4PK/ref=sr_1_1?ie=UTF8&qid=1451532281&sr=8-1&keywords=java%E8%99%9A%E6%8B%9F%E6%9C%BA)
-+ [Scala in Action](http://www.amazon.cn/Scala-in-Action-Raychaudhuri-Nilanjan/dp/1935182757/ref=sr_1_1?ie=UTF8&qid=1451892920&sr=8-1&keywords=Scala+in+action)
 + [Learning Spark](http://www.amazon.cn/Learning-Spark-Lightning-Fast-Big-Data-Analysis-Karau-Holden/dp/1449358624/ref=sr_1_13?ie=UTF8&qid=1451892979&sr=8-13&keywords=spark)
 + [Netty权威指南](http://www.amazon.cn/Netty%E6%9D%83%E5%A8%81%E6%8C%87%E5%8D%97-%E6%9D%8E%E6%9E%97%E9%94%8B/dp/B00WFSXDRM/ref=sr_1_1?ie=UTF8&qid=1452781245&sr=8-1&keywords=Netty%E6%9D%83%E5%A8%81%E6%8C%87%E5%8D%97)
 + [Gradle实战](http://www.amazon.cn/%E5%AE%9E%E6%88%98Gradle-%E6%9C%AC%E6%9D%B0%E6%98%8E%C2%B7%E9%A9%AC%E6%96%AF%E5%8F%AF/dp/B014PX21SG/ref=sr_1_1?ie=UTF8&qid=1452781265&sr=8-1&keywords=Gradle%E5%AE%9E%E6%88%98)
-+ [Object-Oriented Analysis And Design With Applications(Third Edition)](http://www.amazon.cn/Object-oriented-Analysis-and-Design-With-Applications-Booch-Grady/dp/1500995193/ref=sr_1_2?ie=UTF8&qid=1453102147&sr=8-2&keywords=Object-Oriented+Analysis+And+Design+With+Applications)
-+ [代码大全(第2版)](http://www.amazon.cn/%E4%BB%A3%E7%A0%81%E5%A4%A7%E5%85%A8-%E5%8F%B2%E8%92%82%E5%A4%AB%E2%80%A2%E8%BF%88%E5%85%8B%E5%BA%B7%E5%A5%88%E5%B0%94/dp/B0061XKRXA/ref=sr_1_1?ie=UTF8&qid=1453880816&sr=8-1&keywords=%E4%BB%A3%E7%A0%81%E5%A4%A7%E5%85%A8)
 + [Akka in Action](http://www.amazon.cn/Akka-in-Action-Roestenburg-Raymond/dp/1617291013/ref=sr_1_6?ie=UTF8&qid=1453968934&sr=8-6&keywords=Akka)
 + [实战Java虚拟机:JVM故障诊断与性能优化](http://www.amazon.cn/%E5%AE%9E%E6%88%98Java%E8%99%9A%E6%8B%9F%E6%9C%BA-JVM%E6%95%85%E9%9A%9C%E8%AF%8A%E6%96%AD%E4%B8%8E%E6%80%A7%E8%83%BD%E4%BC%98%E5%8C%96-%E8%91%9B%E4%B8%80%E9%B8%A3/dp/B00V34NZBS/ref=sr_1_1?ie=UTF8&qid=1454035543&sr=8-1&keywords=%E5%AE%9E%E6%88%98Java%E8%99%9A%E6%8B%9F%E6%9C%BA%3AJVM%E6%95%85%E9%9A%9C%E8%AF%8A%E6%96%AD%E4%B8%8E%E6%80%A7%E8%83%BD%E4%BC%98%E5%8C%96)
 + [算法导论](http://www.amazon.cn/%E7%AE%97%E6%B3%95%E5%AF%BC%E8%AE%BA-Thomas-H-Cormen/dp/B00AK7BYJY/ref=sr_1_1?ie=UTF8&qid=1454814064&sr=8-1&keywords=%E7%AE%97%E6%B3%95%E5%AF%BC%E8%AE%BA)
 + [Netty in Action](http://www.amazon.com/Netty-Action-Norman-Maurer/dp/1617291471/ref=sr_1_1?ie=UTF8&qid=1455435844&sr=8-1&keywords=netty+in+action)
 + [数据结构与算法分析:Java语言描述(第2版)](http://www.amazon.cn/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95%E5%88%86%E6%9E%90-Java%E8%AF%AD%E8%A8%80%E6%8F%8F%E8%BF%B0-%E9%9F%A6%E6%96%AF/dp/B001N6R9JK/ref=sr_1_2?ie=UTF8&qid=1456149814&sr=8-2&keywords=Data+structures+in+Java)
-+ [重构与模式](http://www.amazon.cn/%E9%87%8D%E6%9E%84%E4%B8%8E%E6%A8%A1%E5%BC%8F-Joshua-Kerievsky/dp/B00A9YD7A2/ref=sr_1_1?ie=UTF8&qid=1456414401&sr=8-1&keywords=%E9%87%8D%E6%9E%84%E4%B8%8E%E6%A8%A1%E5%BC%8F)
 + [从小工到专家](http://www.amazon.cn/%E7%A8%8B%E5%BA%8F%E5%91%98%E4%BF%AE%E7%82%BC%E4%B9%8B%E9%81%93-%E4%BB%8E%E5%B0%8F%E5%B7%A5%E5%88%B0%E4%B8%93%E5%AE%B6-%E4%BA%A8%E7%89%B9/dp/B004GV08CY/ref=sr_1_1?ie=UTF8&qid=1456551763&sr=8-1&keywords=%E4%BB%8E%E5%B0%8F%E5%B7%A5%E5%88%B0%E4%B8%93%E5%AE%B6)
-+ [Shell脚本学习指南](http://www.amazon.cn/Shell%E8%84%9A%E6%9C%AC%E5%AD%A6%E4%B9%A0%E6%8C%87%E5%8D%97-Arnold-Robbins/dp/B002A2LQR2/ref=sr_1_2?ie=UTF8&qid=1457183735&sr=8-2&keywords=Shell)
-+ [sed & awk](http://www.amazon.cn/sed-awk-Dale-Dougherty/dp/1565922255/ref=sr_1_6?ie=UTF8&qid=1457183831&sr=8-6&keywords=awk)
 + [Flume:构建高可用、可扩展的海量日志采集系统](http://www.amazon.cn/Flume-%E6%9E%84%E5%BB%BA%E9%AB%98%E5%8F%AF%E7%94%A8-%E5%8F%AF%E6%89%A9%E5%B1%95%E7%9A%84%E6%B5%B7%E9%87%8F%E6%97%A5%E5%BF%97%E9%87%87%E9%9B%86%E7%B3%BB%E7%BB%9F-%E5%93%88%E9%87%8C%C2%B7%E5%8F%B2%E7%91%9E%E5%BE%B7%E5%93%88%E4%BC%A6/dp/B012DRHR6W/ref=sr_1_1?ie=UTF8&qid=1457868734&sr=8-1&keywords=flume)
 + [Fundamental Networking in Java](https://www.amazon.cn/Fundamental-Networking-in-Java-Pitt-Esmond/dp/1849965455/ref=sr_1_1?ie=UTF8&qid=1460214221&sr=8-1&keywords=Fundamental+Networking+in+Java)
-+ [新锐编程语言集萃:Haskell趣学指南](https://www.amazon.cn/%E6%96%B0%E9%94%90%E7%BC%96%E7%A8%8B%E8%AF%AD%E8%A8%80%E9%9B%86%E8%90%83-Haskell%E8%B6%A3%E5%AD%A6%E6%8C%87%E5%8D%97-%E5%88%A9%E6%B3%A2%E7%93%A6%E5%8D%A1/dp/B00HLA8UHC/ref=pd_sim_14_1?ie=UTF8&dpID=51LqhmU172L&dpSrc=sims&preST=_AC_UL160_SR130%2C160_&refRID=H87JA8BHJ78GCRE357M3)
-+ [Linux Shell脚本攻略](https://www.amazon.cn/Linux-Shell%E8%84%9A%E6%9C%AC%E6%94%BB%E7%95%A5-%E5%8D%B0-Sarath-Lakshman/dp/B00HD4RDS8/ref=sr_1_7?ie=UTF8&qid=1461073171&sr=8-7&keywords=shell)
-+ [Linux命令行与shell脚本编程大全(第2版)](https://www.amazon.cn/Linux%E5%91%BD%E4%BB%A4%E8%A1%8C%E4%B8%8Eshell%E8%84%9A%E6%9C%AC%E7%BC%96%E7%A8%8B%E5%A4%A7%E5%85%A8-Richard-Blum/dp/B0096EXMS8/ref=sr_1_1?ie=UTF8&qid=1461073171&sr=8-1&keywords=shell)
-+ [Clojure编程乐趣](https://www.amazon.cn/Clojure%E7%BC%96%E7%A8%8B%E4%B9%90%E8%B6%A3-%E7%A6%8F%E6%A0%BC%E6%96%AF/dp/B00G6T9BB8/ref=sr_1_5?ie=UTF8&qid=1461511889&sr=8-5&keywords=clojure)
 + [Redis实战](https://www.amazon.cn/Redis%E5%AE%9E%E6%88%98-%E7%BA%A6%E8%A5%BF%E4%BA%9A-L-%E5%8D%A1%E5%B0%94%E6%A3%AE/dp/B016YLS2LM/ref=sr_1_1?ie=UTF8&qid=1468035205&sr=8-1&keywords=redis)
-+ [实现模式](https://www.amazon.cn/%E5%AE%9E%E7%8E%B0%E6%A8%A1%E5%BC%8F-Kent-Beck/dp/B00ADQPPLA/ref=sr_1_1?ie=UTF8&qid=1473253965&sr=8-1&keywords=%E5%AE%9E%E7%8E%B0%E6%A8%A1%E5%BC%8F)
 + [响应式架构 消息模式Actor实现与Scala,Akka应用集成](https://www.amazon.cn/%E5%93%8D%E5%BA%94%E5%BC%8F%E6%9E%B6%E6%9E%84-%E6%B6%88%E6%81%AF%E6%A8%A1%E5%BC%8FActor%E5%AE%9E%E7%8E%B0%E4%B8%8EScala-Akka%E5%BA%94%E7%94%A8%E9%9B%86%E6%88%90-%E6%B2%83%E6%81%A9%C2%B7%E5%BC%97%E5%86%9C/dp/B01HIPQT54/ref=sr_1_11?ie=UTF8&qid=1474982537&sr=8-11&keywords=scala)
 
 ### 开源项目官方网站
