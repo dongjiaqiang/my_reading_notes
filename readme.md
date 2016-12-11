@@ -3,12 +3,13 @@
 
 ## 一. Java语言程序设计
 
-### [Apache Commons](http://commons.apache.org/)
+### [Apache Commons Office Website](http://commons.apache.org/)
 
-### Google Guava Project
-+ [Google Guava Project](https://github.com/google/guava)
-+ [Google Guava User Guide](https://github.com/google/guava/wiki)
-+ [Google Guava User Guide(中文版)](http://ifeve.com/google-guava/)
+### [Google Guava Project](https://github.com/google/guava)
+
+### [Google Guava User Guide](https://github.com/google/guava/wiki)
+
+### [Google Guava User Guide(中文版)](http://ifeve.com/google-guava/)
 
 ### [Effective Java(中文第二版)](http://www.amazon.cn/Sun-%E5%85%AC%E5%8F%B8%E6%A0%B8%E5%BF%83%E6%8A%80%E6%9C%AF%E4%B8%9B%E4%B9%A6-Effective-Java%E4%B8%AD%E6%96%87%E7%89%88-Joshua-Bloch/dp/B001PTGR52/ref=pd_bxgy_14_img_3?ie=UTF8&refRID=1K4TFG3XFVJH3DCFT2FT)
 + [创建和销毁对象](http://7xoeea.com1.z0.glb.clouddn.com/%E5%88%9B%E5%BB%BA%E5%92%8C%E9%94%80%E6%AF%81%E5%AF%B9%E8%B1%A1.html) __何时和如何创建对象 何时和如何避免创建对象 如何确保对象能够适时地销毁 如何管理对象销毁前的各种清理动作__
@@ -481,10 +482,7 @@ __设计模式(design pattern)是对软件设计中普遍存在(反复出现)的
 + [Redis实战](https://www.amazon.cn/Redis%E5%AE%9E%E6%88%98-%E7%BA%A6%E8%A5%BF%E4%BA%9A-L-%E5%8D%A1%E5%B0%94%E6%A3%AE/dp/B016YLS2LM/ref=sr_1_1?ie=UTF8&qid=1468035205&sr=8-1&keywords=redis)
 + [响应式架构 消息模式Actor实现与Scala,Akka应用集成](https://www.amazon.cn/%E5%93%8D%E5%BA%94%E5%BC%8F%E6%9E%B6%E6%9E%84-%E6%B6%88%E6%81%AF%E6%A8%A1%E5%BC%8FActor%E5%AE%9E%E7%8E%B0%E4%B8%8EScala-Akka%E5%BA%94%E7%94%A8%E9%9B%86%E6%88%90-%E6%B2%83%E6%81%A9%C2%B7%E5%BC%97%E5%86%9C/dp/B01HIPQT54/ref=sr_1_11?ie=UTF8&qid=1474982537&sr=8-11&keywords=scala)
 
-### 开源项目官方网站
-+ [Apache Commons](http://commons.apache.org/)
 + [Apache Log4j](http://logging.apache.org/log4j/1.2/)
-+ [Google Guava](https://github.com/google/guava)
 + [Apache Flume](http://flume.apache.org/index.html)
 
 ### Apache Flume Project
