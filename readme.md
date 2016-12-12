@@ -509,8 +509,6 @@ __设计模式(design pattern)是对软件设计中普遍存在(反复出现)的
 
 ### [数据结构与算法分析:Java语言描述(第2版)](http://www.amazon.cn/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95%E5%88%86%E6%9E%90-Java%E8%AF%AD%E8%A8%80%E6%8F%8F%E8%BF%B0-%E9%9F%A6%E6%96%AF/dp/B001N6R9JK/ref=sr_1_2?ie=UTF8&qid=1456149814&sr=8-2&keywords=Data+structures+in+Java)
 
-+ [Apache Flume](http://flume.apache.org/index.html)
-
 ### 二十二. Kafka框架
 
 ### [Apache Kafka Office Website](http://kafka.apache.org/)
