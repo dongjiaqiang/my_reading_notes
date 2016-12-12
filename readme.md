@@ -12,6 +12,7 @@
 ### [Google Guava User Guide](https://github.com/google/guava/wiki)
 
 ### [Google Guava User Guide(中文版)](http://ifeve.com/google-guava/)
++ [基本工具](http://7xoeea.com1.z0.glb.clouddn.com/Google%20Guava%E6%95%99%E7%A8%8B%E5%9F%BA%E6%9C%AC%E5%B7%A5%E5%85%B7.html) __使用和避免null__ __前置条件__ __常见Object方法__ __Guava排序比较器__ __简化异常和错误的传播与检查__
 
 ### [Effective Java(中文第二版)](http://www.amazon.cn/Sun-%E5%85%AC%E5%8F%B8%E6%A0%B8%E5%BF%83%E6%8A%80%E6%9C%AF%E4%B8%9B%E4%B9%A6-Effective-Java%E4%B8%AD%E6%96%87%E7%89%88-Joshua-Bloch/dp/B001PTGR52/ref=pd_bxgy_14_img_3?ie=UTF8&refRID=1K4TFG3XFVJH3DCFT2FT)
 + [创建和销毁对象](http://7xoeea.com1.z0.glb.clouddn.com/%E5%88%9B%E5%BB%BA%E5%92%8C%E9%94%80%E6%AF%81%E5%AF%B9%E8%B1%A1.html) __何时和如何创建对象 何时和如何避免创建对象 如何确保对象能够适时地销毁 如何管理对象销毁前的各种清理动作__
