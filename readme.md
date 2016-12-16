@@ -308,6 +308,7 @@ __Object类所有的非final方法(equals,hashCode,toString,clone和finalize)都
 
 + [各就各位 预备](http://7xoeea.com1.z0.glb.clouddn.com/%E7%AC%AC1%E7%AB%A0%20%E5%90%84%E5%B0%B1%E5%90%84%E4%BD%8D%20%E9%A2%84%E5%A4%87.html) __函数__ __列表__ __元组__
 + [相信类型](http://7xoeea.com1.z0.glb.clouddn.com/%E7%AC%AC2%E7%AB%A0%20%E7%9B%B8%E4%BF%A1%E7%B1%BB%E5%9E%8B.html) __显式类型声明__ __类型变量__ __类型类__
++ [函数语法](http://7xoeea.com1.z0.glb.clouddn.com/%E7%AC%AC3%E7%AB%A0%20%E5%87%BD%E6%95%B0%E7%9A%84%E8%AF%AD%E6%B3%95.html) __模式匹配__ __哨卫__ __where__ __let__ __case表达式__
 
 ## 十三. Clojure语言程序设计
 
