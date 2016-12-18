@@ -5,6 +5,7 @@
 #### [java语言程序设计](https://github.com/dongjiaqiang/my_reading_notes#一-java语言程序设计)
 #### [Java并发编程](https://github.com/dongjiaqiang/my_reading_notes#二-java并发编程)
 #### [java反射编程](https://github.com/dongjiaqiang/my_reading_notes#三-java反射编程)
+#### [Haskell程序设计语言](https://github.com/dongjiaqiang/my_reading_notes#十二haskell程序设计语言)
 
 ## 一. Java语言程序设计
 
@@ -312,6 +313,8 @@ __Object类所有的非final方法(equals,hashCode,toString,clone和finalize)都
 ## 十二.Haskell程序设计语言
 
 [Haskell Documentation](https://www.haskell.org/documentation)
+
+[Hoogλg(Haskell API Search Engine)](https://www.haskell.org/hoogle/?hoogle=)
 
 ### [新锐编程语言集萃:Haskell趣学指南](https://www.amazon.cn/%E6%96%B0%E9%94%90%E7%BC%96%E7%A8%8B%E8%AF%AD%E8%A8%80%E9%9B%86%E8%90%83-Haskell%E8%B6%A3%E5%AD%A6%E6%8C%87%E5%8D%97-%E5%88%A9%E6%B3%A2%E7%93%A6%E5%8D%A1/dp/B00HLA8UHC/ref=pd_sim_14_1?ie=UTF8&dpID=51LqhmU172L&dpSrc=sims&preST=_AC_UL160_SR130%2C160_&refRID=H87JA8BHJ78GCRE357M3)
 
