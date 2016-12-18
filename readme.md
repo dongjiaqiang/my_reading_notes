@@ -309,6 +309,7 @@ __Object类所有的非final方法(equals,hashCode,toString,clone和finalize)都
 + [各就各位 预备](http://7xoeea.com1.z0.glb.clouddn.com/%E7%AC%AC1%E7%AB%A0%20%E5%90%84%E5%B0%B1%E5%90%84%E4%BD%8D%20%E9%A2%84%E5%A4%87.html) __函数__ __列表__ __元组__
 + [相信类型](http://7xoeea.com1.z0.glb.clouddn.com/%E7%AC%AC2%E7%AB%A0%20%E7%9B%B8%E4%BF%A1%E7%B1%BB%E5%9E%8B.html) __显式类型声明__ __类型变量__ __类型类__
 + [函数语法](http://7xoeea.com1.z0.glb.clouddn.com/%E7%AC%AC3%E7%AB%A0%20%E5%87%BD%E6%95%B0%E7%9A%84%E8%AF%AD%E6%B3%95.html) __模式匹配__ __哨卫__ __where__ __let__ __case表达式__
++ [递归](http://7xoeea.com1.z0.glb.clouddn.com/%E7%AC%AC4%E7%AB%A0%20%E9%80%92%E5%BD%92.html) __递归__
 
 ## 十三. Clojure语言程序设计
 
@@ -399,6 +400,8 @@ __设计模式(design pattern)是对软件设计中普遍存在(反复出现)的
 ### [Gradle实战](http://www.amazon.cn/%E5%AE%9E%E6%88%98Gradle-%E6%9C%AC%E6%9D%B0%E6%98%8E%C2%B7%E9%A9%AC%E6%96%AF%E5%8F%AF/dp/B014PX21SG/ref=sr_1_1?ie=UTF8&qid=1452781265&sr=8-1&keywords=Gradle%E5%AE%9E%E6%88%98)
 
 ## 十五. Spark框架
+
+### [An Architecture for Fast and General Data Processing on Large Clusters(中文版)](http://www.chinacloud.cn/upload/2015-01/15012705072318.pdf)
 
 ### [Spark Latest Document](http://spark.apache.org/docs/latest/)
 
