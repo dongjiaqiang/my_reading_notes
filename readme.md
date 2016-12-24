@@ -318,11 +318,14 @@ __Object类所有的非final方法(equals,hashCode,toString,clone和finalize)都
 
 ### [新锐编程语言集萃:Haskell趣学指南](https://www.amazon.cn/%E6%96%B0%E9%94%90%E7%BC%96%E7%A8%8B%E8%AF%AD%E8%A8%80%E9%9B%86%E8%90%83-Haskell%E8%B6%A3%E5%AD%A6%E6%8C%87%E5%8D%97-%E5%88%A9%E6%B3%A2%E7%93%A6%E5%8D%A1/dp/B00HLA8UHC/ref=pd_sim_14_1?ie=UTF8&dpID=51LqhmU172L&dpSrc=sims&preST=_AC_UL160_SR130%2C160_&refRID=H87JA8BHJ78GCRE357M3)
 
-+ [各就各位 预备](http://7xoeea.com1.z0.glb.clouddn.com/%E7%AC%AC1%E7%AB%A0%20%E5%90%84%E5%B0%B1%E5%90%84%E4%BD%8D%20%E9%A2%84%E5%A4%87.html) __函数__ __列表__ __元组__
-+ [相信类型](http://7xoeea.com1.z0.glb.clouddn.com/%E7%AC%AC2%E7%AB%A0%20%E7%9B%B8%E4%BF%A1%E7%B1%BB%E5%9E%8B.html) __显式类型声明__ __类型变量__ __类型类__
++ [预备](http://7xoeea.com1.z0.glb.clouddn.com/%E7%AC%AC1%E7%AB%A0%20%E5%90%84%E5%B0%B1%E5%90%84%E4%BD%8D%20%E9%A2%84%E5%A4%87.html) __函数__ __列表__ __元组__
++ [类型](http://7xoeea.com1.z0.glb.clouddn.com/%E7%AC%AC2%E7%AB%A0%20%E7%9B%B8%E4%BF%A1%E7%B1%BB%E5%9E%8B.html) __显式类型声明__ __类型变量__ __类型类__
 + [函数语法](http://7xoeea.com1.z0.glb.clouddn.com/%E7%AC%AC3%E7%AB%A0%20%E5%87%BD%E6%95%B0%E7%9A%84%E8%AF%AD%E6%B3%95.html) __模式匹配__ __哨卫__ __where__ __let__ __case表达式__
 + [递归](http://7xoeea.com1.z0.glb.clouddn.com/%E7%AC%AC4%E7%AB%A0%20%E9%80%92%E5%BD%92.html) __递归__
 + [高阶函数](http://7xoeea.com1.z0.glb.clouddn.com/%E7%AC%AC5%E7%AB%A0%20%E9%AB%98%E9%98%B6%E5%87%BD%E6%95%B0.html) __高阶函数__ __柯里函数__ __部分应用函数__ __截断__ __lambda__ __折叠__ __扫描__ __函数组合__ __Point-Free风格__
++ [模块]()
++ [自定义类型和类型类]()
++ [输入与输出](http://7xoeea.com1.z0.glb.clouddn.com/%E7%AC%AC8%E7%AB%A0%20%E8%BE%93%E5%85%A5%E4%B8%8E%E8%BE%93%E5%87%BA.html) __纯粹与非纯粹的分离__ __组合IO操作__ __return__ __实用IO函数__
 
 ## 十三. Clojure语言程序设计
 
