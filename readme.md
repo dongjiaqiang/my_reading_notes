@@ -324,11 +324,7 @@ __Object类所有的非final方法(equals,hashCode,toString,clone和finalize)都
 + [递归](http://7xoeea.com1.z0.glb.clouddn.com/%E7%AC%AC4%E7%AB%A0%20%E9%80%92%E5%BD%92.html) __递归__
 + [高阶函数](http://7xoeea.com1.z0.glb.clouddn.com/%E7%AC%AC5%E7%AB%A0%20%E9%AB%98%E9%98%B6%E5%87%BD%E6%95%B0.html) __高阶函数__ __柯里函数__ __部分应用函数__ __截断__ __lambda__ __折叠__ __扫描__ __函数组合__ __Point-Free风格__
 + [模块]()
-<<<<<<< HEAD
 + [自定义类型和类型类](http://7xoeea.com1.z0.glb.clouddn.com/%E7%AC%AC7%E7%AB%A0%20%E8%87%AA%E5%AE%9A%E4%B9%89%E7%B1%BB%E5%9E%8B%E5%92%8C%E7%B1%BB%E5%9E%8B%E7%B1%BB.html) __自定义类型__ __记录语法__ __类型参数__ __派生实例__ __类型别名__ __参数化类型别名__ __Either__ __递归数据结构__ __类型类__ __Functor类型类__ __树__ __函子__ __kind与无名类型__
-=======
-+ [自定义类型和类型类]()
->>>>>>> 7545ca1309f5ced137fe70aa349d127e0d593cd7
 + [输入与输出](http://7xoeea.com1.z0.glb.clouddn.com/%E7%AC%AC8%E7%AB%A0%20%E8%BE%93%E5%85%A5%E4%B8%8E%E8%BE%93%E5%87%BA.html) __纯粹与非纯粹的分离__ __组合IO操作__ __return__ __实用IO函数__
 
 ## 十三. Clojure语言程序设计
