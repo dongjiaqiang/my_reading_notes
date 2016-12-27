@@ -6,6 +6,7 @@
 #### [Java并发编程](https://github.com/dongjiaqiang/my_reading_notes#二-java并发编程)
 #### [java反射编程](https://github.com/dongjiaqiang/my_reading_notes#三-java反射编程)
 #### [Haskell程序设计语言](https://github.com/dongjiaqiang/my_reading_notes#十二haskell程序设计语言)
+#### [Akka框架](https://github.com/dongjiaqiang/my_reading_notes#十七-akka框架)
 
 ## 一. Java语言程序设计
 
@@ -151,6 +152,14 @@ __Object类所有的非final方法(equals,hashCode,toString,clone和finalize)都
 + [Fundamental In TCP](http://7xoeea.com1.z0.glb.clouddn.com/Fundamental%20In%20TCP.html)
 
 ## 六. Scala语言程序设计
+
+### [Scala Documentation Guides And Overviews](http://docs.scala-lang.org/overviews/)
+
+### [Scala Ducumentation Specification](http://www.scala-lang.org/files/archive/spec/2.12/)
+
+### [Scala Documentation API](http://www.scala-lang.org/api/2.12.1/)
+
+### [Scala Documentation Style Guide](http://docs.scala-lang.org/style/?_ga=1.100514014.1118235608.1482761107)
 
 ### [Scala编程实战](https://www.amazon.cn/Scala%E7%BC%96%E7%A8%8B%E5%AE%9E%E6%88%98-%E4%BA%9A%E5%8E%86%E5%B1%B1%E5%A4%A7/dp/B01H6ZJFAW/ref=sr_1_1?ie=UTF8&qid=1478003896&sr=8-1&keywords=scala%E7%BC%96%E7%A8%8B%E5%AE%9E%E6%88%98)
 
@@ -447,14 +456,6 @@ __设计模式(design pattern)是对软件设计中普遍存在(反复出现)的
 
 ### [Akka in Action](http://www.amazon.cn/Akka-in-Action-Roestenburg-Raymond/dp/1617291013/ref=sr_1_6?ie=UTF8&qid=1453968934&sr=8-6&keywords=Akka)
 
-### [Akka Project Office Website](http://akka.io/docs/?_ga=1.124319052.735885341.1458093107)
-
-### [Akka Java Documentation](http://doc.akka.io/docs/akka/2.4.2/AkkaJava.pdf?_ga=1.90689884.735885341.1458093107)
-
-### [Akka Scala API Document](http://doc.akka.io/api/akka/2.4.2/?_ga=1.168867175.735885341.1458093107#package)
-
-### [Akka Java API Document](http://doc.akka.io/japi/akka/2.3.14/?_ga=1.90689884.735885341.1458093107)
-
 ### [Akka Scala Documentation](http://doc.akka.io/docs/akka/2.4.2/AkkaScala.pdf?_ga=1.124319052.735885341.1458093107)
 
 #### 2.概述
@@ -483,6 +484,16 @@ __设计模式(design pattern)是对软件设计中普遍存在(反复出现)的
 + [持续时间(Duration)]()
 
 ### [响应式架构 消息模式Actor实现与Scala,Akka应用集成](https://www.amazon.cn/%E5%93%8D%E5%BA%94%E5%BC%8F%E6%9E%B6%E6%9E%84-%E6%B6%88%E6%81%AF%E6%A8%A1%E5%BC%8FActor%E5%AE%9E%E7%8E%B0%E4%B8%8EScala-Akka%E5%BA%94%E7%94%A8%E9%9B%86%E6%88%90-%E6%B2%83%E6%81%A9%C2%B7%E5%BC%97%E5%86%9C/dp/B01HIPQT54/ref=sr_1_11?ie=UTF8&qid=1474982537&sr=8-11&keywords=scala)
+
++ [Actor模型和企业级软件概述](http://7xoeea.com1.z0.glb.clouddn.com/%E7%AC%AC1%E7%AB%A0%20Actor%E6%A8%A1%E5%9E%8B%E5%92%8C%E4%BC%81%E4%B8%9A%E7%BA%A7%E8%BD%AF%E4%BB%B6%E6%A6%82%E8%BF%B0.html) __Actor模型__ __响应性__ __韧性__ __灵活性__ __消息驱动__ __Akka框架__ __对象性能模型__
+
+### [Akka Project Office Website](http://akka.io/docs/?_ga=1.124319052.735885341.1458093107)
+
+### [Akka Java Documentation](http://doc.akka.io/docs/akka/2.4.2/AkkaJava.pdf?_ga=1.90689884.735885341.1458093107)
+
+### [Akka Scala API Document](http://doc.akka.io/api/akka/2.4.2/?_ga=1.168867175.735885341.1458093107#package)
+
+### [Akka Java API Document](http://doc.akka.io/japi/akka/2.3.14/?_ga=1.90689884.735885341.1458093107)
 
 ## 十八. Flume框架
 
