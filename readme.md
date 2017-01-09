@@ -486,6 +486,8 @@ __设计模式(design pattern)是对软件设计中普遍存在(反复出现)的
 ### [响应式架构 消息模式Actor实现与Scala,Akka应用集成](https://www.amazon.cn/%E5%93%8D%E5%BA%94%E5%BC%8F%E6%9E%B6%E6%9E%84-%E6%B6%88%E6%81%AF%E6%A8%A1%E5%BC%8FActor%E5%AE%9E%E7%8E%B0%E4%B8%8EScala-Akka%E5%BA%94%E7%94%A8%E9%9B%86%E6%88%90-%E6%B2%83%E6%81%A9%C2%B7%E5%BC%97%E5%86%9C/dp/B01HIPQT54/ref=sr_1_11?ie=UTF8&qid=1474982537&sr=8-11&keywords=scala)
 
 + [Actor模型和企业级软件概述](http://7xoeea.com1.z0.glb.clouddn.com/%E7%AC%AC1%E7%AB%A0%20Actor%E6%A8%A1%E5%9E%8B%E5%92%8C%E4%BC%81%E4%B8%9A%E7%BA%A7%E8%BD%AF%E4%BB%B6%E6%A6%82%E8%BF%B0.html) __Actor模型__ __响应性__ __韧性__ __灵活性__ __消息驱动__ __Akka框架__ __对象性能模型__
++ [通过Actor对象传递消息](http://7xoeea.com1.z0.glb.clouddn.com/%E7%AC%AC4%E7%AB%A0%20%E9%80%9A%E8%BF%87Actor%E5%AF%B9%E8%B1%A1%E4%BC%A0%E9%80%92%E6%B6%88%E6%81%AF.html)
+ __消息通道__ __消息__ __管道和过滤器__ __消息路由器__ __消息端点__
 
 ### [Akka Project Office Website](http://akka.io/docs/?_ga=1.124319052.735885341.1458093107)
 
