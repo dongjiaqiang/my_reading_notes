@@ -5,7 +5,18 @@
 #### [java语言程序设计](https://github.com/dongjiaqiang/my_reading_notes#一-java语言程序设计)
 #### [Java并发编程](https://github.com/dongjiaqiang/my_reading_notes#二-java并发编程)
 #### [java反射编程](https://github.com/dongjiaqiang/my_reading_notes#三-java反射编程)
+#### [java网络编程](https://github.com/dongjiaqiang/my_reading_notes#五-java网络编程)
+#### [Scala语言程序设计](https://github.com/dongjiaqiang/my_reading_notes#六-scala语言程序设计)
+#### [Scala并发编程](https://github.com/dongjiaqiang/my_reading_notes#七-scala并发编程)
+#### [Groovy语言程序设计](https://github.com/dongjiaqiang/my_reading_notes#八-groovy语言程序设计)
+#### [Spring框架](https://github.com/dongjiaqiang/my_reading_notes#九-spring框架)
+#### [领域专用语言](https://github.com/dongjiaqiang/my_reading_notes#十-领域专用语言)
+#### [Linux命令行和Shell语言程序设计](https://github.com/dongjiaqiang/my_reading_notes#十一-linux命令行和shell语言程序设计)
 #### [Haskell程序设计语言](https://github.com/dongjiaqiang/my_reading_notes#十二haskell程序设计语言)
+#### [Clojure语言程序设计](https://github.com/dongjiaqiang/my_reading_notes#十三-clojure语言程序设计)
+#### [软件工程](https://github.com/dongjiaqiang/my_reading_notes#十四-软件工程)
+#### [Spark框架](https://github.com/dongjiaqiang/my_reading_notes#十五-spark框架)
+#### [Netty框架](https://github.com/dongjiaqiang/my_reading_notes#十六-netty框架)
 #### [Akka框架](https://github.com/dongjiaqiang/my_reading_notes#十七-akka框架)
 
 ## 一. Java语言程序设计
