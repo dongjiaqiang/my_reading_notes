@@ -226,7 +226,7 @@ __Object类所有的非final方法(equals,hashCode,toString,clone和finalize)都
 
 #### 功能设计和组合子库
 
-+ [纯函数式的并行计算](http://7xoeea.com1.z0.glb.clouddn.com/%E7%AC%AC7%E7%AB%A0%20%E7%BA%AF%E5%87%BD%E6%95%B0%E5%BC%8F%E7%9A%84%E5%B9%B6%E8%A1%8C%E8%AE%A1%E7%AE%97.html) __函数式库__ __代换模型__ __代数推理__ __基础组合子__ __组合组合子__ __应用组合子__ __映射法则__ __分流法则__ __ __分离焦点__
++ [纯函数式的并行计算](http://7xoeea.com1.z0.glb.clouddn.com/%E7%AC%AC7%E7%AB%A0%20%E7%BA%AF%E5%87%BD%E6%95%B0%E5%BC%8F%E7%9A%84%E5%B9%B6%E8%A1%8C%E8%AE%A1%E7%AE%97.html) __函数式库__ __代换模型__ __代数推理__ __基础组合子__ __组合组合子__ __应用组合子__ __映射法则__ __分流法则__ __分离焦点__
 
 
 #### 函数设计的通用结构
@@ -460,7 +460,7 @@ __设计模式(design pattern)是对软件设计中普遍存在(反复出现)的
 
 ### [Netty API Document](http://netty.io/5.0/api/index.html)
 
-### [Netty权威指南](http://www.amazon.cn/Netty%E6%9D%83%E5%A8%81%E6%8C%87%E5%8D%97-%E6%9D%8E%E6%9E%97%E9%94%8B/dp/B00WFSXDRM/ref=sr_1_1?ie=UTF8&qid=1452781245&sr=8-1&keywords=Netty%E6%9D%83%E5%A8%81%E6%8C%87%E5%8D%97))
+### [Netty权威指南](http://www.amazon.cn/Netty%E6%9D%83%E5%A8%81%E6%8C%87%E5%8D%97-%E6%9D%8E%E6%9E%97%E9%94%8B/dp/B00WFSXDRM/ref=sr_1_1?ie=UTF8&qid=1452781245&sr=8-1&keywords=Netty%E6%9D%83%E5%A8%81%E6%8C%87%E5%8D%97)
 
 + [NIO入门](https://github.com/dongjiaqiang/my_reading_notes/blob/master/netty_guide/nio_introduction.md)
 
