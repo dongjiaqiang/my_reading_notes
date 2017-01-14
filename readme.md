@@ -227,7 +227,7 @@ __Object类所有的非final方法(equals,hashCode,toString,clone和finalize)都
 #### 功能设计和组合子库
 
 + [纯函数式的并行计算](http://7xoeea.com1.z0.glb.clouddn.com/%E7%AC%AC7%E7%AB%A0%20%E7%BA%AF%E5%87%BD%E6%95%B0%E5%BC%8F%E7%9A%84%E5%B9%B6%E8%A1%8C%E8%AE%A1%E7%AE%97.html) __函数式库__ __代换模型__ __代数推理__ __基础组合子__ __组合组合子__ __应用组合子__ __映射法则__ __分流法则__ __分离焦点__
-
++ [基于性质的测试]()
 
 #### 函数设计的通用结构
 
@@ -346,7 +346,7 @@ __Object类所有的非final方法(equals,hashCode,toString,clone和finalize)都
 + [函数语法](http://7xoeea.com1.z0.glb.clouddn.com/%E7%AC%AC3%E7%AB%A0%20%E5%87%BD%E6%95%B0%E7%9A%84%E8%AF%AD%E6%B3%95.html) __模式匹配__ __哨卫__ __where__ __let__ __case表达式__
 + [递归](http://7xoeea.com1.z0.glb.clouddn.com/%E7%AC%AC4%E7%AB%A0%20%E9%80%92%E5%BD%92.html) __递归__
 + [高阶函数](http://7xoeea.com1.z0.glb.clouddn.com/%E7%AC%AC5%E7%AB%A0%20%E9%AB%98%E9%98%B6%E5%87%BD%E6%95%B0.html) __高阶函数__ __柯里函数__ __部分应用函数__ __截断__ __lambda__ __折叠__ __扫描__ __函数组合__ __Point-Free风格__
-+ [模块]()
++ [模块](http://7xoeea.com1.z0.glb.clouddn.com/%E7%AC%AC6%E7%AB%A0%20%E6%A8%A1%E5%9D%97.html) __模块__ __导入__ __限定导入__ __自定义模块__ __子模块__
 + [自定义类型和类型类](http://7xoeea.com1.z0.glb.clouddn.com/%E7%AC%AC7%E7%AB%A0%20%E8%87%AA%E5%AE%9A%E4%B9%89%E7%B1%BB%E5%9E%8B%E5%92%8C%E7%B1%BB%E5%9E%8B%E7%B1%BB.html) __自定义类型__ __记录语法__ __类型参数__ __派生实例__ __类型别名__ __参数化类型别名__ __Either__ __递归数据结构__ __类型类__ __Functor类型类__ __树__ __函子__ __kind与无名类型__
 + [输入与输出](http://7xoeea.com1.z0.glb.clouddn.com/%E7%AC%AC8%E7%AB%A0%20%E8%BE%93%E5%85%A5%E4%B8%8E%E8%BE%93%E5%87%BA.html) __纯粹与非纯粹的分离__ __组合IO操作__ __return__ __实用IO函数__
 
