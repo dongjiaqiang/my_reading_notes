@@ -349,6 +349,7 @@ __Object类所有的非final方法(equals,hashCode,toString,clone和finalize)都
 + [模块](http://7xoeea.com1.z0.glb.clouddn.com/%E7%AC%AC6%E7%AB%A0%20%E6%A8%A1%E5%9D%97.html) __模块__ __导入__ __限定导入__ __自定义模块__ __子模块__
 + [自定义类型和类型类](http://7xoeea.com1.z0.glb.clouddn.com/%E7%AC%AC7%E7%AB%A0%20%E8%87%AA%E5%AE%9A%E4%B9%89%E7%B1%BB%E5%9E%8B%E5%92%8C%E7%B1%BB%E5%9E%8B%E7%B1%BB.html) __自定义类型__ __记录语法__ __类型参数__ __派生实例__ __类型别名__ __参数化类型别名__ __Either__ __递归数据结构__ __类型类__ __Functor类型类__ __树__ __函子__ __kind与无名类型__
 + [输入与输出](http://7xoeea.com1.z0.glb.clouddn.com/%E7%AC%AC8%E7%AB%A0%20%E8%BE%93%E5%85%A5%E4%B8%8E%E8%BE%93%E5%87%BA.html) __纯粹与非纯粹的分离__ __组合IO操作__ __return__ __实用IO函数__
++ [applicative函子](http://7xoeea.com1.z0.glb.clouddn.com/%E7%AC%AC11%E7%AB%A0%20applicative%E5%87%BD%E5%AD%90.html) __applicative函子__ __函子定律__ __IO函子__ __函数函子__ __MaybeApplicative函子__ __IOApplicative函子__ __列表Applicative函子__ __函数Applicative函子__
 
 ## 十三. Clojure语言程序设计
 
