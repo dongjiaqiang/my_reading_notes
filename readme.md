@@ -18,6 +18,7 @@
 #### [Spark框架](https://github.com/dongjiaqiang/my_reading_notes#十五-spark框架)
 #### [Netty框架](https://github.com/dongjiaqiang/my_reading_notes#十六-netty框架)
 #### [Akka框架](https://github.com/dongjiaqiang/my_reading_notes#十七-akka框架)
+#### [Storm框架](https://github.com/dongjiaqiang/my_reading_notes#二十三-storm框架)
 
 ## 一. Java语言程序设计
 
@@ -228,6 +229,7 @@ __Object类所有的非final方法(equals,hashCode,toString,clone和finalize)都
 
 + [纯函数式的并行计算](http://7xoeea.com1.z0.glb.clouddn.com/%E7%AC%AC7%E7%AB%A0%20%E7%BA%AF%E5%87%BD%E6%95%B0%E5%BC%8F%E7%9A%84%E5%B9%B6%E8%A1%8C%E8%AE%A1%E7%AE%97.html) __函数式库__ __代换模型__ __代数推理__ __基础组合子__ __组合组合子__ __应用组合子__ __映射法则__ __分流法则__ __分离焦点__
 + [基于性质的测试]()
++ [语法分析器组合子]()
 
 #### 函数设计的通用结构
 
@@ -323,6 +325,10 @@ __Object类所有的非final方法(equals,hashCode,toString,clone和finalize)都
 
 ### [领域专用语言实战](https://www.amazon.cn/%E9%A2%86%E5%9F%9F%E4%B8%93%E7%94%A8%E8%AF%AD%E8%A8%80%E5%AE%9E%E6%88%98-%E6%88%88%E6%96%BD/dp/B00FTWLPH6/ref=sr_1_1?ie=UTF8&qid=1481374316&sr=8-1&keywords=%E9%A2%86%E5%9F%9F%E4%B8%93%E7%94%A8%E8%AF%AD%E8%A8%80)
 
+### 领域专用语言入门
+
++ [初始DSL]()
+
 ## 十一. Linux命令行和Shell语言程序设计
 
 ### [Shell脚本学习指南](http://www.amazon.cn/Shell%E8%84%9A%E6%9C%AC%E5%AD%A6%E4%B9%A0%E6%8C%87%E5%8D%97-Arnold-Robbins/dp/B002A2LQR2/ref=sr_1_2?ie=UTF8&qid=1457183735&sr=8-2&keywords=Shell)
@@ -350,6 +356,7 @@ __Object类所有的非final方法(equals,hashCode,toString,clone和finalize)都
 + [自定义类型和类型类](http://7xoeea.com1.z0.glb.clouddn.com/%E7%AC%AC7%E7%AB%A0%20%E8%87%AA%E5%AE%9A%E4%B9%89%E7%B1%BB%E5%9E%8B%E5%92%8C%E7%B1%BB%E5%9E%8B%E7%B1%BB.html) __自定义类型__ __记录语法__ __类型参数__ __派生实例__ __类型别名__ __参数化类型别名__ __Either__ __递归数据结构__ __类型类__ __Functor类型类__ __树__ __函子__ __kind与无名类型__
 + [输入与输出](http://7xoeea.com1.z0.glb.clouddn.com/%E7%AC%AC8%E7%AB%A0%20%E8%BE%93%E5%85%A5%E4%B8%8E%E8%BE%93%E5%87%BA.html) __纯粹与非纯粹的分离__ __组合IO操作__ __return__ __实用IO函数__
 + [applicative函子](http://7xoeea.com1.z0.glb.clouddn.com/%E7%AC%AC11%E7%AB%A0%20applicative%E5%87%BD%E5%AD%90.html) __applicative函子__ __函子定律__ __IO函子__ __函数函子__ __MaybeApplicative函子__ __IOApplicative函子__ __列表Applicative函子__ __函数Applicative函子__
++ [Monoid](http://7xoeea.com1.z0.glb.clouddn.com/%E7%AC%AC12%E7%AB%A0%20Monoid.html) __newtype__ __Monoid类型类__ __monoid定律__ 
 
 ## 十三. Clojure语言程序设计
 
@@ -565,3 +572,7 @@ __设计模式(design pattern)是对软件设计中普遍存在(反复出现)的
 ### [Apache KafkaProducer API Document](http://kafka.apache.org/090/javadoc/index.html?org/apache/kafka/clients/producer/KafkaProducer.html)
 
 ### [Apache KafkaConsumer API Document](http://kafka.apache.org/090/javadoc/index.html?org/apache/kafka/clients/consumer/KafkaConsumer.html)
+
+### 二十三. Storm框架
+
++ [Apache Storm Office Website](http://storm.apache.org/)
