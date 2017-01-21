@@ -295,6 +295,8 @@ __Object类所有的非final方法(equals,hashCode,toString,clone和finalize)都
 
 ### [Groovy程序设计](https://www.amazon.cn/Groovy%E7%A8%8B%E5%BA%8F%E8%AE%BE%E8%AE%A1-%E7%BE%8E-Venkat-Subramaniam/dp/B00OUGT10A/ref=sr_1_1?ie=UTF8&qid=1475487877&sr=8-1&keywords=groovy)
 
+#### [面向Java开发者的Groovy](http://7xoeea.com1.z0.glb.clouddn.com/%E7%AC%AC2%E7%AB%A0%20%E9%9D%A2%E5%90%91Java%E5%BC%80%E5%8F%91%E8%80%85%E7%9A%84Groovy.html)
+
 ## 九. Spring框架
 
 ### [Spring Reference](https://spring.io/docs/reference)
