@@ -325,7 +325,7 @@ __Object类所有的非final方法(equals,hashCode,toString,clone和finalize)都
 
 ### [领域专用语言实战](https://www.amazon.cn/%E9%A2%86%E5%9F%9F%E4%B8%93%E7%94%A8%E8%AF%AD%E8%A8%80%E5%AE%9E%E6%88%98-%E6%88%88%E6%96%BD/dp/B00FTWLPH6/ref=sr_1_1?ie=UTF8&qid=1481374316&sr=8-1&keywords=%E9%A2%86%E5%9F%9F%E4%B8%93%E7%94%A8%E8%AF%AD%E8%A8%80)
 
-### 领域专用语言入门
+#### 领域专用语言入门
 
 + [初始DSL]()
 
@@ -565,7 +565,7 @@ __设计模式(design pattern)是对软件设计中普遍存在(反复出现)的
 
 ### [数据结构与算法分析:Java语言描述(第2版)](http://www.amazon.cn/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95%E5%88%86%E6%9E%90-Java%E8%AF%AD%E8%A8%80%E6%8F%8F%E8%BF%B0-%E9%9F%A6%E6%96%AF/dp/B001N6R9JK/ref=sr_1_2?ie=UTF8&qid=1456149814&sr=8-2&keywords=Data+structures+in+Java)
 
-### 二十二. Kafka框架
+## 二十二. Kafka框架
 
 ### [Apache Kafka Office Website](http://kafka.apache.org/)
 
@@ -573,6 +573,6 @@ __设计模式(design pattern)是对软件设计中普遍存在(反复出现)的
 
 ### [Apache KafkaConsumer API Document](http://kafka.apache.org/090/javadoc/index.html?org/apache/kafka/clients/consumer/KafkaConsumer.html)
 
-### 二十三. Storm框架
+## 二十三. Storm框架
 
-+ [Apache Storm Office Website](http://storm.apache.org/)
+### [Apache Storm Office Website](http://storm.apache.org/)
