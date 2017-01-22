@@ -295,7 +295,17 @@ __Object类所有的非final方法(equals,hashCode,toString,clone和finalize)都
 
 ### [Groovy程序设计](https://www.amazon.cn/Groovy%E7%A8%8B%E5%BA%8F%E8%AE%BE%E8%AE%A1-%E7%BE%8E-Venkat-Subramaniam/dp/B00OUGT10A/ref=sr_1_1?ie=UTF8&qid=1475487877&sr=8-1&keywords=groovy)
 
-+ [面向Java开发者的Groovy](http://7xoeea.com1.z0.glb.clouddn.com/%E7%AC%AC2%E7%AB%A0%20%E9%9D%A2%E5%90%91Java%E5%BC%80%E5%8F%91%E8%80%85%E7%9A%84Groovy.html)
+#### Groovy起步
+
++ [面向Java开发者的Groovy](http://7xoeea.com1.z0.glb.clouddn.com/%E7%AC%AC2%E7%AB%A0%20%E9%9D%A2%E5%90%91Java%E5%BC%80%E5%8F%91%E8%80%85%E7%9A%84Groovy.html) __安全导航操作符__ __异常处理__ __JavaBean__ __具名参数__ __可选形参__ __多赋值__ __实现接口__ __布尔求值__ __操作符重载__ __变长参数__ __注解__ __静态导入__ __陷阱__
++ [动态类型](http://7xoeea.com1.z0.glb.clouddn.com/%E7%AC%AC3%E7%AB%A0%20%E5%8A%A8%E6%80%81%E7%B1%BB%E5%9E%8B.html) __动态类型__ __静态类型__  __可选类型__ __能力式设计__ __多方法__ __静态类型检查__ __静态编译__
++ [使用闭包]()
++ [使用字符串]()
++ [使用集合类]()
+
+#### 使用Groovy
+
+
 
 ## 九. Spring框架
 
