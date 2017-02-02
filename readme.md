@@ -157,6 +157,10 @@ __Object类所有的非final方法(equals,hashCode,toString,clone和finalize)都
 
 ### [自己动手写Java虚拟机](https://www.amazon.cn/%E8%87%AA%E5%B7%B1%E5%8A%A8%E6%89%8B%E5%86%99Java%E8%99%9A%E6%8B%9F%E6%9C%BA-%E5%BC%A0%E7%A7%80%E5%AE%8F/dp/B01FX8YEKK/ref=sr_1_3?s=books&ie=UTF8&qid=1481463323&sr=1-3&keywords=%E8%87%AA%E5%B7%B1%E5%8A%A8%E6%89%8B%E5%86%99)
 
+### [大话Java性能优化](https://www.amazon.cn/dp/B01EIE3KFU/ref=sr_1_1?ie=UTF8&qid=1485838398&sr=8-1&keywords=%E5%A4%A7%E8%AF%9Djava%E6%80%A7%E8%83%BD%E4%BC%98%E5%8C%96)
+
+### [垃圾回收算法手册:自动内存管理的艺术](https://www.amazon.cn/dp/B01CQQ1PGS/ref=sr_1_2?ie=UTF8&qid=1485838457&sr=8-2&keywords=%E5%9E%83%E5%9C%BE%E5%9B%9E%E6%94%B6%E7%AE%97%E6%B3%95)
+
 ## 五. Java网络编程
 
 ### [Fundamental Networking in Java](https://www.amazon.cn/Fundamental-Networking-in-Java-Pitt-Esmond/dp/1849965455/ref=sr_1_1?ie=UTF8&qid=1460214221&sr=8-1&keywords=Fundamental+Networking+in+Java)
@@ -176,6 +180,7 @@ __Object类所有的非final方法(equals,hashCode,toString,clone和finalize)都
 ### [Scala编程实战](https://www.amazon.cn/Scala%E7%BC%96%E7%A8%8B%E5%AE%9E%E6%88%98-%E4%BA%9A%E5%8E%86%E5%B1%B1%E5%A4%A7/dp/B01H6ZJFAW/ref=sr_1_1?ie=UTF8&qid=1478003896&sr=8-1&keywords=scala%E7%BC%96%E7%A8%8B%E5%AE%9E%E6%88%98)
 
 + [控制结构]()
++ [集合](http://7xoeea.com1.z0.glb.clouddn.com/%E7%AC%AC10%E7%AB%A0%20%E9%9B%86%E5%90%88%20-%20%E9%A9%AC%E5%85%8B%E9%A3%9E%E8%B1%A1%20-%20%E4%B8%93%E4%B8%BA%E5%8D%B0%E8%B1%A1%E7%AC%94%E8%AE%B0%E6%89%93%E9%80%A0%E7%9A%84Markdown%E7%BC%96%E8%BE%91%E5%99%A8.pdf)
 
 ### [Scala程序设计(第2版)](https://www.amazon.cn/Scala%E7%A8%8B%E5%BA%8F%E8%AE%BE%E8%AE%A1%E7%AC%AC2%E7%89%88-%E4%B8%87%E6%99%AE%E5%8B%92/dp/B01E4X8X52/ref=sr_1_1?ie=UTF8&qid=1461687642&sr=8-1&keywords=Scala%E7%A8%8B%E5%BA%8F%E8%AE%BE%E8%AE%A1%EF%BC%88%E7%AC%AC2%E7%89%88%EF%BC%89)
 
@@ -568,6 +573,8 @@ __设计模式(design pattern)是对软件设计中普遍存在(反复出现)的
 + [Redis实战(基于搜索的应用程序)]() __使用Redis进行搜索__ __对搜索结果进行排序__ __实现广告定向__ __实现职业搜索__
 
 ## 二十一. 算法
+
+### [算法设计与分析基础(第3版)](https://www.amazon.cn/dp/B00S4HCQUI/ref=sr_1_2?ie=UTF8&qid=1485853125&sr=8-2&keywords=%E7%AE%97%E6%B3%95%E8%AE%BE%E8%AE%A1) 
 
 ### [算法导论](http://www.amazon.cn/%E7%AE%97%E6%B3%95%E5%AF%BC%E8%AE%BA-Thomas-H-Cormen/dp/B00AK7BYJY/ref=sr_1_1?ie=UTF8&qid=1454814064&sr=8-1&keywords=%E7%AE%97%E6%B3%95%E5%AF%BC%E8%AE%BA)
 
