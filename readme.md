@@ -5,6 +5,7 @@
 #### [java语言程序设计](https://github.com/dongjiaqiang/my_reading_notes#一-java语言程序设计)
 #### [Java并发编程](https://github.com/dongjiaqiang/my_reading_notes#二-java并发编程)
 #### [java反射编程](https://github.com/dongjiaqiang/my_reading_notes#三-java反射编程)
+#### [java虚拟机](https://github.com/dongjiaqiang/my_reading_notes#四-java虚拟机)
 #### [java网络编程](https://github.com/dongjiaqiang/my_reading_notes#五-java网络编程)
 #### [Scala语言程序设计](https://github.com/dongjiaqiang/my_reading_notes#六-scala语言程序设计)
 #### [Scala并发编程](https://github.com/dongjiaqiang/my_reading_notes#七-scala并发编程)
@@ -151,7 +152,7 @@ __Object类所有的非final方法(equals,hashCode,toString,clone和finalize)都
 
 + [认识Java虚拟机的基本结构](https://github.com/dongjiaqiang/my_reading_notes/blob/master/doc/chapter2.md)
 + [常用虚拟机参数](https://github.com/dongjiaqiang/my_reading_notes/blob/master/doc/chapter3.md)
-+ [垃圾回收概念与算法](https://github.com/dongjiaqiang/my_reading_notes/blob/master/doc/chapter4.md)
++ [垃圾回收概念与算法](http://7xoeea.com1.z0.glb.clouddn.com/%E7%AC%AC4%E7%AB%A0%20%E5%9E%83%E5%9C%BE%E5%9B%9E%E6%94%B6%E6%A6%82%E5%BF%B5%E4%B8%8E%E7%AE%97%E6%B3%95.html) __引用计数法__ __标记清除法__ __复制算法__ __标记压缩算法__ __分代算法__ __分区算法__ __可触及性__ __强引用__ __弱引用__ __虚引用__ __软引用__ __停顿__
 
 ### [Java性能权威指南](https://www.amazon.cn/Java%E6%80%A7%E8%83%BD%E6%9D%83%E5%A8%81%E6%8C%87%E5%8D%97-%E5%A5%A5%E5%85%8B%E6%96%AF/dp/B01DLB7Z66/ref=sr_1_1?ie=UTF8&qid=1460901455&sr=8-1&keywords=java%E6%80%A7%E8%83%BD)
 
