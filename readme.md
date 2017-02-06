@@ -184,6 +184,7 @@ __Object类所有的非final方法(equals,hashCode,toString,clone和finalize)都
 + [对象](http://7xoeea.com1.z0.glb.clouddn.com/%E7%AC%AC6%E7%AB%A0%20%E5%AF%B9%E8%B1%A12.html)
 + [集合](http://7xoeea.com1.z0.glb.clouddn.com/%E7%AC%AC10%E7%AB%A0%20%E9%9B%86%E5%90%88%20-%20%E9%A9%AC%E5%85%8B%E9%A3%9E%E8%B1%A1%20-%20%E4%B8%93%E4%B8%BA%E5%8D%B0%E8%B1%A1%E7%AC%94%E8%AE%B0%E6%89%93%E9%80%A0%E7%9A%84Markdown%E7%BC%96%E8%BE%91%E5%99%A8.pdf)
 + [列表 数组 映射 集和其他](http://7xoeea.com1.z0.glb.clouddn.com/%E7%AC%AC11%E7%AB%A0%20%E5%88%97%E8%A1%A8%20%E6%95%B0%E7%BB%84%20%E6%98%A0%E5%B0%84%20%E9%9B%86%E5%92%8C%E5%85%B6%E4%BB%96.html)
++ [与Java交互](http://7xoeea.com1.z0.glb.clouddn.com/%E7%AC%AC17%E7%AB%A0%20%E4%B8%8EJava%E4%BA%A4%E4%BA%92.html)
 + [惯用法](http://7xoeea.com1.z0.glb.clouddn.com/%E7%AC%AC20%E7%AB%A0%20%E6%83%AF%E7%94%A8%E6%B3%95.html)
 
 ### [Scala程序设计(第2版)](https://www.amazon.cn/Scala%E7%A8%8B%E5%BA%8F%E8%AE%BE%E8%AE%A1%E7%AC%AC2%E7%89%88-%E4%B8%87%E6%99%AE%E5%8B%92/dp/B01E4X8X52/ref=sr_1_1?ie=UTF8&qid=1461687642&sr=8-1&keywords=Scala%E7%A8%8B%E5%BA%8F%E8%AE%BE%E8%AE%A1%EF%BC%88%E7%AC%AC2%E7%89%88%EF%BC%89)
@@ -314,7 +315,9 @@ __Object类所有的非final方法(equals,hashCode,toString,clone和finalize)都
 
 #### 使用Groovy
 
+#### MOP与元编程
 
+#### 使用元编程
 
 ## 九. Spring框架
 
