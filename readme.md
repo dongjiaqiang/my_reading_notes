@@ -50,6 +50,7 @@ __Object类所有的非final方法(equals,hashCode,toString,clone和finalize)都
 + [并发](http://7xoeea.com1.z0.glb.clouddn.com/%E5%B9%B6%E5%8F%91%28Concurrency%29.html) __并行编程可以使程序执行速度得到极大提高 或者为设计某些类型的程序提供更易用的模型 或者两者皆有__
 
 ### [Java编程思想(第4版)](http://www.amazon.cn/Java%E7%BC%96%E7%A8%8B%E6%80%9D%E6%83%B3-%E5%9F%83%E5%8F%B2%E5%B0%94/dp/B0011F7WU4/ref=sr_1_1?ie=UTF8&qid=1451465907&sr=8-1&keywords=JAVA) 
++ [对象导论](http://7xoeea.com1.z0.glb.clouddn.com/%E7%AC%AC1%E7%AB%A0%20%E5%AF%B9%E8%B1%A1%E5%AF%BC%E8%AE%BA.html) __万物皆对象__
 + [初始化与清理](http://7xoeea.com1.z0.glb.clouddn.com/%E7%AC%AC5%E7%AB%A0%20%E5%88%9D%E5%A7%8B%E5%8C%96%E4%B8%8E%E6%B8%85%E7%90%86.html) __初始化和清理涉及Java的编程安全__
 + [访问权限控制](http://7xoeea.com1.z0.glb.clouddn.com/6%E8%AE%BF%E9%97%AE%E6%9D%83%E9%99%90%E6%8E%A7%E5%88%B6.html) __访问控制(或隐藏具体实现)与”最初的实现并不恰当”有关__
 + [复用类](http://7xoeea.com1.z0.glb.clouddn.com/%E7%AC%AC7%E7%AB%A0%20%E5%A4%8D%E7%94%A8%E7%B1%BB.html) __组合和继承是非常重要的两种代码重用机制__
