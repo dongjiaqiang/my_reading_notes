@@ -19,6 +19,7 @@
 #### [Spark框架](https://github.com/dongjiaqiang/my_reading_notes#十五-spark框架)
 #### [Netty框架](https://github.com/dongjiaqiang/my_reading_notes#十六-netty框架)
 #### [Akka框架](https://github.com/dongjiaqiang/my_reading_notes#十七-akka框架)
+#### [Zookeeper框架](https://github.com/dongjiaqiang/my_reading_notes#十九-zookeeper框架)
 #### [Storm框架](https://github.com/dongjiaqiang/my_reading_notes#二十三-storm框架)
 
 ## 一. Java语言程序设计
@@ -310,7 +311,7 @@ __Object类所有的非final方法(equals,hashCode,toString,clone和finalize)都
 
 + [面向Java开发者的Groovy](http://7xoeea.com1.z0.glb.clouddn.com/%E7%AC%AC2%E7%AB%A0%20%E9%9D%A2%E5%90%91Java%E5%BC%80%E5%8F%91%E8%80%85%E7%9A%84Groovy.html) __安全导航操作符__ __异常处理__ __JavaBean__ __具名参数__ __可选形参__ __多赋值__ __实现接口__ __布尔求值__ __操作符重载__ __变长参数__ __注解__ __静态导入__ __陷阱__
 + [动态类型](http://7xoeea.com1.z0.glb.clouddn.com/%E7%AC%AC3%E7%AB%A0%20%E5%8A%A8%E6%80%81%E7%B1%BB%E5%9E%8B.html) __动态类型__ __静态类型__  __可选类型__ __能力式设计__ __多方法__ __静态类型检查__ __静态编译__
-+ [使用闭包]()
++ [使用闭包](http://7xoeea.com1.z0.glb.clouddn.com/%E7%AC%AC4%E7%AB%A0%20%E4%BD%BF%E7%94%A8%E9%97%AD%E5%8C%85.html) __闭包__ __环绕执行模式 __ __协程__ __柯里化闭包__ __动态闭包__ __闭包委托__ __尾递归__ __记忆化__
 + [使用字符串](http://7xoeea.com1.z0.glb.clouddn.com/%E7%AC%AC5%E7%AB%A0%20%E4%BD%BF%E7%94%A8%E5%AD%97%E7%AC%A6%E4%B8%B2) __字面常量__ __字符串表达式__ __正则表达式__ __惰性求值__ __变量值或引用__ __多行字符串__ __字符串快捷方法__
 + [使用集合类](http://7xoeea.com1.z0.glb.clouddn.com/%E7%AC%AC6%E7%AB%A0%20%E4%BD%BF%E7%94%A8%E9%9B%86%E5%90%88%E7%B1%BB) __List__ __Map__
 
