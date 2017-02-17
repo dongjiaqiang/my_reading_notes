@@ -318,11 +318,13 @@ __Object类所有的非final方法(equals,hashCode,toString,clone和finalize)都
 #### 使用Groovy
 
 + [探索GDK]()
++ [使用脚本和类]()
 
 #### MOP与元编程
 
-+ [探索元对象协议](http://7xoeea.com1.z0.glb.clouddn.com/%E7%AC%AC11%E7%AB%A0%20%E6%8E%A2%E7%B4%A2%E5%85%83%E5%AF%B9%E8%B1%A1%E5%8D%8F%E8%AE%AE.html)
-+ [使用MOP拦截方法](http://7xoeea.com1.z0.glb.clouddn.com/%E7%AC%AC12%E7%AB%A0%20%E4%BD%BF%E7%94%A8MOP%E6%8B%A6%E6%88%AA%E6%96%B9%E6%B3%95.html)
++ [探索元对象协议](http://7xoeea.com1.z0.glb.clouddn.com/%E7%AC%AC11%E7%AB%A0%20%E6%8E%A2%E7%B4%A2%E5%85%83%E5%AF%B9%E8%B1%A1%E5%8D%8F%E8%AE%AE.html) __元编程__ __Groovy对象__ __Groovy拦截器__ __查询方法与属性__ __动态访问对象__ 
++ [使用MOP拦截方法](http://7xoeea.com1.z0.glb.clouddn.com/%E7%AC%AC12%E7%AB%A0%20%E4%BD%BF%E7%94%A8MOP%E6%8B%A6%E6%88%AA%E6%96%B9%E6%B3%95.html) __使用GroovyInterceptable拦截方法__ __使用MetaClass拦截方法__
++ [MOP方法注入](http://7xoeea.com1.z0.glb.clouddn.com/%E7%AC%AC13%E7%AB%A0%20MOP%E6%96%B9%E6%B3%95%E6%B3%A8%E5%85%A5.html) __使用分类注入方法__ __使用ExpandoMetaClass注入方法__ __向具体的实例中注入方法__ __使用Mixin注入方法__ __在类中使用多个Mixin__
 
 #### 使用元编程
 
