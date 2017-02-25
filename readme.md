@@ -285,7 +285,8 @@ __Object类所有的非final方法(equals,hashCode,toString,clone和finalize)都
 + [Singleton(单例)](http://7xoeea.com1.z0.glb.clouddn.com/Scala%20Design%20Pattern%285%29%E5%8D%95%E4%BE%8B.html) __The Singleton pattern describes a type that can only have one object constructed for it__
 + [Marker Trait(标记特质)](http://7xoeea.com1.z0.glb.clouddn.com/Scala%20Design%20Pattern%286%29%20%E6%A0%87%E8%AE%B0%E7%89%B9%E8%B4%A8.html) __The Marker Trait pattern uses trait that declare no method, functions,types or properties to indicate addition semantics of a type(class,object or further traits)__
 + [Delegation(代理)]() __Delegation pattern is a response to all those examples in books that show inheritance between types as the fundanmental approach to reuse in object oritented languages__
-+ [Stackable Traits(层叠特质)](http://7xoeea.com1.z0.glb.clouddn.com/Scala%20Design%20Pattern%2811%29%20%E5%B1%82%E5%8F%A0%E7%89%B9%E8%B4%A8.html) __Stacking such traits extends this concept further allowing traits to extend behaviour as well as defi ne it__
++ [Stackable Traits(层叠特质)](http://7xoeea.com1.z0.glb.clouddn.com/Scala%20Design%20Pattern%2811%29%20%E5%B1%82%E5%8F%A0%E7%89%B9%E8%B4%A8.html) __Stacking such traits extends this concept further allowing traits to extend behaviour as well as define it__
++ [Structural Injection(结构级注入)](http://7xoeea.com1.z0.glb.clouddn.com/Scala%20Design%20Pattern%28%E7%BB%93%E6%9E%84%E7%BA%A7%E6%B3%A8%E5%85%A5%29.html) __The Structural Injection pattern uses structural typing to provide one approach for DI in Scala__
 
 #### Code Reuse Patterns
 + [Lazy Parameters(懒值)](http://7xoeea.com1.z0.glb.clouddn.com/Scala%20Design%20Pattern%288%29%20%E6%87%92%E5%80%BC.html) __In some situations a parameter to a method or function may be costly to process or evaluate,but might only need to be processed or evaluated in certain situations__
