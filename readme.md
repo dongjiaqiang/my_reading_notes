@@ -291,6 +291,7 @@ __Object类所有的非final方法(equals,hashCode,toString,clone和finalize)都
 + [Partially Applied Functions(部分应用函数)](http://7xoeea.com1.z0.glb.clouddn.com/Scala%20Design%20Pattern%289%29%20%E9%83%A8%E5%88%86%E5%BA%94%E7%94%A8%E5%87%BD%E6%95%B0.html) __An operation can be partially applied in that it is possible to bind one or more of the parameters to create a new operation with fewer parameters.The remaining parameters must then be provided when the new operation is invoked__
 + [Stackable Traits(层叠特质)](http://7xoeea.com1.z0.glb.clouddn.com/Scala%20Design%20Pattern%2811%29%20%E5%B1%82%E5%8F%A0%E7%89%B9%E8%B4%A8.html) __Stacking such traits extends this concept further allowing traits to extend behaviour as well as define it__
 + [Structural Injection(结构级注入)](http://7xoeea.com1.z0.glb.clouddn.com/Scala%20Design%20Pattern%28%E7%BB%93%E6%9E%84%E7%BA%A7%E6%B3%A8%E5%85%A5%29.html) __The Structural Injection pattern uses structural typing to provide one approach for DI in Scala__
++ [Implicit Injection(隐式注入)](http://7xoeea.com1.z0.glb.clouddn.com/%E9%9A%90%E5%BC%8F%E6%B3%A8%E5%85%A5.html) __Use of implicit declarations in Scala to provide a simple yet type safe approach to the injection of objects to a dependent consumer__
 
 ## 七. Scala并发编程
 
