@@ -440,7 +440,7 @@ __重构(Refactoring)指对软件代码做任何更动以增加可读性或者�
 
 ### [实现模式](https://www.amazon.cn/%E5%AE%9E%E7%8E%B0%E6%A8%A1%E5%BC%8F-Kent-Beck/dp/B00ADQPPLA/ref=sr_1_1?ie=UTF8&qid=1473253965&sr=8-1&keywords=%E5%AE%9E%E7%8E%B0%E6%A8%A1%E5%BC%8F)
 
-+ [类]()
++ [类](http://7xoeea.com1.z0.glb.clouddn.com/%E7%B1%BB.html) __类__ __简单的超类名__ __限定性的子类名__ __抽象接口__ __interface__ __抽象类__ __有版本的interface__ __值对象__ __特化__ __子类__ __实现器__ __内部类__ __条件语句__ __委派__ __可插拔选择器__ __匿名内部类__ __库类__
 
 ### [Object-Oriented Analysis And Design With Applications(Third Edition)](http://www.amazon.cn/Object-oriented-Analysis-and-Design-With-Applications-Booch-Grady/dp/1500995193/ref=sr_1_2?ie=UTF8&qid=1453102147&sr=8-2&keywords=Object-Oriented+Analysis+And+Design+With+Applications)
 
