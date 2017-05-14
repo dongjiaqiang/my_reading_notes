@@ -414,6 +414,7 @@ __重构(Refactoring)指对软件代码做任何更动以增加可读性或者�
 + [重构实例 重构原则 坏味道 测试 重构列表](http://7xoeea.com1.z0.glb.clouddn.com/%E9%87%8D%E6%9E%8412345.html)
 + [重新组织函数](http://7xoeea.com1.z0.glb.clouddn.com/%E9%87%8D%E6%9E%8461.html) __尽量提炼出短函数 避免引入过多临时变量 临时变量职责应单一化__
 + [在对象间搬移特性](http://7xoeea.com1.z0.glb.clouddn.com/%E9%87%8D%E6%9E%847.html) __尽量提炼出单一职责的类 类间关系不应该耦合过分 应该对客户端隔离变化仅展示不变的部分__
++ [重新组织数据](http://7xoeea.com1.z0.glb.clouddn.com/%E9%87%8D%E6%9E%848.html) __对数据进行重构__
 + [简化函数调用](http://7xoeea.com1.z0.glb.clouddn.com/%E9%87%8D%E6%9E%8410.html) __容易被理解和被使用的接口 是开发良好面向对象软件的关键__
 + [简化条件表达式](http://7xoeea.com1.z0.glb.clouddn.com/%E9%87%8D%E6%9E%849.html) __分解条件表达式重构很重要 因为其使得分支逻辑和操作细节分离__
 + [处理继承关系](http://7xoeea.com1.z0.glb.clouddn.com/%E9%87%8D%E6%9E%8411.html) __尽量将子类特性上移至超类 大部分场景委托优于继承__
