@@ -326,8 +326,9 @@ __Object类所有的非final方法(equals,hashCode,toString,clone和finalize)都
 
 #### 使用Groovy
 
-+ [探索GDK]()
-+ [使用脚本和类]()
++ [探索GDK](http://7xoeea.com1.z0.glb.clouddn.com/%E7%AC%AC7%E7%AB%A0%20%E6%8E%A2%E7%B4%A2GDK.html) __Object类的扩展__ __上下文的with方法__ __sleep方法__ __间接访问属性__ __间接调用方法__ __数组的扩展__ __java.lang的扩展__ __java.util扩展__
++ [使用脚本和类](http://7xoeea.com1.z0.glb.clouddn.com/%E7%AC%AC7%E7%AB%A0%20%E6%8E%A2%E7%B4%A2GDK.html) __Java和Groovy的混合__ __运行Groovy代码__ __在Java中调用Groovy动态方法__ __在Groovy中使用Java类__ __从Groovy中使用Groovy脚本__ __从Java中使用Groovy脚本__
++ [处理XML](http://7xoeea.com1.z0.glb.clouddn.com/%E7%AC%AC7%E7%AB%A0%20%E6%8E%A2%E7%B4%A2GDK.html) __解析XML__ __DOMCategory__ __XMLParser__ __XMLParser__ __创建XML__
 
 #### MOP与元编程
 
