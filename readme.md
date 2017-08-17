@@ -597,6 +597,8 @@ __设计模式(design pattern)是对软件设计中普遍存在(反复出现)的
 
 ### [Zookeeper:分布式过程协同技术详解](https://www.amazon.cn/ZooKeeper-%E5%88%86%E5%B8%83%E5%BC%8F%E8%BF%87%E7%A8%8B%E5%8D%8F%E5%90%8C%E6%8A%80%E6%9C%AF%E8%AF%A6%E8%A7%A3-Flavio-Junqueira/dp/B01C8INQYS/ref=sr_1_1?s=books&ie=UTF8&qid=1481462424&sr=1-1&keywords=%E5%88%86%E5%B8%83%E5%BC%8F%E8%BF%87%E7%A8%8B%E5%8D%8F%E5%90%8C%E6%8A%80%E6%9C%AF%E8%AF%A6%E8%A7%A3)
 
++ [Zookeeper的API](http://7xoeea.com1.z0.glb.clouddn.com/Zookeeper%E7%9A%84API.html)
+
 ## 二十. Redis
 
 ### [Redis实战](https://www.amazon.cn/Redis%E5%AE%9E%E6%88%98-%E7%BA%A6%E8%A5%BF%E4%BA%9A-L-%E5%8D%A1%E5%B0%94%E6%A3%AE/dp/B016YLS2LM/ref=sr_1_1?ie=UTF8&qid=1468035205&sr=8-1&keywords=redis)
