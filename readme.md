@@ -104,6 +104,9 @@ __Object类所有的非final方法(equals,hashCode,toString,clone和finalize)都
 + [测试 调试和重构]() __重构 测试驱动开发和持续集成越来越流行 如果需要将Lambda表达式应用于日常编程工作 就需要学会如何为其编写单元测试__
 + [设计和架构的原则](http://7xoeea.com1.z0.glb.clouddn.com/%E7%AC%AC8%E7%AB%A0%20%E8%AE%BE%E8%AE%A1%E5%92%8C%E6%9E%B6%E6%9E%84%E5%8E%9F%E5%88%99.html) __软件开发最重要的设计工具不是什么技术而是设计原则__
 
+### [Head First Servlets and JSP(第2版)](https://www.amazon.cn/Head-First-Servlets-and-JSP-%E5%B7%B4%E8%90%A8%E5%A7%86/dp/B0042WNHGG/ref=sr_1_1?ie=UTF8&qid=1503240280&sr=8-1&keywords=jsp)
++ [请求和响应(Servlet技术模型)](http://7xoeea.com1.z0.glb.clouddn.com/%E8%AF%B7%E6%B1%82%E5%92%8C%E5%93%8D%E5%BA%94%28Servlet%E6%8A%80%E6%9C%AF%E6%A8%A1%E5%9E%8B%29.html)
+
 ## 二. Java并发编程
 
 ### [Java并发编程实战](http://www.amazon.cn/Java%E5%B9%B6%E5%8F%91%E7%BC%96%E7%A8%8B%E5%AE%9E%E6%88%98-%E7%9B%96%E8%8C%A8/dp/B0077K9XHW/ref=pd_sim_14_1?ie=UTF8&dpID=51XldrwRktL&dpSrc=sims&preST=_AC_UL160_SR124%2C160_&refRID=1XYR1SM2GH25CNPM5Z3K)
