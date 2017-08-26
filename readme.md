@@ -107,6 +107,7 @@ __Object类所有的非final方法(equals,hashCode,toString,clone和finalize)都
 ### [Head First Servlets and JSP(第2版)](https://www.amazon.cn/Head-First-Servlets-and-JSP-%E5%B7%B4%E8%90%A8%E5%A7%86/dp/B0042WNHGG/ref=sr_1_1?ie=UTF8&qid=1503240280&sr=8-1&keywords=jsp)
 + [请求和响应(Servlet技术模型)](http://7xoeea.com1.z0.glb.clouddn.com/%E8%AF%B7%E6%B1%82%E5%92%8C%E5%93%8D%E5%BA%94%28Servlet%E6%8A%80%E6%9C%AF%E6%A8%A1%E5%9E%8B%29.html)
 + [属性和监听者(容器模型)](http://7xoeea.com1.z0.glb.clouddn.com/%E5%B1%9E%E6%80%A7%E5%92%8C%E7%9B%91%E5%90%AC%E8%80%85%28Web%E5%AE%B9%E5%99%A8%E6%A8%A1%E5%9E%8B%29.html)
++ [会话管理(会话状态)](http://7xoeea.com1.z0.glb.clouddn.com/%E4%BC%9A%E8%AF%9D%E7%AE%A1%E7%90%86%28%E4%BC%9A%E8%AF%9D%E7%8A%B6%E6%80%81%29.html)
 
 ## 二. Java并发编程
 
