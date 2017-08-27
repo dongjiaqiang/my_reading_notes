@@ -522,6 +522,10 @@ __设计模式(design pattern)是对软件设计中普遍存在(反复出现)的
 
 ### [Learning Spark](http://www.amazon.cn/Learning-Spark-Lightning-Fast-Big-Data-Analysis-Karau-Holden/dp/1449358624/ref=sr_1_13?ie=UTF8&qid=1451892979&sr=8-13&keywords=spark)
 
+### [Spark Hign Performance](https://www.amazon.cn/%E5%9B%BE%E4%B9%A6/dp/1491943203/ref=sr_1_1?ie=UTF8&qid=1503822473&sr=8-1&keywords=spark+high+performance)
+
++ [Spark工作原理](http://7xonn1.com1.z0.glb.clouddn.com/Spark%E5%B7%A5%E4%BD%9C%E5%8E%9F%E7%90%86.html)
+
 ## 十六. Netty框架
 
 ### [Netty Project Office Website](http://netty.io/index.html)
