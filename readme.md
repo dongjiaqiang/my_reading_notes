@@ -155,8 +155,12 @@ __Object类所有的非final方法(equals,hashCode,toString,clone和finalize)都
 
 ### [深入理解Java虚拟机:JVM高级特性与最佳实践(第2版)](http://www.amazon.cn/%E6%B7%B1%E5%85%A5%E7%90%86%E8%A7%A3Java%E8%99%9A%E6%8B%9F%E6%9C%BA-JVM%E9%AB%98%E7%BA%A7%E7%89%B9%E6%80%A7%E4%B8%8E%E6%9C%80%E4%BD%B3%E5%AE%9E%E8%B7%B5-%E5%91%A8%E5%BF%97%E6%98%8E/dp/B00D2ID4PK/ref=sr_1_1?ie=UTF8&qid=1451532281&sr=8-1&keywords=java%E8%99%9A%E6%8B%9F%E6%9C%BA)
 
-+ [Java内存区域与内存溢出异常](https://github.com/dongjiaqiang/my_reading_notes/blob/master/doc/chapter2_2.md)
-+ [类文件结构](https://github.com/dongjiaqiang/my_reading_notes/blob/master/doc/chapter2_6.md)
++ [索引](https://www.evernote.com/shard/s501/nl/176057404/385da952-abcc-4f9e-9609-6221bea07c91/)
+
+### 高效并发
+
++ [Java内存模型与线程](https://www.evernote.com/shard/s501/nl/176057404/4f82b793-2566-41d3-9d09-7dcb090da434/)
++ [线程安全与锁优化](https://www.evernote.com/shard/s501/nl/176057404/e51ffbd5-1f3e-4003-a11c-331920ca18b6/)
 
 ### [实战Java虚拟机:JVM故障诊断与性能优化](http://www.amazon.cn/%E5%AE%9E%E6%88%98Java%E8%99%9A%E6%8B%9F%E6%9C%BA-JVM%E6%95%85%E9%9A%9C%E8%AF%8A%E6%96%AD%E4%B8%8E%E6%80%A7%E8%83%BD%E4%BC%98%E5%8C%96-%E8%91%9B%E4%B8%80%E9%B8%A3/dp/B00V34NZBS/ref=sr_1_1?ie=UTF8&qid=1454035543&sr=8-1&keywords=%E5%AE%9E%E6%88%98Java%E8%99%9A%E6%8B%9F%E6%9C%BA%3AJVM%E6%95%85%E9%9A%9C%E8%AF%8A%E6%96%AD%E4%B8%8E%E6%80%A7%E8%83%BD%E4%BC%98%E5%8C%96)
 
