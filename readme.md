@@ -379,6 +379,8 @@ __Object类所有的非final方法(equals,hashCode,toString,clone和finalize)都
 
 + [构建SpringWeb应用程序](http://7xoeea.com1.z0.glb.clouddn.com/Spring%E5%AE%9E%E6%88%98%28%E6%9E%84%E5%BB%BASpringWeb%E5%BA%94%E7%94%A8%E7%A8%8B%E5%BA%8F%29.html) __映射请求到Spring控制器__ __透明地绑定表单参数__ __校验表单提交__
 
+## [精通Spring企业级开发](https://www.evernote.com/shard/s501/nl/176057404/ccaa31d9-739c-43c8-a6bd-0360184abb00/)
+
 ## 十. 领域专用语言
 
 ### [领域专用语言实战](https://www.amazon.cn/%E9%A2%86%E5%9F%9F%E4%B8%93%E7%94%A8%E8%AF%AD%E8%A8%80%E5%AE%9E%E6%88%98-%E6%88%88%E6%96%BD/dp/B00FTWLPH6/ref=sr_1_1?ie=UTF8&qid=1481374316&sr=8-1&keywords=%E9%A2%86%E5%9F%9F%E4%B8%93%E7%94%A8%E8%AF%AD%E8%A8%80)
